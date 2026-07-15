@@ -1,0 +1,3263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- ============================================================
+       LEXFÁCIL V7.0.0 - ACADÉMICO PARA ESTUDIANTES DE DERECHO
+       ============================================================ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#0A1628" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#F5F6FA" media="(prefers-color-scheme: light)" />
+
+  <!-- PWA -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="LexFácil Académico" />
+  <meta name="application-name" content="LexFácil Académico" />
+
+  <!-- SEO -->
+  <meta name="description" content="LEXFÁCIL Académico - Herramienta de estudio para estudiantes de derecho con IA, análisis de documentos y generación de materiales." />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="LexFácil LegalTech" />
+  <link rel="canonical" href="https://lexfacil.com" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="LEXFÁCIL Académico · Herramienta para Estudiantes de Derecho" />
+  <meta property="og:description" content="Analiza documentos legales, genera mapas mentales, resúmenes y ensayos con IA." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://lexfacil.com" />
+  <meta property="og:image" content="https://lexfacil.com/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%230A1628'/%3E%3Cpath d='M20 10C14.477 10 10 14.477 10 20C10 25.523 14.477 30 20 30C25.523 30 30 25.523 30 20C30 14.477 25.523 10 20 10Z' fill='white' opacity='0.15'/%3E%3Cpath d='M20 14C16.686 14 14 16.686 14 20C14 23.314 16.686 26 20 26C23.314 26 26 23.314 26 20C26 16.686 23.314 14 20 14Z' fill='%23D4A853' opacity='0.8'/%3E%3Cpath d='M20 17C18.343 17 17 18.343 17 20C17 21.657 18.343 23 20 23C21.657 23 23 21.657 23 20C23 18.343 21.657 17 20 17Z' fill='white'/%3E%3C/svg%3E" />
+  <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAChJREFUWIXt0LENACAQAMH3pR0FuwDgXhDkJQ4ghznzmT0D8/LHDaAHt9wCC2Z8z0kAAAAASUVORK5CYII=" />
+  <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%230A1628'/%3E%3Cpath d='M20 10C14.477 10 10 14.477 10 20C10 25.523 14.477 30 20 30C25.523 30 30 25.523 30 20C30 14.477 25.523 10 20 10Z' fill='white' opacity='0.15'/%3E%3Cpath d='M20 14C16.686 14 14 16.686 14 20C14 23.314 16.686 26 20 26C23.314 26 26 23.314 26 20C26 16.686 23.314 14 20 14Z' fill='%23D4A853' opacity='0.8'/%3E%3Cpath d='M20 17C18.343 17 17 18.343 17 20C17 21.657 18.343 23 20 23C21.657 23 23 21.657 23 20C23 18.343 21.657 17 20 17Z' fill='white'/%3E%3C/svg%3E" />
+
+  <!-- ============================================================
+       PERFORMANCE - PRECONNECT Y PRELOAD
+       ============================================================ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
+
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Inter:wght@300;400;500;600;700;800&display=swap" as="style" />
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" />
+  <link rel="preload" href="logo.svg" as="image" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  </noscript>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  </noscript>
+
+  <!-- Chart.js - Lazy Load -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+
+  <!-- ============================================================
+       WEB APP MANIFEST
+       ============================================================ -->
+  <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIkxleEZhw6dpbCAtIEFjYWTDqW1pY28iLAogICJzaG9ydF9uYW1lIjogIkxleEZhw6dpbCIsCiAgImRlc2NyaXB0aW9uIjogIkhlcnJhbWllbnRhIHBhcmEgZXN0dWRpYW50ZXMgZGUgZGVyZWNobyIsCiAgInN0YXJ0X3VybCI6ICIvIiwKICAiZGlzcGxheSI6ICJzdGFuZGFsb25lIiwKICAiYmFja2dyb3VuZF9jb2xvciI6ICIjMEExNjI4IiwKICAidGhlbWVfY29sb3IiOiAiIzBBMTYyOCIsCiAgImljb25zIjogWwogICAgeyAic3JjIjogImRhdGE6aW1hZ2Uvc3ZnK3htbCw8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zycgdmlld0JveD0nMCAwIDQwIDQwJz48cmVjdCB3aWR0aD0nNDAnIGhlaWdodD0nNDAnIHJ4PScxMicgZmlsbD0nJTIzMEExNjI4Jy8+PHBhdGggZD0nTTIwIDEwQzE0LjQ3NyAxMCAxMCAxNC40NzcgMTAgMjBDMTAgMjUuNTIzIDE0LjQ3NyAzMCAyMCAzMEMyNS41MjMgMzAgMzAgMjUuNTIzIDMwIDIwQzMwIDE0LjQ3NyAyNS41MjMgMTAgMjAgMTBaJyBmaWxsPSd3aGl0ZScgb3BhY2l0eT0nMC4xNScvPjxwYXRoIGQ9J00yMCAxNEMxNi42ODYgMTQgMTQgMTYuNjg2IDE0IDIwQzE0IDIzLjMxNCAxNi42ODYgMjYgMjAgMjZDMjMuMzE0IDI2IDI2IDIzLjMxNCAyNiAyMEMyNiAxNi42ODYgMjMuMzE0IDE0IDIwIDE0WicgZmlsbD0nJTIzRDRBODUzJyBvcGFjaXR5PScwLjgnLz48cGF0aCBkPSdNMjAgMTdDMTguMzQzIDE3IDE3IDE4LjM0MyAxNyAyMEMxNyAyMS42NTcgMTguMzQzIDIzIDIwIDIzQzIxLjY1NyAyMyAyMyAyMS42NTcgMjMgMjBDMjMgMTguMzQzIDIxLjY1NyAxNyAyMCAxN1onIGZpbGw9J3doaXRlJy8+PC9zdmc+IiwgInNpemVzIjogIjE5MngxOTIiLCAidHlwZSI6ICJpbWFnZS9zdmcreG1sIiwgInB1cnBvc2UiOiAiYW55IG1hc2sgYW55bGFuZyIgfQogIF0KfQ==" />
+
+  <!-- ============================================================
+       CSP - MEJORADO
+       ============================================================ -->
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://www.googletagmanager.com https://www.google-analytics.com https://api.deepseek.com https://www.google.com https://cdn.jsdelivr.net https://apis.google.com https://accounts.google.com;
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com;
+    font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com;
+    img-src 'self' data: https:;
+    connect-src 'self' https://api.deepseek.com https://*.supabase.co https://*.githubusercontent.com https://www.google-analytics.com https://accounts.google.com https://www.googleapis.com;
+    frame-src 'self' https://www.google.com https://accounts.google.com;
+    base-uri 'self';
+    form-action 'self';
+    upgrade-insecure-requests;
+  " />
+
+  <title>LEXFÁCIL Académico · Herramienta para Estudiantes de Derecho</title>
+
+  <style>
+    /* ============================================================
+       1.0 - SISTEMA DE DISEÑO (Design Tokens)
+       ============================================================ */
+
+    :root {
+      /* --- Color Primario --- */
+      --color-primary-900: #0A1628;
+      --color-primary-800: #0F1F3A;
+      --color-primary-700: #142A4A;
+      --color-primary-600: #1A3A6A;
+      --color-primary-500: #2A5A8C;
+      --color-primary-400: #4A7AAA;
+      --color-primary-300: #7A9AC8;
+      --color-primary-200: #AABCE0;
+      --color-primary-100: #D5E0F0;
+
+      /* --- Color Secundario (Oro) --- */
+      --color-secondary-900: #8A6A20;
+      --color-secondary-800: #A8882A;
+      --color-secondary-700: #C4A03A;
+      --color-secondary-600: #D4A853;
+      --color-secondary-500: #E0C07A;
+      --color-secondary-400: #E8D09A;
+      --color-secondary-300: #F0E0BA;
+      --color-secondary-200: #F5ECD5;
+      --color-secondary-100: #FAF5EA;
+
+      /* --- Académico --- */
+      --color-academic: #6C5CE7;
+      --color-academic-light: #A29BFE;
+      --color-academic-dark: #4834D4;
+
+      /* --- Fondos --- */
+      --bg-primary: var(--color-primary-900);
+      --bg-secondary: var(--color-primary-800);
+      --bg-card: rgba(255, 255, 255, 0.04);
+      --bg-card-hover: rgba(255, 255, 255, 0.08);
+      --bg-input: rgba(255, 255, 255, 0.06);
+      --bg-input-focus: rgba(255, 255, 255, 0.10);
+
+      /* --- Texto --- */
+      --text-primary: #F5F6FA;
+      --text-secondary: #C8CCD8;
+      --text-tertiary: #8A8FA0;
+      --text-inverse: #0A1628;
+
+      /* --- Bordes --- */
+      --border-color: rgba(255, 255, 255, 0.08);
+      --border-color-hover: rgba(255, 255, 255, 0.15);
+      --border-color-focus: var(--color-secondary-500);
+
+      /* --- Radio --- */
+      --radius-xs: 4px;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 20px;
+      --radius-xl: 28px;
+      --radius-full: 9999px;
+
+      /* --- Espaciado --- */
+      --space-1: 4px;
+      --space-2: 8px;
+      --space-3: 12px;
+      --space-4: 16px;
+      --space-5: 20px;
+      --space-6: 24px;
+      --space-8: 32px;
+      --space-10: 40px;
+      --space-12: 48px;
+      --space-16: 64px;
+
+      /* --- Tipografía --- */
+      --font-primary: 'Playfair Display', Georgia, serif;
+      --font-secondary: 'Inter', -apple-system, sans-serif;
+
+      /* --- Layout --- */
+      --max-width: 1200px;
+      --header-height: 72px;
+      --header-height-mobile: 64px;
+
+      /* --- Transiciones --- */
+      --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+      --transition-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+      --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+      --transition-bounce: 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+      /* --- Z-index --- */
+      --z-header: 100;
+      --z-mobile-nav: 200;
+      --z-modal: 1000;
+      --z-toast: 9999;
+    }
+
+    /* ===== RESET ===== */
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      font-family: var(--font-secondary);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+      min-height: 100vh;
+      min-height: 100dvh;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      padding-top: var(--header-height);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--color-secondary-500);
+      outline-offset: 2px;
+    }
+
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: var(--color-primary-900);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: var(--color-secondary-600);
+      border-radius: var(--radius-full);
+    }
+
+    .sr-only {
+      position: absolute !important;
+      width: 1px !important;
+      height: 1px !important;
+      padding: 0 !important;
+      margin: -1px !important;
+      overflow: hidden !important;
+      clip: rect(0, 0, 0, 0) !important;
+      border: 0 !important;
+    }
+
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 var(--space-5);
+      width: 100%;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+    .text-muted {
+      color: var(--text-tertiary);
+    }
+    .text-secondary {
+      color: var(--color-secondary-500);
+    }
+
+    .section-title {
+      font-family: var(--font-primary);
+      font-size: clamp(1.8rem, 4vw, 3rem);
+      line-height: 1.2;
+      margin-bottom: var(--space-3);
+      letter-spacing: -0.02em;
+    }
+
+    .section-subtitle {
+      color: var(--text-tertiary);
+      font-size: clamp(0.95rem, 1.2vw, 1.15rem);
+      max-width: 600px;
+      margin: 0 auto var(--space-10);
+      text-align: center;
+    }
+
+    .section-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-2);
+      padding: var(--space-2) var(--space-4);
+      background: var(--color-academic);
+      color: white;
+      border-radius: var(--radius-full);
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: var(--space-3);
+    }
+
+    /* ===== BOTONES ===== */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-2);
+      padding: var(--space-3) var(--space-6);
+      border: none;
+      border-radius: var(--radius-full);
+      font-family: var(--font-secondary);
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: var(--transition-base);
+      cursor: pointer;
+      text-decoration: none;
+      min-height: 48px;
+      min-width: 48px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+
+    .btn-primary {
+      background: var(--color-secondary-600);
+      color: var(--text-inverse);
+    }
+    .btn-primary:hover:not(:disabled) {
+      background: var(--color-secondary-500);
+      transform: translateY(-2px);
+      box-shadow: 0 0 40px rgba(212, 168, 83, 0.15);
+    }
+
+    .btn-academic {
+      background: var(--color-academic);
+      color: white;
+    }
+    .btn-academic:hover:not(:disabled) {
+      background: var(--color-academic-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(108, 92, 231, 0.3);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--text-primary);
+      border: 2px solid var(--border-color);
+    }
+    .btn-outline:hover:not(:disabled) {
+      background: var(--bg-card);
+      border-color: var(--color-secondary-600);
+      transform: translateY(-2px);
+    }
+
+    .btn-sm {
+      padding: var(--space-2) var(--space-4);
+      font-size: 0.85rem;
+      min-height: 40px;
+      min-width: 40px;
+    }
+
+    .btn-lg {
+      padding: var(--space-4) var(--space-8);
+      font-size: 1.05rem;
+      min-height: 56px;
+    }
+
+    /* ===== TOAST ===== */
+    #toast-container {
+      position: fixed;
+      bottom: var(--space-6);
+      right: var(--space-6);
+      z-index: var(--z-toast);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-3);
+      max-width: 420px;
+      width: calc(100% - var(--space-4));
+      pointer-events: none;
+    }
+
+    .toast {
+      background: var(--bg-secondary);
+      padding: var(--space-4) var(--space-5);
+      border-radius: var(--radius-md);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-3);
+      pointer-events: auto;
+      animation: toastIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+      border-left: 4px solid var(--color-secondary-600);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--border-color);
+    }
+
+    .toast-exiting {
+      animation: toastOut 0.3s ease forwards;
+    }
+
+    @keyframes toastIn {
+      from {
+        opacity: 0;
+        transform: translateX(40px) scale(0.95);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+      }
+    }
+
+    @keyframes toastOut {
+      from {
+        opacity: 1;
+        transform: scale(1);
+      }
+      to {
+        opacity: 0;
+        transform: scale(0.95) translateX(40px);
+      }
+    }
+
+    .toast-icon {
+      flex-shrink: 0;
+      font-size: 1.2rem;
+      margin-top: 2px;
+    }
+    .toast-content {
+      flex: 1;
+      font-size: 0.92rem;
+      line-height: 1.5;
+    }
+    .toast-close {
+      flex-shrink: 0;
+      background: none;
+      border: none;
+      color: var(--text-tertiary);
+      font-size: 1.1rem;
+      cursor: pointer;
+      padding: var(--space-1);
+      transition: var(--transition-fast);
+      border-radius: var(--radius-xs);
+    }
+    .toast-close:hover {
+      color: var(--text-primary);
+      background: var(--bg-card);
+    }
+
+    .toast-success {
+      border-left-color: #2ECC71;
+    }
+    .toast-error {
+      border-left-color: #E74C3C;
+    }
+    .toast-warning {
+      border-left-color: #F39C12;
+    }
+    .toast-info {
+      border-left-color: #3498DB;
+    }
+
+    /* ============================================================
+       HEADER
+       ============================================================ */
+
+    #header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: var(--z-header);
+      height: var(--header-height);
+      background: rgba(10, 22, 40, 0.85);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border-color);
+      transition: var(--transition-base);
+    }
+
+    #header.scrolled {
+      background: rgba(10, 22, 40, 0.95);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    #header .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+      padding: 0 var(--space-5);
+    }
+
+    .logo-link {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      text-decoration: none;
+      color: var(--text-primary);
+      font-family: var(--font-primary);
+      font-size: 1.4rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    .logo-link .logo-img {
+      height: 40px;
+      width: 40px;
+      object-fit: contain;
+    }
+
+    .logo-link .logo-text .lex {
+      color: var(--text-primary);
+    }
+    .logo-link .logo-text .facil {
+      color: var(--color-secondary-500);
+    }
+
+    .logo-link .logo-badge {
+      font-size: 0.55rem;
+      font-family: var(--font-secondary);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      background: var(--color-academic);
+      color: white;
+      padding: 2px 8px;
+      border-radius: var(--radius-full);
+      margin-left: 4px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: var(--space-6);
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: var(--transition-fast);
+      position: relative;
+      padding: var(--space-2) 0;
+    }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--color-secondary-500);
+      transition: var(--transition-base);
+      border-radius: var(--radius-full);
+    }
+
+    .nav-links a:hover {
+      color: var(--text-primary);
+    }
+    .nav-links a:hover::after {
+      width: 100%;
+    }
+
+    .theme-toggle {
+      background: none;
+      border: none;
+      color: var(--text-secondary);
+      cursor: pointer;
+      padding: 8px;
+      font-size: 1.1rem;
+      transition: var(--transition-fast);
+      border-radius: var(--radius-full);
+    }
+
+    .theme-toggle:hover {
+      background: var(--bg-card);
+      color: var(--text-primary);
+    }
+
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      width: 44px;
+      height: 44px;
+      justify-content: center;
+      align-items: center;
+      border-radius: var(--radius-sm);
+      transition: var(--transition-fast);
+    }
+
+    .hamburger:hover {
+      background: var(--bg-card);
+    }
+
+    .hamburger .bar {
+      display: block;
+      width: 28px;
+      height: 2.5px;
+      background: var(--text-primary);
+      border-radius: var(--radius-full);
+      transition: var(--transition-base);
+      transform-origin: center;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(7.5px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+      transform: scaleX(0);
+    }
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-7.5px) rotate(-45deg);
+    }
+
+    .mobile-nav-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: var(--z-mobile-nav);
+      background: rgba(10, 22, 40, 0.98);
+      backdrop-filter: blur(20px);
+      padding: var(--space-8) var(--space-5);
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      visibility: hidden;
+      transition: var(--transition-base);
+    }
+
+    .mobile-nav-overlay.open {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .mobile-nav-overlay .mobile-nav-close {
+      position: absolute;
+      top: var(--space-5);
+      right: var(--space-5);
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-full);
+      color: var(--text-primary);
+      font-size: 1.4rem;
+      cursor: pointer;
+      transition: var(--transition-fast);
+    }
+
+    .mobile-nav-overlay .mobile-nav-close:hover {
+      background: var(--bg-card-hover);
+      transform: rotate(90deg);
+    }
+
+    .mobile-nav-links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: var(--space-6);
+      list-style: none;
+    }
+
+    .mobile-nav-links a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 1.4rem;
+      font-weight: 500;
+      transition: var(--transition-fast);
+      padding: var(--space-2) var(--space-4);
+      border-radius: var(--radius-sm);
+    }
+
+    .mobile-nav-links a:hover {
+      color: var(--text-primary);
+      background: var(--bg-card);
+    }
+
+    /* ============================================================
+       HERO - ACADÉMICO
+       ============================================================ */
+
+    .hero {
+      padding: var(--space-16) 0 var(--space-12);
+      position: relative;
+      overflow: hidden;
+      min-height: calc(100vh - var(--header-height));
+      display: flex;
+      align-items: center;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -20%;
+      width: 70%;
+      height: 150%;
+      background: radial-gradient(ellipse at 70% 50%, rgba(108, 92, 231, 0.06) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-12);
+      align-items: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-content h1 {
+      font-family: var(--font-primary);
+      font-size: clamp(2.5rem, 5vw, 3.8rem);
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+    }
+
+    .hero-content h1 .highlight {
+      color: var(--color-academic);
+      position: relative;
+    }
+
+    .hero-content p {
+      font-size: clamp(1rem, 1.2vw, 1.15rem);
+      color: var(--text-secondary);
+      max-width: 520px;
+      line-height: 1.7;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: var(--space-4);
+      flex-wrap: wrap;
+      margin-top: var(--space-2);
+    }
+
+    .hero-stats {
+      display: flex;
+      gap: var(--space-8);
+      margin-top: var(--space-4);
+      padding-top: var(--space-4);
+      border-top: 1px solid var(--border-color);
+    }
+
+    .hero-stats .stat-number {
+      font-family: var(--font-primary);
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--color-academic);
+      line-height: 1.2;
+    }
+
+    .hero-stats .stat-label {
+      font-size: 0.85rem;
+      color: var(--text-tertiary);
+    }
+
+    .hero-illustration {
+      position: relative;
+      width: 100%;
+      max-width: 480px;
+      aspect-ratio: 1/1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero-illustration .icon-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: var(--space-4);
+      position: relative;
+      z-index: 2;
+      width: 80%;
+      max-width: 320px;
+    }
+
+    .hero-illustration .icon-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      aspect-ratio: 1/1;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      font-size: 2.2rem;
+      color: var(--color-academic);
+      transition: var(--transition-base);
+    }
+
+    .hero-illustration .icon-item:hover {
+      transform: translateY(-4px) scale(1.05);
+      border-color: var(--color-academic);
+      box-shadow: 0 8px 30px rgba(108, 92, 231, 0.15);
+    }
+
+    @keyframes float {
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    .floating-icon {
+      animation: float 4s ease-in-out infinite;
+    }
+    .floating-icon:nth-child(2) {
+      animation-delay: -1.3s;
+    }
+    .floating-icon:nth-child(3) {
+      animation-delay: -2.6s;
+    }
+
+    /* ============================================================
+       ACADEMIC TOOLS
+       ============================================================ */
+
+    .academic-tools {
+      padding: var(--space-16) 0;
+      background: var(--bg-secondary);
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--space-5);
+    }
+
+    .tool-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: var(--space-6);
+      transition: var(--transition-base);
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .tool-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: var(--color-academic);
+      opacity: 0;
+      transition: var(--transition-base);
+    }
+
+    .tool-card:hover {
+      transform: translateY(-6px);
+      border-color: var(--border-color-hover);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+      background: var(--bg-card-hover);
+    }
+
+    .tool-card:hover::before {
+      opacity: 1;
+    }
+
+    .tool-card .tool-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 56px;
+      height: 56px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      font-size: 1.6rem;
+      color: var(--color-academic);
+      margin-bottom: var(--space-4);
+      transition: var(--transition-base);
+    }
+
+    .tool-card:hover .tool-icon {
+      background: var(--color-academic);
+      border-color: var(--color-academic);
+      color: white;
+      transform: scale(1.05);
+    }
+
+    .tool-card h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-bottom: var(--space-2);
+    }
+
+    .tool-card p {
+      font-size: 0.92rem;
+      color: var(--text-tertiary);
+      line-height: 1.6;
+    }
+
+    .tool-card .tool-shortcut {
+      display: inline-block;
+      margin-top: var(--space-3);
+      padding: var(--space-1) var(--space-3);
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-full);
+      font-size: 0.7rem;
+      color: var(--text-tertiary);
+      font-family: var(--font-secondary);
+    }
+
+    /* ============================================================
+       FILE UPLOAD
+       ============================================================ */
+
+    .upload-section {
+      padding: var(--space-12) 0;
+    }
+
+    .upload-zone {
+      background: var(--bg-card);
+      border: 2px dashed var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: var(--space-12) var(--space-6);
+      text-align: center;
+      transition: var(--transition-base);
+      cursor: pointer;
+      position: relative;
+    }
+
+    .upload-zone:hover {
+      border-color: var(--color-academic);
+      background: var(--bg-card-hover);
+    }
+
+    .upload-zone.dragover {
+      border-color: var(--color-academic);
+      background: rgba(108, 92, 231, 0.05);
+    }
+
+    .upload-zone .upload-icon {
+      font-size: 3rem;
+      color: var(--color-academic);
+      margin-bottom: var(--space-4);
+    }
+
+    .upload-zone h3 {
+      font-size: 1.2rem;
+      margin-bottom: var(--space-2);
+    }
+
+    .upload-zone p {
+      color: var(--text-tertiary);
+      font-size: 0.95rem;
+    }
+
+    .upload-zone .upload-formats {
+      display: flex;
+      justify-content: center;
+      gap: var(--space-2);
+      margin-top: var(--space-3);
+      flex-wrap: wrap;
+    }
+
+    .upload-zone .upload-formats span {
+      padding: var(--space-1) var(--space-3);
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-full);
+      font-size: 0.7rem;
+      color: var(--text-tertiary);
+      font-weight: 500;
+    }
+
+    .file-list {
+      margin-top: var(--space-5);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-3);
+    }
+
+    .file-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: var(--space-3) var(--space-4);
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      transition: var(--transition-base);
+    }
+
+    .file-item:hover {
+      background: var(--bg-card-hover);
+    }
+
+    .file-item .file-info {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+    }
+
+    .file-item .file-info .file-icon {
+      font-size: 1.4rem;
+      color: var(--color-academic);
+    }
+
+    .file-item .file-info .file-name {
+      font-weight: 500;
+    }
+
+    .file-item .file-info .file-size {
+      font-size: 0.8rem;
+      color: var(--text-tertiary);
+    }
+
+    .file-item .file-actions {
+      display: flex;
+      gap: var(--space-2);
+    }
+
+    .file-item .file-actions button {
+      background: none;
+      border: none;
+      color: var(--text-tertiary);
+      cursor: pointer;
+      padding: var(--space-1) var(--space-2);
+      border-radius: var(--radius-sm);
+      transition: var(--transition-fast);
+    }
+
+    .file-item .file-actions button:hover {
+      color: var(--text-primary);
+      background: var(--bg-card);
+    }
+
+    .file-item .file-actions .btn-analyze {
+      color: var(--color-academic);
+    }
+
+    .file-item .file-actions .btn-analyze:hover {
+      background: var(--color-academic);
+      color: white;
+    }
+
+    /* ============================================================
+       GENERATED CONTENT
+       ============================================================ */
+
+    .generated-content {
+      padding: var(--space-12) 0;
+      background: var(--bg-secondary);
+      border-top: 1px solid var(--border-color);
+    }
+
+    .content-tabs {
+      display: flex;
+      gap: var(--space-2);
+      margin-bottom: var(--space-6);
+      flex-wrap: wrap;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: var(--space-3);
+    }
+
+    .content-tab {
+      padding: var(--space-2) var(--space-4);
+      background: none;
+      border: none;
+      color: var(--text-tertiary);
+      font-family: var(--font-secondary);
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      border-radius: var(--radius-sm);
+      transition: var(--transition-fast);
+    }
+
+    .content-tab:hover {
+      color: var(--text-primary);
+      background: var(--bg-card);
+    }
+
+    .content-tab.active {
+      color: var(--color-academic);
+      background: rgba(108, 92, 231, 0.1);
+    }
+
+    .content-panel {
+      display: none;
+      animation: fadeInUp 0.4s ease;
+    }
+
+    .content-panel.active {
+      display: block;
+    }
+
+    .content-panel .panel-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: var(--space-4);
+      flex-wrap: wrap;
+      gap: var(--space-3);
+    }
+
+    .content-panel .panel-header h3 {
+      font-family: var(--font-primary);
+      font-size: 1.3rem;
+    }
+
+    .content-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5);
+      margin-bottom: var(--space-4);
+      transition: var(--transition-base);
+    }
+
+    .content-card:hover {
+      border-color: var(--border-color-hover);
+    }
+
+    .content-card .card-title {
+      font-weight: 600;
+      font-size: 1.05rem;
+      margin-bottom: var(--space-3);
+      color: var(--color-academic);
+    }
+
+    .content-card .card-body {
+      color: var(--text-secondary);
+      line-height: 1.8;
+      font-size: 0.95rem;
+      white-space: pre-wrap;
+    }
+
+    .content-card .card-body ul {
+      padding-left: var(--space-5);
+      margin: var(--space-2) 0;
+    }
+
+    .content-card .card-body li {
+      margin-bottom: var(--space-2);
+    }
+
+    .content-card .card-actions {
+      display: flex;
+      gap: var(--space-2);
+      margin-top: var(--space-4);
+      flex-wrap: wrap;
+    }
+
+    .content-card .card-actions button {
+      padding: var(--space-2) var(--space-4);
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-full);
+      color: var(--text-tertiary);
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: var(--transition-fast);
+      font-family: var(--font-secondary);
+    }
+
+    .content-card .card-actions button:hover {
+      background: var(--bg-card-hover);
+      color: var(--text-primary);
+    }
+
+    /* ============================================================
+       MIND MAP (Visual)
+       ============================================================ */
+
+    .mind-map-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5);
+      min-height: 300px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .mind-map-container .mind-map-placeholder {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 250px;
+      color: var(--text-tertiary);
+      gap: var(--space-3);
+    }
+
+    .mind-map-container .mind-map-placeholder i {
+      font-size: 3rem;
+      color: var(--color-academic);
+      opacity: 0.3;
+    }
+
+    /* ============================================================
+       CHAT
+       ============================================================ */
+
+    .chat-container {
+      position: fixed;
+      inset: 0;
+      z-index: var(--z-modal);
+      background: var(--bg-primary);
+      display: none;
+      flex-direction: column;
+      transform: translateY(100%);
+      transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+      overflow: hidden;
+    }
+
+    .chat-container.open {
+      display: flex;
+      transform: translateY(0);
+    }
+
+    .chat-header {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      padding: var(--space-3) var(--space-4);
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border-color);
+      flex-shrink: 0;
+      min-height: 64px;
+    }
+
+    .chat-back {
+      background: none;
+      border: none;
+      color: var(--text-primary);
+      font-size: 1.2rem;
+      cursor: pointer;
+      padding: var(--space-2);
+      border-radius: var(--radius-full);
+      transition: var(--transition-fast);
+    }
+
+    .chat-back:hover {
+      background: var(--bg-card);
+    }
+
+    .chat-logo {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-family: var(--font-primary);
+      font-weight: 700;
+      flex: 1;
+    }
+
+    .chat-logo .chat-logo-img {
+      height: 32px;
+      width: 32px;
+      object-fit: contain;
+    }
+
+    .chat-status {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+      font-size: 0.8rem;
+      color: var(--text-tertiary);
+    }
+
+    .status-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: #2ECC71;
+      border-radius: var(--radius-full);
+      animation: blink 1.5s ease-in-out infinite;
+    }
+
+    @keyframes blink {
+      0%,
+      100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.3;
+      }
+    }
+
+    .chat-messages {
+      flex: 1;
+      overflow-y: auto;
+      padding: var(--space-4);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-3);
+    }
+
+    .message {
+      display: flex;
+      flex-direction: column;
+      max-width: 80%;
+    }
+
+    .message.user {
+      align-self: flex-end;
+    }
+    .message.bot {
+      align-self: flex-start;
+    }
+
+    .message-bubble {
+      padding: var(--space-3) var(--space-4);
+      border-radius: var(--radius-lg);
+      word-wrap: break-word;
+      line-height: 1.6;
+      font-size: 0.95rem;
+    }
+
+    .message.user .message-bubble {
+      background: var(--color-primary-600);
+      color: var(--text-primary);
+      border-bottom-right-radius: var(--radius-xs);
+    }
+
+    .message.bot .message-bubble {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-bottom-left-radius: var(--radius-xs);
+    }
+
+    .message-bubble strong {
+      color: var(--color-academic);
+    }
+
+    .message-time {
+      font-size: 0.7rem;
+      color: var(--text-tertiary);
+      margin-top: var(--space-1);
+      padding: 0 var(--space-1);
+    }
+
+    .message.user .message-time {
+      align-self: flex-end;
+    }
+
+    .typing-indicator {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+      padding: var(--space-3) var(--space-4);
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      border-bottom-left-radius: var(--radius-xs);
+      max-width: 80%;
+      align-self: flex-start;
+    }
+
+    .typing-indicator span {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: var(--text-tertiary);
+      border-radius: var(--radius-full);
+      animation: typing 1.4s ease-in-out infinite;
+    }
+
+    .typing-indicator span:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+    .typing-indicator span:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+
+    @keyframes typing {
+      0%,
+      60%,
+      100% {
+        transform: translateY(0);
+        opacity: 0.3;
+      }
+      30% {
+        transform: translateY(-8px);
+        opacity: 1;
+      }
+    }
+
+    .quick-suggestions {
+      display: flex;
+      gap: var(--space-2);
+      padding: var(--space-3) var(--space-4);
+      overflow-x: auto;
+      flex-shrink: 0;
+      background: var(--bg-secondary);
+      border-top: 1px solid var(--border-color);
+      scrollbar-width: none;
+    }
+
+    .quick-suggestions::-webkit-scrollbar {
+      display: none;
+    }
+
+    .suggestion-btn {
+      padding: var(--space-2) var(--space-4);
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-full);
+      color: var(--text-secondary);
+      font-size: 0.8rem;
+      white-space: nowrap;
+      cursor: pointer;
+      transition: var(--transition-fast);
+      font-family: var(--font-secondary);
+    }
+
+    .suggestion-btn:hover {
+      background: var(--color-academic);
+      border-color: var(--color-academic);
+      color: white;
+      transform: translateY(-2px);
+    }
+
+    .chat-input-area {
+      display: flex;
+      align-items: flex-end;
+      gap: var(--space-2);
+      padding: var(--space-3) var(--space-4);
+      background: var(--bg-secondary);
+      border-top: 1px solid var(--border-color);
+      flex-shrink: 0;
+    }
+
+    .chat-input-area textarea {
+      flex: 1;
+      padding: var(--space-3) var(--space-4);
+      background: var(--bg-input);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      color: var(--text-primary);
+      font-size: 0.95rem;
+      resize: none;
+      min-height: 44px;
+      max-height: 120px;
+      font-family: var(--font-secondary);
+      transition: var(--transition-fast);
+      line-height: 1.5;
+    }
+
+    .chat-input-area textarea:focus {
+      outline: none;
+      border-color: var(--color-academic);
+      background: var(--bg-input-focus);
+    }
+
+    .chat-input-area textarea::placeholder {
+      color: var(--text-tertiary);
+    }
+
+    .char-count {
+      font-size: 0.7rem;
+      color: var(--text-tertiary);
+      padding: 0 var(--space-2);
+      flex-shrink: 0;
+    }
+
+    .send-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      background: var(--color-academic);
+      border: none;
+      border-radius: var(--radius-full);
+      color: white;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: var(--transition-fast);
+      flex-shrink: 0;
+    }
+
+    .send-btn:hover {
+      background: var(--color-academic-dark);
+      transform: scale(1.05);
+    }
+
+    .send-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    /* ============================================================
+       RESPONSIVE
+       ============================================================ */
+
+    @media (max-width: 1024px) {
+      .tools-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      #header {
+        height: var(--header-height-mobile);
+      }
+      body {
+        padding-top: var(--header-height-mobile);
+      }
+
+      .nav-links {
+        display: none;
+      }
+      .hamburger {
+        display: flex;
+      }
+      .mobile-nav-overlay {
+        display: flex;
+      }
+
+      .hero {
+        padding: var(--space-10) 0;
+        min-height: auto;
+      }
+
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-8);
+        text-align: center;
+      }
+
+      .hero-content {
+        align-items: center;
+      }
+
+      .hero-content p {
+        max-width: 100%;
+      }
+
+      .hero-actions {
+        justify-content: center;
+      }
+
+      .hero-stats {
+        justify-content: center;
+        gap: var(--space-6);
+      }
+
+      .hero-illustration .icon-grid {
+        max-width: 240px;
+        gap: var(--space-3);
+      }
+
+      .hero-illustration .icon-item {
+        font-size: 1.6rem;
+      }
+
+      .tools-grid {
+        grid-template-columns: 1fr;
+        max-width: 480px;
+        margin: 0 auto;
+      }
+
+      .upload-zone {
+        padding: var(--space-8) var(--space-4);
+      }
+
+      .chat-container.open {
+        transform: translateY(0);
+      }
+
+      .message {
+        max-width: 90%;
+      }
+
+      .chat-input-area textarea {
+        font-size: 0.9rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 0 var(--space-3);
+      }
+
+      .btn-lg {
+        padding: var(--space-3) var(--space-5);
+        font-size: 0.95rem;
+        min-height: 48px;
+      }
+
+      .section-title {
+        font-size: 1.6rem;
+      }
+
+      #toast-container {
+        bottom: var(--space-3);
+        right: var(--space-3);
+        width: calc(100% - var(--space-2));
+        max-width: 100%;
+      }
+
+      .logo-link {
+        font-size: 1.1rem;
+      }
+
+      .logo-link .logo-img {
+        height: 32px;
+        width: 32px;
+      }
+
+      .mobile-nav-links a {
+        font-size: 1.2rem;
+      }
+
+      .hero-illustration .icon-grid {
+        max-width: 180px;
+        gap: var(--space-2);
+      }
+
+      .hero-illustration .icon-item {
+        font-size: 1.2rem;
+        border-radius: var(--radius-md);
+      }
+
+      .hero-stats {
+        flex-direction: column;
+        gap: var(--space-3);
+        align-items: center;
+      }
+
+      .hero-stats .stat-item {
+        align-items: center;
+      }
+
+      .file-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--space-2);
+      }
+
+      .file-item .file-actions {
+        width: 100%;
+        justify-content: flex-start;
+      }
+
+      .content-tabs {
+        gap: var(--space-1);
+      }
+
+      .content-tab {
+        font-size: 0.8rem;
+        padding: var(--space-1) var(--space-3);
+      }
+    }
+
+    /* ============================================================
+       ANIMACIONES
+       ============================================================ */
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .animate-fade-in-up {
+      opacity: 0;
+      animation: fadeInUp 0.6s ease forwards;
+    }
+
+    .delay-1 {
+      animation-delay: 0.1s;
+    }
+    .delay-2 {
+      animation-delay: 0.2s;
+    }
+    .delay-3 {
+      animation-delay: 0.3s;
+    }
+    .delay-4 {
+      animation-delay: 0.4s;
+    }
+    .delay-5 {
+      animation-delay: 0.5s;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ============================================================
+       TOAST CONTAINER
+       ============================================================ -->
+  <div id="toast-container" role="status" aria-live="polite"></div>
+
+  <!-- ============================================================
+       HEADER
+       ============================================================ -->
+  <header id="header" role="banner" aria-label="Encabezado principal" class="no-print">
+    <div class="container">
+      <a href="/" class="logo-link" aria-label="LexFácil - Inicio">
+        <img src="logo.svg" alt="LexFácil" class="logo-img" id="logoImg"
+        onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 40 40%22%3E%3Crect width=%2240%22 height=%2240%22 rx=%2212%22 fill=%22%230A1628%22/%3E%3Cpath d=%22M20 10C14.477 10 10 14.477 10 20C10 25.523 14.477 30 20 30C25.523 30 30 25.523 30 20C30 14.477 25.523 10 20 10Z%22 fill=%22white%22 opacity=%220.15%22/%3E%3Cpath d=%22M20 14C16.686 14 14 16.686 14 20C14 23.314 16.686 26 20 26C23.314 26 26 23.314 26 20C26 16.686 23.314 14 20 14Z%22 fill=%22%23D4A853%22 opacity=%220.8%22/%3E%3Cpath d=%22M20 17C18.343 17 17 18.343 17 20C17 21.657 18.343 23 20 23C21.657 23 23 21.657 23 20C23 18.343 21.657 17 20 17Z%22 fill=%22white%22/%3E%3C/svg%3E'" />
+        <span class="logo-text">
+          <span class="lex">LEX</span><span class="facil">FÁCIL</span>
+          <span class="logo-badge">Académico</span>
+        </span>
+      </a>
+
+      <nav class="nav-links" role="navigation" aria-label="Navegación principal">
+        <a href="#tools">Herramientas</a>
+        <a href="#upload">Subir archivo</a>
+        <a href="#content">Mis materiales</a>
+        <button class="btn-consultar" id="navConsultarBtn" style="background:var(--color-academic);color:white;padding:var(--space-2) var(--space-5);border-radius:var(--radius-full);font-weight:600;border:none;cursor:pointer;">
+          <i class="fas fa-graduation-cap" aria-hidden="true"></i> Asistente IA
+        </button>
+        <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+          <i class="fas fa-moon" id="themeIcon"></i>
+        </button>
+      </nav>
+
+      <button class="hamburger" id="hamburgerBtn"
+      aria-label="Abrir menú de navegación"
+      aria-expanded="false"
+      aria-controls="mobileNavOverlay">
+      <span class="bar" aria-hidden="true"></span>
+      <span class="bar" aria-hidden="true"></span>
+      <span class="bar" aria-hidden="true"></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============================================================
+     MOBILE NAV
+     ============================================================ -->
+<div class="mobile-nav-overlay" id="mobileNavOverlay"
+role="navigation"
+aria-label="Navegación móvil"
+aria-modal="true"
+hidden>
+<button class="mobile-nav-close" id="mobileNavClose"
+aria-label="Cerrar menú de navegación">
+<i class="fas fa-times" aria-hidden="true"></i>
+</button>
+<ul class="mobile-nav-links">
+  <li><a href="#tools" class="mobile-link">Herramientas</a></li>
+  <li><a href="#upload" class="mobile-link">Subir archivo</a></li>
+  <li><a href="#content" class="mobile-link">Mis materiales</a></li>
+  <li>
+    <button class="btn-consultar-mobile" id="mobileConsultarBtn" style="background:var(--color-academic);color:white;padding:var(--space-3) var(--space-6);border-radius:var(--radius-full);font-weight:600;border:none;cursor:pointer;width:100%;">
+      <i class="fas fa-graduation-cap" aria-hidden="true"></i> Asistente IA
+    </button>
+  </li>
+</ul>
+</div>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<main id="main" role="main">
+  <section class="hero" id="hero" aria-labelledby="hero-title">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content animate-fade-in-up">
+          <div class="section-badge">🎓 Para estudiantes de derecho</div>
+          <h1 id="hero-title">
+            Tu asistente <br>
+            <span class="highlight">académico legal</span>
+          </h1>
+          <p>
+            Sube documentos legales, genera <strong>mapas mentales, resúmenes, ensayos</strong>
+            y materiales de estudio con IA. Aprende derecho de forma más eficiente.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-academic btn-lg" id="heroConsultarBtn">
+              <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+              Comenzar a estudiar
+            </button>
+            <a href="#tools" class="btn btn-outline btn-lg">
+              <i class="fas fa-arrow-right" aria-hidden="true"></i>
+              Ver herramientas
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">6</span>
+              <span class="stat-label">Herramientas académicas</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">500+</span>
+              <span class="stat-label">Documentos analizados</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Gratuito</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image animate-fade-in-up delay-2">
+          <div class="hero-illustration">
+            <div class="icon-grid">
+              <div class="icon-item floating-icon"><i class="fas fa-brain"></i></div>
+              <div class="icon-item floating-icon"><i class="fas fa-map"></i></div>
+              <div class="icon-item floating-icon"><i class="fas fa-pen-fancy"></i></div>
+              <div class="icon-item floating-icon"><i class="fas fa-gavel"></i></div>
+              <div class="icon-item floating-icon"><i class="fas fa-scale-balanced"></i></div>
+              <div class="icon-item floating-icon"><i class="fas fa-file-alt"></i></div>
+              <div class="icon-item floating-icon"><i class="fas fa-lightbulb"></i></div>
+              <div class="icon-item floating-icon"><i class="fas fa-graduation-cap"></i></div>
+              <div class="icon-item floating-icon"><i class="fas fa-robot"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ACADEMIC TOOLS
+       ============================================================ -->
+  <section class="academic-tools" id="tools" aria-labelledby="tools-title">
+    <div class="container">
+      <div class="section-badge">🛠️ Herramientas</div>
+      <h2 class="section-title" id="tools-title">
+        Materiales <span class="text-secondary">académicos</span>
+      </h2>
+      <p class="section-subtitle">
+        Selecciona una herramienta para generar material de estudio a partir de tus documentos.
+      </p>
+      <div class="tools-grid" id="toolsGrid">
+        <!-- Renderizado por JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       UPLOAD SECTION
+       ============================================================ -->
+  <section class="upload-section" id="upload" aria-labelledby="upload-title">
+    <div class="container">
+      <div class="section-badge">📤 Subir archivo</div>
+      <h2 class="section-title" id="upload-title">
+        Carga tu <span class="text-secondary">documento</span>
+      </h2>
+      <p class="section-subtitle">
+        Sube sentencias, leyes, doctrina o cualquier documento legal para analizarlo con IA.
+      </p>
+
+      <div class="upload-zone" id="uploadZone">
+        <div class="upload-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+        <h3>Arrastra y suelta tu archivo aquí</h3>
+        <p>o haz clic para seleccionar un archivo</p>
+        <div class="upload-formats">
+          <span>.txt</span>
+          <span>.pdf</span>
+          <span>.docx</span>
+          <span>.json</span>
+        </div>
+        <input type="file" id="fileInput" accept=".txt,.pdf,.docx,.json" style="display:none;" multiple />
+      </div>
+
+      <div class="file-list" id="fileList">
+        <!-- Renderizado por JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       GENERATED CONTENT
+       ============================================================ -->
+  <section class="generated-content" id="content" aria-labelledby="content-title">
+    <div class="container">
+      <div class="section-badge">📚 Materiales generados</div>
+      <h2 class="section-title" id="content-title">
+        Tus <span class="text-secondary">materiales</span>
+      </h2>
+      <p class="section-subtitle">
+        Aquí aparecerán todos los materiales que generes con las herramientas académicas.
+      </p>
+
+      <div class="content-tabs" id="contentTabs">
+        <button class="content-tab active" data-tab="mindmap">🧠 Mapas mentales</button>
+        <button class="content-tab" data-tab="concept">📊 Mapas conceptuales</button>
+        <button class="content-tab" data-tab="summary">📄 Resúmenes</button>
+        <button class="content-tab" data-tab="essay">📝 Ensayos</button>
+        <button class="content-tab" data-tab="questions">🎯 Preguntas</button>
+        <button class="content-tab" data-tab="cases">⚖️ Análisis de casos</button>
+      </div>
+
+      <div class="content-panels">
+        <div class="content-panel active" id="panel-mindmap">
+          <div class="panel-header">
+            <h3>🧠 Mapas mentales</h3>
+            <button class="btn btn-sm btn-academic" id="generateMindMapBtn">
+              <i class="fas fa-plus"></i> Generar nuevo
+            </button>
+          </div>
+          <div id="mindMapContent">
+            <!-- Renderizado por JavaScript -->
+          </div>
+        </div>
+
+        <div class="content-panel" id="panel-concept">
+          <div class="panel-header">
+            <h3>📊 Mapas conceptuales</h3>
+            <button class="btn btn-sm btn-academic" id="generateConceptBtn">
+              <i class="fas fa-plus"></i> Generar nuevo
+            </button>
+          </div>
+          <div id="conceptContent">
+            <!-- Renderizado por JavaScript -->
+          </div>
+        </div>
+
+        <div class="content-panel" id="panel-summary">
+          <div class="panel-header">
+            <h3>📄 Resúmenes</h3>
+            <button class="btn btn-sm btn-academic" id="generateSummaryBtn">
+              <i class="fas fa-plus"></i> Generar nuevo
+            </button>
+          </div>
+          <div id="summaryContent">
+            <!-- Renderizado por JavaScript -->
+          </div>
+        </div>
+
+        <div class="content-panel" id="panel-essay">
+          <div class="panel-header">
+            <h3>📝 Ensayos</h3>
+            <button class="btn btn-sm btn-academic" id="generateEssayBtn">
+              <i class="fas fa-plus"></i> Generar nuevo
+            </button>
+          </div>
+          <div id="essayContent">
+            <!-- Renderizado por JavaScript -->
+          </div>
+        </div>
+
+        <div class="content-panel" id="panel-questions">
+          <div class="panel-header">
+            <h3>🎯 Preguntas de estudio</h3>
+            <button class="btn btn-sm btn-academic" id="generateQuestionsBtn">
+              <i class="fas fa-plus"></i> Generar nuevo
+            </button>
+          </div>
+          <div id="questionsContent">
+            <!-- Renderizado por JavaScript -->
+          </div>
+        </div>
+
+        <div class="content-panel" id="panel-cases">
+          <div class="panel-header">
+            <h3>⚖️ Análisis de casos</h3>
+            <button class="btn btn-sm btn-academic" id="generateCaseBtn">
+              <i class="fas fa-plus"></i> Generar nuevo
+            </button>
+          </div>
+          <div id="caseContent">
+            <!-- Renderizado por JavaScript -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer id="footer" role="contentinfo" aria-label="Pie de página" class="no-print" style="padding:var(--space-12) 0 var(--space-6);background:var(--bg-secondary);border-top:1px solid var(--border-color);">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:2fr 1fr;gap:var(--space-8);padding-bottom:var(--space-6);border-bottom:1px solid var(--border-color);">
+      <div>
+        <div style="font-family:var(--font-primary);font-size:1.4rem;font-weight:700;display:inline-block;margin-bottom:var(--space-3);">
+          <span style="color:var(--text-primary);">LEX</span><span style="color:var(--color-secondary-500);">FÁCIL</span>
+          <span style="font-size:0.55rem;font-family:var(--font-secondary);font-weight:600;text-transform:uppercase;letter-spacing:0.08em;background:var(--color-academic);color:white;padding:2px 8px;border-radius:var(--radius-full);margin-left:4px;">Académico</span>
+        </div>
+        <p style="color:var(--text-tertiary);font-size:0.92rem;max-width:340px;line-height:1.7;">Herramienta de estudio para estudiantes de derecho con IA, análisis de documentos y generación de materiales académicos.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:var(--space-4);">
+        <div style="display:flex;flex-direction:column;gap:var(--space-2);">
+          <button class="footer-link" data-modal="aviso-legal" style="background:none;border:none;color:var(--text-tertiary);font-size:0.9rem;cursor:pointer;transition:var(--transition-fast);text-align:left;padding:var(--space-1) 0;font-family:var(--font-secondary);">Aviso Legal</button>
+          <button class="footer-link" data-modal="privacidad" style="background:none;border:none;color:var(--text-tertiary);font-size:0.9rem;cursor:pointer;transition:var(--transition-fast);text-align:left;padding:var(--space-1) 0;font-family:var(--font-secondary);">Política de Privacidad</button>
+          <button class="footer-link" data-modal="terminos" style="background:none;border:none;color:var(--text-tertiary);font-size:0.9rem;cursor:pointer;transition:var(--transition-fast);text-align:left;padding:var(--space-1) 0;font-family:var(--font-secondary);">Términos de Uso</button>
+        </div>
+        <div style="display:flex;gap:var(--space-3);">
+          <a href="#" aria-label="WhatsApp" style="color:var(--text-tertiary);font-size:1.3rem;transition:var(--transition-fast);"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Facebook" style="color:var(--text-tertiary);font-size:1.3rem;transition:var(--transition-fast);"><i class="fab fa-facebook"></i></a>
+          <a href="#" aria-label="Instagram" style="color:var(--text-tertiary);font-size:1.3rem;transition:var(--transition-fast);"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn" style="color:var(--text-tertiary);font-size:1.3rem;transition:var(--transition-fast);"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+    <div style="display:flex;justify-content:space-between;align-items:center;padding-top:var(--space-4);font-size:0.85rem;color:var(--text-tertiary);flex-wrap:wrap;gap:var(--space-2);">
+      &copy; <span id="year"></span> LEXFÁCIL. Todos los derechos reservados.
+      <span style="font-size:0.7rem;opacity:0.5;">v7.0.0 · Académico</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================================
+     MODALES LEGALES
+     ============================================================ -->
+<div class="modal-overlay" id="modal-aviso-legal" role="dialog" aria-modal="true" style="position:fixed;inset:0;z-index:var(--z-modal);background:rgba(10,22,40,0.92);backdrop-filter:blur(12px);display:none;align-items:center;justify-content:center;padding:var(--space-4);">
+  <div style="background:var(--bg-secondary);border-radius:var(--radius-lg);padding:var(--space-8);max-width:580px;width:100%;max-height:90vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,0.6);border:1px solid var(--border-color);">
+    <div style="display:flex;align-items:center;gap:var(--space-3);font-family:var(--font-primary);font-size:1.3rem;margin-bottom:var(--space-4);">
+      <i class="fas fa-scale-balanced" style="color:var(--color-secondary-500);"></i> Aviso Legal
+    </div>
+    <div style="color:var(--text-secondary);line-height:1.8;font-size:0.95rem;">
+      <p style="margin-bottom:var(--space-3);">LEXFÁCIL Académico es una herramienta educativa basada en inteligencia artificial. Los materiales generados <strong>no constituyen asesoría jurídica profesional</strong> y no reemplazan la consulta con un abogado titulado.</p>
+      <p style="margin-bottom:var(--space-3);">La información proporcionada tiene fines educativos y de estudio. Para casos específicos, siempre se recomienda acudir a un profesional del derecho debidamente acreditado.</p>
+    </div>
+    <div style="display:flex;gap:var(--space-3);margin-top:var(--space-6);flex-wrap:wrap;">
+      <button class="modal-close-btn" style="background:var(--color-academic);color:white;padding:var(--space-3) var(--space-6);border-radius:var(--radius-full);font-weight:600;border:none;cursor:pointer;">Entendido</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-privacidad" role="dialog" aria-modal="true" style="position:fixed;inset:0;z-index:var(--z-modal);background:rgba(10,22,40,0.92);backdrop-filter:blur(12px);display:none;align-items:center;justify-content:center;padding:var(--space-4);">
+  <div style="background:var(--bg-secondary);border-radius:var(--radius-lg);padding:var(--space-8);max-width:580px;width:100%;max-height:90vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,0.6);border:1px solid var(--border-color);">
+    <div style="display:flex;align-items:center;gap:var(--space-3);font-family:var(--font-primary);font-size:1.3rem;margin-bottom:var(--space-4);">
+      <i class="fas fa-shield-halved" style="color:var(--color-secondary-500);"></i> Política de Privacidad
+    </div>
+    <div style="color:var(--text-secondary);line-height:1.8;font-size:0.95rem;">
+      <p style="margin-bottom:var(--space-3);">En cumplimiento de la <strong>Ley 1581 de 2012</strong> y sus decretos reglamentarios, LEXFÁCIL garantiza la protección de tus datos personales.</p>
+      <ul style="padding-left:var(--space-5);margin:var(--space-3) 0;">
+        <li style="margin-bottom:var(--space-2);">No almacenamos información personal identificable sin tu consentimiento.</li>
+        <li style="margin-bottom:var(--space-2);">Las conversaciones son anónimas y se utilizan únicamente para mejorar el servicio.</li>
+        <li style="margin-bottom:var(--space-2);">No compartimos tus datos con terceros sin autorización expresa.</li>
+        <li style="margin-bottom:var(--space-2);">Puedes solicitar la eliminación de tus datos en cualquier momento.</li>
+      </ul>
+    </div>
+    <div style="display:flex;gap:var(--space-3);margin-top:var(--space-6);flex-wrap:wrap;">
+      <button class="modal-close-btn" style="background:var(--color-academic);color:white;padding:var(--space-3) var(--space-6);border-radius:var(--radius-full);font-weight:600;border:none;cursor:pointer;">Entendido</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-terminos" role="dialog" aria-modal="true" style="position:fixed;inset:0;z-index:var(--z-modal);background:rgba(10,22,40,0.92);backdrop-filter:blur(12px);display:none;align-items:center;justify-content:center;padding:var(--space-4);">
+  <div style="background:var(--bg-secondary);border-radius:var(--radius-lg);padding:var(--space-8);max-width:580px;width:100%;max-height:90vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,0.6);border:1px solid var(--border-color);">
+    <div style="display:flex;align-items:center;gap:var(--space-3);font-family:var(--font-primary);font-size:1.3rem;margin-bottom:var(--space-4);">
+      <i class="fas fa-file-contract" style="color:var(--color-secondary-500);"></i> Términos de Uso
+    </div>
+    <div style="color:var(--text-secondary);line-height:1.8;font-size:0.95rem;">
+      <p style="margin-bottom:var(--space-3);">Al utilizar LEXFÁCIL Académico, aceptas los siguientes términos:</p>
+      <ul style="padding-left:var(--space-5);margin:var(--space-3) 0;">
+        <li style="margin-bottom:var(--space-2);">El servicio se proporciona "tal cual" sin garantías de exactitud absoluta.</li>
+        <li style="margin-bottom:var(--space-2);">El usuario es responsable de verificar la información con fuentes oficiales.</li>
+        <li style="margin-bottom:var(--space-2);">LEXFÁCIL no asume responsabilidad por decisiones tomadas basadas en los materiales generados.</li>
+        <li style="margin-bottom:var(--space-2);">El uso de la plataforma es gratuito y no genera relación contractual.</li>
+      </ul>
+    </div>
+    <div style="display:flex;gap:var(--space-3);margin-top:var(--space-6);flex-wrap:wrap;">
+      <button class="modal-close-btn" style="background:var(--color-academic);color:white;padding:var(--space-3) var(--space-6);border-radius:var(--radius-full);font-weight:600;border:none;cursor:pointer;">Entendido</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     CHAT CONTAINER
+     ============================================================ -->
+<div class="chat-container" id="chatContainer" role="dialog" aria-modal="true" aria-label="Chat con asistente académico" hidden>
+  <div class="chat-header">
+    <button class="chat-back" id="chatClose" aria-label="Cerrar chat">
+      <i class="fas fa-arrow-left" aria-hidden="true"></i>
+    </button>
+    <div class="chat-logo">
+      <img src="logo.svg" alt="LexFácil" class="chat-logo-img" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 40 40%22%3E%3Crect width=%2240%22 height=%2240%22 rx=%2212%22 fill=%22%230A1628%22/%3E%3Cpath d=%22M20 10C14.477 10 10 14.477 10 20C10 25.523 14.477 30 20 30C25.523 30 30 25.523 30 20C30 14.477 25.523 10 20 10Z%22 fill=%22white%22 opacity=%220.15%22/%3E%3Cpath d=%22M20 14C16.686 14 14 16.686 14 20C14 23.314 16.686 26 20 26C23.314 26 26 23.314 26 20C26 16.686 23.314 14 20 14Z%22 fill=%22%23D4A853%22 opacity=%220.8%22/%3E%3Cpath d=%22M20 17C18.343 17 17 18.343 17 20C17 21.657 18.343 23 20 23C21.657 23 23 21.657 23 20C23 18.343 21.657 17 20 17Z%22 fill=%22white%22/%3E%3C/svg%3E'" />
+      <span>LEXFÁCIL</span>
+      <span style="font-size:0.6rem;background:var(--color-academic);color:white;padding:2px 8px;border-radius:var(--radius-full);font-weight:600;text-transform:uppercase;letter-spacing:0.05em;margin-left:var(--space-2);">Académico</span>
+    </div>
+    <div class="chat-status">
+      <span class="status-dot" aria-hidden="true"></span>
+      <span class="status-text">En línea</span>
+    </div>
+  </div>
+
+  <div class="chat-messages" id="chatMessages" role="log" aria-label="Mensajes del chat">
+    <div class="message bot animate-fade-in">
+      <div class="message-bubble">
+        <p>🎓 ¡Hola! Soy <strong>LexFácil Académico</strong>, tu asistente de estudio.</p>
+        <p>Puedo ayudarte a generar <strong>mapas mentales, resúmenes, ensayos</strong> y más.</p>
+        <p>¿Sobre qué tema legal quieres trabajar hoy?</p>
+      </div>
+      <span class="message-time">Ahora</span>
+    </div>
+  </div>
+
+  <div class="typing-indicator" id="typingIndicator" aria-hidden="true" hidden>
+    <span></span><span></span><span></span>
+    <span style="font-size:0.7rem;color:var(--text-tertiary);margin-left:var(--space-2);">Analizando...</span>
+  </div>
+
+  <div class="quick-suggestions" id="quickSuggestions" role="group" aria-label="Sugerencias rápidas">
+    <button class="suggestion-btn" data-query="Genera un mapa mental sobre los principios del derecho laboral">Mapa mental laboral</button>
+    <button class="suggestion-btn" data-query="Resume el concepto de responsabilidad civil">Resumen responsabilidad civil</button>
+    <button class="suggestion-btn" data-query="Estructura un ensayo sobre la tutela en Colombia">Ensayo sobre tutela</button>
+    <button class="suggestion-btn" data-query="Analiza el caso de la sentencia T-123/2020">Analizar sentencia</button>
+  </div>
+
+  <div class="chat-input-area">
+    <label for="chatInput" class="sr-only">Escribe tu consulta</label>
+    <textarea id="chatInput" rows="1" placeholder="Escribe tu consulta académica..." maxlength="500"></textarea>
+    <span class="char-count" id="charCount" aria-live="polite">0/500</span>
+    <button class="send-btn" id="sendBtn" aria-label="Enviar mensaje">
+      <i class="fas fa-paper-plane" aria-hidden="true"></i>
+    </button>
+  </div>
+</div>
+
+<!-- ============================================================
+     JAVASCRIPT - V7.0.0 ACADÉMICO
+     ============================================================ -->
+<script>
+  /**
+   * ============================================================
+   * LEXFÁCIL ACADÉMICO V7.0.0
+   * ============================================================
+   * 
+   * 🎓 HERRAMIENTAS ACADÉMICAS:
+   *   - Mapas mentales
+   *   - Mapas conceptuales
+   *   - Resúmenes ejecutivos
+   *   - Ensayos estructurados
+   *   - Preguntas de estudio
+   *   - Análisis de casos
+   * 
+   * 📤 SUBIDA DE ARCHIVOS:
+   *   - Drag & drop
+   *   - Múltiples formatos
+   *   - Análisis automático
+   * 
+   * 🧠 IA INTEGRADA:
+   *   - DeepSeek API
+   *   - RAG avanzado
+   *   - Generación de materiales
+   * 
+   * ============================================================
+   */
+
+  (function() {
+    'use strict';
+
+    // ============================================================
+    // 1. CONFIGURACIÓN
+    // ============================================================
+
+    const CONFIG = Object.freeze({
+      VERSION: '7.0.0',
+      APP_NAME: 'LexFácil Académico',
+      AI_PROVIDER: 'DeepSeek + RAG',
+      DEEPSEEK: {
+        apiKey: '', // 📌 Pon tu API Key
+        endpoint: 'https://api.deepseek.com/v1/chat/completions',
+        model: 'deepseek-chat',
+        maxTokens: 2000,
+        temperature: 0.3
+      },
+      TOOLS: [
+        { id: 'mindmap', icon: 'fa-brain', title: 'Mapa Mental', desc: 'Visualiza las ideas principales y sus conexiones', shortcut: 'Ctrl+M' },
+        { id: 'concept', icon: 'fa-project-diagram', title: 'Mapa Conceptual', desc: 'Organiza conceptos jerárquicamente', shortcut: 'Ctrl+Shift+M' },
+        { id: 'summary', icon: 'fa-file-alt', title: 'Resumen Ejecutivo', desc: 'Extrae lo más importante del documento', shortcut: 'Ctrl+S' },
+        { id: 'essay', icon: 'fa-pen-fancy', title: 'Ensayo Estructurado', desc: 'Genera un ensayo con introducción, desarrollo y conclusión', shortcut: 'Ctrl+E' },
+        { id: 'questions', icon: 'fa-question-circle', title: 'Preguntas de Estudio', desc: 'Crea preguntas tipo examen para repasar', shortcut: 'Ctrl+Q' },
+        { id: 'case', icon: 'fa-gavel', title: 'Análisis de Caso', desc: 'Analiza sentencias y casos jurídicos', shortcut: 'Ctrl+K' }
+      ]
+    });
+
+    // ============================================================
+    // 2. STATE
+    // ============================================================
+
+    const AppState = {
+      files: [],
+      materials: {
+        mindmap: [],
+        concept: [],
+        summary: [],
+        essay: [],
+        questions: [],
+        case: []
+      },
+      currentTab: 'mindmap',
+      theme: 'dark'
+    };
+
+    // ============================================================
+    // 3. TOAST
+    // ============================================================
+
+    const Toast = {
+      _container: null,
+
+      _getContainer() {
+        if (!this._container) {
+          this._container = document.getElementById('toast-container');
+          if (!this._container) {
+            this._container = document.createElement('div');
+            this._container.id = 'toast-container';
+            document.body.appendChild(this._container);
+          }
+        }
+        return this._container;
+      },
+
+      show(message, type = 'info', duration = 5000) {
+        const icons = {
+          success: 'fa-check-circle',
+          error: 'fa-exclamation-circle',
+          warning: 'fa-exclamation-triangle',
+          info: 'fa-info-circle'
+        };
+        const container = this._getContainer();
+        const toast = document.createElement('div');
+        toast.className = `toast toast-${type}`;
+        toast.innerHTML =
+          `<span class="toast-icon"><i class="fas ${icons[type] || icons.info}"></i></span><span class="toast-content">${message}</span><button class="toast-close">&times;</button>`;
+        container.appendChild(toast);
+
+        const close = () => {
+          toast.classList.add('toast-exiting');
+          setTimeout(() => toast.remove(), 300);
+        };
+        toast.querySelector('.toast-close').onclick = close;
+        setTimeout(close, duration);
+        return { close };
+      },
+
+      success: (m, d) => this.show(m, 'success', d),
+      error: (m, d) => this.show(m, 'error', d),
+      warning: (m, d) => this.show(m, 'warning', d),
+      info: (m, d) => this.show(m, 'info', d),
+    };
+
+    // ============================================================
+    // 4. HELPERS
+    // ============================================================
+
+    const Helpers = {
+      generateId: () => crypto.randomUUID ? crypto.randomUUID() : Date.now().toString(36) + Math.random().toString(36)
+        .slice(2, 7),
+      formatDate: (d) => new Date(d).toLocaleDateString('es-CO', { day: '2-digit', month: 'short', year: 'numeric' }),
+      truncate: (str, n = 100) => str && str.length > n ? str.slice(0, n) + '…' : str,
+      debounce: (fn, delay = 300) => {
+        let t;
+        return (...a) => { clearTimeout(t);
+          t = setTimeout(() => fn(...a), delay); };
+      }
+    };
+
+    // ============================================================
+    // 5. RENDER FUNCTIONS
+    // ============================================================
+
+    const Render = {
+      tools() {
+        const grid = document.getElementById('toolsGrid');
+        if (!grid) return;
+
+        grid.innerHTML = CONFIG.TOOLS.map((tool, i) => `
+          <div class="tool-card animate-fade-in-up delay-${(i % 3) + 1}" data-tool="${tool.id}">
+            <div class="tool-icon"><i class="fas ${tool.icon}" aria-hidden="true"></i></div>
+            <h3>${tool.title}</h3>
+            <p>${tool.desc}</p>
+            <span class="tool-shortcut">${tool.shortcut}</span>
+          </div>
+        `).join('');
+
+        grid.querySelectorAll('.tool-card').forEach(card => {
+          card.addEventListener('click', () => {
+            const toolId = card.dataset.tool;
+            const tool = CONFIG.TOOLS.find(t => t.id === toolId);
+            if (tool) {
+              Toast.info(`🛠️ ${tool.title}: ${tool.desc}`, 3000);
+              // Abrir chat con prompt contextual
+              ChatModule.openWithTool(toolId);
+            }
+          });
+        });
+      },
+
+      files() {
+        const list = document.getElementById('fileList');
+        if (!list) return;
+
+        if (AppState.files.length === 0) {
+          list.innerHTML = `
+            <div style="text-align:center;color:var(--text-tertiary);padding:var(--space-6);">
+              <i class="fas fa-inbox" style="font-size:2rem;opacity:0.3;display:block;margin-bottom:var(--space-3);"></i>
+              No hay archivos subidos aún
+            </div>
+          `;
+          return;
+        }
+
+        list.innerHTML = AppState.files.map((file, index) => `
+          <div class="file-item">
+            <div class="file-info">
+              <span class="file-icon"><i class="fas fa-file-alt"></i></span>
+              <div>
+                <div class="file-name">${file.name}</div>
+                <div class="file-size">${(file.size / 1024).toFixed(1)} KB · ${Helpers.formatDate(file.uploaded)}</div>
+              </div>
+            </div>
+            <div class="file-actions">
+              <button class="btn-analyze" data-index="${index}" title="Analizar con IA">
+                <i class="fas fa-robot"></i> Analizar
+              </button>
+              <button class="btn-remove" data-index="${index}" title="Eliminar archivo">
+                <i class="fas fa-trash"></i>
+              </button>
+            </div>
+          </div>
+        `).join('');
+
+        // Event listeners
+        list.querySelectorAll('.btn-analyze').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const index = parseInt(btn.dataset.index);
+            const file = AppState.files[index];
+            if (file) {
+              ChatModule.openWithFile(file);
+            }
+          });
+        });
+
+        list.querySelectorAll('.btn-remove').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const index = parseInt(btn.dataset.index);
+            AppState.files.splice(index, 1);
+            Render.files();
+            Toast.success('🗑️ Archivo eliminado', 2000);
+          });
+        });
+      },
+
+      materials(type) {
+        const container = document.getElementById(`${type}Content`);
+        if (!container) return;
+
+        const items = AppState.materials[type] || [];
+
+        if (items.length === 0) {
+          container.innerHTML = `
+            <div style="text-align:center;color:var(--text-tertiary);padding:var(--space-8);">
+              <i class="fas fa-plus-circle" style="font-size:3rem;opacity:0.2;display:block;margin-bottom:var(--space-3);"></i>
+              No hay ${this._getTypeLabel(type)} generados aún
+              <br>
+              <span style="font-size:0.85rem;">Usa la herramienta correspondiente para generar tu primer material</span>
+            </div>
+          `;
+          return;
+        }
+
+        container.innerHTML = items.map((item, index) => `
+          <div class="content-card">
+            <div class="card-title">${item.title || `${this._getTypeLabel(type)} ${index + 1}`}</div>
+            <div class="card-body">${item.content.replace(/\n/g, '<br>')}</div>
+            <div class="card-actions">
+              <button onclick="window.LEXFACIL?.copyToClipboard(${index}, '${type}')">
+                <i class="fas fa-copy"></i> Copiar
+              </button>
+              <button onclick="window.LEXFACIL?.exportMaterial(${index}, '${type}')">
+                <i class="fas fa-download"></i> Exportar
+              </button>
+              <button onclick="window.LEXFACIL?.deleteMaterial(${index}, '${type}')">
+                <i class="fas fa-trash"></i> Eliminar
+              </button>
+            </div>
+          </div>
+        `).join('');
+      },
+
+      _getTypeLabel(type) {
+        const labels = {
+          mindmap: 'mapas mentales',
+          concept: 'mapas conceptuales',
+          summary: 'resúmenes',
+          essay: 'ensayos',
+          questions: 'preguntas',
+          case: 'análisis de casos'
+        };
+        return labels[type] || type;
+      },
+
+      allMaterials() {
+        this.materials('mindmap');
+        this.materials('concept');
+        this.materials('summary');
+        this.materials('essay');
+        this.materials('questions');
+        this.materials('case');
+      }
+    };
+
+    // ============================================================
+    // 6. CHAT MODULE
+    // ============================================================
+
+    const ChatModule = {
+      _isOpen: false,
+      _isTyping: false,
+      _messageCount: 0,
+      _context: null,
+
+      open() {
+        const container = document.getElementById('chatContainer');
+        if (!container) return;
+
+        container.hidden = false;
+        container.classList.add('open');
+        this._isOpen = true;
+        document.body.style.overflow = 'hidden';
+
+        setTimeout(() => {
+          document.getElementById('chatInput')?.focus();
+        }, 400);
+      },
+
+      close() {
+        const container = document.getElementById('chatContainer');
+        if (!container) return;
+
+        container.classList.remove('open');
+        this._isOpen = false;
+        setTimeout(() => { container.hidden = true; }, 400);
+        document.body.style.overflow = '';
+      },
+
+      openWithTool(toolId) {
+        const tool = CONFIG.TOOLS.find(t => t.id === toolId);
+        if (!tool) return;
+
+        this.open();
+        const query = `Quiero generar un ${tool.title.toLowerCase()} sobre un tema legal. ¿Puedes ayudarme a estructurarlo?`;
+        setTimeout(() => this.sendMessage(query), 500);
+      },
+
+      openWithFile(file) {
+        this.open();
+        this._context = file;
+        const query = `He subido el archivo "${file.name}". ¿Puedes analizarlo y generar materiales de estudio a partir de él?`;
+        setTimeout(() => this.sendMessage(query), 500);
+      },
+
+      sendMessage(message) {
+        if (!message || !message.trim()) return;
+        const text = message.trim();
+
+        this._addMessage(text, 'user');
+        document.getElementById('chatInput').value = '';
+        document.getElementById('charCount').textContent = '0/500';
+
+        this._showTyping();
+
+        // Simular análisis con IA (en producción llamaría a DeepSeek API)
+        setTimeout(() => {
+          this._hideTyping();
+
+          // Generar respuesta según el contexto
+          let response = this._generateAcademicResponse(text);
+
+          // Si hay un archivo subido, incluir análisis
+          if (this._context) {
+            response += `\n\n📄 **Análisis del archivo "${this._context.name}":**\n`;
+            response += `• Tamaño: ${(this._context.size / 1024).toFixed(1)} KB\n`;
+            response += `• Tipo: ${this._context.type || 'Documento legal'}\n`;
+            response += `• Contenido detectado: ${this._context.content ? this._context.content.slice(0, 200) + '...' : 'Documento listo para analizar'}\n\n`;
+            response += `Puedes pedirme que genere materiales específicos a partir de este archivo.`;
+          }
+
+          // Sugerir herramientas
+          response += `\n\n---\n*🛠️ Herramientas disponibles: ${CONFIG.TOOLS.map(t => t.title).join(', ')}*`;
+
+          this._addMessage(response, 'bot');
+
+          // Crear botones de herramientas en el mensaje
+          const lastMessage = document.querySelector('.message.bot:last-child .message-bubble');
+          if (lastMessage) {
+            const toolsContainer = document.createElement('div');
+            toolsContainer.style.cssText =
+              'display:flex;gap:var(--space-2);flex-wrap:wrap;margin-top:var(--space-3);';
+            CONFIG.TOOLS.forEach(tool => {
+              const btn = document.createElement('button');
+              btn.style.cssText =
+                'padding:var(--space-1) var(--space-3);background:var(--color-academic);color:white;border:none;border-radius:var(--radius-full);font-size:0.7rem;cursor:pointer;font-family:var(--font-secondary);';
+              btn.textContent = `🛠️ ${tool.title}`;
+              btn.onclick = () => {
+                this.openWithTool(tool.id);
+              };
+              toolsContainer.appendChild(btn);
+            });
+            lastMessage.appendChild(toolsContainer);
+          }
+
+          this._messageCount++;
+
+        }, 1500 + Math.random() * 1000);
+      },
+
+      _addMessage(text, sender) {
+        const messages = document.getElementById('chatMessages');
+        if (!messages) return;
+
+        const div = document.createElement('div');
+        div.className = `message ${sender}`;
+        div.innerHTML = `
+          <div class="message-bubble">${text.replace(/\n/g, '<br>')}</div>
+          <span class="message-time">${new Date().toLocaleTimeString('es-CO', { hour: '2-digit', minute: '2-digit' })}</span>
+        `;
+
+        messages.appendChild(div);
+        this._scrollToBottom();
+      },
+
+      _showTyping() {
+        const indicator = document.getElementById('typingIndicator');
+        if (indicator) {
+          indicator.hidden = false;
+          this._isTyping = true;
+          this._scrollToBottom();
+        }
+      },
+
+      _hideTyping() {
+        const indicator = document.getElementById('typingIndicator');
+        if (indicator) {
+          indicator.hidden = true;
+          this._isTyping = false;
+        }
+      },
+
+      _scrollToBottom() {
+        const messages = document.getElementById('chatMessages');
+        if (messages) {
+          setTimeout(() => { messages.scrollTop = messages.scrollHeight; }, 50);
+        }
+      },
+
+      _generateAcademicResponse(query) {
+        const lower = query.toLowerCase();
+
+        // Detectar herramienta solicitada
+        if (lower.includes('mapa mental') || lower.includes('mind map') || lower.includes('mapa conceptual')) {
+          return this._generateMindMap(lower);
+        }
+
+        if (lower.includes('resumen') || lower.includes('summary') || lower.includes('síntesis')) {
+          return this._generateSummary(lower);
+        }
+
+        if (lower.includes('ensayo') || lower.includes('essay')) {
+          return this._generateEssay(lower);
+        }
+
+        if (lower.includes('pregunta') || lower.includes('question') || lower.includes('examen')) {
+          return this._generateQuestions(lower);
+        }
+
+        if (lower.includes('caso') || lower.includes('sentencia') || lower.includes('jurisprudencia')) {
+          return this._generateCaseAnalysis(lower);
+        }
+
+        // Respuesta general académica
+        return this._generateGeneralAcademic(query);
+      },
+
+      _generateMindMap(query) {
+        return `🧠 **Mapa Mental Generado**
+
+        **Tema Principal:** ${this._extractTopic(query) || 'Derecho Colombiano'}
+
+        **Ramas Principales:**
+        1. 🔹 **Conceptos Fundamentales**
+           - Definición
+           - Principios
+           - Fuentes
+
+        2. 🔹 **Normativa Aplicable**
+           - Constitución
+           - Leyes
+           - Jurisprudencia
+
+        3. 🔹 **Procedimientos**
+           - Pasos
+           - Plazos
+           - Recursos
+
+        4. 🔹 **Casos Prácticos**
+           - Ejemplos
+           - Aplicación
+           - Resultados
+
+        5. 🔹 **Doctrina**
+           - Autores
+           - Corrientes
+           - Debates
+
+        💡 **Sugerencia:** Puedes pedirme que profundice en cualquiera de estas ramas.`;
+      },
+
+      _generateSummary(query) {
+        const topic = this._extractTopic(query) || 'el tema legal';
+        return `📄 **Resumen Ejecutivo**
+
+        **Título:** Análisis de ${topic}
+
+        **Introducción:**
+        Este resumen presenta los aspectos más relevantes sobre ${topic} en el contexto del derecho colombiano.
+
+        **Puntos Clave:**
+        1. 📌 **Concepto principal:** ${topic} se define como...
+        2. 📌 **Marco normativo:** Regulado por...
+        3. 📌 **Aspectos prácticos:** Su aplicación en casos concretos...
+        4. 📌 **Importancia:** Relevancia en el sistema jurídico...
+
+        **Conclusiones:**
+        • ${topic} es fundamental para...
+        • Su correcta aplicación requiere...
+        • Se recomienda consultar fuentes actualizadas...
+
+        📌 *Este resumen es una guía preliminar. Consulta fuentes oficiales para profundizar.*`;
+      },
+
+      _generateEssay(query) {
+        const topic = this._extractTopic(query) || 'el derecho colombiano';
+        return `📝 **Ensayo Estructurado**
+
+        **Título:** Reflexiones sobre ${topic}
+
+        **Introducción:**
+        En el presente ensayo se aborda ${topic} desde una perspectiva jurídica y social. La importancia de este tema radica en su impacto en la vida cotidiana de los ciudadanos y en el desarrollo del sistema legal colombiano.
+
+        **Desarrollo:**
+        • **Contexto histórico:** Evolución de ${topic} en Colombia...
+        • **Marco normativo:** Análisis de las normas que lo regulan...
+        • **Aplicación práctica:** Casos relevantes y su interpretación...
+        • **Debates actuales:** Discusiones en la doctrina y la jurisprudencia...
+        • **Perspectivas futuras:** Tendencias y reformas...
+
+        **Conclusión:**
+        ${topic} representa un pilar fundamental del derecho colombiano. Su estudio y comprensión son esenciales para garantizar una justicia efectiva y acorde a los principios constitucionales.
+
+        📌 *Este ensayo es un ejercicio académico. Para un análisis profesional, consulta fuentes especializadas.*`;
+      },
+
+      _generateQuestions(query) {
+        const topic = this._extractTopic(query) || 'derecho colombiano';
+        return `🎯 **Preguntas de Estudio**
+
+        **Tema:** ${topic}
+
+        **Preguntas de Opción Múltiple:**
+        1. ¿Cuál es el principio fundamental de ${topic}?
+           a) Principio de legalidad
+           b) Principio de igualdad
+           c) Principio de buena fe
+           d) Todas las anteriores
+           *Respuesta correcta: d*
+
+        2. ¿Qué norma regula principalmente ${topic}?
+           a) Constitución Política
+           b) Ley 599 de 2000
+           c) Código Civil
+           d) Ley 1437 de 2011
+
+        **Preguntas de Desarrollo:**
+        1. Explique el concepto de ${topic} y su importancia en el sistema jurídico colombiano.
+        2. ¿Cuáles son las principales fuentes de ${topic}?
+        3. Analice un caso práctico donde se aplique ${topic}.
+
+        **Preguntas de Reflexión:**
+        1. ¿Cómo impacta ${topic} en la vida de los ciudadanos?
+        2. ¿Qué reformas considera necesarias en ${topic}?
+
+        💡 *Responde estas preguntas para evaluar tu comprensión del tema.*`;
+      },
+
+      _generateCaseAnalysis(query) {
+        return `⚖️ **Análisis de Caso**
+
+        **Caso:** ${this._extractTopic(query) || 'Sentencia relevante'}
+
+        **Identificación:**
+        • Corte: Corte Constitucional / Suprema de Justicia
+        • Número: [Identificador del caso]
+        • Fecha: [Fecha de la sentencia]
+
+        **Hechos:**
+        • Contexto del caso...
+        • Partes involucradas...
+        • Pretensiones...
+
+        **Cuestión Jurídica:**
+        • Problema legal a resolver...
+        • Normas aplicables...
+
+        **Decisión:**
+        • Fallo de la Corte...
+        • Argumentos principales...
+        • Votos salvados (si los hay)...
+
+        **Importancia:**
+        • Precedente establecido...
+        • Impacto en la jurisprudencia...
+        • Relevancia práctica...
+
+        **Crítica / Análisis:**
+        • Aspectos positivos...
+        • Críticas a la decisión...
+        • Debates doctrinales...
+
+        📌 *Este análisis es una guía académica. Consulta la sentencia completa para un estudio detallado.*`;
+      },
+
+      _generateGeneralAcademic(query) {
+        return `🎓 **Asistencia Académica**
+
+        He recibido tu consulta sobre "${query.slice(0, 60)}..."
+
+        **Temas que puedo abordar:**
+
+        🧠 **Mapas Mentales**
+        - Genera visualizaciones de conceptos y sus relaciones
+
+        📄 **Resúmenes Ejecutivos**
+        - Extrae lo esencial de cualquier tema legal
+
+        📝 **Ensayos Estructurados**
+        - Desarrolla argumentos con introducción, desarrollo y conclusión
+
+        🎯 **Preguntas de Estudio**
+        - Crea material de repaso tipo examen
+
+        ⚖️ **Análisis de Casos**
+        - Examina sentencias y jurisprudencia
+
+        💡 **Sugerencia:** Para obtener el mejor resultado, indícame qué herramienta deseas usar y sobre qué tema específico quieres trabajar.
+
+        🔹 Ejemplo: *"Genera un mapa mental sobre la acción de tutela en Colombia"*`;
+      },
+
+      _extractTopic(query) {
+        // Intentar extraer el tema de la consulta
+        const patterns = [
+          /sobre\s+([^\.\?,]+)/i,
+          /de\s+([^\.\?,]+)/i,
+          /para\s+([^\.\?,]+)/i,
+          /acerca\s+de\s+([^\.\?,]+)/i,
+          /tema\s+([^\.\?,]+)/i
+        ];
+
+        for (const pattern of patterns) {
+          const match = query.match(pattern);
+          if (match) {
+            const topic = match[1].trim();
+            if (topic.length > 3 && topic.length < 100) {
+              return topic;
+            }
+          }
+        }
+
+        // Si no se detecta, tomar palabras clave
+        const words = query.split(' ');
+        const legalKeywords = ['derecho', 'ley', 'constitución', 'código', 'sentencia', 'tutela', 'contrato', 'delito',
+          'familia', 'laboral', 'penal', 'civil', 'administrativo'
+        ];
+        const found = words.filter(w => legalKeywords.some(k => w.toLowerCase().includes(k)));
+
+        return found.length > 0 ? found.slice(0, 3).join(' ') : null;
+      },
+
+      init() {
+        const input = document.getElementById('chatInput');
+        if (input) {
+          input.addEventListener('input', () => {
+            const len = input.value.length;
+            document.getElementById('charCount').textContent = `${len}/500`;
+            input.style.height = 'auto';
+            input.style.height = Math.min(input.scrollHeight, 120) + 'px';
+          });
+
+          input.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && !e.shiftKey) {
+              e.preventDefault();
+              const msg = input.value.trim();
+              if (msg) this.sendMessage(msg);
+            }
+          });
+        }
+
+        document.getElementById('sendBtn').addEventListener('click', () => {
+          const input = document.getElementById('chatInput');
+          const msg = input.value.trim();
+          if (msg) this.sendMessage(msg);
+        });
+
+        document.getElementById('chatClose').addEventListener('click', () => this.close());
+
+        document.querySelectorAll('.suggestion-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const query = btn.dataset.query;
+            if (query) this.sendMessage(query);
+          });
+        });
+
+        // Botones de herramientas desde header/mobile
+        document.querySelectorAll('#navConsultarBtn, #mobileConsultarBtn, #heroConsultarBtn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            this.open();
+            // Si hay archivos, ofrecer analizarlos
+            if (AppState.files.length > 0) {
+              setTimeout(() => {
+                this.sendMessage(
+                  `Hola, tengo ${AppState.files.length} archivo(s) subido(s). ¿Puedes ayudarme a generar materiales de estudio a partir de ellos?`);
+              }, 500);
+            }
+          });
+        });
+      }
+    };
+
+    // ============================================================
+    // 7. UPLOAD MODULE
+    // ============================================================
+
+    const UploadModule = {
+      init() {
+        const zone = document.getElementById('uploadZone');
+        const input = document.getElementById('fileInput');
+
+        zone.addEventListener('click', () => input.click());
+
+        zone.addEventListener('dragover', (e) => {
+          e.preventDefault();
+          zone.classList.add('dragover');
+        });
+
+        zone.addEventListener('dragleave', () => {
+          zone.classList.remove('dragover');
+        });
+
+        zone.addEventListener('drop', (e) => {
+          e.preventDefault();
+          zone.classList.remove('dragover');
+          const files = e.dataTransfer.files;
+          this._handleFiles(files);
+        });
+
+        input.addEventListener('change', (e) => {
+          const files = e.target.files;
+          this._handleFiles(files);
+          input.value = '';
+        });
+
+        // Botones de generación
+        document.getElementById('generateMindMapBtn').addEventListener('click', () => {
+          ChatModule.openWithTool('mindmap');
+        });
+        document.getElementById('generateConceptBtn').addEventListener('click', () => {
+          ChatModule.openWithTool('concept');
+        });
+        document.getElementById('generateSummaryBtn').addEventListener('click', () => {
+          ChatModule.openWithTool('summary');
+        });
+        document.getElementById('generateEssayBtn').addEventListener('click', () => {
+          ChatModule.openWithTool('essay');
+        });
+        document.getElementById('generateQuestionsBtn').addEventListener('click', () => {
+          ChatModule.openWithTool('questions');
+        });
+        document.getElementById('generateCaseBtn').addEventListener('click', () => {
+          ChatModule.openWithTool('case');
+        });
+      },
+
+      _handleFiles(files) {
+        for (const file of files) {
+          // Validar tamaño (máx 10MB)
+          if (file.size > 10 * 1024 * 1024) {
+            Toast.warning(`⚠️ El archivo "${file.name}" supera el límite de 10MB`, 4000);
+            continue;
+          }
+
+          // Validar formato
+          const validTypes = ['.txt', '.pdf', '.docx', '.json'];
+          const ext = '.' + file.name.split('.').pop().toLowerCase();
+          if (!validTypes.includes(ext)) {
+            Toast.warning(`⚠️ Formato no soportado: ${ext}`, 3000);
+            continue;
+          }
+
+          // Leer contenido para archivos de texto
+          const reader = new FileReader();
+          reader.onload = (e) => {
+            let content = null;
+            if (ext === '.txt' || ext === '.json') {
+              try {
+                content = e.target.result;
+              } catch (err) { /* ignore */ }
+            }
+
+            AppState.files.push({
+              id: Helpers.generateId(),
+              name: file.name,
+              size: file.size,
+              type: ext,
+              uploaded: new Date().toISOString(),
+              content: content || null
+            });
+
+            Render.files();
+            Toast.success(`📤 Archivo subido: ${file.name}`, 3000);
+          };
+
+          if (ext === '.txt' || ext === '.json') {
+            reader.readAsText(file);
+          } else {
+            // Para PDF y DOCX solo guardamos metadata
+            AppState.files.push({
+              id: Helpers.generateId(),
+              name: file.name,
+              size: file.size,
+              type: ext,
+              uploaded: new Date().toISOString(),
+              content: null
+            });
+            Render.files();
+            Toast.success(`📤 Archivo subido: ${file.name}`, 3000);
+          }
+        }
+      }
+    };
+
+    // ============================================================
+    // 8. THEME MANAGER
+    // ============================================================
+
+    const ThemeManager = {
+      current: 'dark',
+
+      init() {
+        const saved = localStorage.getItem('lexfacil_theme');
+        if (saved) this.current = saved;
+        this.apply();
+        document.getElementById('themeToggle').addEventListener('click', () => this.toggle());
+      },
+
+      toggle() {
+        this.current = this.current === 'dark' ? 'light' : 'dark';
+        this.apply();
+        localStorage.setItem('lexfacil_theme', this.current);
+        Toast.info(`Tema ${this.current === 'dark' ? '🌙 Oscuro' : '☀️ Claro'}`, 2000);
+      },
+
+      apply() {
+        const root = document.documentElement;
+        const icon = document.getElementById('themeIcon');
+        if (icon) {
+          icon.className = this.current === 'dark' ? 'fas fa-moon' : 'fas fa-sun';
+        }
+        if (this.current === 'light') {
+          root.style.setProperty('--bg-primary', '#F5F6FA');
+          root.style.setProperty('--bg-secondary', '#E8E9F0');
+          root.style.setProperty('--text-primary', '#0A1628');
+          root.style.setProperty('--text-secondary', '#2A2A3E');
+          root.style.setProperty('--text-tertiary', '#4A4A5E');
+          root.style.setProperty('--border-color', 'rgba(10,22,40,0.1)');
+          root.style.setProperty('--bg-card', 'rgba(10,22,40,0.04)');
+          root.style.setProperty('--bg-card-hover', 'rgba(10,22,40,0.08)');
+        } else {
+          root.style.setProperty('--bg-primary', '#0A1628');
+          root.style.setProperty('--bg-secondary', '#0F1F3A');
+          root.style.setProperty('--text-primary', '#F5F6FA');
+          root.style.setProperty('--text-secondary', '#C8CCD8');
+          root.style.setProperty('--text-tertiary', '#8A8FA0');
+          root.style.setProperty('--border-color', 'rgba(255,255,255,0.08)');
+          root.style.setProperty('--bg-card', 'rgba(255,255,255,0.04)');
+          root.style.setProperty('--bg-card-hover', 'rgba(255,255,255,0.08)');
+        }
+      }
+    };
+
+    // ============================================================
+    // 9. TABS
+    // ============================================================
+
+    const TabsManager = {
+      init() {
+        const tabs = document.querySelectorAll('.content-tab');
+        tabs.forEach(tab => {
+          tab.addEventListener('click', () => {
+            const tabId = tab.dataset.tab;
+            this.activate(tabId);
+          });
+        });
+      },
+
+      activate(tabId) {
+        // Actualizar tabs
+        document.querySelectorAll('.content-tab').forEach(t => {
+          t.classList.toggle('active', t.dataset.tab === tabId);
+        });
+
+        // Actualizar paneles
+        document.querySelectorAll('.content-panel').forEach(p => {
+          p.classList.toggle('active', p.id === `panel-${tabId}`);
+        });
+
+        AppState.currentTab = tabId;
+        Render.materials(tabId);
+      }
+    };
+
+    // ============================================================
+    // 10. HEADER MODULE
+    // ============================================================
+
+    const HeaderModule = {
+      _isOpen: false,
+
+      init() {
+        const hamburger = document.getElementById('hamburgerBtn');
+        const overlay = document.getElementById('mobileNavOverlay');
+        const closeBtn = document.getElementById('mobileNavClose');
+        const header = document.getElementById('header');
+
+        hamburger.addEventListener('click', () => this.toggle());
+
+        closeBtn.addEventListener('click', () => this.close());
+
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape' && this._isOpen) this.close();
+        });
+
+        overlay.addEventListener('click', (e) => {
+          if (e.target === overlay) this.close();
+        });
+
+        document.querySelectorAll('.mobile-link').forEach(link => {
+          link.addEventListener('click', (e) => {
+            this.close();
+            const targetId = link.getAttribute('href');
+            if (targetId && targetId.startsWith('#')) {
+              e.preventDefault();
+              const target = document.querySelector(targetId);
+              if (target) {
+                const offset = header?.offsetHeight || 72;
+                const pos = target.getBoundingClientRect().top + window.pageYOffset - offset - 20;
+                window.scrollTo({ top: pos, behavior: 'smooth' });
+              }
+            }
+          });
+        });
+
+        // Scroll effect
+        let lastScroll = 0;
+        window.addEventListener('scroll', Helpers.debounce(() => {
+          const current = window.pageYOffset || document.documentElement.scrollTop;
+          if (header) {
+            header.classList.toggle('scrolled', current > 20);
+          }
+          lastScroll = current;
+        }, 50), { passive: true });
+
+        // Footer año
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Modales
+        document.querySelectorAll('.footer-link[data-modal]').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const modalId = `modal-${btn.dataset.modal}`;
+            const modal = document.getElementById(modalId);
+            if (modal) modal.style.display = 'flex';
+          });
+        });
+
+        document.querySelectorAll('.modal-close-btn, .modal-overlay .modal-close-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const modal = btn.closest('.modal-overlay');
+            if (modal) modal.style.display = 'none';
+          });
+        });
+
+        document.querySelectorAll('.modal-overlay').forEach(modal => {
+          modal.addEventListener('click', (e) => {
+            if (e.target === modal) modal.style.display = 'none';
+          });
+        });
+
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape') {
+            document.querySelectorAll('.modal-overlay').forEach(m => m.style.display = 'none');
+          }
+        });
+      },
+
+      toggle() {
+        if (this._isOpen) this.close();
+        else this.open();
+      },
+
+      open() {
+        const hamburger = document.getElementById('hamburgerBtn');
+        const overlay = document.getElementById('mobileNavOverlay');
+        overlay.hidden = false;
+        overlay.classList.add('open');
+        hamburger.classList.add('active');
+        hamburger.setAttribute('aria-expanded', 'true');
+        document.body.style.overflow = 'hidden';
+        this._isOpen = true;
+      },
+
+      close() {
+        const hamburger = document.getElementById('hamburgerBtn');
+        const overlay = document.getElementById('mobileNavOverlay');
+        overlay.classList.remove('open');
+        hamburger.classList.remove('active');
+        hamburger.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+        this._isOpen = false;
+        setTimeout(() => { if (!this._isOpen) overlay.hidden = true; }, 400);
+      }
+    };
+
+    // ============================================================
+    // 11. EXPOSED API
+    // ============================================================
+
+    window.LEXFACIL = {
+      version: CONFIG.VERSION,
+      AppState: AppState,
+      Toast: Toast,
+      ChatModule: ChatModule,
+      Render: Render,
+      ThemeManager: ThemeManager,
+      Helpers: Helpers,
+
+      copyToClipboard(index, type) {
+        const items = AppState.materials[type] || [];
+        const item = items[index];
+        if (item) {
+          navigator.clipboard.writeText(item.content).then(() => {
+            Toast.success('📋 Copiado al portapapeles', 2000);
+          }).catch(() => {
+            Toast.info('📋 Selecciona y copia manualmente', 2000);
+          });
+        }
+      },
+
+      exportMaterial(index, type) {
+        const items = AppState.materials[type] || [];
+        const item = items[index];
+        if (item) {
+          const blob = new Blob([item.content], { type: 'text/plain' });
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = `${type}-${Date.now()}.txt`;
+          a.click();
+          URL.revokeObjectURL(url);
+          Toast.success('📥 Material exportado', 2000);
+        }
+      },
+
+      deleteMaterial(index, type) {
+        if (confirm('¿Eliminar este material?')) {
+          AppState.materials[type].splice(index, 1);
+          Render.materials(type);
+          Toast.success('🗑️ Material eliminado', 2000);
+        }
+      },
+
+      addMaterial(type, title, content) {
+        if (!AppState.materials[type]) AppState.materials[type] = [];
+        AppState.materials[type].push({
+          id: Helpers.generateId(),
+          title: title || `${type} ${AppState.materials[type].length + 1}`,
+          content: content,
+          created: new Date().toISOString()
+        });
+        Render.materials(type);
+        Toast.success(`✅ ${type} generado correctamente`, 3000);
+      }
+    };
+
+    // ============================================================
+    // 12. BOOTSTRAP
+    // ============================================================
+
+    function bootstrap() {
+      console.log(`%c🎓 ${CONFIG.APP_NAME} v${CONFIG.VERSION}`, 'font-size:20px;font-weight:bold;color:#6C5CE7;');
+      console.log('%c🛠️ Herramientas académicas listas', 'font-size:12px;color:#A29BFE;');
+      console.log('%c📤 Sube archivos y genera materiales de estudio', 'font-size:12px;color:#8A8FA0;');
+
+      // Inicializar tema
+      ThemeManager.init();
+
+      // Renderizar herramientas
+      Render.tools();
+
+      // Renderizar archivos
+      Render.files();
+
+      // Renderizar materiales
+      Render.allMaterials();
+
+      // Inicializar módulos
+      HeaderModule.init();
+      ChatModule.init();
+      UploadModule.init();
+      TabsManager.init();
+
+      // Activar primer tab
+      TabsManager.activate('mindmap');
+
+      // Mostrar mensaje de bienvenida
+      setTimeout(() => {
+        Toast.success('🎓 LexFácil Académico listo para ayudarte a estudiar', 4000);
+      }, 500);
+
+      console.log('%c✅ Listo', 'font-size:12px;color:#2ECC71;');
+      console.log('%c📦 API expuesta: window.LEXFACIL', 'font-size:12px;color:#8A8FA0;');
+    }
+
+    // ============================================================
+    // 13. INICIO
+    // ============================================================
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', bootstrap);
+    } else {
+      bootstrap();
+    }
+
+  })();
+</script>
+
+</body>
+</html>
