@@ -3427,7 +3427,7 @@
       SUPABASE: {
         url: 'https://lesclimvzhzjxpzindlw.supabase.co',
         // ⚠️ REEMPLAZA CON TU CLAVE ANÓNIMA COMPLETA
-        anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxlc2NsaW12emh6anhwemluZGx3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzcwMDAwMDAsImV4cCI6MjA1MjU3NjAwMH0.tu_clave_completa_aqui'
+        anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxlc2NsaW12emh6anhwemluZGx3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQxMTY4NDAsImV4cCI6MjA5OTY5Mjg0MH0.LnDK62n7y6cZWj20HQGlmhMwDEins4uzmiTWEiAa2Ac'
       },
       // ===== DEEPSEEK PROXY (Edge Function) =====
       DEEPSEEK_PROXY: 'https://lesclimvzhzjxpzindlw.supabase.co/functions/v1/deepseek-proxy',
