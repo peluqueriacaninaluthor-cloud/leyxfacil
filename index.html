@@ -109,13 +109,13 @@
        CSP (Content Security Policy)
        ============================================================ -->
   <meta http-equiv="Content-Security-Policy" content="
-    default-src 'self';
-    manifest-src 'self' data:;
-    script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://www.googletagmanager.com https://www.google-analytics.com https://api.deepseek.com https://cdn.jsdelivr.net https://apis.google.com https://accounts.google.com;
+    default-src 'self' data: blob:;
+    manifest-src 'self' data: blob:;
+    script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://api.deepseek.com https://*.supabase.co https://www.googletagmanager.com https://www.google-analytics.com;
     style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com;
     font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com;
-    img-src 'self' data: https:;
-    connect-src 'self' https://api.deepseek.com https://*.supabase.co https://*.githubusercontent.com https://www.google-analytics.com https://accounts.google.com https://www.googleapis.com https://cdn.jsdelivr.net;
+    img-src 'self' data: https: blob:;
+    connect-src 'self' https://api.deepseek.com https://*.supabase.co https://cdn.jsdelivr.net https://raw.githubusercontent.com https://www.google-analytics.com https://accounts.google.com https://www.googleapis.com;
     frame-src 'self' https://www.google.com https://accounts.google.com;
     base-uri 'self';
     form-action 'self';
@@ -3434,9 +3434,9 @@
       DEEPSEEK_PROXY: 'https://lesclimvzhzjxpzindlw.supabase.co/functions/v1/deepseek-proxy',
       // ===== FUENTES DE DATOS =====
       DATA_SOURCES: {
-        GITHUB: 'https://raw.githubusercontent.com/LexFacil/data/main/',
-        SUPABASE: 'https://lesclimvzhzjxpzindlw.supabase.co/storage/v1/object/public/lexfacil/'
-      },
+  GITHUB: 'https://raw.githubusercontent.com/peluqueriacaninaluthor-cloud/leyxfacil/main/data/',
+  SUPABASE: 'https://lesclimvzhzjxpzindlw.supabase.co/storage/v1/object/public/lexfacil/'
+},
       DOCUMENTS: ['constitucion.json', 'penal.json', 'privado.json', 'publico.json', 'jurisprudencia.json'],
       // ===== KEYWORDS PARA CLASIFICACIÓN =====
       KEYWORDS: {
