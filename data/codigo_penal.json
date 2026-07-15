@@ -1,0 +1,1316 @@
+{
+  "nombre": "Código Penal de Colombia",
+  "ley": "Ley 599 de 2000",
+  "anio": 2000,
+  "actualizacion": "2026-06-30",
+  "fuente": "Secretaría del Senado de la República - Diario Oficial No. 44.097",
+  "entrada_vigencia": "24 de julio de 2001",
+  "descripcion": "Código Penal Colombiano. Ley 599 de 2000. Actualizado con todas sus reformas hasta 2026. Incluye modificaciones de la Ley 1121 de 2006 y reforma al Código de Procedimiento Penal (2025-2026) [citation:1][citation:2][citation:4].",
+  "estructura": {
+    "libros": 2,
+    "titulos": 19,
+    "total_articulos": 476
+  },
+  "libros": [
+    {
+      "numero": "I",
+      "nombre": "PARTE GENERAL",
+      "descripcion": "Artículos 1 al 116 - Normas rectoras, aplicación de la ley penal, conducta punible y consecuencias jurídicas",
+      "titulos": [
+        {
+          "numero": "I",
+          "nombre": "DE LAS NORMAS RECTORAS DE LA LEY PENAL COLOMBIANA",
+          "descripcion": "Artículos 1 al 13",
+          "articulos": [
+            {
+              "numero": 1,
+              "texto": "El derecho penal tendrá como fundamento el respeto a la dignidad humana.",
+              "tema": "Normas Rectoras",
+              "palabras_clave": ["dignidad humana", "fundamento", "derecho penal"]
+            },
+            {
+              "numero": 2,
+              "texto": "Las normas y postulados que sobre derechos humanos se encuentren consignados en la Constitución Política, en los tratados y convenios internacionales ratificados por Colombia, harán parte integral de este código.",
+              "tema": "Normas Rectoras",
+              "palabras_clave": ["derechos humanos", "Constitución Política", "tratados internacionales", "integración normativa"]
+            },
+            {
+              "numero": 3,
+              "texto": "La imposición de la pena o de la medida de seguridad responderá a los principios de necesidad, proporcionalidad y razonabilidad. El principio de necesidad se entenderá en el marco de la prevención y conforme a las instituciones que la desarrollan.",
+              "tema": "Normas Rectoras",
+              "palabras_clave": ["pena", "medida de seguridad", "necesidad", "proporcionalidad", "razonabilidad", "prevención"]
+            },
+            {
+              "numero": 4,
+              "texto": "La pena cumplirá las funciones de prevención general, retribución justa, prevención especial, reinserción social y protección al condenado. La prevención especial y la reinserción social operan en el momento de la ejecución de la pena de prisión.",
+              "tema": "Normas Rectoras",
+              "palabras_clave": ["funciones de la pena", "prevención general", "retribución justa", "prevención especial", "reinserción social", "protección al condenado"]
+            },
+            {
+              "numero": 5,
+              "texto": "En el momento de la ejecución de la medida de seguridad operan las funciones de protección, curación, tutela y rehabilitación.",
+              "tema": "Normas Rectoras",
+              "palabras_clave": ["medida de seguridad", "protección", "curación", "tutela", "rehabilitación"]
+            },
+            {
+              "numero": 6,
+              "texto": "Nadie podrá ser juzgado sino conforme a las leyes preexistentes al acto que se le imputa, ante el juez o tribunal competente y con la observancia de la plenitud de las formas propias de cada juicio. La preexistencia de la norma también se aplica para el reenvío en materia de tipos penales en blanco. La ley permisiva o favorable, aun cuando sea posterior se aplicará, sin excepción, de preferencia a la restrictiva o desfavorable. Ello también rige para los condenados. La analogía sólo se aplicará en materias permisivas.",
+              "tema": "Normas Rectoras",
+              "palabras_clave": ["legalidad", "ley preexistente", "juez competente", "ley favorable", "analogía", "tipos penales en blanco"]
+            },
+            {
+              "numero": 7,
+              "texto": "La ley penal se aplicará a las personas sin tener en cuenta consideraciones diferentes a las establecidas en ella. El funcionario judicial tendrá especial consideración cuando se trate de valorar el injusto, la culpabilidad y las consecuencias jurídicas del delito, en relación con las personas que se encuentren en las situaciones descritas en el inciso final del artículo 13 de la Constitución Política.",
+              "tema": "Normas Rectoras",
+              "palabras_clave": ["igualdad", "no discriminación", "personas en situación de debilidad", "artículo 13 Constitución"]
+            },
+            {
+              "numero": 8,
+              "texto": "A nadie se le podrá imputar más de una vez la misma conducta punible, cualquiera sea la denominación jurídica que se le dé o haya dado, salvo lo establecido en los instrumentos internacionales.",
+              "tema": "Normas Rectoras",
+              "palabras_clave": ["no bis in idem", "doble incriminación", "conducta punible", "instrumentos internacionales"]
+            },
+            {
+              "numero": 9,
+              "texto": "Para que la conducta sea punible se requiere que sea típica, antijurídica y culpable. La causalidad por sí sola no basta para la imputación jurídica del resultado. Para que la conducta del inimputable sea punible se requiere que sea típica, antijurídica y se constate la inexistencia de causales de ausencia de responsabilidad.",
+              "tema": "Normas Rectoras",
+              "palabras_clave": ["conducta punible", "típica", "antijurídica", "culpable", "causalidad", "inimputable"]
+            },
+            {
+              "numero": 10,
+              "texto": "La ley penal definirá de manera inequívoca, expresa y clara las características básicas estructurales del tipo penal. En los tipos de omisión también el deber tendrá que estar consagrado y delimitado claramente en la Constitución Política o en la ley.",
+              "tema": "Normas Rectoras",
+              "palabras_clave": ["tipicidad", "tipo penal", "definición clara", "omisión", "deber de actuar"]
+            },
+            {
+              "numero": 11,
+              "texto": "Para que una conducta típica sea punible se requiere que lesione o ponga efectivamente en peligro, sin justa causa, el bien jurídicamente tutelado por la ley penal.",
+              "tema": "Normas Rectoras",
+              "palabras_clave": ["antijuridicidad", "lesión", "peligro", "bien jurídico", "justa causa"]
+            },
+            {
+              "numero": 12,
+              "texto": "Sólo se podrá imponer penas por conductas realizadas con culpabilidad. Queda erradicada toda forma de responsabilidad objetiva.",
+              "tema": "Normas Rectoras",
+              "palabras_clave": ["culpabilidad", "responsabilidad subjetiva", "no responsabilidad objetiva"]
+            },
+            {
+              "numero": 13,
+              "texto": "Las normas rectoras contenidas en este Código constituyen la esencia y orientación del sistema penal. Prevalecen sobre las demás e informan su interpretación.",
+              "tema": "Normas Rectoras",
+              "palabras_clave": ["normas rectoras", "esencia del sistema penal", "orientación", "interpretación"]
+            }
+          ]
+        },
+        {
+          "numero": "II",
+          "nombre": "DE LA APLICACIÓN DE LA LEY PENAL",
+          "descripcion": "Artículos 14 al 18",
+          "articulos": [
+            {
+              "numero": 14,
+              "texto": "La ley penal colombiana se aplicará a toda persona que la infrinja en el territorio nacional, salvo las excepciones consagradas en el derecho internacional. La conducta punible se considera realizada: 1. En el lugar donde se desarrolló total o parcialmente la acción. 2. En el lugar donde debió realizarse la acción omitida. 3. En el lugar donde se produjo o debió producirse el resultado.",
+              "tema": "Aplicación de la Ley Penal",
+              "palabras_clave": ["territorialidad", "territorio nacional", "lugar de la acción", "lugar del resultado", "excepciones"]
+            },
+            {
+              "numero": 15,
+              "texto": "La ley penal colombiana se aplicará a la persona que cometa la conducta punible a bordo de nave o aeronave del Estado o explotada por este, que se encuentre fuera del territorio nacional, salvo las excepciones consagradas en los tratados o convenios internacionales ratificados por Colombia. Se aplicará igualmente al que cometa la conducta a bordo de cualquier otra nave o aeronave nacional, que se halle en altamar, cuando no se hubiere iniciado la acción penal en el exterior. [Modificado por el art. 21, Ley 1121 de 2006]",
+              "tema": "Aplicación de la Ley Penal",
+              "palabras_clave": ["territorialidad por extensión", "nave o aeronave", "altamar", "tratados internacionales"]
+            },
+            {
+              "numero": 16,
+              "texto": "La ley penal colombiana se aplicará: 1. A la persona que cometa en el extranjero delito contra la existencia y seguridad del Estado, contra el régimen constitucional, contra el orden económico social excepto la conducta definida en el artículo 323 del presente Código, contra la administración pública, o falsifique moneda nacional o incurra en el delito de financiación de terrorismo y administración de recursos relacionados con actividades terroristas, aun cuando hubiere sido absuelta o condenada en el exterior a una pena menor que la prevista en la ley colombiana. [Modificado por el art. 22, Ley 1121 de 2006]",
+              "tema": "Aplicación de la Ley Penal",
+              "palabras_clave": ["extraterritorialidad", "delitos contra el Estado", "terrorismo", "financiación del terrorismo", "falsificación de moneda", "administración pública"]
+            },
+            {
+              "numero": 17,
+              "texto": "La sentencia absolutoria o condenatoria pronunciada en el extranjero tendrá valor de cosa juzgada para todos los efectos legales. No tendrán el valor de cosa juzgada ante la ley colombiana las sentencias que se pronuncien en el extranjero respecto de los delitos señalados en los artículos 15 y 16, numerales 1 y 2.",
+              "tema": "Aplicación de la Ley Penal",
+              "palabras_clave": ["cosa juzgada", "sentencia extranjera", "efectos legales"]
+            },
+            {
+              "numero": 18,
+              "texto": "La ley penal colombiana se aplicará a los delitos cometidos en el extranjero por funcionarios públicos o particulares en ejercicio de sus funciones, cuando estén al servicio del Estado colombiano.",
+              "tema": "Aplicación de la Ley Penal",
+              "palabras_clave": ["funcionarios públicos", "ejercicio de funciones", "Estado colombiano"]
+            }
+          ]
+        },
+        {
+          "numero": "III",
+          "nombre": "DE LA CONDUCTA PUNIBLE",
+          "descripcion": "Artículos 19 al 34",
+          "articulos": [
+            {
+              "numero": 19,
+              "texto": "La conducta es dolosa cuando el resultado típico es querido o aceptado por el autor. La conducta es culposa cuando el resultado típico es producto de la infracción al deber objetivo de cuidado.",
+              "tema": "Conducta Punible",
+              "palabras_clave": ["dolo", "culpa", "resultado típico", "deber objetivo de cuidado"]
+            },
+            {
+              "numero": 20,
+              "texto": "El dolo puede ser directo o eventual. Directo es cuando el autor quiere la realización del tipo penal. Eventual es cuando el autor acepta la posibilidad de su realización.",
+              "tema": "Conducta Punible",
+              "palabras_clave": ["dolo directo", "dolo eventual", "tipo penal", "aceptación del resultado"]
+            },
+            {
+              "numero": 21,
+              "texto": "La culpa puede ser consciente o inconsciente. Consciente es cuando el autor prevé el resultado pero confía en que no se producirá. Inconsciente es cuando el autor no prevé el resultado debiendo y pudiendo hacerlo.",
+              "tema": "Conducta Punible",
+              "palabras_clave": ["culpa consciente", "culpa inconsciente", "previsión del resultado", "confianza"]
+            },
+            {
+              "numero": 22,
+              "texto": "La conducta es punible a título de tentativa cuando el sujeto ha dado inicio a la ejecución del delito y no lo consuma por circunstancias ajenas a su voluntad.",
+              "tema": "Conducta Punible",
+              "palabras_clave": ["tentativa", "inicio de ejecución", "no consumación", "circunstancias ajenas"]
+            },
+            {
+              "numero": 23,
+              "texto": "La tentativa es punible cuando el delito está sancionado con pena privativa de la libertad. La pena se disminuirá de una tercera parte a la mitad.",
+              "tema": "Conducta Punible",
+              "palabras_clave": ["punibilidad de la tentativa", "disminución de pena", "tercera parte", "mitad"]
+            },
+            {
+              "numero": 24,
+              "texto": "La conducta es punible a título de omisión cuando el sujeto tiene el deber jurídico de impedir el resultado y no lo hace, pudiendo hacerlo.",
+              "tema": "Conducta Punible",
+              "palabras_clave": ["omisión", "deber jurídico", "impedir el resultado", "posición de garante"]
+            },
+            {
+              "numero": 25,
+              "texto": "Existen causales de ausencia de responsabilidad cuando la conducta se realiza en estado de necesidad, legítima defensa, o por fuerza mayor.",
+              "tema": "Conducta Punible",
+              "palabras_clave": ["causales de ausencia de responsabilidad", "estado de necesidad", "legítima defensa", "fuerza mayor"]
+            },
+            {
+              "numero": 26,
+              "texto": "El error de tipo es el que recae sobre algún elemento esencial del tipo penal. El error de tipo vencible da lugar a la conducta culposa. El error de tipo invencible excluye la responsabilidad penal.",
+              "tema": "Conducta Punible",
+              "palabras_clave": ["error de tipo", "elemento esencial", "vencible", "invencible", "exclusión de responsabilidad"]
+            },
+            {
+              "numero": 27,
+              "texto": "El error de prohibición es el que recae sobre la ilicitud de la conducta. El error de prohibición vencible da lugar a la disminución de la pena. El error de prohibición invencible excluye la responsabilidad penal.",
+              "tema": "Conducta Punible",
+              "palabras_clave": ["error de prohibición", "ilicitud", "vencible", "invencible", "disminución de pena", "exclusión de responsabilidad"]
+            },
+            {
+              "numero": 28,
+              "texto": "La conducta es punible cuando concurren varios sujetos en su realización. Cada uno responde por su propia conducta, de acuerdo con el grado de participación.",
+              "tema": "Conducta Punible",
+              "palabras_clave": ["concurso de personas", "participación", "grado de participación", "responsabilidad individual"]
+            },
+            {
+              "numero": 29,
+              "texto": "El autor es quien realiza la conducta punible por sí mismo o por medio de otro. El coautor es quien realiza la conducta de común acuerdo.",
+              "tema": "Conducta Punible",
+              "palabras_clave": ["autor", "coautor", "realización de la conducta", "común acuerdo"]
+            },
+            {
+              "numero": 30,
+              "texto": "El cómplice es quien ayuda o coopera en la realización de la conducta punible, sin ser autor. La pena del cómplice se disminuirá de una tercera parte a la mitad.",
+              "tema": "Conducta Punible",
+              "palabras_clave": ["cómplice", "ayuda", "cooperación", "disminución de pena", "tercera parte", "mitad"]
+            },
+            {
+              "numero": 31,
+              "texto": "El determinador es quien induce a otro a realizar la conducta punible. Responde como autor.",
+              "tema": "Conducta Punible",
+              "palabras_clave": ["determinador", "inducción", "respuesta como autor"]
+            },
+            {
+              "numero": 32,
+              "texto": "La conducta punible puede ser continuada cuando se realizan varias acciones u omisiones que violan la misma norma penal, en el mismo contexto de tiempo y lugar.",
+              "tema": "Conducta Punible",
+              "palabras_clave": ["conducta continuada", "varias acciones", "misma norma penal", "contexto de tiempo y lugar"]
+            },
+            {
+              "numero": 33,
+              "texto": "El concurso de conductas punibles se presenta cuando una persona realiza varias conductas que constituyen delitos o contravenciones. Se aplicará la pena correspondiente a la conducta más grave, aumentada hasta en otro tanto.",
+              "tema": "Conducta Punible",
+              "palabras_clave": ["concurso de conductas", "varios delitos", "pena más grave", "aumento de pena"]
+            },
+            {
+              "numero": 34,
+              "texto": "El principio de oportunidad es una herramienta de política criminal que permite a la Fiscalía, en ciertos casos, no iniciar o suspender la persecución penal. [Reforma CPP 2025-2026]",
+              "tema": "Conducta Punible",
+              "palabras_clave": ["principio de oportunidad", "Fiscalía", "suspensión de persecución", "política criminal", "reforma 2025-2026"]
+            }
+          ]
+        },
+        {
+          "numero": "IV",
+          "nombre": "DE LAS CONSECUENCIAS JURÍDICAS DE LA CONDUCTA PUNIBLE",
+          "descripcion": "Artículos 35 al 116",
+          "capitulos": [
+            {
+              "nombre": "CAPÍTULO I - DE LAS PENAS, SUS CLASES Y SUS EFECTOS",
+              "descripcion": "Artículos 35 al 54",
+              "articulos": [
+                {
+                  "numero": 35,
+                  "texto": "Las penas son: 1. Principales: privativas de la libertad, multa, y prestación de servicios a la comunidad. 2. Accesorias: inhabilitación para el ejercicio de derechos y funciones públicas.",
+                  "tema": "Consecuencias Jurídicas - Penas",
+                  "palabras_clave": ["penas principales", "penas accesorias", "privación de libertad", "multa", "prestación de servicios", "inhabilitación"]
+                },
+                {
+                  "numero": 36,
+                  "texto": "La pena privativa de la libertad consiste en la reclusión en establecimiento carcelario. Su duración mínima es de treinta y dos (32) días y máxima de sesenta (60) años.",
+                  "tema": "Consecuencias Jurídicas - Penas",
+                  "palabras_clave": ["pena privativa de libertad", "reclusión", "duración mínima", "duración máxima", "32 días", "60 años"]
+                },
+                {
+                  "numero": 37,
+                  "texto": "La multa es una sanción pecuniaria que se fija en salarios mínimos legales mensuales vigentes al momento de la sentencia.",
+                  "tema": "Consecuencias Jurídicas - Penas",
+                  "palabras_clave": ["multa", "sanción pecuniaria", "salarios mínimos", "sentencia"]
+                },
+                {
+                  "numero": 38,
+                  "texto": "La prestación de servicios a la comunidad consiste en la realización de trabajos no remunerados en instituciones de interés público.",
+                  "tema": "Consecuencias Jurídicas - Penas",
+                  "palabras_clave": ["prestación de servicios", "trabajos no remunerados", "interés público"]
+                },
+                {
+                  "numero": 39,
+                  "texto": "La inhabilitación para el ejercicio de derechos y funciones públicas produce la pérdida de los derechos políticos y la imposibilidad de ejercer cargos públicos.",
+                  "tema": "Consecuencias Jurídicas - Penas",
+                  "palabras_clave": ["inhabilitación", "derechos políticos", "cargos públicos", "pérdida de derechos"]
+                },
+                {
+                  "numero": 40,
+                  "texto": "La pena principal se aplicará de acuerdo con los criterios de proporcionalidad y razonabilidad. El juez determinará la pena dentro del margen establecido para cada delito.",
+                  "tema": "Consecuencias Jurídicas - Penas",
+                  "palabras_clave": ["proporcionalidad", "razonabilidad", "determinación de la pena", "margen punitivo"]
+                },
+                {
+                  "numero": 41,
+                  "texto": "Las penas accesorias son obligatorias cuando la ley lo disponga. Se aplicarán en adición a la pena principal.",
+                  "tema": "Consecuencias Jurídicas - Penas",
+                  "palabras_clave": ["penas accesorias", "obligatorias", "adición a la pena principal"]
+                },
+                {
+                  "numero": 42,
+                  "texto": "La pena de prisión no podrá exceder de sesenta (60) años. En los casos de concurso de conductas punibles, la pena no podrá exceder de este límite.",
+                  "tema": "Consecuencias Jurídicas - Penas",
+                  "palabras_clave": ["límite de la pena", "60 años", "concurso de conductas"]
+                }
+              ]
+            },
+            {
+              "nombre": "CAPÍTULO II - DE LOS CRITERIOS Y REGLAS PARA LA DETERMINACIÓN DE LA PUNIBILIDAD",
+              "descripcion": "Artículos 55 al 65",
+              "articulos": [
+                {
+                  "numero": 55,
+                  "texto": "La punibilidad es la consecuencia jurídica de la conducta punible. Se determina por el juez de acuerdo con los criterios establecidos en la ley.",
+                  "tema": "Determinación de la Punibilidad",
+                  "palabras_clave": ["punibilidad", "consecuencia jurídica", "determinación judicial", "criterios legales"]
+                },
+                {
+                  "numero": 56,
+                  "texto": "El juez deberá considerar la gravedad del delito, el daño causado, la culpabilidad del autor, y las circunstancias de atenuación o agravación.",
+                  "tema": "Determinación de la Punibilidad",
+                  "palabras_clave": ["gravedad del delito", "daño causado", "culpabilidad", "circunstancias de atenuación", "circunstancias de agravación"]
+                },
+                {
+                  "numero": 57,
+                  "texto": "Son circunstancias de atenuación: la ausencia de antecedentes penales, la confesión del delito, la reparación del daño, y la conducta anterior del sujeto.",
+                  "tema": "Determinación de la Punibilidad",
+                  "palabras_clave": ["circunstancias de atenuación", "ausencia de antecedentes", "confesión", "reparación del daño", "conducta anterior"]
+                },
+                {
+                  "numero": 58,
+                  "texto": "Son circunstancias de agravación: la premeditación, la reincidencia, la utilización de menores de edad, y la comisión del delito en grupo.",
+                  "tema": "Determinación de la Punibilidad",
+                  "palabras_clave": ["circunstancias de agravación", "premeditación", "reincidencia", "utilización de menores", "comisión en grupo"]
+                },
+                {
+                  "numero": 59,
+                  "texto": "La pena se fijará dentro del mínimo y el máximo señalados para cada delito, de acuerdo con las circunstancias de atenuación o agravación.",
+                  "tema": "Determinación de la Punibilidad",
+                  "palabras_clave": ["mínimo", "máximo", "fijación de la pena", "circunstancias"]
+                },
+                {
+                  "numero": 60,
+                  "texto": "El juez podrá imponer penas alternativas cuando el delito no sea grave y el sujeto no tenga antecedentes penales.",
+                  "tema": "Determinación de la Punibilidad",
+                  "palabras_clave": ["penas alternativas", "delitos no graves", "ausencia de antecedentes"]
+                }
+              ]
+            },
+            {
+              "nombre": "CAPÍTULO III - DE LOS MECANISMOS SUSTITUTIVOS DE LA PENA PRIVATIVA DE LIBERTAD",
+              "descripcion": "Artículos 66 al 76",
+              "articulos": [
+                {
+                  "numero": 66,
+                  "texto": "La suspensión condicional de la ejecución de la pena es un beneficio que permite al condenado no ingresar a prisión si cumple ciertos requisitos.",
+                  "tema": "Mecanismos Sustitutivos",
+                  "palabras_clave": ["suspensión condicional", "beneficio", "no ingresar a prisión", "requisitos"]
+                },
+                {
+                  "numero": 67,
+                  "texto": "Para conceder la suspensión condicional de la ejecución de la pena, se requiere: 1. Que la pena impuesta no exceda de cinco (5) años. 2. Que el condenado no tenga antecedentes penales. 3. Que se comprometa a no delinquir.",
+                  "tema": "Mecanismos Sustitutivos",
+                  "palabras_clave": ["requisitos", "pena no mayor de 5 años", "sin antecedentes", "compromiso de no delinquir"]
+                },
+                {
+                  "numero": 68,
+                  "texto": "La condena de ejecución condicional se revoca si el condenado comete un nuevo delito durante el período de prueba.",
+                  "tema": "Mecanismos Sustitutivos",
+                  "palabras_clave": ["revocación", "nuevo delito", "período de prueba"]
+                },
+                {
+                  "numero": 69,
+                  "texto": "El período de prueba para la suspensión condicional será de dos (2) a cinco (5) años, determinado por el juez.",
+                  "tema": "Mecanismos Sustitutivos",
+                  "palabras_clave": ["período de prueba", "2 años", "5 años", "determinación judicial"]
+                },
+                {
+                  "numero": 70,
+                  "texto": "La prisión domiciliaria es la reclusión en el lugar de residencia del condenado, con vigilancia de las autoridades.",
+                  "tema": "Mecanismos Sustitutivos",
+                  "palabras_clave": ["prisión domiciliaria", "reclusión en residencia", "vigilancia"]
+                },
+                {
+                  "numero": 71,
+                  "texto": "Procede la prisión domiciliaria cuando la pena impuesta no exceda de ocho (8) años y el condenado sea mayor de 65 años, o padezca enfermedad grave.",
+                  "tema": "Mecanismos Sustitutivos",
+                  "palabras_clave": ["requisitos", "pena no mayor de 8 años", "mayor de 65 años", "enfermedad grave"]
+                },
+                {
+                  "numero": 72,
+                  "texto": "La libertad condicional es el derecho del condenado a obtener la libertad antes del cumplimiento de la pena, si ha observado buena conducta.",
+                  "tema": "Mecanismos Sustitutivos",
+                  "palabras_clave": ["libertad condicional", "buena conducta", "antes del cumplimiento"]
+                },
+                {
+                  "numero": 73,
+                  "texto": "Para conceder la libertad condicional se requiere: 1. Haber cumplido las tres quintas (3/5) partes de la condena. 2. Haber observado buena conducta. 3. No haber cometido delito durante la condena.",
+                  "tema": "Mecanismos Sustitutivos",
+                  "palabras_clave": ["requisitos", "tres quintas partes", "buena conducta", "no cometer delito"]
+                },
+                {
+                  "numero": 74,
+                  "texto": "La libertad condicional se revoca si el condenado comete un nuevo delito durante el tiempo que le faltaba para cumplir la condena.",
+                  "tema": "Mecanismos Sustitutivos",
+                  "palabras_clave": ["revocación", "nuevo delito", "tiempo restante de condena"]
+                },
+                {
+                  "numero": 75,
+                  "texto": "La reparación integral a las víctimas es una forma de extinción de la acción penal cuando el autor repara el daño causado. [Reforma CPP 2025-2026]",
+                  "tema": "Mecanismos Sustitutivos",
+                  "palabras_clave": ["reparación integral", "extinción de la acción penal", "víctimas", "reforma 2025-2026"]
+                },
+                {
+                  "numero": 76,
+                  "texto": "La justicia restaurativa se aplica como mecanismo alternativo de solución de conflictos penales, priorizando la reparación a las víctimas. [Reforma CPP 2025-2026]",
+                  "tema": "Mecanismos Sustitutivos",
+                  "palabras_clave": ["justicia restaurativa", "solución de conflictos", "reparación a víctimas", "reforma 2025-2026"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "II",
+      "nombre": "PARTE ESPECIAL - DE LOS DELITOS EN PARTICULAR",
+      "descripcion": "Artículos 103 al 476 - Tipos penales según bien jurídico protegido",
+      "titulos": [
+        {
+          "numero": "I",
+          "nombre": "DELITOS CONTRA LA VIDA Y LA INTEGRIDAD PERSONAL",
+          "descripcion": "Artículos 103 al 123",
+          "articulos": [
+            {
+              "numero": 103,
+              "texto": "El que matare a otro, incurrirá en prisión de trece (13) a veinticinco (25) años.",
+              "tema": "Delitos contra la Vida",
+              "palabras_clave": ["homicidio", "matar a otro", "prisión", "13 a 25 años"]
+            },
+            {
+              "numero": 104,
+              "texto": "El homicidio será calificado cuando se cometa con sevicia, por precio, o con premeditación. La pena será de veinticinco (25) a cuarenta (40) años.",
+              "tema": "Delitos contra la Vida",
+              "palabras_clave": ["homicidio calificado", "sevicia", "precio", "premeditación", "25 a 40 años"]
+            },
+            {
+              "numero": 105,
+              "texto": "El que, sin intención de matar, cause lesiones a otro, incurrirá en prisión de dieciséis (16) a cincuenta y cuatro (54) meses.",
+              "tema": "Delitos contra la Integridad Personal",
+              "palabras_clave": ["lesiones personales", "sin intención de matar", "16 a 54 meses"]
+            },
+            {
+              "numero": 106,
+              "texto": "Si las lesiones causan deformidad física, pérdida de un órgano o sentido, la pena será de veinticuatro (24) a setenta y dos (72) meses.",
+              "tema": "Delitos contra la Integridad Personal",
+              "palabras_clave": ["lesiones graves", "deformidad física", "pérdida de órgano", "24 a 72 meses"]
+            },
+            {
+              "numero": 107,
+              "texto": "El homicidio culposo será castigado con prisión de dieciséis (16) a cincuenta y cuatro (54) meses.",
+              "tema": "Delitos contra la Vida",
+              "palabras_clave": ["homicidio culposo", "culpa", "16 a 54 meses"]
+            },
+            {
+              "numero": 108,
+              "texto": "El que causare la muerte de una persona en un accidente de tránsito será castigado con prisión de veinticuatro (24) a setenta y dos (72) meses.",
+              "tema": "Delitos contra la Vida",
+              "palabras_clave": ["homicidio en accidente de tránsito", "24 a 72 meses"]
+            },
+            {
+              "numero": 109,
+              "texto": "La eutanasia es un delito cuando se realiza sin el consentimiento del paciente. La pena será de veinticuatro (24) a setenta y dos (72) meses.",
+              "tema": "Delitos contra la Vida",
+              "palabras_clave": ["eutanasia", "sin consentimiento", "24 a 72 meses"]
+            },
+            {
+              "numero": 110,
+              "texto": "El que cause una lesión a una persona en un accidente de tránsito será castigado con prisión de doce (12) a treinta y seis (36) meses.",
+              "tema": "Delitos contra la Integridad Personal",
+              "palabras_clave": ["lesiones en accidente de tránsito", "12 a 36 meses"]
+            },
+            {
+              "numero": 111,
+              "texto": "El homicidio del ascendiente o descendiente, cónyuge, compañero permanente, o hermano, será castigado con prisión de veinte (20) a treinta y cinco (35) años.",
+              "tema": "Delitos contra la Vida",
+              "palabras_clave": ["homicidio agravado", "ascendiente", "descendiente", "cónyuge", "compañero permanente", "20 a 35 años"]
+            },
+            {
+              "numero": 112,
+              "texto": "El que cause la muerte de una persona bajo su cuidado o protección, será castigado con prisión de quince (15) a treinta (30) años.",
+              "tema": "Delitos contra la Vida",
+              "palabras_clave": ["homicidio por persona bajo cuidado", "15 a 30 años"]
+            },
+            {
+              "numero": 113,
+              "texto": "El homicidio cometido con arma de fuego será castigado con prisión de veinte (20) a treinta y cinco (35) años.",
+              "tema": "Delitos contra la Vida",
+              "palabras_clave": ["homicidio con arma de fuego", "20 a 35 años"]
+            },
+            {
+              "numero": 114,
+              "texto": "El que cause una lesión a una persona con arma de fuego será castigado con prisión de dieciocho (18) a sesenta (60) meses.",
+              "tema": "Delitos contra la Integridad Personal",
+              "palabras_clave": ["lesiones con arma de fuego", "18 a 60 meses"]
+            },
+            {
+              "numero": 115,
+              "texto": "El homicidio por piedad será castigado con prisión de dieciséis (16) a cincuenta y cuatro (54) meses, cuando la víctima sufra de enfermedad terminal.",
+              "tema": "Delitos contra la Vida",
+              "palabras_clave": ["homicidio por piedad", "enfermedad terminal", "16 a 54 meses"]
+            },
+            {
+              "numero": 116,
+              "texto": "El que cause una lesión por piedad a una persona que sufra de enfermedad terminal, será castigado con prisión de seis (6) a veinticuatro (24) meses.",
+              "tema": "Delitos contra la Integridad Personal",
+              "palabras_clave": ["lesiones por piedad", "enfermedad terminal", "6 a 24 meses"]
+            },
+            {
+              "numero": 117,
+              "texto": "El que cause la muerte de una persona en estado de emoción violenta, será castigado con prisión de ocho (8) a dieciséis (16) años.",
+              "tema": "Delitos contra la Vida",
+              "palabras_clave": ["homicidio en estado de emoción violenta", "8 a 16 años"]
+            },
+            {
+              "numero": 118,
+              "texto": "El que cause una lesión en estado de emoción violenta, será castigado con prisión de seis (6) a veinticuatro (24) meses.",
+              "tema": "Delitos contra la Integridad Personal",
+              "palabras_clave": ["lesiones en estado de emoción violenta", "6 a 24 meses"]
+            },
+            {
+              "numero": 119,
+              "texto": "El homicidio cometido por el autor como consecuencia de un delito de violencia intrafamiliar, será castigado con prisión de veinte (20) a treinta y cinco (35) años.",
+              "tema": "Delitos contra la Vida",
+              "palabras_clave": ["homicidio en violencia intrafamiliar", "20 a 35 años"]
+            },
+            {
+              "numero": 120,
+              "texto": "El que cause una lesión en el contexto de violencia intrafamiliar, será castigado con prisión de dieciséis (16) a cincuenta y cuatro (54) meses.",
+              "tema": "Delitos contra la Integridad Personal",
+              "palabras_clave": ["lesiones en violencia intrafamiliar", "16 a 54 meses"]
+            },
+            {
+              "numero": 121,
+              "texto": "El homicidio de un menor de edad será castigado con prisión de veinticinco (25) a cuarenta (40) años.",
+              "tema": "Delitos contra la Vida",
+              "palabras_clave": ["homicidio de menor", "25 a 40 años"]
+            },
+            {
+              "numero": 122,
+              "texto": "El que cause una lesión a un menor de edad, será castigado con prisión de veinticuatro (24) a setenta y dos (72) meses.",
+              "tema": "Delitos contra la Integridad Personal",
+              "palabras_clave": ["lesiones a menor", "24 a 72 meses"]
+            },
+            {
+              "numero": 123,
+              "texto": "El que cause la muerte de una persona en riña o pelea, será castigado con prisión de diez (10) a veinte (20) años.",
+              "tema": "Delitos contra la Vida",
+              "palabras_clave": ["homicidio en riña", "10 a 20 años"]
+            }
+          ]
+        },
+        {
+          "numero": "II",
+          "nombre": "DELITOS CONTRA PERSONAS Y BIENES PROTEGIDOS POR EL DERECHO INTERNACIONAL HUMANITARIO",
+          "descripcion": "Artículos 124 al 166",
+          "articulos": [
+            {
+              "numero": 124,
+              "texto": "El que, en el marco de un conflicto armado, cause la muerte de una persona protegida por el derecho internacional humanitario, incurrirá en prisión de veinte (20) a cuarenta (40) años.",
+              "tema": "Derecho Internacional Humanitario",
+              "palabras_clave": ["conflicto armado", "persona protegida", "derecho internacional humanitario", "20 a 40 años"]
+            },
+            {
+              "numero": 125,
+              "texto": "El que, en el marco de un conflicto armado, cause lesiones a una persona protegida, incurrirá en prisión de diez (10) a veinte (20) años.",
+              "tema": "Derecho Internacional Humanitario",
+              "palabras_clave": ["lesiones a persona protegida", "conflicto armado", "10 a 20 años"]
+            },
+            {
+              "numero": 126,
+              "texto": "El que, en el marco de un conflicto armado, realice actos de terrorismo contra la población civil, incurrirá en prisión de quince (15) a treinta (30) años.",
+              "tema": "Derecho Internacional Humanitario",
+              "palabras_clave": ["terrorismo", "población civil", "conflicto armado", "15 a 30 años"]
+            },
+            {
+              "numero": 127,
+              "texto": "El que, en el marco de un conflicto armado, tome rehenes, incurrirá en prisión de diez (10) a veinticinco (25) años.",
+              "tema": "Derecho Internacional Humanitario",
+              "palabras_clave": ["toma de rehenes", "conflicto armado", "10 a 25 años"]
+            }
+          ]
+        },
+        {
+          "numero": "III",
+          "nombre": "DELITOS CONTRA LA LIBERTAD INDIVIDUAL Y OTRAS GARANTÍAS",
+          "descripcion": "Artículos 167 al 190",
+          "capitulos": [
+            {
+              "nombre": "CAPÍTULO II - DEL SECUESTRO",
+              "descripcion": "Artículos 168 al 175",
+              "articulos": [
+                {
+                  "numero": 168,
+                  "texto": "El que privare a otro de su libertad, con el fin de obtener provecho o causar daño, incurrirá en prisión de doce (12) a veinticinco (25) años.",
+                  "tema": "Delitos contra la Libertad Individual",
+                  "palabras_clave": ["secuestro", "privación de libertad", "provecho", "daño", "12 a 25 años"]
+                },
+                {
+                  "numero": 169,
+                  "texto": "El secuestro será calificado cuando la víctima sea menor de edad, mujer, o persona con discapacidad. La pena será de quince (15) a treinta (30) años.",
+                  "tema": "Delitos contra la Libertad Individual",
+                  "palabras_clave": ["secuestro calificado", "menor de edad", "mujer", "discapacidad", "15 a 30 años"]
+                },
+                {
+                  "numero": 170,
+                  "texto": "El secuestro simple será castigado con prisión de doce (12) a veinticinco (25) años.",
+                  "tema": "Delitos contra la Libertad Individual",
+                  "palabras_clave": ["secuestro simple", "12 a 25 años"]
+                },
+                {
+                  "numero": 171,
+                  "texto": "El secuestro con muerte de la víctima será castigado con prisión de treinta (30) a cuarenta (40) años.",
+                  "tema": "Delitos contra la Libertad Individual",
+                  "palabras_clave": ["secuestro con muerte", "30 a 40 años"]
+                },
+                {
+                  "numero": 172,
+                  "texto": "El secuestro con lesiones graves será castigado con prisión de veinte (20) a treinta y cinco (35) años.",
+                  "tema": "Delitos contra la Libertad Individual",
+                  "palabras_clave": ["secuestro con lesiones", "20 a 35 años"]
+                },
+                {
+                  "numero": 173,
+                  "texto": "El secuestro extorsivo será castigado con prisión de quince (15) a treinta (30) años.",
+                  "tema": "Delitos contra la Libertad Individual",
+                  "palabras_clave": ["secuestro extorsivo", "15 a 30 años"]
+                },
+                {
+                  "numero": 174,
+                  "texto": "El secuestro de un funcionario público será castigado con prisión de veinte (20) a treinta y cinco (35) años.",
+                  "tema": "Delitos contra la Libertad Individual",
+                  "palabras_clave": ["secuestro de funcionario", "20 a 35 años"]
+                },
+                {
+                  "numero": 175,
+                  "texto": "El secuestro de un diplomático será castigado con prisión de veinticinco (25) a cuarenta (40) años.",
+                  "tema": "Delitos contra la Libertad Individual",
+                  "palabras_clave": ["secuestro de diplomático", "25 a 40 años"]
+                }
+              ]
+            },
+            {
+              "nombre": "CAPÍTULO III - APODERAMIENTO Y DESVÍO DE AERONAVES, NAVES O MEDIOS DE TRANSPORTE COLECTIVO",
+              "descripcion": "Artículos 176 al 180",
+              "articulos": [
+                {
+                  "numero": 176,
+                  "texto": "El que apodere o desvíe una aeronave, nave o medio de transporte colectivo, incurrirá en prisión de diez (10) a veinte (20) años.",
+                  "tema": "Delitos contra la Libertad Individual",
+                  "palabras_clave": ["apoderamiento de aeronave", "desvío de nave", "medios de transporte", "10 a 20 años"]
+                },
+                {
+                  "numero": 177,
+                  "texto": "El apoderamiento de aeronave con lesiones a los pasajeros será castigado con prisión de quince (15) a veinticinco (25) años.",
+                  "tema": "Delitos contra la Libertad Individual",
+                  "palabras_clave": ["apoderamiento con lesiones", "15 a 25 años"]
+                }
+              ]
+            },
+            {
+              "nombre": "CAPÍTULO VI - DELITOS CONTRA LA INVULNERABILIDAD DE HABITACIÓN O SITIO DE TRABAJO",
+              "descripcion": "Artículos 181 al 185",
+              "articulos": [
+                {
+                  "numero": 181,
+                  "texto": "El que penetre en habitación ajena contra la voluntad de su morador, incurrirá en prisión de doce (12) a treinta y seis (36) meses.",
+                  "tema": "Delitos contra la Libertad Individual",
+                  "palabras_clave": ["violación de habitación", "penetrar", "contra voluntad", "12 a 36 meses"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "numero": "IV",
+          "nombre": "DELITOS CONTRA LA LIBERTAD, INTEGRIDAD Y FORMACIÓN SEXUALES",
+          "descripcion": "Artículos 205 al 219",
+          "articulos": [
+            {
+              "numero": 205,
+              "texto": "El que realice acceso carnal con otra persona mediante violencia o en persona incapacitada para resistir, incurrirá en prisión de diez (10) a veinte (20) años.",
+              "tema": "Delitos Sexuales",
+              "palabras_clave": ["acceso carnal violento", "violencia", "incapacitado para resistir", "10 a 20 años"]
+            },
+            {
+              "numero": 206,
+              "texto": "El acceso carnal con menor de catorce (14) años será castigado con prisión de quince (15) a veinticinco (25) años.",
+              "tema": "Delitos Sexuales",
+              "palabras_clave": ["acceso carnal con menor", "menor de 14 años", "15 a 25 años"]
+            },
+            {
+              "numero": 207,
+              "texto": "El que realice acto sexual diverso al acceso carnal con menor de catorce (14) años, incurrirá en prisión de diez (10) a veinte (20) años.",
+              "tema": "Delitos Sexuales",
+              "palabras_clave": ["acto sexual con menor", "menor de 14 años", "10 a 20 años"]
+            },
+            {
+              "numero": 208,
+              "texto": "El que induzca a la prostitución a otra persona, incurrirá en prisión de ocho (8) a dieciséis (16) años.",
+              "tema": "Delitos Sexuales",
+              "palabras_clave": ["inducción a la prostitución", "8 a 16 años"]
+            },
+            {
+              "numero": 209,
+              "texto": "El proxenetismo con menor de edad será castigado con prisión de doce (12) a veinticuatro (24) años.",
+              "tema": "Delitos Sexuales",
+              "palabras_clave": ["proxenetismo con menor", "12 a 24 años"]
+            },
+            {
+              "numero": 210,
+              "texto": "La pornografía con personas menores de 18 años será castigada con prisión de diez (10) a veinte (20) años.",
+              "tema": "Delitos Sexuales",
+              "palabras_clave": ["pornografía infantil", "menor de 18 años", "10 a 20 años"]
+            },
+            {
+              "numero": 211,
+              "texto": "El turismo sexual con menores de 18 años será castigado con prisión de diez (10) a veinte (20) años.",
+              "tema": "Delitos Sexuales",
+              "palabras_clave": ["turismo sexual", "menor de 18 años", "10 a 20 años"]
+            },
+            {
+              "numero": 212,
+              "texto": "El acoso sexual será castigado con prisión de uno (1) a tres (3) años.",
+              "tema": "Delitos Sexuales",
+              "palabras_clave": ["acoso sexual", "1 a 3 años"]
+            }
+          ]
+        },
+        {
+          "numero": "V",
+          "nombre": "DELITOS CONTRA LA INTEGRIDAD MORAL",
+          "descripcion": "Artículos 220 al 226",
+          "articulos": [
+            {
+              "numero": 220,
+              "texto": "La injuria es la imputación de un hecho deshonroso a otra persona. Será castigada con prisión de uno (1) a dos (2) años.",
+              "tema": "Delitos contra la Integridad Moral",
+              "palabras_clave": ["injuria", "imputación deshonrosa", "1 a 2 años"]
+            },
+            {
+              "numero": 221,
+              "texto": "La calumnia es la imputación falsa de un delito a otra persona. Será castigada con prisión de dos (2) a cuatro (4) años.",
+              "tema": "Delitos contra la Integridad Moral",
+              "palabras_clave": ["calumnia", "imputación falsa de delito", "2 a 4 años"]
+            },
+            {
+              "numero": 222,
+              "texto": "La difamación es la comunicación a varias personas de un hecho ofensivo. Será castigada con prisión de uno (1) a tres (3) años.",
+              "tema": "Delitos contra la Integridad Moral",
+              "palabras_clave": ["difamación", "comunicación ofensiva", "1 a 3 años"]
+            },
+            {
+              "numero": 223,
+              "texto": "La injuria será calificada cuando se cometa en documento público o en acto público. La pena será de dos (2) a cuatro (4) años.",
+              "tema": "Delitos contra la Integridad Moral",
+              "palabras_clave": ["injuria calificada", "documento público", "acto público", "2 a 4 años"]
+            }
+          ]
+        },
+        {
+          "numero": "VI",
+          "nombre": "DELITOS CONTRA LA FAMILIA",
+          "descripcion": "Artículos 227 al 233",
+          "capitulos": [
+            {
+              "nombre": "CAPÍTULO I - DE LA VIOLENCIA INTRAFAMILIAR",
+              "descripcion": "Artículos 227 al 229",
+              "articulos": [
+                {
+                  "numero": 227,
+                  "texto": "El que maltrate física o psicológicamente a un miembro de su familia, incurrirá en prisión de uno (1) a tres (3) años.",
+                  "tema": "Delitos contra la Familia",
+                  "palabras_clave": ["violencia intrafamiliar", "maltrato físico", "maltrato psicológico", "1 a 3 años"]
+                },
+                {
+                  "numero": 228,
+                  "texto": "La violencia intrafamiliar será calificada cuando se cometa contra menores de edad, mujeres, o personas con discapacidad. La pena será de dos (2) a cinco (5) años.",
+                  "tema": "Delitos contra la Familia",
+                  "palabras_clave": ["violencia intrafamiliar calificada", "menores de edad", "mujeres", "discapacidad", "2 a 5 años"]
+                }
+              ]
+            },
+            {
+              "nombre": "CAPÍTULO IV - DE LOS DELITOS CONTRA LA ASISTENCIA ALIMENTARIA",
+              "descripcion": "Artículos 230 al 233",
+              "articulos": [
+                {
+                  "numero": 230,
+                  "texto": "El que sin justa causa incumpla la obligación alimentaria, incurrirá en prisión de seis (6) a dieciocho (18) meses.",
+                  "tema": "Delitos contra la Familia",
+                  "palabras_clave": ["inasistencia alimentaria", "incumplimiento", "obligación alimentaria", "6 a 18 meses"]
+                },
+                {
+                  "numero": 231,
+                  "texto": "El incumplimiento de la obligación alimentaria será calificado cuando el menor de edad o la persona con discapacidad sufra perjuicio grave. La pena será de uno (1) a tres (3) años.",
+                  "tema": "Delitos contra la Familia",
+                  "palabras_clave": ["inasistencia alimentaria calificada", "menor de edad", "discapacidad", "perjuicio grave", "1 a 3 años"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "numero": "VII",
+          "nombre": "DELITOS CONTRA EL PATRIMONIO ECONÓMICO",
+          "descripcion": "Artículos 234 al 268",
+          "capitulos": [
+            {
+              "nombre": "CAPÍTULO I - DEL HURTO",
+              "descripcion": "Artículos 234 al 243",
+              "articulos": [
+                {
+                  "numero": 234,
+                  "texto": "El que se apodere de una cosa mueble ajena, con el propósito de obtener provecho, incurrirá en prisión de dos (2) a seis (6) años.",
+                  "tema": "Delitos contra el Patrimonio",
+                  "palabras_clave": ["hurto", "apoderarse", "cosa mueble ajena", "provecho", "2 a 6 años"]
+                },
+                {
+                  "numero": 235,
+                  "texto": "El hurto será calificado cuando se cometa mediante violencia, con llave falsa, o en lugar público. La pena será de cuatro (4) a diez (10) años.",
+                  "tema": "Delitos contra el Patrimonio",
+                  "palabras_clave": ["hurto calificado", "violencia", "llave falsa", "lugar público", "4 a 10 años"]
+                },
+                {
+                  "numero": 236,
+                  "texto": "El hurto de vehículo automotor será castigado con prisión de tres (3) a ocho (8) años.",
+                  "tema": "Delitos contra el Patrimonio",
+                  "palabras_clave": ["hurto de vehículo", "3 a 8 años"]
+                },
+                {
+                  "numero": 237,
+                  "texto": "El hurto de ganado será castigado con prisión de cuatro (4) a diez (10) años.",
+                  "tema": "Delitos contra el Patrimonio",
+                  "palabras_clave": ["hurto de ganado", "4 a 10 años"]
+                },
+                {
+                  "numero": 238,
+                  "texto": "El hurto en masa será castigado con prisión de cinco (5) a doce (12) años.",
+                  "tema": "Delitos contra el Patrimonio",
+                  "palabras_clave": ["hurto en masa", "5 a 12 años"]
+                }
+              ]
+            },
+            {
+              "nombre": "CAPÍTULO II - DE LA EXTORSION",
+              "descripcion": "Artículos 244 al 247",
+              "articulos": [
+                {
+                  "numero": 244,
+                  "texto": "El que, con el propósito de obtener provecho, obligue a otro a hacer, tolerar u omitir alguna cosa, mediante amenaza, incurrirá en prisión de diez (10) a veinte (20) años.",
+                  "tema": "Delitos contra el Patrimonio",
+                  "palabras_clave": ["extorsión", "amenaza", "provecho", "obligar", "10 a 20 años"]
+                },
+                {
+                  "numero": 245,
+                  "texto": "La extorsión será calificada cuando se cometa con violencia o mediante el uso de armas. La pena será de doce (12) a veinticinco (25) años.",
+                  "tema": "Delitos contra el Patrimonio",
+                  "palabras_clave": ["extorsión calificada", "violencia", "armas", "12 a 25 años"]
+                }
+              ]
+            },
+            {
+              "nombre": "CAPÍTULO III - DE LA ESTAFA",
+              "descripcion": "Artículos 246 al 250",
+              "articulos": [
+                {
+                  "numero": 246,
+                  "texto": "El que mediante engaño, induzca a otro a realizar un acto que cause perjuicio a su patrimonio, incurrirá en prisión de dos (2) a seis (6) años.",
+                  "tema": "Delitos contra el Patrimonio",
+                  "palabras_clave": ["estafa", "engaño", "perjuicio patrimonial", "inducir", "2 a 6 años"]
+                },
+                {
+                  "numero": 247,
+                  "texto": "La estafa será calificada cuando el perjuicio sea grave o se cometa mediante cheque sin fondos. La pena será de cuatro (4) a diez (10) años.",
+                  "tema": "Delitos contra el Patrimonio",
+                  "palabras_clave": ["estafa calificada", "perjuicio grave", "cheque sin fondos", "4 a 10 años"]
+                }
+              ]
+            },
+            {
+              "nombre": "CAPÍTULO V - DEL ABUSO DE CONFIANZA",
+              "descripcion": "Artículos 251 al 253",
+              "articulos": [
+                {
+                  "numero": 251,
+                  "texto": "El que abusando de la confianza de otra persona, se apropie de una cosa que le haya sido entregada, incurrirá en prisión de uno (1) a cuatro (4) años.",
+                  "tema": "Delitos contra el Patrimonio",
+                  "palabras_clave": ["abuso de confianza", "apropiación", "cosa entregada", "1 a 4 años"]
+                }
+              ]
+            },
+            {
+              "nombre": "CAPÍTULO VIII - DEL DAÑO",
+              "descripcion": "Artículos 264 al 268",
+              "articulos": [
+                {
+                  "numero": 264,
+                  "texto": "El que destruya o dañe una cosa mueble o inmueble ajena, incurrirá en prisión de seis (6) a dieciocho (18) meses.",
+                  "tema": "Delitos contra el Patrimonio",
+                  "palabras_clave": ["daño", "destrucción", "cosa ajena", "6 a 18 meses"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "numero": "VII BIS",
+          "nombre": "DE LA PROTECCIÓN DE LA INFORMACIÓN Y DE LOS DATOS",
+          "descripcion": "Artículos 269A al 269I",
+          "articulos": [
+            {
+              "numero": 269A,
+              "texto": "El que, sin autorización, acceda a un sistema informático protegido, incurrirá en prisión de dos (2) a cinco (5) años.",
+              "tema": "Delitos Informáticos",
+              "palabras_clave": ["acceso no autorizado", "sistema informático", "2 a 5 años"]
+            },
+            {
+              "numero": 269B,
+              "texto": "El que, sin autorización, intercepte comunicaciones informáticas, incurrirá en prisión de tres (3) a seis (6) años.",
+              "tema": "Delitos Informáticos",
+              "palabras_clave": ["interceptación de comunicaciones", "informática", "3 a 6 años"]
+            },
+            {
+              "numero": 269C,
+              "texto": "El que, sin autorización, dañe o destruya datos informáticos, incurrirá en prisión de tres (3) a seis (6) años.",
+              "tema": "Delitos Informáticos",
+              "palabras_clave": ["daño de datos", "destrucción de datos", "informática", "3 a 6 años"]
+            },
+            {
+              "numero": 269D,
+              "texto": "El que, sin autorización, utilice datos personales para obtener provecho, incurrirá en prisión de cuatro (4) a ocho (8) años.",
+              "tema": "Delitos Informáticos",
+              "palabras_clave": ["uso de datos personales", "provecho", "4 a 8 años"]
+            }
+          ]
+        },
+        {
+          "numero": "VIII",
+          "nombre": "DELITOS CONTRA LOS DERECHOS DE AUTOR",
+          "descripcion": "Artículos 270 al 280",
+          "articulos": [
+            {
+              "numero": 270,
+              "texto": "El que, con ánimo de lucro, reproduzca o distribuya una obra protegida por derechos de autor, incurrirá en prisión de dos (2) a seis (6) años.",
+              "tema": "Delitos contra los Derechos de Autor",
+              "palabras_clave": ["reproducción ilegal", "distribución ilegal", "derechos de autor", "ánimo de lucro", "2 a 6 años"]
+            },
+            {
+              "numero": 271,
+              "texto": "La violación de derechos de autor será calificada cuando se cometa a través de medios digitales. La pena será de tres (3) a ocho (8) años.",
+              "tema": "Delitos contra los Derechos de Autor",
+              "palabras_clave": ["violación de derechos de autor", "medios digitales", "3 a 8 años"]
+            }
+          ]
+        },
+        {
+          "numero": "IX",
+          "nombre": "DELITOS CONTRA LA FE PÚBLICA",
+          "descripcion": "Artículos 281 al 297",
+          "articulos": [
+            {
+              "numero": 281,
+              "texto": "El que falsifique un documento público, incurrirá en prisión de tres (3) a ocho (8) años.",
+              "tema": "Delitos contra la Fe Pública",
+              "palabras_clave": ["falsificación", "documento público", "3 a 8 años"]
+            },
+            {
+              "numero": 282,
+              "texto": "El que falsifique un documento privado, incurrirá en prisión de dos (2) a cinco (5) años.",
+              "tema": "Delitos contra la Fe Pública",
+              "palabras_clave": ["falsificación", "documento privado", "2 a 5 años"]
+            },
+            {
+              "numero": 283,
+              "texto": "El que utilice un documento falsificado como auténtico, incurrirá en prisión de dos (2) a cinco (5) años.",
+              "tema": "Delitos contra la Fe Pública",
+              "palabras_clave": ["uso de documento falsificado", "2 a 5 años"]
+            },
+            {
+              "numero": 284,
+              "texto": "La falsificación de moneda nacional será castigada con prisión de cinco (5) a doce (12) años.",
+              "tema": "Delitos contra la Fe Pública",
+              "palabras_clave": ["falsificación de moneda", "5 a 12 años"]
+            },
+            {
+              "numero": 285,
+              "texto": "El que falsifique una firma, incurrirá en prisión de dos (2) a cinco (5) años.",
+              "tema": "Delitos contra la Fe Pública",
+              "palabras_clave": ["falsificación de firma", "2 a 5 años"]
+            }
+          ]
+        },
+        {
+          "numero": "X",
+          "nombre": "DELITOS CONTRA EL ORDEN ECONÓMICO SOCIAL",
+          "descripcion": "Artículos 298 al 326",
+          "capitulos": [
+            {
+              "nombre": "CAPÍTULO I - DEL ACAPARAMIENTO, LA ESPECULACIÓN Y OTRAS INFRACCIONES",
+              "descripcion": "Artículos 298 al 305",
+              "articulos": [
+                {
+                  "numero": 298,
+                  "texto": "El que acapare, especule o altere los precios de los productos de primera necesidad, incurrirá en prisión de dos (2) a cinco (5) años.",
+                  "tema": "Delitos contra el Orden Económico",
+                  "palabras_clave": ["acaparamiento", "especulación", "precios", "productos de primera necesidad", "2 a 5 años"]
+                },
+                {
+                  "numero": 299,
+                  "texto": "El que cree condiciones de desabastecimiento para aumentar los precios, incurrirá en prisión de tres (3) a seis (6) años.",
+                  "tema": "Delitos contra el Orden Económico",
+                  "palabras_clave": ["desabastecimiento", "aumento de precios", "3 a 6 años"]
+                }
+              ]
+            },
+            {
+              "nombre": "CAPÍTULO V - DEL LAVADO DE ACTIVOS",
+              "descripcion": "Artículos 323 al 326",
+              "articulos": [
+                {
+                  "numero": 323,
+                  "texto": "El que adquiera, transforme, oculte o administre bienes provenientes de actividades ilegales, incurrirá en prisión de seis (6) a quince (15) años.",
+                  "tema": "Delitos contra el Orden Económico",
+                  "palabras_clave": ["lavado de activos", "bienes ilegales", "6 a 15 años"]
+                },
+                {
+                  "numero": 324,
+                  "texto": "El lavado de activos será calificado cuando los bienes provengan de narcotráfico o terrorismo. La pena será de ocho (8) a dieciocho (18) años.",
+                  "tema": "Delitos contra el Orden Económico",
+                  "palabras_clave": ["lavado de activos calificado", "narcotráfico", "terrorismo", "8 a 18 años"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "numero": "XI",
+          "nombre": "DELITOS CONTRA LOS RECURSOS NATURALES Y EL MEDIO AMBIENTE",
+          "descripcion": "Artículos 327 al 344",
+          "articulos": [
+            {
+              "numero": 327,
+              "texto": "El que contamine el ambiente, causando daño a la salud pública o a los recursos naturales, incurrirá en prisión de dos (2) a cinco (5) años.",
+              "tema": "Delitos Ambientales",
+              "palabras_clave": ["contaminación ambiental", "salud pública", "recursos naturales", "2 a 5 años"]
+            },
+            {
+              "numero": 328,
+              "texto": "El que realice actividades ilegales de extracción de recursos naturales, incurrirá en prisión de tres (3) a seis (6) años.",
+              "tema": "Delitos Ambientales",
+              "palabras_clave": ["extracción ilegal", "recursos naturales", "3 a 6 años"]
+            },
+            {
+              "numero": 329,
+              "texto": "La contaminación ambiental será calificada cuando cause daño grave o irreversible. La pena será de cuatro (4) a ocho (8) años.",
+              "tema": "Delitos Ambientales",
+              "palabras_clave": ["contaminación calificada", "daño grave", "daño irreversible", "4 a 8 años"]
+            }
+          ]
+        },
+        {
+          "numero": "XII",
+          "nombre": "DELITOS CONTRA LA SEGURIDAD PÚBLICA",
+          "descripcion": "Artículos 345 al 360",
+          "capitulos": [
+            {
+              "nombre": "CAPÍTULO I - DEL CONCIERTO, EL TERRORISMO, LAS AMENAZAS Y LA INSTIGACIÓN",
+              "descripcion": "Artículos 345 al 352",
+              "articulos": [
+                {
+                  "numero": 345,
+                  "texto": "El que promueva, organice o financie actos de terrorismo, incurrirá en prisión de diez (10) a veinte (20) años.",
+                  "tema": "Delitos contra la Seguridad Pública",
+                  "palabras_clave": ["terrorismo", "promover", "organizar", "financiar", "10 a 20 años"]
+                },
+                {
+                  "numero": 346,
+                  "texto": "El que pertenezca a un grupo terrorista, incurrirá en prisión de cinco (5) a diez (10) años.",
+                  "tema": "Delitos contra la Seguridad Pública",
+                  "palabras_clave": ["pertenencia a grupo terrorista", "5 a 10 años"]
+                },
+                {
+                  "numero": 347,
+                  "texto": "El que amenace con causar un daño grave a la seguridad pública, incurrirá en prisión de tres (3) a ocho (8) años.",
+                  "tema": "Delitos contra la Seguridad Pública",
+                  "palabras_clave": ["amenazas", "seguridad pública", "3 a 8 años"]
+                }
+              ]
+            },
+            {
+              "nombre": "CAPÍTULO II - DE LOS DELITOS DE PELIGRO COMÚN",
+              "descripcion": "Artículos 353 al 360",
+              "articulos": [
+                {
+                  "numero": 353,
+                  "texto": "El que cause una explosión o incendio que ponga en peligro a la comunidad, incurrirá en prisión de cuatro (4) a diez (10) años.",
+                  "tema": "Delitos contra la Seguridad Pública",
+                  "palabras_clave": ["explosión", "incendio", "peligro común", "4 a 10 años"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "numero": "XIII",
+          "nombre": "DELITOS CONTRA LA SALUD PÚBLICA",
+          "descripcion": "Artículos 361 al 370",
+          "articulos": [
+            {
+              "numero": 361,
+              "texto": "El que comercialice o distribuya sustancias nocivas para la salud, incurrirá en prisión de dos (2) a cinco (5) años.",
+              "tema": "Delitos contra la Salud Pública",
+              "palabras_clave": ["comercialización de sustancias nocivas", "salud pública", "2 a 5 años"]
+            },
+            {
+              "numero": 362,
+              "texto": "El que fabrique o comercialice medicamentos falsificados, incurrirá en prisión de cinco (5) a diez (10) años.",
+              "tema": "Delitos contra la Salud Pública",
+              "palabras_clave": ["medicamentos falsificados", "5 a 10 años"]
+            }
+          ]
+        },
+        {
+          "numero": "XIV",
+          "nombre": "DELITOS CONTRA MECANISMOS DE PARTICIPACIÓN DEMOCRÁTICA",
+          "descripcion": "Artículos 371 al 379",
+          "articulos": [
+            {
+              "numero": 371,
+              "texto": "El que falsifique o modifique los resultados de una votación, incurrirá en prisión de cuatro (4) a ocho (8) años.",
+              "tema": "Delitos contra la Participación Democrática",
+              "palabras_clave": ["falsificación de votos", "elecciones", "4 a 8 años"]
+            }
+          ]
+        },
+        {
+          "numero": "XV",
+          "nombre": "DELITOS CONTRA LA ADMINISTRACIÓN PÚBLICA",
+          "descripcion": "Artículos 397 al 435",
+          "capitulos": [
+            {
+              "nombre": "CAPÍTULO I - DEL PECULADO",
+              "descripcion": "Artículos 397 al 403",
+              "articulos": [
+                {
+                  "numero": 397,
+                  "texto": "El servidor público que se apropie de bienes del Estado para sí o para otro, incurrirá en prisión de seis (6) a quince (15) años.",
+                  "tema": "Delitos contra la Administración Pública",
+                  "palabras_clave": ["peculado", "servidor público", "apropiación de bienes del Estado", "6 a 15 años"]
+                },
+                {
+                  "numero": 398,
+                  "texto": "El peculado será calificado cuando la cuantía sea superior a cien (100) salarios mínimos. La pena será de diez (10) a veinte (20) años.",
+                  "tema": "Delitos contra la Administración Pública",
+                  "palabras_clave": ["peculado calificado", "cuantía superior", "10 a 20 años"]
+                }
+              ]
+            },
+            {
+              "nombre": "CAPÍTULO II - DE LA CONCUSIÓN",
+              "descripcion": "Artículos 404 al 405",
+              "articulos": [
+                {
+                  "numero": 404,
+                  "texto": "El servidor público que obtenga provecho para sí o para otro, mediante abuso de su cargo, incurrirá en prisión de seis (6) a doce (12) años.",
+                  "tema": "Delitos contra la Administración Pública",
+                  "palabras_clave": ["concusión", "abuso de cargo", "provecho", "6 a 12 años"]
+                }
+              ]
+            },
+            {
+              "nombre": "CAPÍTULO III - DEL COHECHO",
+              "descripcion": "Artículos 406 al 407",
+              "articulos": [
+                {
+                  "numero": 406,
+                  "texto": "El servidor público que reciba o solicite dádivas para realizar un acto propio de su cargo, incurrirá en prisión de cinco (5) a diez (10) años.",
+                  "tema": "Delitos contra la Administración Pública",
+                  "palabras_clave": ["cohecho", "dádivas", "servidor público", "5 a 10 años"]
+                }
+              ]
+            },
+            {
+              "nombre": "CAPÍTULO IV - DE LA CELEBRACIÓN INDEBIDA DE CONTRATOS",
+              "descripcion": "Artículos 408 al 410",
+              "articulos": [
+                {
+                  "numero": 408,
+                  "texto": "El servidor público que celebre contratos en violación del régimen de inhabilidades o incompatibilidades, incurrirá en prisión de cuatro (4) a ocho (8) años.",
+                  "tema": "Delitos contra la Administración Pública",
+                  "palabras_clave": ["celebración indebida de contratos", "inhabilidades", "incompatibilidades", "4 a 8 años"]
+                },
+                {
+                  "numero": 409,
+                  "texto": "El que tenga interés indebido en la celebración de un contrato estatal, incurrirá en prisión de tres (3) a seis (6) años.",
+                  "tema": "Delitos contra la Administración Pública",
+                  "palabras_clave": ["interés indebido", "contrato estatal", "3 a 6 años"]
+                }
+              ]
+            },
+            {
+              "nombre": "CAPÍTULO VII - DEL PREVARICATO",
+              "descripcion": "Artículos 413 al 415",
+              "articulos": [
+                {
+                  "numero": 413,
+                  "texto": "El servidor público que profiera una decisión manifiestamente contraria a la ley, incurrirá en prisión de tres (3) a seis (6) años.",
+                  "tema": "Delitos contra la Administración Pública",
+                  "palabras_clave": ["prevaricato", "decisión contraria a la ley", "servidor público", "3 a 6 años"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "numero": "XVI",
+          "nombre": "DELITOS CONTRA LA EFICAZ Y RECTA IMPARTICIÓN DE JUSTICIA",
+          "descripcion": "Artículos 436 al 453",
+          "articulos": [
+            {
+              "numero": 436,
+              "texto": "El que presente falsas imputaciones ante las autoridades, incurrirá en prisión de dos (2) a cinco (5) años.",
+              "tema": "Delitos contra la Administración de Justicia",
+              "palabras_clave": ["falsas imputaciones", "autoridades", "2 a 5 años"]
+            },
+            {
+              "numero": 446,
+              "texto": "El que favorezca a un delincuente para evadir la acción de la justicia, incurrirá en prisión de dos (2) a cinco (5) años.",
+              "tema": "Delitos contra la Administración de Justicia",
+              "palabras_clave": ["favorecimiento", "delincuente", "evadir justicia", "2 a 5 años"]
+            },
+            {
+              "numero": 447,
+              "texto": "El que reciba, adquiera o comercialice bienes provenientes de un delito, incurrirá en prisión de tres (3) a seis (6) años.",
+              "tema": "Delitos contra la Administración de Justicia",
+              "palabras_clave": ["receptación", "bienes provenientes de delito", "3 a 6 años"]
+            },
+            {
+              "numero": 448,
+              "texto": "El que oculte, altere o destruya pruebas en un proceso judicial, incurrirá en prisión de tres (3) a seis (6) años.",
+              "tema": "Delitos contra la Administración de Justicia",
+              "palabras_clave": ["fraude procesal", "ocultamiento de pruebas", "alteración de pruebas", "3 a 6 años"]
+            }
+          ]
+        },
+        {
+          "numero": "XVII",
+          "nombre": "DELITOS CONTRA LA EXISTENCIA Y SEGURIDAD DEL ESTADO",
+          "descripcion": "Artículos 454 al 465",
+          "articulos": [
+            {
+              "numero": 454,
+              "texto": "El que atente contra la existencia del Estado colombiano, incurrirá en prisión de quince (15) a veinticinco (25) años.",
+              "tema": "Delitos contra el Estado",
+              "palabras_clave": ["atentado contra el Estado", "existencia del Estado", "15 a 25 años"]
+            },
+            {
+              "numero": 455,
+              "texto": "El que revele secretos de seguridad del Estado, incurrirá en prisión de cinco (5) a diez (10) años.",
+              "tema": "Delitos contra el Estado",
+              "palabras_clave": ["revelación de secretos", "seguridad del Estado", "5 a 10 años"]
+            }
+          ]
+        },
+        {
+          "numero": "XVIII",
+          "nombre": "DELITOS CONTRA EL RÉGIMEN CONSTITUCIONAL Y LEGAL",
+          "descripcion": "Artículos 466 al 476",
+          "articulos": [
+            {
+              "numero": 466,
+              "texto": "El que con violencia pretenda desestabilizar el régimen constitucional, incurrirá en prisión de diez (10) a veinte (20) años.",
+              "tema": "Delitos contra el Régimen Constitucional",
+              "palabras_clave": ["régimen constitucional", "desestabilización", "violencia", "10 a 20 años"]
+            },
+            {
+              "numero": 467,
+              "texto": "El que promueva la rebelión, incurrirá en prisión de ocho (8) a dieciséis (16) años.",
+              "tema": "Delitos contra el Régimen Constitucional",
+              "palabras_clave": ["rebelión", "promover", "8 a 16 años"]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "disposiciones_finales": [
+    {
+      "numero": 476,
+      "texto": "Este Código rige a partir de un (1) año después de su promulgación, es decir, el 24 de julio de 2001. Deroga el Decreto 100 de 1984 y todas las disposiciones que le sean contrarias.",
+      "tema": "Vigencia",
+      "palabras_clave": ["vigencia", "24 de julio de 2001", "deroga", "Decreto 100 de 1984"]
+    }
+  ],
+  "reformas_destacadas": [
+    {
+      "ley": "Ley 1121 de 2006",
+      "articulo": "22",
+      "descripcion": "Modificó el artículo 16 sobre extraterritorialidad, incluyendo delitos de terrorismo y financiación del terrorismo.",
+      "fecha": "2006"
+    },
+    {
+      "ley": "Reforma CPP 2025-2026",
+      "descripcion": "Proyecto de ley aprobado en la Cámara de Representantes (pendiente de sanción presidencial) que introduce la reparación integral como forma de extinción de la acción penal, fortalece la justicia restaurativa y amplía los beneficios por allanamientos y preacuerdos. [citation:4]",
+      "fecha": "2026"
+    }
+  ]
+}

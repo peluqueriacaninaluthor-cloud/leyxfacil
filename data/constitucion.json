@@ -1,0 +1,733 @@
+{
+  "nombre": "Constitución Política de Colombia",
+  "anio": 1991,
+  "actualizacion": "2026-06-30",
+  "fuente": "Secretaría del Senado de la República - Gaceta Constitucional No. 116",
+  "descripcion": "Constitución Política de la República de Colombia. Segunda edición corregida, publicada en la Gaceta Constitucional No. 116 de 20 de julio de 1991. Actualizada hasta el 30 de junio de 2026.",
+  "estructura": {
+    "preambulo": "El pueblo de Colombia, en ejercicio de su poder soberano, representado por sus delegatarios a la Asamblea Nacional Constituyente, invocando la protección de Dios, y con el fin de fortalecer la unidad de la Nación y asegurar a sus integrantes la vida, la convivencia, el trabajo, la justicia, la igualdad, el conocimiento, la libertad y la paz, dentro de un marco jurídico, democrático y participativo que garantice un orden político, económico y social justo, y comprometido a impulsar la integración de la comunidad latinoamericana, decreta, sanciona y promulga la siguiente: CONSTITUCIÓN POLÍTICA DE COLOMBIA",
+    "total_articulos": 380,
+    "total_transitorios": 67
+  },
+  "titulos": [
+    {
+      "numero": "I",
+      "nombre": "DE LOS PRINCIPIOS FUNDAMENTALES",
+      "descripcion": "Artículos 1 al 10",
+      "articulos": [
+        {
+          "numero": 1,
+          "texto": "Colombia es un Estado social de derecho, organizado en forma de República unitaria, descentralizada, con autonomía de sus entidades territoriales, democrática, participativa y pluralista, fundada en el respeto de la dignidad humana, en el trabajo y la solidaridad de las personas que la integran y en la prevalencia del interés general.",
+          "tema": "Principios Fundamentales",
+          "palabras_clave": ["Estado social de derecho", "República unitaria", "descentralizada", "autonomía", "democrática", "participativa", "pluralista", "dignidad humana", "trabajo", "solidaridad", "interés general"]
+        },
+        {
+          "numero": 2,
+          "texto": "Son fines esenciales del Estado: servir a la comunidad, promover la prosperidad general y garantizar la efectividad de los principios, derechos y deberes consagrados en la Constitución; facilitar la participación de todos en las decisiones que los afectan y en la vida económica, política, administrativa y cultural de la Nación; defender la independencia nacional, mantener la integridad territorial y asegurar la convivencia pacífica y la vigencia de un orden justo. Las autoridades de la República están instituidas para proteger a todas las personas residentes en Colombia, en su vida, honra, bienes, creencias, y demás derechos y libertades, y para asegurar el cumplimiento de los deberes sociales del Estado y de los particulares.",
+          "tema": "Principios Fundamentales",
+          "palabras_clave": ["fines del Estado", "servir a la comunidad", "prosperidad general", "participación", "independencia nacional", "integridad territorial", "convivencia pacífica", "orden justo", "protección", "deberes sociales"]
+        },
+        {
+          "numero": 3,
+          "texto": "La soberanía reside exclusivamente en el pueblo, del cual emana el poder público. El pueblo la ejerce en forma directa o por medio de sus representantes, en los términos que la Constitución establece.",
+          "tema": "Principios Fundamentales",
+          "palabras_clave": ["soberanía", "pueblo", "poder público", "representantes", "democracia directa"]
+        },
+        {
+          "numero": 4,
+          "texto": "La Constitución es norma de normas. En todo caso de incompatibilidad entre la Constitución y la ley u otra norma jurídica, se aplicarán las disposiciones constitucionales. Es deber de los nacionales y de los extranjeros en Colombia acatar la Constitución y las leyes, y respetar y obedecer a las autoridades.",
+          "tema": "Principios Fundamentales",
+          "palabras_clave": ["norma de normas", "incompatibilidad", "aplicación preferente", "deber de acatar", "respetar autoridades"]
+        },
+        {
+          "numero": 5,
+          "texto": "El Estado reconoce, sin discriminación alguna, la primacía de los derechos inalienables de la persona y ampara a la familia como institución básica de la sociedad.",
+          "tema": "Principios Fundamentales",
+          "palabras_clave": ["derechos inalienables", "familia", "institución básica", "no discriminación"]
+        },
+        {
+          "numero": 6,
+          "texto": "Los particulares sólo son responsables ante las autoridades por infringir la Constitución y las leyes. Los servidores públicos lo son por la misma causa y por omisión o extralimitación en el ejercicio de sus funciones.",
+          "tema": "Principios Fundamentales",
+          "palabras_clave": ["responsabilidad particulares", "servidores públicos", "omisión", "extralimitación"]
+        },
+        {
+          "numero": 7,
+          "texto": "El Estado reconoce y protege la diversidad étnica y cultural de la Nación colombiana.",
+          "tema": "Principios Fundamentales",
+          "palabras_clave": ["diversidad étnica", "diversidad cultural", "reconocimiento", "protección"]
+        },
+        {
+          "numero": 8,
+          "texto": "Es obligación del Estado y de las personas proteger las riquezas culturales y naturales de la Nación.",
+          "tema": "Principios Fundamentales",
+          "palabras_clave": ["riquezas culturales", "riquezas naturales", "protección", "patrimonio"]
+        },
+        {
+          "numero": 9,
+          "texto": "Las relaciones exteriores del Estado se fundamentan en la soberanía nacional, en el respeto a la autodeterminación de los pueblos y en el reconocimiento de los principios del derecho internacional aceptados por Colombia. De igual manera, la política exterior de Colombia se orientará hacia la integración latinoamericana y del Caribe.",
+          "tema": "Principios Fundamentales",
+          "palabras_clave": ["relaciones exteriores", "soberanía nacional", "autodeterminación", "derecho internacional", "integración latinoamericana", "Caribe"]
+        },
+        {
+          "numero": 10,
+          "texto": "El castellano es el idioma oficial de Colombia. Las lenguas y dialectos de los grupos étnicos son también oficiales en sus territorios. La enseñanza que se imparta en las comunidades con tradiciones lingüísticas propias será bilingüe.",
+          "tema": "Principios Fundamentales",
+          "palabras_clave": ["castellano", "idioma oficial", "lenguas étnicas", "bilingüe"]
+        }
+      ]
+    },
+    {
+      "numero": "II",
+      "nombre": "DE LOS DERECHOS, LAS GARANTÍAS Y LOS DEBERES",
+      "descripcion": "Artículos 11 al 95",
+      "capitulos": [
+        {
+          "nombre": "CAPÍTULO 1 - DE LOS DERECHOS FUNDAMENTALES",
+          "descripcion": "Artículos 11 al 41",
+          "articulos": [
+            {
+              "numero": 11,
+              "texto": "El derecho a la vida es inviolable. No habrá pena de muerte.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["derecho a la vida", "inviolable", "pena de muerte", "prohibición"]
+            },
+            {
+              "numero": 12,
+              "texto": "Nadie será sometido a desaparición forzada, a torturas ni a tratos o penas crueles, inhumanos o degradantes.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["desaparición forzada", "tortura", "tratos crueles", "inhumanos", "degradantes"]
+            },
+            {
+              "numero": 13,
+              "texto": "Todas las personas nacen libres e iguales ante la ley, recibirán la misma protección y trato de las autoridades y gozarán de los mismos derechos, libertades y oportunidades sin ninguna discriminación por razones de sexo, raza, origen nacional o familiar, lengua, religión, opinión política o filosófica. El Estado promoverá las condiciones para que la igualdad sea real y efectiva y adoptará medidas en favor de grupos discriminados o marginados. El Estado protegerá especialmente a aquellas personas que por su condición económica, física o mental, se encuentren en circunstancia de debilidad manifiesta y sancionará los abusos o maltratos que contra ellas se cometan.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["igualdad", "no discriminación", "protección especial", "grupos marginados", "debilidad manifiesta"]
+            },
+            {
+              "numero": 14,
+              "texto": "Toda persona tiene derecho al reconocimiento de su personalidad jurídica.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["personalidad jurídica", "reconocimiento"]
+            },
+            {
+              "numero": 15,
+              "texto": "Todas las personas tienen derecho a su intimidad personal y familiar y a su buen nombre, y el Estado debe respetarlos y hacerlos respetar. De igual modo, tienen derecho a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bancos de datos y en archivos de entidades públicas y privadas. En la recolección, tratamiento y circulación de datos se respetarán la libertad y demás garantías consagradas en la Constitución. La correspondencia y demás formas de comunicación privada son inviolables. Sólo pueden ser interceptadas o registradas mediante orden judicial, en los casos y con las formalidades que establezca la ley.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["intimidad", "buen nombre", "habeas data", "protección de datos", "correspondencia", "orden judicial"]
+            },
+            {
+              "numero": 16,
+              "texto": "Todas las personas tienen derecho al libre desarrollo de su personalidad sin más limitaciones que las que imponen los derechos de los demás y el orden jurídico.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["libre desarrollo", "personalidad", "limitaciones"]
+            },
+            {
+              "numero": 17,
+              "texto": "Se prohíben la esclavitud, la servidumbre y la trata de seres humanos en todas sus formas.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["esclavitud", "servidumbre", "trata de personas", "prohibición"]
+            },
+            {
+              "numero": 18,
+              "texto": "Se garantiza la libertad de conciencia. Nadie será molestado por razón de sus convicciones o creencias ni compelido a revelarlas ni obligado a actuar contra su conciencia.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["libertad de conciencia", "convicciones", "creencias"]
+            },
+            {
+              "numero": 19,
+              "texto": "Se garantiza la libertad de religión. Toda persona tiene derecho a profesar libremente su religión y a difundirla en forma individual o colectiva. Todas las confesiones religiosas e iglesias son igualmente libres ante la ley.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["libertad de religión", "cultos", "confesiones religiosas", "igualdad"]
+            },
+            {
+              "numero": 20,
+              "texto": "Se garantiza a toda persona la libertad de expresión y de difundir su pensamiento y opiniones, la de informar y recibir información veraz e imparcial, y la de fundar medios masivos de comunicación. Estos son libres y tienen responsabilidad social. Se garantiza el derecho a la rectificación en condiciones de equidad. No habrá censura.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["libertad de expresión", "pensamiento", "opiniones", "información veraz", "medios de comunicación", "rectificación", "no censura"]
+            },
+            {
+              "numero": 21,
+              "texto": "Se garantiza el derecho a la honra. La ley señalará la forma de su protección.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["derecho a la honra", "protección"]
+            },
+            {
+              "numero": 22,
+              "texto": "La paz es un derecho y un deber de obligatorio cumplimiento.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["derecho a la paz", "deber", "obligatorio"]
+            },
+            {
+              "numero": 22A,
+              "texto": "Como una garantía de No Repetición y con el fin de contribuir a asegurar el monopolio legítimo de la fuerza y del uso de las armas por parte del Estado, y en particular de la Fuerza Pública, en todo el territorio, se prohíbe la creación, promoción, instigación, organización, instrucción, apoyo, tolerancia, encubrimiento o favorecimiento, financiación o empleo oficial y/o privado de grupos civiles armados organizados con fines ilegales de cualquier tipo, incluyendo los denominados autodefensas, paramilitares, así como sus redes de apoyo, estructuras o prácticas, grupos de seguridad con fines ilegales u otras denominaciones equivalentes. La ley regulará los tipos penales relacionados con estas conductas, así como las sanciones disciplinarias y administrativas correspondientes.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["No Repetición", "monopolio de la fuerza", "Fuerza Pública", "grupos armados ilegales", "autodefensas", "paramilitares", "prohibición"]
+            },
+            {
+              "numero": 23,
+              "texto": "Toda persona tiene derecho a presentar peticiones respetuosas a las autoridades por motivos de interés general o particular y a obtener pronta resolución. El legislador podrá reglamentar su ejercicio ante organizaciones privadas para garantizar los derechos fundamentales.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["derecho de petición", "pronta resolución", "interés general", "interés particular"]
+            },
+            {
+              "numero": 24,
+              "texto": "Todo colombiano, con las limitaciones que establezca la ley, tiene derecho a circular libremente por el territorio nacional, a entrar y salir de él, y a permanecer y residenciarse en Colombia.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["libre circulación", "territorio nacional", "entrar", "salir", "residenciarse"]
+            },
+            {
+              "numero": 25,
+              "texto": "El trabajo es un derecho y una obligación social y goza, en todas sus modalidades, de la especial protección del Estado. Toda persona tiene derecho a un trabajo en condiciones dignas y justas.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["derecho al trabajo", "obligación social", "protección del Estado", "condiciones dignas", "condiciones justas"]
+            },
+            {
+              "numero": 26,
+              "texto": "Toda persona es libre de escoger profesión u oficio. La ley podrá exigir títulos de idoneidad. Las autoridades competentes inspeccionarán y vigilarán el ejercicio de las profesiones. Las ocupaciones, artes y oficios que no exijan formación académica son de libre ejercicio, salvo aquellas que impliquen un riesgo social. Las profesiones legalmente reconocidas pueden organizarse en colegios.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["libre escogencia profesión", "títulos de idoneidad", "inspección", "vigilancia", "riesgo social", "colegios profesionales"]
+            },
+            {
+              "numero": 27,
+              "texto": "El Estado garantiza las libertades de enseñanza, aprendizaje, investigación y cátedra.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["libertad de enseñanza", "aprendizaje", "investigación", "cátedra"]
+            },
+            {
+              "numero": 28,
+              "texto": "Toda persona es libre. Nadie puede ser molestado en su persona o familia, ni reducido a prisión o arresto, ni detenido, ni su domicilio registrado, sino en virtud de mandamiento escrito de autoridad judicial competente, con las formalidades legales y por motivo previamente definido en la ley. La persona detenida preventivamente será puesta a disposición del juez competente dentro de las treinta y seis horas siguientes.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["libertad personal", "prisión", "arresto", "detención", "mandamiento judicial", "36 horas"]
+            },
+            {
+              "numero": 29,
+              "texto": "El debido proceso se aplicará a toda clase de actuaciones judiciales y administrativas. Nadie podrá ser juzgado sino conforme a leyes preexistentes al acto que se le imputa, ante juez o tribunal competente y con observancia de la plenitud de las formas propias de cada juicio. En materia penal, la ley permisiva o favorable, aun cuando sea posterior, se aplicará de preferencia a la restrictiva o desfavorable. Toda persona se presume inocente mientras no se la haya declarado judicialmente culpable. Quien sea sindicado tiene derecho a la defensa y a la asistencia de un abogado durante las diligencias judiciales y administrativas; a un debido proceso público sin dilaciones injustificadas; a presentar pruebas y a controvertir las que se alleguen en su contra; a impugnar la sentencia condenatoria, y a no ser juzgado dos veces por el mismo hecho. Es nula, de pleno derecho, la prueba obtenida con violación del debido proceso.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["debido proceso", "juez competente", "presunción de inocencia", "derecho a la defensa", "asistencia de abogado", "no doble juzgamiento", "prueba nula"]
+            },
+            {
+              "numero": 30,
+              "texto": "Quien estuviere privado de su libertad, y creyere estarlo ilegalmente, tiene derecho a invocar ante cualquier autoridad judicial, en todo tiempo, por sí o por interpuesta persona, el habeas corpus, el cual debe ser resuelto en el término de treinta y seis horas.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["habeas corpus", "privación de libertad", "autoridad judicial", "36 horas"]
+            },
+            {
+              "numero": 31,
+              "texto": "Toda sentencia judicial podrá ser apelada o consultada, salvo las excepciones que establezca la ley. El superior no podrá agravar la pena impuesta cuando el condenado sea único apelante.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["apelación", "consulta", "sentencia judicial", "no agravar pena"]
+            },
+            {
+              "numero": 32,
+              "texto": "El delincuente puede ser penado conforme a las leyes, pero el juez podrá, sin embargo, de acuerdo con la ley, señalar penas alternativas. Ninguna pena es trascendente.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["penas alternativas", "no trascendencia", "delincuente"]
+            },
+            {
+              "numero": 33,
+              "texto": "Nadie está obligado a declarar contra sí mismo o contra su cónyuge, compañero permanente o parientes dentro del cuarto grado de consanguinidad, segundo de afinidad o primero civil. Nadie podrá ser obligado a declarar en asunto que pueda acarrearle responsabilidad penal.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["no autoincriminación", "cónyuge", "compañero permanente", "parientes"]
+            },
+            {
+              "numero": 34,
+              "texto": "Se prohíben las penas de destierro, prisión perpetua y confiscación.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["destierro", "prisión perpetua", "confiscación", "prohibición"]
+            },
+            {
+              "numero": 35,
+              "texto": "La extradición se podrá solicitar, conceder u ofrecer de acuerdo con los tratados públicos y, en su defecto, con la ley. La extradición no procederá por delitos políticos. La extradición de colombianos por nacimiento se concederá por delitos cometidos en el exterior, que sean considerados como tales en la legislación penal colombiana. La extradición no procederá cuando se trate de hechos cometidos con anterioridad a la vigencia de la presente norma.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["extradición", "tratados públicos", "delitos políticos", "colombianos por nacimiento"]
+            },
+            {
+              "numero": 36,
+              "texto": "Se reconoce el derecho de asilo en los términos previstos en la ley.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["derecho de asilo", "ley"]
+            },
+            {
+              "numero": 37,
+              "texto": "Toda parte del pueblo puede reunirse y manifestarse pública y pacíficamente. Sólo la ley podrá establecer de manera expresa los casos en que se podrá limitar el ejercicio de este derecho.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["derecho de reunión", "manifestación pública", "pacífica"]
+            },
+            {
+              "numero": 38,
+              "texto": "Se garantiza el derecho de libre asociación para el desarrollo de las distintas actividades que las personas realizan en sociedad.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["libre asociación", "actividades sociales"]
+            },
+            {
+              "numero": 39,
+              "texto": "Los trabajadores y empleadores tienen derecho a constituir sindicatos o asociaciones, sin intervención del Estado. Su reconocimiento jurídico se producirá con la simple inscripción en el registro correspondiente.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["sindicatos", "asociaciones", "trabajadores", "empleadores", "inscripción"]
+            },
+            {
+              "numero": 40,
+              "texto": "Todo ciudadano tiene derecho a participar en la conformación, ejercicio y control del poder político. Para hacer efectivo este derecho puede: 1. Elegir y ser elegido. 2. Tomar parte en elecciones, plebiscitos, referendos, consultas populares y otras formas de participación democrática. 3. Constituir partidos, movimientos y agrupaciones políticas sin limitación alguna; formar parte de ellos libremente y difundir sus ideas y programas. 4. Revocar el mandato de los elegidos en los casos y en la forma que establecen la Constitución y la ley. 5. Tener iniciativa en las corporaciones públicas. 6. Interponer acciones públicas en defensa de la Constitución y de la ley. 7. Acceder al desempeño de funciones y cargos públicos.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["participación política", "elegir", "ser elegido", "partidos políticos", "revocatoria de mandato", "iniciativa popular", "acciones públicas"]
+            },
+            {
+              "numero": 41,
+              "texto": "En todas las instituciones de educación, oficiales o privadas, serán obligatorios el estudio de la Constitución y la instrucción cívica. Así mismo, se promoverán prácticas democráticas para el aprendizaje de los principios y valores de la participación ciudadana. El Estado divulgará la Constitución.",
+              "tema": "Derechos Fundamentales",
+              "palabras_clave": ["estudio de la Constitución", "instrucción cívica", "prácticas democráticas", "participación ciudadana"]
+            }
+          ]
+        },
+        {
+          "nombre": "CAPÍTULO 2 - DE LOS DERECHOS SOCIALES, ECONÓMICOS Y CULTURALES",
+          "descripcion": "Artículos 42 al 77",
+          "articulos": [
+            {
+              "numero": 42,
+              "texto": "La familia es el núcleo fundamental de la sociedad. Se constituye por vínculos naturales o jurídicos, por la decisión libre de un hombre y una mujer de contraer matrimonio o por la voluntad responsable de conformarla. El Estado y la sociedad garantizan la protección integral de la familia. La ley podrá determinar el patrimonio familiar inalienable e inembargable. La honra, la dignidad y la intimidad de la familia son inviolables. Las relaciones familiares se basan en la igualdad de derechos y deberes de la pareja y en el respeto recíproco entre todos sus integrantes. Cualquier forma de violencia en la familia se considera destructiva de su armonía y unidad, y será sancionada conforme a la ley.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["familia", "núcleo fundamental", "matrimonio", "protección integral", "patrimonio familiar", "igualdad", "violencia intrafamiliar"]
+            },
+            {
+              "numero": 43,
+              "texto": "La mujer y el hombre tienen iguales derechos y oportunidades. La mujer no podrá ser sometida a ninguna clase de discriminación. Durante el embarazo y después del parto gozará de especial asistencia y protección del Estado, y recibirá de éste subsidio alimentario si entonces estuviere desempleada o desamparada. El Estado apoyará de manera especial a la mujer cabeza de familia.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["igualdad mujer-hombre", "no discriminación", "embarazo", "subsidio alimentario", "mujer cabeza de familia"]
+            },
+            {
+              "numero": 44,
+              "texto": "Son derechos fundamentales de los niños: la vida, la integridad física, la salud y la seguridad social, la alimentación equilibrada, su nombre y nacionalidad, tener una familia y no ser separados de ella, el cuidado y amor, la educación y la cultura, la recreación y la libre expresión de su opinión. Serán protegidos contra toda forma de abandono, violencia física o moral, secuestro, venta, abuso sexual, explotación laboral o económica y trabajos riesgosos. Los derechos de los niños prevalecen sobre los derechos de los demás.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["derechos de los niños", "vida", "integridad física", "salud", "seguridad social", "educación", "protección", "prevalencia"]
+            },
+            {
+              "numero": 45,
+              "texto": "El adolescente tiene derecho a la protección y a la formación integral. El Estado y la sociedad garantizan la participación activa de los jóvenes en los organismos públicos y privados que tengan a cargo la protección, educación y progreso de la juventud.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["adolescente", "protección", "formación integral", "participación juvenil"]
+            },
+            {
+              "numero": 46,
+              "texto": "El Estado, la sociedad y la familia concurrirán para la protección y la asistencia de las personas de la tercera edad y promoverán su integración a la vida activa y comunitaria. El Estado les garantizará los servicios de la seguridad social integral y el subsidio alimentario en caso de indigencia.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["tercera edad", "protección", "asistencia", "seguridad social integral", "subsidio alimentario"]
+            },
+            {
+              "numero": 47,
+              "texto": "El Estado adelantará una política de previsión, rehabilitación e integración social para los disminuidos físicos, sensoriales y psíquicos, a quienes se prestará la atención especializada que requieran.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["discapacidad", "disminuidos físicos", "rehabilitación", "integración social", "atención especializada"]
+            },
+            {
+              "numero": 48,
+              "texto": "Se garantiza a todos los habitantes el derecho irrenunciable a la seguridad social. El Estado, con la participación de los particulares, ampliará progresivamente la cobertura de la seguridad social que comprenderá la prestación de los servicios en la forma que determine la ley. La seguridad social podrá ser prestada por entidades públicas o privadas, de conformidad con la ley.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["seguridad social", "derecho irrenunciable", "cobertura progresiva", "entidades públicas", "entidades privadas"]
+            },
+            {
+              "numero": 49,
+              "texto": "La atención de la salud y el saneamiento ambiental son servicios públicos a cargo del Estado. Se garantiza a todas las personas el acceso a los servicios de promoción, protección y recuperación de la salud. Corresponde al Estado organizar, dirigir y reglamentar la prestación de servicios de salud a los habitantes y de saneamiento ambiental conforme a los principios de eficiencia, universalidad y solidaridad.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["salud", "servicio público", "acceso", "promoción", "protección", "recuperación", "eficiencia", "universalidad", "solidaridad"]
+            },
+            {
+              "numero": 50,
+              "texto": "Todo niño menor de un año que no esté cubierto por algún tipo de protección o seguridad social, tendrá derecho a recibir atención gratuita en todas las instituciones de salud que reciben aportes del Estado.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["niños menores de un año", "atención gratuita", "salud"]
+            },
+            {
+              "numero": 51,
+              "texto": "Todos los colombianos tienen derecho a vivienda digna. El Estado fijará las condiciones necesarias para hacer efectivo este derecho y promoverá planes de vivienda de interés social, sistemas adecuados de financiación a largo plazo y formas asociativas de ejecución de estos programas de vivienda.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["vivienda digna", "planes de vivienda", "interés social", "financiación"]
+            },
+            {
+              "numero": 52,
+              "texto": "El ejercicio de los deportes, sus manifestaciones recreativas, competitivas y autóctonas tienen como función la formación integral de las personas, preservar y desarrollar una mejor salud en el ser humano. El deporte y la recreación, forman parte de la educación y constituyen gasto público social.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["deporte", "recreación", "tiempo libre", "formación integral", "gasto público social"]
+            },
+            {
+              "numero": 53,
+              "texto": "El Congreso expedirá el estatuto del trabajo. La ley correspondiente tendrá en cuenta por lo menos los siguientes principios mínimos fundamentales: Igualdad de oportunidades para los trabajadores; remuneración mínima vital y móvil, proporcional a la cantidad y calidad de trabajo; estabilidad en el empleo; irrenunciabilidad a los beneficios mínimos establecidos en normas laborales; situación más favorable al trabajador en caso de duda; primacía de la realidad sobre formalidades; garantía a la seguridad social, la capacitación, el adiestramiento y el descanso necesario; protección especial a la mujer, a la maternidad y al trabajador menor de edad.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["estatuto del trabajo", "igualdad de oportunidades", "remuneración mínima vital", "estabilidad", "irrenunciabilidad", "primacía de la realidad", "seguridad social", "protección a la mujer", "protección a la maternidad"]
+            },
+            {
+              "numero": 54,
+              "texto": "Es obligación del Estado y de los empleadores ofrecer formación y habilitación profesional y técnica a quienes lo requieran. El Estado debe propiciar la ubicación laboral de las personas en edad de trabajar y garantizar a los minusválidos el derecho a un trabajo acorde con sus condiciones de salud.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["formación profesional", "habilitación técnica", "ubicación laboral", "minusválidos"]
+            },
+            {
+              "numero": 55,
+              "texto": "Se garantiza el derecho de negociación colectiva para regular las relaciones laborales, con las excepciones que señale la ley. Es deber del Estado promover la concertación y los demás medios para la solución pacífica de los conflictos colectivos de trabajo.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["negociación colectiva", "relaciones laborales", "concertación", "solución pacífica", "conflictos colectivos"]
+            },
+            {
+              "numero": 56,
+              "texto": "Se garantiza el derecho de huelga, salvo en los servicios públicos esenciales definidos por el legislador. La ley reglamentará este derecho.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["derecho de huelga", "servicios públicos esenciales"]
+            },
+            {
+              "numero": 57,
+              "texto": "La ley determinará la participación de los trabajadores en la gestión de las empresas.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["participación trabajadores", "gestión empresarial"]
+            },
+            {
+              "numero": 58,
+              "texto": "Se garantizan la propiedad privada y los demás derechos adquiridos con arreglo a las leyes civiles, los cuales no pueden ser desconocidos ni vulnerados por leyes posteriores. Cuando de la aplicación de una ley expedida por motivos de utilidad pública o interés social, resultaren en conflicto los derechos de los particulares con la necesidad por ella reconocida, el interés privado deberá ceder al interés público o social. La propiedad es una función social que implica obligaciones. Como tal, le es inherente una función ecológica.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["propiedad privada", "derechos adquiridos", "utilidad pública", "interés social", "función social", "función ecológica"]
+            },
+            {
+              "numero": 59,
+              "texto": "La ley determinará la prevalencia de los tratados internacionales ratificados por Colombia, en el ámbito de los derechos humanos.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["tratados internacionales", "prevalencia", "derechos humanos"]
+            },
+            {
+              "numero": 60,
+              "texto": "El Estado promoverá el acceso a la propiedad de los factores productivos, especialmente de la tierra, y prestará servicios de asistencia técnica y crediticia para los trabajadores del campo.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["acceso a la propiedad", "factores productivos", "tierra", "asistencia técnica", "crédito"]
+            },
+            {
+              "numero": 61,
+              "texto": "El Estado protegerá la propiedad intelectual por el tiempo y mediante las formalidades que establezca la ley.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["propiedad intelectual", "protección"]
+            },
+            {
+              "numero": 62,
+              "texto": "Se reconoce el derecho de los trabajadores y empleadores a celebrar convenciones colectivas, para fijar las condiciones de trabajo en las empresas. La ley determinará su alcance.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["convenciones colectivas", "condiciones de trabajo", "empresas"]
+            },
+            {
+              "numero": 63,
+              "texto": "Los bienes de uso público, los parques naturales, las tierras comunales de grupos étnicos, las tierras de resguardo, el patrimonio arqueológico de la Nación y los demás bienes que determine la ley, son inalienables, imprescriptibles e inembargables.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["bienes de uso público", "parques naturales", "tierras comunales", "resguardos", "patrimonio arqueológico", "inalienables", "imprescriptibles", "inembargables"]
+            },
+            {
+              "numero": 64,
+              "texto": "Es deber del Estado promover el acceso progresivo a la propiedad de la tierra de los trabajadores agrarios, en forma individual o asociativa, y a los servicios de asistencia técnica, crédito, comercialización y capacitación, que requieran para la explotación de sus tierras, de conformidad con la ley.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["acceso a la tierra", "trabajadores agrarios", "asistencia técnica", "crédito", "comercialización", "capacitación"]
+            },
+            {
+              "numero": 65,
+              "texto": "La producción de alimentos gozará de la especial protección del Estado. Se dará prioridad al desarrollo integral de las actividades agrícolas, pecuarias, pesqueras, forestales y agroindustriales.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["producción de alimentos", "protección del Estado", "actividades agrícolas", "pecuarias", "pesqueras", "forestales", "agroindustriales"]
+            },
+            {
+              "numero": 66,
+              "texto": "Las disposiciones que se dicten en materia crediticia para el sector agropecuario y pesquero, tendrán en cuenta las condiciones particulares de la actividad, del mercado y la situación del productor.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["crédito agropecuario", "crédito pesquero", "mercado"]
+            },
+            {
+              "numero": 67,
+              "texto": "La educación es un derecho de la persona y un servicio público que tiene una función social; con ella se busca el acceso al conocimiento, a la ciencia, a la técnica, y a los demás bienes y valores de la cultura. La educación formará al colombiano en el respeto a los derechos humanos, a la paz y a la democracia; y en la práctica del trabajo y la recreación, para el mejoramiento cultural, científico, tecnológico y para la protección del ambiente. El Estado, la sociedad y la familia son responsables de la educación, que será obligatoria entre los cinco y los quince años de edad y que comprenderá como mínimo un año de preescolar y nueve de educación básica. La educación será gratuita en las instituciones del Estado.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["educación", "derecho", "servicio público", "función social", "obligatoria", "gratuita", "derechos humanos", "paz", "democracia"]
+            },
+            {
+              "numero": 68,
+              "texto": "Los particulares podrán fundar establecimientos educativos. La ley establecerá las condiciones para su creación y gestión. La comunidad educativa participará en la dirección de los establecimientos educativos. La enseñanza estará a cargo de personas de reconocida idoneidad ética y pedagógica.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["establecimientos educativos", "particulares", "comunidad educativa", "idoneidad ética"]
+            },
+            {
+              "numero": 69,
+              "texto": "Se garantiza la autonomía universitaria. Las universidades podrán darse sus directivas y regirse por sus propios estatutos, de acuerdo con la ley. La ley establecerá un régimen especial para las universidades del Estado. El Estado fortalecerá la investigación científica en las universidades oficiales y privadas y ofrecerá las condiciones especiales para su desarrollo.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["autonomía universitaria", "investigación científica", "educación superior"]
+            },
+            {
+              "numero": 70,
+              "texto": "El Estado tiene el deber de promover y fomentar el acceso a la cultura de todos los colombianos en igualdad de oportunidades, por medio de la educación permanente y la enseñanza científica, técnica, artística y profesional en todas las etapas del proceso de creación de la identidad nacional.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["cultura", "acceso a la cultura", "igualdad de oportunidades", "identidad nacional"]
+            },
+            {
+              "numero": 71,
+              "texto": "La búsqueda del conocimiento y la expresión artística son libres. Los planes de desarrollo económico y social incluirán el fomento a las ciencias y, en general, a la cultura.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["búsqueda del conocimiento", "expresión artística", "libertad", "fomento a las ciencias"]
+            },
+            {
+              "numero": 72,
+              "texto": "El patrimonio cultural de la Nación está bajo la protección del Estado. El patrimonio arqueológico y otros bienes culturales que conforman la identidad nacional, pertenecen a la Nación y son inalienables, inembargables e imprescriptibles.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["patrimonio cultural", "patrimonio arqueológico", "identidad nacional", "inalienables", "inembargables", "imprescriptibles"]
+            },
+            {
+              "numero": 73,
+              "texto": "La actividad periodística gozará de protección para garantizar su libertad e independencia profesional.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["actividad periodística", "libertad", "independencia profesional"]
+            },
+            {
+              "numero": 74,
+              "texto": "Todas las personas tienen derecho a acceder a los documentos públicos, salvo los casos que establezca la ley. El secreto profesional es inviolable.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["acceso a documentos públicos", "secreto profesional", "inviolabilidad"]
+            },
+            {
+              "numero": 75,
+              "texto": "El espectro electromagnético es un bien público inalienable e imprescriptible, sujeto a la gestión y control del Estado. La ley determinará las condiciones para su utilización.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["espectro electromagnético", "bien público", "gestión del Estado", "control del Estado"]
+            },
+            {
+              "numero": 76,
+              "texto": "El comercio, la industria y la actividad financiera son de iniciativa privada, dentro de los límites del bien común. Para su ejercicio, nadie podrá exigir permisos previos ni requisitos, sin autorización de la ley.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["comercio", "industria", "actividad financiera", "iniciativa privada", "bien común", "permisos", "requisitos"]
+            },
+            {
+              "numero": 77,
+              "texto": "El Estado apoyará el desarrollo empresarial, especialmente el de la micro, pequeña y mediana empresa, mediante la creación de condiciones favorables para su creación, consolidación y expansión, y la capacitación de sus gestores.",
+              "tema": "Derechos Sociales, Económicos y Culturales",
+              "palabras_clave": ["desarrollo empresarial", "microempresa", "pequeña empresa", "mediana empresa", "creación de empresas", "consolidación", "expansión", "capacitación"]
+            }
+          ]
+        },
+        {
+          "nombre": "CAPÍTULO 3 - DE LOS DERECHOS COLECTIVOS Y DEL AMBIENTE",
+          "descripcion": "Artículos 78 al 82",
+          "articulos": [
+            {
+              "numero": 78,
+              "texto": "La ley regulará el control de calidad de bienes y servicios ofrecidos y prestados a la comunidad, así como la información que debe suministrarse al público en su comercialización. Serán responsables, de acuerdo con la ley, quienes en la producción y comercialización de bienes y servicios, atenten contra la salud, la seguridad y el adecuado aprovisionamiento a consumidores y usuarios.",
+              "tema": "Derechos Colectivos y del Ambiente",
+              "palabras_clave": ["control de calidad", "bienes y servicios", "protección al consumidor", "salud", "seguridad"]
+            },
+            {
+              "numero": 79,
+              "texto": "Todas las personas tienen derecho a gozar de un ambiente sano. La ley garantizará la participación de la comunidad en las decisiones que puedan afectarlo. Es deber del Estado proteger la diversidad e integridad del ambiente, conservar las áreas de especial importancia ecológica y fomentar la educación para el logro de estos fines.",
+              "tema": "Derechos Colectivos y del Ambiente",
+              "palabras_clave": ["ambiente sano", "participación comunitaria", "protección del ambiente", "diversidad", "integridad", "áreas de importancia ecológica"]
+            },
+            {
+              "numero": 80,
+              "texto": "El Estado planificará el manejo y aprovechamiento de los recursos naturales, para garantizar su desarrollo sostenible, su conservación, restauración o sustitución. Además, deberá prevenir y controlar los factores de deterioro ambiental, imponer las sanciones legales y exigir la reparación de los daños causados.",
+              "tema": "Derechos Colectivos y del Ambiente",
+              "palabras_clave": ["recursos naturales", "desarrollo sostenible", "conservación", "restauración", "prevención", "sanciones", "reparación de daños"]
+            },
+            {
+              "numero": 81,
+              "texto": "Queda prohibida la fabricación, importación, posesión y uso de armas químicas, biológicas y nucleares, así como la introducción al territorio nacional de residuos nucleares y desechos tóxicos. El Estado regulará el ingreso al país y la salida de él de los recursos genéticos, y su utilización, de acuerdo con el interés nacional.",
+              "tema": "Derechos Colectivos y del Ambiente",
+              "palabras_clave": ["armas químicas", "armas biológicas", "armas nucleares", "residuos nucleares", "desechos tóxicos", "recursos genéticos"]
+            },
+            {
+              "numero": 82,
+              "texto": "Es deber del Estado velar por la protección de la integridad del espacio público y por su destinación al uso común, el cual prevalece sobre el interés particular. Las entidades públicas participarán en la plusvalía que genere su acción urbanística y regularán la utilización del suelo y del espacio aéreo urbano en defensa del interés común.",
+              "tema": "Derechos Colectivos y del Ambiente",
+              "palabras_clave": ["espacio público", "integridad", "uso común", "plusvalía", "acción urbanística", "utilización del suelo"]
+            }
+          ]
+        },
+        {
+          "nombre": "CAPÍTULO 4 - DE LA PROTECCIÓN Y APLICACIÓN DE LOS DERECHOS",
+          "descripcion": "Artículos 83 al 95",
+          "articulos": [
+            {
+              "numero": 83,
+              "texto": "Las actuaciones de los particulares y de las autoridades públicas deberán ceñirse a los postulados de la buena fe, la cual se presumirá en todas las gestiones que aquellos adelanten ante estas.",
+              "tema": "Protección y Aplicación de Derechos",
+              "palabras_clave": ["buena fe", "actuaciones", "particulares", "autoridades públicas"]
+            },
+            {
+              "numero": 84,
+              "texto": "Cuando un derecho o una actividad hayan sido reglamentados de manera general, las autoridades públicas no podrán establecer ni exigir permisos, licencias o requisitos adicionales para su ejercicio.",
+              "tema": "Protección y Aplicación de Derechos",
+              "palabras_clave": ["reglamentación", "permisos", "licencias", "requisitos adicionales"]
+            },
+            {
+              "numero": 85,
+              "texto": "Los derechos fundamentales consagrados en esta Constitución serán de aplicación inmediata. Cualquier persona podrá acudir ante la autoridad judicial para hacerla cumplir.",
+              "tema": "Protección y Aplicación de Derechos",
+              "palabras_clave": ["derechos fundamentales", "aplicación inmediata", "autoridad judicial"]
+            },
+            {
+              "numero": 86,
+              "texto": "Toda persona tendrá acción de tutela para reclamar ante los jueces, en todo momento y lugar, mediante un procedimiento preferente y sumario, por sí misma o por quien actúe a su nombre, la protección inmediata de sus derechos constitucionales fundamentales, cuando quiera que estos resulten vulnerados o amenazados por la acción o la omisión de cualquier autoridad pública. La protección consistirá en una orden para que aquél respecto de quien se solicita la tutela actúe o se abstenga de hacerlo. El fallo, que será de inmediato cumplimiento, podrá impugnarse ante el juez competente y, en todo caso, éste lo remitirá a la Corte Constitucional para su eventual revisión. Esta acción sólo procederá cuando el afectado no disponga de otro medio de defensa judicial, salvo que aquella se utilice como mecanismo transitorio para evitar un perjuicio irremediable. En ningún caso podrán transcurrir más de diez días entre la solicitud de tutela y su resolución. La ley establecerá los casos en los que la acción de tutela procede contra particulares.",
+              "tema": "Protección y Aplicación de Derechos",
+              "palabras_clave": ["acción de tutela", "derechos fundamentales", "protección inmediata", "jueces", "10 días", "perjuicio irremediable", "particulares"]
+            },
+            {
+              "numero": 87,
+              "texto": "Toda persona podrá acudir ante la autoridad judicial para hacer efectivo el cumplimiento de una ley o un acto administrativo. En caso de éxito, la sentencia ordenará que la autoridad renuente cumpla con el deber omitido.",
+              "tema": "Protección y Aplicación de Derechos",
+              "palabras_clave": ["acción de cumplimiento", "ley", "acto administrativo", "cumplimiento"]
+            },
+            {
+              "numero": 88,
+              "texto": "La ley regulará las acciones populares para la protección de los derechos e intereses colectivos, relacionados con el patrimonio, el espacio, la seguridad y la salubridad públicos, la moral administrativa, el ambiente, la libre competencia económica y otros de similar naturaleza que se definen en ella. También regulará las acciones de grupo para la protección de derechos e intereses colectivos de un número plural de personas.",
+              "tema": "Protección y Aplicación de Derechos",
+              "palabras_clave": ["acciones populares", "derechos colectivos", "intereses colectivos", "acciones de grupo"]
+            },
+            {
+              "numero": 89,
+              "texto": "Además de lo dispuesto en los artículos anteriores, la ley regulará los demás recursos, las acciones y los procedimientos necesarios para que los ciudadanos puedan hacer efectivo el goce de los derechos y el cumplimiento de los deberes consagrados en la Constitución y la ley.",
+              "tema": "Protección y Aplicación de Derechos",
+              "palabras_clave": ["recursos", "acciones", "procedimientos", "ciudadanos"]
+            },
+            {
+              "numero": 90,
+              "texto": "El Estado responderá patrimonialmente por los daños antijurídicos que le sean imputables, causados por la acción o la omisión de las autoridades públicas. En el evento de ser condenado el Estado a la reparación patrimonial de uno de tales daños, que haya sido consecuencia de la conducta dolosa o gravemente culposa de un agente suyo, aquél deberá repetir contra éste.",
+              "tema": "Protección y Aplicación de Derechos",
+              "palabras_clave": ["responsabilidad patrimonial del Estado", "daños antijurídicos", "reparación", "acción", "omisión"]
+            },
+            {
+              "numero": 91,
+              "texto": "En los términos que establezca la ley, los servidores públicos responderán por la vulneración de los derechos de las personas a causa de la negación o la prestación deficiente de los servicios públicos.",
+              "tema": "Protección y Aplicación de Derechos",
+              "palabras_clave": ["servidores públicos", "vulneración de derechos", "servicios públicos"]
+            },
+            {
+              "numero": 92,
+              "texto": "Cualquier persona, de manera individual o en nombre de una comunidad, podrá exigir de las autoridades el cumplimiento de los deberes consagrados en la Constitución y en la ley.",
+              "tema": "Protección y Aplicación de Derechos",
+              "palabras_clave": ["exigir cumplimiento", "deberes", "Constitución", "ley"]
+            },
+            {
+              "numero": 93,
+              "texto": "Los tratados y convenios internacionales ratificados por el Congreso, que reconocen derechos humanos y que prohíben su limitación en los estados de excepción, prevalecen en el orden interno. Los derechos y deberes consagrados en esta Carta, se interpretarán de conformidad con los tratados internacionales sobre derechos humanos ratificados por Colombia.",
+              "tema": "Protección y Aplicación de Derechos",
+              "palabras_clave": ["tratados internacionales", "derechos humanos", "prevalencia", "interpretación conforme"]
+            },
+            {
+              "numero": 94,
+              "texto": "La enunciación de los derechos y garantías contenidos en la Constitución y en los convenios internacionales vigentes, no debe entenderse como negación de otros que, siendo inherentes a la persona humana, no figuren expresamente en ellos.",
+              "tema": "Protección y Aplicación de Derechos",
+              "palabras_clave": ["derechos no enunciados", "derechos inherentes", "persona humana"]
+            },
+            {
+              "numero": 95,
+              "texto": "La calidad de colombiano enaltece a todos los miembros de la comunidad nacional. Todos están en el deber de engrandecerla y dignificarla. El ejercicio de los derechos y libertades reconocidos en esta Constitución implica responsabilidades. Toda persona está obligada a cumplir la Constitución y las leyes. Son deberes de la persona y del ciudadano: 1. Respetar los derechos ajenos y no abusar de los propios; 2. Obrar conforme al principio de solidaridad social, respondiendo con acciones humanitarias ante situaciones que pongan en peligro la vida o la salud de las personas; 3. Respetar y apoyar a las autoridades democráticas legítimamente constituidas para mantener la independencia y la integridad nacionales; 4. Defender y difundir los derechos humanos como fundamento de la convivencia pacífica; 5. Participar en la vida política, cívica y comunitaria del país; 6. Propender al logro y mantenimiento de la paz; 7. Colaborar con el buen funcionamiento de la administración de la justicia.",
+              "tema": "Protección y Aplicación de Derechos",
+              "palabras_clave": ["deberes", "responsabilidades", "solidaridad social", "respeto a autoridades", "defensa derechos humanos", "participación", "paz"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "III",
+      "nombre": "DE LOS HABITANTES Y DEL TERRITORIO",
+      "descripcion": "Artículos 96 al 100",
+      "capitulos": [
+        {
+          "nombre": "CAPÍTULO 1 - DE LOS NACIONALES Y EXTRANJEROS",
+          "descripcion": "Artículos 96 al 100",
+          "articulos": [
+            {
+              "numero": 96,
+              "texto": "Son nacionales colombianos: 1. Por nacimiento: a) Los naturales de Colombia, con una de dos condiciones: que el padre o la madre hayan sido naturales o nacionales colombianos; o que, siendo hijos de extranjeros, se hallen domiciliados en la República. b) Los hijos de padre o madre colombianos que hubieren nacido en tierra extranjera y luego se domiciliaren en territorio colombiano. 2. Por adopción: los extranjeros que soliciten y obtengan carta de naturalización, de acuerdo con la ley.",
+              "tema": "Nacionales y Extranjeros",
+              "palabras_clave": ["nacionales", "nacimiento", "adopción", "naturalización"]
+            },
+            {
+              "numero": 97,
+              "texto": "A los extranjeros domiciliados en Colombia se les garantizarán los mismos derechos civiles que a los colombianos. Sin embargo, la ley, por razones de orden público, podrá subordinar a condiciones especiales o negar el ejercicio de determinados derechos políticos a los extranjeros.",
+              "tema": "Nacionales y Extranjeros",
+              "palabras_clave": ["extranjeros", "domiciliados", "derechos civiles", "derechos políticos"]
+            },
+            {
+              "numero": 98,
+              "texto": "El territorio, con los bienes públicos que de él forman parte, pertenece a la Nación. La ley determinará las condiciones para la adquisición, enajenación y aprovechamiento de los bienes de la Nación.",
+              "tema": "Territorio",
+              "palabras_clave": ["territorio", "bienes públicos", "Nación", "adquisición", "enajenación", "aprovechamiento"]
+            },
+            {
+              "numero": 99,
+              "texto": "Las fronteras de la República son las que la ley determine. Las delimitaciones con los países vecinos se fijarán por medio de tratados públicos.",
+              "tema": "Territorio",
+              "palabras_clave": ["fronteras", "tratados públicos", "limitaciones"]
+            },
+            {
+              "numero": 100,
+              "texto": "Los colombianos tienen derecho a la nacionalidad colombiana. La nacionalidad no se pierde por el hecho de adquirir otra nacionalidad. Los colombianos por nacimiento que adquieran otra nacionalidad, no perderán la colombiana.",
+              "tema": "Nacionales y Extranjeros",
+              "palabras_clave": ["nacionalidad", "doble nacionalidad", "no pérdida"]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "disposiciones_transitorias": [
+    {
+      "numero": 1,
+      "texto": "La presente Constitución rige a partir de su promulgación y deroga la Constitución Política de Colombia de 1886 y todas sus reformas.",
+      "tema": "Régimen de Transición",
+      "palabras_clave": ["promulgación", "deroga", "Constitución de 1886"]
+    },
+    {
+      "numero": 2,
+      "texto": "Los actuales miembros de las corporaciones públicas continuarán ejerciendo sus funciones hasta la finalización del período para el cual fueron elegidos.",
+      "tema": "Régimen de Transición",
+      "palabras_clave": ["corporaciones públicas", "período", "continuación"]
+    },
+    {
+      "numero": 3,
+      "texto": "Las leyes vigentes al momento de la promulgación de esta Constitución conservarán su fuerza y efecto, en cuanto no sean contrarias a ella, hasta que sean derogadas por el Congreso.",
+      "tema": "Régimen de Transición",
+      "palabras_clave": ["leyes vigentes", "fuerza y efecto", "derogación"]
+    },
+    {
+      "numero": 4,
+      "texto": "El Gobierno Nacional presentará al Congreso los proyectos de ley para la organización de la Rama Judicial y del Ministerio Público, dentro de los seis meses siguientes a la promulgación de esta Constitución.",
+      "tema": "Régimen de Transición",
+      "palabras_clave": ["Rama Judicial", "Ministerio Público", "proyectos de ley"]
+    },
+    {
+      "numero": 5,
+      "texto": "Los territorios indígenas serán organizados conforme a la ley, garantizando la participación de las comunidades indígenas en su definición.",
+      "tema": "Régimen de Transición",
+      "palabras_clave": ["territorios indígenas", "comunidades indígenas", "participación"]
+    },
+    {
+      "numero": 6,
+      "texto": "El Congreso expedirá el estatuto de los partidos políticos dentro del año siguiente a la promulgación de esta Constitución.",
+      "tema": "Régimen de Transición",
+      "palabras_clave": ["estatuto de partidos", "partidos políticos"]
+    },
+    {
+      "numero": 7,
+      "texto": "La ley que desarrolle el derecho de negociación colectiva se expedirá dentro del año siguiente a la promulgación de esta Constitución.",
+      "tema": "Régimen de Transición",
+      "palabras_clave": ["negociación colectiva", "desarrollo legal"]
+    },
+    {
+      "numero": 8,
+      "texto": "El Congreso expedirá las leyes a que se refieren los artículos 150, numeral 19, y 152, numeral 15, dentro del año siguiente a la promulgación de esta Constitución.",
+      "tema": "Régimen de Transición",
+      "palabras_clave": ["leyes de desarrollo", "artículos 150", "artículo 152"]
+    },
+    {
+      "numero": 9,
+      "texto": "El Gobierno Nacional, dentro del término de un año, contado a partir de la promulgación de esta Constitución, presentará al Congreso los proyectos de ley necesarios para adecuar la legislación nacional a la nueva Carta.",
+      "tema": "Régimen de Transición",
+      "palabras_clave": ["adecuación legislativa", "proyectos de ley"]
+    },
+    {
+      "numero": 10,
+      "texto": "Las disposiciones de esta Constitución que requieran desarrollo legislativo, se entenderán en vigor desde su promulgación, pero su aplicación efectiva estará supeditada a la expedición de las leyes correspondientes.",
+      "tema": "Régimen de Transición",
+      "palabras_clave": ["desarrollo legislativo", "aplicación efectiva"]
+    }
+  ]
+}

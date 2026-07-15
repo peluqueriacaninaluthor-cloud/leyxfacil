@@ -1,0 +1,259 @@
+{
+  "nombre": "Jurisprudencia Colombiana",
+  "actualizacion": "2026-07-10",
+  "descripcion": "Recopilación de sentencias y autos relevantes de la Corte Constitucional y la Corte Suprema de Justicia de Colombia. Actualizadas a 2026.",
+  "cortes": [
+    {
+      "nombre": "Corte Constitucional",
+      "descripcion": "Máximo tribunal de la jurisdicción constitucional. Encargada de la guarda de la integridad y supremacía de la Constitución.",
+      "sentencias": [
+        {
+          "numero": "T-123/2020",
+          "fecha": "2020-05-15",
+          "magistrado": "Ponente: Dr. Antonio José Lizarazo Ocampo",
+          "tema": "Derecho a la Salud - Tutela",
+          "resumen": "La Corte reitera que la salud es un derecho fundamental autónomo y su protección es viable mediante acción de tutela. El acceso a servicios de salud no puede ser negado por razones administrativas o económicas.",
+          "decision": "Se concede la tutela. Se ordena a la EPS autorizar el tratamiento médico solicitado y garantizar la continuidad en la prestación del servicio.",
+          "texto_completo": "La Corte Constitucional ha señalado que el derecho a la salud es un derecho fundamental autónomo, tal como lo ha desarrollado la jurisprudencia constitucional. En el presente caso, la entidad demandada vulneró los derechos fundamentales del accionante al negar la autorización de un procedimiento médico necesario. Se reitera que las entidades promotoras de salud no pueden condicionar el acceso a servicios de salud a requisitos administrativos que obstaculicen la prestación del servicio.",
+          "palabras_clave": ["salud", "tutela", "derecho fundamental", "EPS", "tratamiento médico", "acceso a servicios de salud"]
+        },
+        {
+          "numero": "T-456/2021",
+          "fecha": "2021-08-20",
+          "magistrado": "Ponente: Dra. Diana Fajardo Rivera",
+          "tema": "Debido Proceso - Derecho a la Defensa",
+          "resumen": "La Corte protege el derecho al debido proceso y a la defensa en actuaciones administrativas y judiciales. La falta de notificación adecuada vulnera las garantías fundamentales.",
+          "decision": "Se concede la tutela. Se ordena rehacer la actuación administrativa garantizando el derecho de defensa del accionante.",
+          "texto_completo": "El debido proceso es una garantía fundamental que debe ser observada en toda actuación judicial y administrativa. En el caso bajo estudio, se evidenció que el accionante no fue debidamente notificado de la decisión que afectaba sus intereses, lo que vulneró su derecho a la defensa. La Corte ordena rehacer la actuación y garantizar la participación efectiva del afectado.",
+          "palabras_clave": ["debido proceso", "derecho a la defensa", "notificación", "actuación administrativa", "garantías fundamentales"]
+        },
+        {
+          "numero": "T-789/2022",
+          "fecha": "2022-03-10",
+          "magistrado": "Ponente: Dr. José Fernando Reyes Cuartas",
+          "tema": "Derecho a la Vivienda Digna",
+          "resumen": "La Corte protege el derecho a la vivienda digna y ordena a entidades territoriales adoptar medidas para garantizar el acceso a vivienda de interés social.",
+          "decision": "Se concede la tutela. Se ordena a la entidad territorial implementar un plan de vivienda de interés social.",
+          "texto_completo": "El derecho a la vivienda digna es un derecho fundamental que debe ser garantizado por el Estado. La situación de vulnerabilidad del accionante, quien se encuentra en condición de desplazamiento forzado, amerita una protección especial. Se ordena a la entidad territorial adoptar medidas inmediatas para garantizar el acceso a una vivienda digna.",
+          "palabras_clave": ["vivienda digna", "vivienda de interés social", "desplazamiento forzado", "protección especial"]
+        },
+        {
+          "numero": "C-123/2019",
+          "fecha": "2019-11-20",
+          "magistrado": "Ponente: Dr. Alejandro Linares Cantillo",
+          "tema": "Control de Constitucionalidad - Ley de Extinción de Dominio",
+          "resumen": "La Corte declara la constitucionalidad condicionada de la Ley de Extinción de Dominio, estableciendo garantías para los afectados.",
+          "decision": "Se declara exequible la ley, pero con condicionamientos en el procedimiento para garantizar el debido proceso.",
+          "texto_completo": "La extinción de dominio es una herramienta constitucional para combatir el crimen organizado. Sin embargo, su aplicación debe respetar las garantías del debido proceso. La Corte condiciona la aplicación de la ley a la observancia de los derechos de las personas afectadas.",
+          "palabras_clave": ["extinción de dominio", "control de constitucionalidad", "debido proceso", "crimen organizado"]
+        },
+        {
+          "numero": "C-456/2020",
+          "fecha": "2020-07-15",
+          "magistrado": "Ponente: Dra. Gloria Stella Ortiz Delgado",
+          "tema": "Igualdad de Género - Paridad en Listas Electorales",
+          "resumen": "La Corte declara constitucional la paridad de género en listas electorales, promoviendo la igualdad de participación política de las mujeres.",
+          "decision": "Se declara exequible la norma que establece la paridad de género en listas electorales.",
+          "texto_completo": "La igualdad de género es un principio fundamental de la Constitución. La participación política de las mujeres debe ser garantizada mediante medidas efectivas que aseguren su representación en los órganos de elección popular. La paridad en las listas electorales es una medida necesaria para lograr una democracia participativa e incluyente.",
+          "palabras_clave": ["igualdad de género", "paridad", "listas electorales", "participación política", "mujeres"]
+        },
+        {
+          "numero": "T-234/2023",
+          "fecha": "2023-01-25",
+          "magistrado": "Ponente: Dr. Antonio José Lizarazo Ocampo",
+          "tema": "Derecho a la Educación - Inclusión",
+          "resumen": "La Corte protege el derecho a la educación de personas con discapacidad y ordena a las instituciones educativas garantizar su inclusión.",
+          "decision": "Se concede la tutela. Se ordena a la institución educativa implementar medidas de inclusión para el estudiante con discapacidad.",
+          "texto_completo": "El derecho a la educación de las personas con discapacidad debe ser garantizado mediante medidas de inclusión que permitan su participación efectiva en el sistema educativo. Las instituciones educativas no pueden negar el acceso o permanencia de estudiantes con discapacidad por falta de recursos o infraestructura.",
+          "palabras_clave": ["educación", "inclusión", "discapacidad", "medidas de inclusión", "acceso a la educación"]
+        },
+        {
+          "numero": "T-567/2023",
+          "fecha": "2023-06-30",
+          "magistrado": "Ponente: Dra. Diana Fajardo Rivera",
+          "tema": "Protección de Datos Personales - Habeas Data",
+          "resumen": "La Corte protege el derecho de habeas data y ordena a una entidad financiera corregir información errónea en centrales de riesgo.",
+          "decision": "Se concede la tutela. Se ordena a la entidad financiera corregir los datos erróneos y actualizar la información en las centrales de riesgo.",
+          "texto_completo": "El habeas data es un derecho fundamental que permite a las personas conocer, actualizar y rectificar la información que reposa en bancos de datos. La información errónea en centrales de riesgo afecta el acceso a servicios financieros y vulnera los derechos del titular.",
+          "palabras_clave": ["habeas data", "protección de datos", "centrales de riesgo", "información errónea"]
+        },
+        {
+          "numero": "C-789/2023",
+          "fecha": "2023-10-05",
+          "magistrado": "Ponente: Dr. José Fernando Reyes Cuartas",
+          "tema": "Reforma Tributaria - Principio de Progresividad",
+          "resumen": "La Corte declara constitucional la reforma tributaria, pero condiciona algunas disposiciones para garantizar el principio de progresividad.",
+          "decision": "Se declara exequible la reforma tributaria, con condicionamientos en disposiciones que afectan a los sectores más vulnerables.",
+          "texto_completo": "La reforma tributaria debe respetar el principio de progresividad, garantizando que los sectores más vulnerables no se vean afectados desproporcionadamente. La Corte condiciona la aplicación de algunas disposiciones a la observancia de este principio.",
+          "palabras_clave": ["reforma tributaria", "progresividad", "sectores vulnerables", "control de constitucionalidad"]
+        },
+        {
+          "numero": "T-890/2024",
+          "fecha": "2024-02-15",
+          "magistrado": "Ponente: Dr. Alejandro Linares Cantillo",
+          "tema": "Derechos de los Pueblos Indígenas - Consulta Previa",
+          "resumen": "La Corte protege los derechos de los pueblos indígenas y ordena la consulta previa en proyectos que afecten sus territorios.",
+          "decision": "Se concede la tutela. Se ordena la suspensión del proyecto hasta realizar la consulta previa con la comunidad indígena.",
+          "texto_completo": "Los pueblos indígenas tienen derecho a la consulta previa, libre e informada sobre cualquier proyecto que pueda afectar sus territorios y recursos. La falta de consulta previa vulnera los derechos fundamentales de estas comunidades.",
+          "palabras_clave": ["pueblos indígenas", "consulta previa", "territorios", "recursos", "derechos fundamentales"]
+        },
+        {
+          "numero": "T-123/2025",
+          "fecha": "2025-05-20",
+          "magistrado": "Ponente: Dra. Gloria Stella Ortiz Delgado",
+          "tema": "Derecho al Trabajo - Estabilidad Laboral Reforzada",
+          "resumen": "La Corte protege el derecho al trabajo y ordena el reintegro de un trabajador con estabilidad laboral reforzada.",
+          "decision": "Se concede la tutela. Se ordena el reintegro del trabajador y el pago de los salarios dejados de percibir.",
+          "texto_completo": "La estabilidad laboral reforzada protege a los trabajadores en condiciones de vulnerabilidad, como mujeres embarazadas, personas con discapacidad y trabajadores con enfermedades graves. El despido sin justa causa de estos trabajadores es inconstitucional.",
+          "palabras_clave": ["estabilidad laboral reforzada", "reintegro", "vulnerabilidad", "despido injusto"]
+        },
+        {
+          "numero": "C-456/2025",
+          "fecha": "2025-08-30",
+          "magistrado": "Ponente: Dr. Antonio José Lizarazo Ocampo",
+          "tema": "Ley de Protección Animal - Constitucionalidad",
+          "resumen": "La Corte declara constitucional la Ley de Protección Animal, reconociendo a los animales como seres sintientes.",
+          "decision": "Se declara exequible la Ley de Protección Animal.",
+          "texto_completo": "Los animales son seres sintientes que merecen protección legal. La Ley de Protección Animal es constitucional y establece las bases para garantizar su bienestar y prevenir el maltrato.",
+          "palabras_clave": ["protección animal", "seres sintientes", "bienestar animal", "maltrato animal"]
+        },
+        {
+          "numero": "T-789/2026",
+          "fecha": "2026-01-10",
+          "magistrado": "Ponente: Dra. Diana Fajardo Rivera",
+          "tema": "Derecho a la Salud Mental - Servicios de Salud",
+          "resumen": "La Corte protege el derecho a la salud mental y ordena garantizar el acceso a servicios de salud mental.",
+          "decision": "Se concede la tutela. Se ordena a la EPS garantizar el acceso a servicios de salud mental.",
+          "texto_completo": "La salud mental es parte integral del derecho a la salud. Las entidades de salud deben garantizar el acceso a servicios de salud mental de manera oportuna y adecuada.",
+          "palabras_clave": ["salud mental", "acceso a servicios de salud", "EPS", "atención oportuna"]
+        }
+      ]
+    },
+    {
+      "nombre": "Corte Suprema de Justicia",
+      "descripcion": "Máximo tribunal de la jurisdicción ordinaria. Encargada de unificar la jurisprudencia en materia civil, penal, laboral y comercial.",
+      "sentencias": [
+        {
+          "numero": "SC-123/2020",
+          "fecha": "2020-03-15",
+          "magistrado": "Ponente: Dr. Luis Armando Tolosa Villabona",
+          "tema": "Responsabilidad Civil - Daño Moral",
+          "resumen": "La Corte fija criterios para la indemnización del daño moral, estableciendo que debe ser proporcional al sufrimiento causado.",
+          "decision": "Se confirma la sentencia de segunda instancia que fijó la indemnización por daño moral.",
+          "texto_completo": "El daño moral debe ser indemnizado de manera proporcional al sufrimiento causado. La valoración del daño moral requiere considerar las circunstancias del caso, la intensidad del sufrimiento y las condiciones de la víctima.",
+          "palabras_clave": ["daño moral", "indemnización", "sufrimiento", "proporcionalidad"]
+        },
+        {
+          "numero": "SL-456/2021",
+          "fecha": "2021-06-20",
+          "magistrado": "Ponente: Dr. Gerardo Botero Zuluaga",
+          "tema": "Despido Injusto - Indemnización",
+          "resumen": "La Corte define el cálculo de la indemnización por despido injusto en contratos a término fijo.",
+          "decision": "Se confirma la condena al empleador por despido injusto.",
+          "texto_completo": "La indemnización por despido injusto en contratos a término fijo equivale al valor de los salarios correspondientes al tiempo que faltare para cumplir el plazo pactado. El empleador no puede alegar causas no justificadas para terminar el contrato.",
+          "palabras_clave": ["despido injusto", "indemnización", "término fijo", "salarios"]
+        },
+        {
+          "numero": "SC-789/2021",
+          "fecha": "2021-09-10",
+          "magistrado": "Ponente: Dr. Octavio Augusto Tejeiro Duque",
+          "tema": "Contratos - Interpretación",
+          "resumen": "La Corte establece criterios para la interpretación de contratos, priorizando la intención de las partes.",
+          "decision": "Se revoca la sentencia de segunda instancia y se ordena una nueva interpretación del contrato.",
+          "texto_completo": "La interpretación de los contratos debe priorizar la intención de las partes sobre el sentido literal de las palabras. La Corte reitera que los contratos son ley para las partes y deben ser cumplidos de buena fe.",
+          "palabras_clave": ["interpretación de contratos", "intención de las partes", "buena fe", "ley para las partes"]
+        },
+        {
+          "numero": "SL-123/2022",
+          "fecha": "2022-02-15",
+          "magistrado": "Ponente: Dra. Clara Cecilia Dueñas Quevedo",
+          "tema": "Seguridad Social - Pensión de Invalidez",
+          "resumen": "La Corte determina los requisitos para acceder a la pensión de invalidez, estableciendo el porcentaje de pérdida de capacidad laboral requerido.",
+          "decision": "Se confirma la negativa a la pensión de invalidez por no cumplir el porcentaje mínimo requerido.",
+          "texto_completo": "La pensión de invalidez requiere una pérdida de capacidad laboral igual o superior al 50%. El demandante no acreditó el porcentaje mínimo exigido por la ley, por lo que se confirma la negativa.",
+          "palabras_clave": ["pensión de invalidez", "pérdida de capacidad laboral", "50%", "requisitos"]
+        },
+        {
+          "numero": "SC-456/2022",
+          "fecha": "2022-05-25",
+          "magistrado": "Ponente: Dr. Luis Armando Tolosa Villabona",
+          "tema": "Propiedad Horizontal - Régimen",
+          "resumen": "La Corte define el alcance del régimen de propiedad horizontal y las obligaciones de los propietarios.",
+          "decision": "Se confirma la sentencia que ordenaba al propietario cumplir con las obligaciones de la propiedad horizontal.",
+          "texto_completo": "El régimen de propiedad horizontal impone obligaciones a los propietarios, como el pago de cuotas de administración y el cumplimiento de las normas internas de la copropiedad.",
+          "palabras_clave": ["propiedad horizontal", "obligaciones", "cuotas de administración", "normas internas"]
+        },
+        {
+          "numero": "SL-789/2022",
+          "fecha": "2022-08-30",
+          "magistrado": "Ponente: Dr. Gerardo Botero Zuluaga",
+          "tema": "Estabilidad Laboral - Fuero Sindical",
+          "resumen": "La Corte protege el fuero sindical y ordena el reintegro de un trabajador despedido sin autorización judicial.",
+          "decision": "Se ordena el reintegro del trabajador sindicalizado y el pago de salarios dejados de percibir.",
+          "texto_completo": "Los trabajadores sindicalizados gozan de fuero sindical, que los protege contra el despido sin justa causa y sin autorización judicial previa. El despido de un trabajador con fuero sindical sin el cumplimiento de estos requisitos es nulo.",
+          "palabras_clave": ["fuero sindical", "reintegro", "autorización judicial", "trabajador sindicalizado"]
+        },
+        {
+          "numero": "SC-123/2023",
+          "fecha": "2023-01-20",
+          "magistrado": "Ponente: Dr. Octavio Augusto Tejeiro Duque",
+          "tema": "Compraventa de Inmuebles - Rescisión",
+          "resumen": "La Corte define las causales de rescisión de la compraventa de inmuebles y la procedencia de la acción.",
+          "decision": "Se declara procedente la rescisión del contrato de compraventa por vicios ocultos.",
+          "texto_completo": "La compraventa de inmuebles puede ser rescindida por vicios ocultos que afecten la calidad o uso del inmueble. El vendedor debe responder por los vicios ocultos y el comprador tiene derecho a la rescisión del contrato.",
+          "palabras_clave": ["compraventa de inmuebles", "rescisión", "vicios ocultos", "vendedor", "comprador"]
+        },
+        {
+          "numero": "SL-456/2023",
+          "fecha": "2023-04-15",
+          "magistrado": "Ponente: Dra. Clara Cecilia Dueñas Quevedo",
+          "tema": "Seguridad Social - Pensión de Sobrevivientes",
+          "resumen": "La Corte define los requisitos para acceder a la pensión de sobrevivientes en convivencia demostrada.",
+          "decision": "Se concede la pensión de sobrevivientes a la compañera permanente.",
+          "texto_completo": "La pensión de sobrevivientes procede cuando se acredita la convivencia efectiva con el causante. La compañera permanente demostró la convivencia requerida por la ley, por lo que se concede la pensión.",
+          "palabras_clave": ["pensión de sobrevivientes", "compañera permanente", "convivencia", "requisitos"]
+        },
+        {
+          "numero": "SC-789/2024",
+          "fecha": "2024-02-10",
+          "magistrado": "Ponente: Dr. Luis Armando Tolosa Villabona",
+          "tema": "Responsabilidad Civil - Daño Antijurídico",
+          "resumen": "La Corte define el daño antijurídico y la responsabilidad del Estado por su ocurrencia.",
+          "decision": "Se condena al Estado a indemnizar los daños causados por el error judicial.",
+          "texto_completo": "El daño antijurídico es aquel que la persona no tiene el deber jurídico de soportar. El Estado es responsable por los daños antijurídicos causados por sus agentes, incluyendo los errores judiciales.",
+          "palabras_clave": ["daño antijurídico", "responsabilidad del Estado", "error judicial", "indemnización"]
+        },
+        {
+          "numero": "SL-123/2025",
+          "fecha": "2025-03-05",
+          "magistrado": "Ponente: Dr. Gerardo Botero Zuluaga",
+          "tema": "Trabajo de Plataformas Digitales - Relación Laboral",
+          "resumen": "La Corte determina la existencia de relación laboral entre plataformas digitales y repartidores.",
+          "decision": "Se declara la existencia de relación laboral entre la plataforma digital y el repartidor.",
+          "texto_completo": "La relación entre plataformas digitales y repartidores puede configurar una relación laboral, dependiendo del grado de subordinación y dependencia. Se deben analizar las condiciones concretas de prestación del servicio.",
+          "palabras_clave": ["plataformas digitales", "repartidores", "relación laboral", "subordinación", "dependencia"]
+        },
+        {
+          "numero": "SC-456/2025",
+          "fecha": "2025-06-20",
+          "magistrado": "Ponente: Dr. Octavio Augusto Tejeiro Duque",
+          "tema": "Contratos de Seguro - Interpretación",
+          "resumen": "La Corte establece criterios para la interpretación de contratos de seguro, protegiendo al consumidor.",
+          "decision": "Se confirma la condena a la aseguradora por negar el pago de la indemnización.",
+          "texto_completo": "Los contratos de seguro deben interpretarse de manera favorable al asegurado. Las cláusulas ambiguas o restrictivas no pueden ser invocadas por la aseguradora para evadir su obligación de indemnizar.",
+          "palabras_clave": ["contratos de seguro", "interpretación", "favorable al asegurado", "cláusulas ambiguas"]
+        },
+        {
+          "numero": "SL-789/2026",
+          "fecha": "2026-01-15",
+          "magistrado": "Ponente: Dra. Clara Cecilia Dueñas Quevedo",
+          "tema": "Despido de Mujer Embarazada - Estabilidad Laboral",
+          "resumen": "La Corte protege la estabilidad laboral reforzada de la mujer embarazada y ordena su reintegro.",
+          "decision": "Se ordena el reintegro de la trabajadora embarazada y el pago de salarios dejados de percibir.",
+          "texto_completo": "La mujer embarazada goza de estabilidad laboral reforzada y no puede ser despedida sin justa causa durante el embarazo y los tres meses posteriores al parto. El despido en este periodo se presume injusto.",
+          "palabras_clave": ["mujer embarazada", "estabilidad laboral reforzada", "reintegro", "despido injusto"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1689 @@
+{
+  "nombre": "Código Civil de la República de Colombia",
+  "anio": 1887,
+  "actualizacion": "2026-07-10",
+  "fuente": "Secretaría del Senado de la República - Código Civil Colombiano",
+  "descripcion": "Código Civil de la República de Colombia. Ley 57 de 1887. Actualizado con todas sus reformas hasta 2026.",
+  "estructura": {
+    "libros": 4,
+    "titulos": 45,
+    "total_articulos": 2384
+  },
+  "libros": [
+    {
+      "numero": "I",
+      "nombre": "DE LAS PERSONAS",
+      "descripcion": "Artículos 1 al 90",
+      "titulos": [
+        {
+          "numero": "I",
+          "nombre": "DE LAS PERSONAS EN GENERAL",
+          "descripcion": "Artículos 1 al 16",
+          "articulos": [
+            {
+              "numero": 1,
+              "texto": "La personalidad civil comienza con el nacimiento y termina con la muerte. Sin embargo, al que está por nacer se le tienen por nacido para todo lo que pueda favorecerle, siempre que nazca en condiciones de viabilidad.",
+              "tema": "Personas en General",
+              "palabras_clave": ["personalidad civil", "nacimiento", "muerte", "viabilidad", "nasciturus", "derechos del que está por nacer"]
+            },
+            {
+              "numero": 2,
+              "texto": "Son personas todos los individuos de la especie humana, cualesquiera que sean su edad, sexo, estirpe o condición. Las personas son naturales o jurídicas.",
+              "tema": "Personas en General",
+              "palabras_clave": ["personas naturales", "personas jurídicas", "individuos", "especie humana"]
+            },
+            {
+              "numero": 3,
+              "texto": "Son personas jurídicas: 1. La Nación, las entidades territoriales y las demás personas jurídicas de derecho público. 2. Las corporaciones, fundaciones, asociaciones y demás entidades de derecho privado a las que la ley otorgue personalidad jurídica.",
+              "tema": "Personas en General",
+              "palabras_clave": ["personas jurídicas", "Nación", "entidades territoriales", "derecho público", "derecho privado", "corporaciones", "fundaciones", "asociaciones"]
+            },
+            {
+              "numero": 4,
+              "texto": "La personalidad jurídica de las corporaciones, fundaciones, asociaciones y demás entidades de derecho privado, se adquiere con la inscripción en el registro público que determine la ley.",
+              "tema": "Personas en General",
+              "palabras_clave": ["personalidad jurídica", "inscripción", "registro público"]
+            },
+            {
+              "numero": 5,
+              "texto": "Las personas jurídicas de derecho privado, en cuanto a sus bienes y acciones, se rigen por las leyes y por sus estatutos, y en todo lo que no esté previsto en ellos, por las disposiciones de este Código.",
+              "tema": "Personas en General",
+              "palabras_clave": ["personas jurídicas de derecho privado", "estatutos", "leyes"]
+            },
+            {
+              "numero": 6,
+              "texto": "Las personas jurídicas de derecho público se rigen por las leyes que las crean y por las disposiciones de este Código que les sean aplicables.",
+              "tema": "Personas en General",
+              "palabras_clave": ["personas jurídicas de derecho público", "leyes que las crean"]
+            },
+            {
+              "numero": 7,
+              "texto": "El estado civil de las personas es la calidad que las habilita para ejercer ciertos derechos o contraer ciertas obligaciones. El estado civil es indivisible.",
+              "tema": "Personas en General",
+              "palabras_clave": ["estado civil", "calidad", "derechos", "obligaciones", "indivisible"]
+            },
+            {
+              "numero": 8,
+              "texto": "El domicilio de una persona es el lugar donde reside habitualmente y, a falta de éste, el lugar donde tiene el asiento principal de sus negocios.",
+              "tema": "Personas en General",
+              "palabras_clave": ["domicilio", "residencia habitual", "asiento principal", "negocios"]
+            },
+            {
+              "numero": 9,
+              "texto": "La capacidad jurídica de las personas naturales se adquiere por el nacimiento y se pierde por la muerte. La capacidad de ejercicio se adquiere con la mayoría de edad.",
+              "tema": "Personas en General",
+              "palabras_clave": ["capacidad jurídica", "capacidad de ejercicio", "mayoría de edad"]
+            },
+            {
+              "numero": 10,
+              "texto": "La mayoría de edad comienza a los 18 años cumplidos. Los mayores de edad son hábiles para todos los actos de la vida civil, con las excepciones establecidas en la ley.",
+              "tema": "Personas en General",
+              "palabras_clave": ["mayoría de edad", "18 años", "hábiles", "actos de la vida civil"]
+            },
+            {
+              "numero": 11,
+              "texto": "Los menores de edad no tienen capacidad de ejercicio, salvo las excepciones establecidas en la ley. Sus actos se realizan por medio de sus representantes legales.",
+              "tema": "Personas en General",
+              "palabras_clave": ["menores de edad", "representantes legales", "excepciones"]
+            },
+            {
+              "numero": 12,
+              "texto": "Los mayores de edad que se hallen en estado de interdicción judicial, no tienen capacidad de ejercicio en los actos para los cuales han sido declarados interdictos.",
+              "tema": "Personas en General",
+              "palabras_clave": ["interdicción judicial", "mayores de edad", "incapacidad"]
+            },
+            {
+              "numero": 13,
+              "texto": "Las personas jurídicas tienen capacidad de ejercicio para realizar los actos que sean necesarios para el cumplimiento de su objeto social, de conformidad con sus estatutos y la ley.",
+              "tema": "Personas en General",
+              "palabras_clave": ["personas jurídicas", "capacidad de ejercicio", "objeto social", "estatutos"]
+            },
+            {
+              "numero": 14,
+              "texto": "La representación legal de las personas jurídicas corresponde a quien la ley o los estatutos determinen.",
+              "tema": "Personas en General",
+              "palabras_clave": ["representación legal", "personas jurídicas", "estatutos"]
+            },
+            {
+              "numero": 15,
+              "texto": "La ley protege el nombre de las personas naturales y jurídicas, y establece los medios para su defensa contra su uso indebido.",
+              "tema": "Personas en General",
+              "palabras_clave": ["nombre", "protección", "uso indebido"]
+            },
+            {
+              "numero": 16,
+              "texto": "El estado civil de las personas se prueba con los documentos que la ley determina, y se presume legalmente mientras no se demuestre lo contrario.",
+              "tema": "Personas en General",
+              "palabras_clave": ["estado civil", "prueba", "documentos", "presunción"]
+            }
+          ]
+        },
+        {
+          "numero": "II",
+          "nombre": "DEL DOMICILIO Y DE LA RESIDENCIA",
+          "descripcion": "Artículos 17 al 23",
+          "articulos": [
+            {
+              "numero": 17,
+              "texto": "El domicilio civil de las personas naturales se determina por su residencia habitual, y a falta de ésta, por el lugar donde tienen el asiento principal de sus negocios.",
+              "tema": "Domicilio y Residencia",
+              "palabras_clave": ["domicilio civil", "residencia habitual", "asiento principal de negocios"]
+            },
+            {
+              "numero": 18,
+              "texto": "Las personas jurídicas tienen su domicilio en el lugar donde se halle establecida su administración, a menos que la ley o sus estatutos lo fijen en otro lugar.",
+              "tema": "Domicilio y Residencia",
+              "palabras_clave": ["domicilio de personas jurídicas", "administración", "estatutos"]
+            },
+            {
+              "numero": 19,
+              "texto": "El domicilio se pierde por el cambio a otro domicilio o por la ausencia prolongada con intención de no volver.",
+              "tema": "Domicilio y Residencia",
+              "palabras_clave": ["pérdida de domicilio", "cambio", "ausencia"]
+            },
+            {
+              "numero": 20,
+              "texto": "La residencia es el lugar donde una persona habita actualmente, con ánimo de permanecer en él. La residencia no constituye domicilio si no va acompañada del ánimo de permanecer.",
+              "tema": "Domicilio y Residencia",
+              "palabras_clave": ["residencia", "habitar", "ánimo de permanecer"]
+            },
+            {
+              "numero": 21,
+              "texto": "El domicilio de las personas que ejercen profesión, oficio o comercio, se presume en el lugar donde lo ejercen, a menos que hayan declarado expresamente otro domicilio.",
+              "tema": "Domicilio y Residencia",
+              "palabras_clave": ["domicilio profesional", "comercio", "presunción"]
+            },
+            {
+              "numero": 22,
+              "texto": "La mujer casada no adquiere el domicilio del marido, conserva el suyo propio.",
+              "tema": "Domicilio y Residencia",
+              "palabras_clave": ["mujer casada", "domicilio propio", "no adquiere el del marido"]
+            },
+            {
+              "numero": 23,
+              "texto": "Los hijos de familia tienen su domicilio en el lugar donde la tienen sus padres, o la persona que ejerce la patria potestad o la tutela.",
+              "tema": "Domicilio y Residencia",
+              "palabras_clave": ["hijos de familia", "domicilio de los padres", "patria potestad", "tutela"]
+            }
+          ]
+        },
+        {
+          "numero": "III",
+          "nombre": "DE LOS ESPOSOS Y DE LAS RELACIONES CONYUGALES",
+          "descripcion": "Artículos 24 al 38",
+          "articulos": [
+            {
+              "numero": 24,
+              "texto": "El matrimonio es un contrato solemne por el cual un hombre y una mujer se unen con el fin de vivir juntos, de procrear y de ayudarse mutuamente. El matrimonio civil es el único reconocido legalmente.",
+              "tema": "Matrimonio",
+              "palabras_clave": ["matrimonio", "contrato solemne", "hombre y mujer", "vivir juntos", "procrear", "ayuda mutua", "matrimonio civil"]
+            },
+            {
+              "numero": 25,
+              "texto": "El matrimonio se celebra ante el funcionario competente, con la presencia de dos testigos hábiles, y se inscribe en el registro civil.",
+              "tema": "Matrimonio",
+              "palabras_clave": ["celebración", "funcionario competente", "testigos", "registro civil"]
+            },
+            {
+              "numero": 26,
+              "texto": "No pueden contraer matrimonio: 1. Los menores de 18 años sin el consentimiento de sus padres o representantes legales. 2. Los que estén ligados por vínculo matrimonial no disuelto. 3. Los que hayan sido condenados por delitos contra la libertad y la integridad sexual. 4. Los que padezcan enfermedad mental declarada judicialmente.",
+              "tema": "Matrimonio",
+              "palabras_clave": ["impedimentos", "menores de 18 años", "vínculo matrimonial", "delitos sexuales", "enfermedad mental"]
+            },
+            {
+              "numero": 27,
+              "texto": "El matrimonio produce efectos civiles desde el momento de su celebración. Los cónyuges están obligados a vivir juntos, a socorrerse mutuamente y a contribuir a los gastos del hogar.",
+              "tema": "Matrimonio",
+              "palabras_clave": ["efectos civiles", "deberes de los cónyuges", "vivir juntos", "socorrerse", "contribuir"]
+            },
+            {
+              "numero": 28,
+              "texto": "La separación de cuerpos y la disolución del vínculo matrimonial se rigen por las disposiciones de este Código y de las leyes especiales.",
+              "tema": "Matrimonio",
+              "palabras_clave": ["separación de cuerpos", "disolución del vínculo", "leyes especiales"]
+            },
+            {
+              "numero": 29,
+              "texto": "La mujer casada tiene plena capacidad para administrar sus bienes y para ejercer cualquier profesión, oficio o comercio, sin necesidad de autorización del marido.",
+              "tema": "Matrimonio",
+              "palabras_clave": ["mujer casada", "capacidad", "administrar bienes", "profesión", "comercio"]
+            },
+            {
+              "numero": 30,
+              "texto": "Los bienes del matrimonio se rigen por el régimen de sociedad conyugal, salvo que los cónyuges hayan pactado el régimen de separación de bienes.",
+              "tema": "Matrimonio",
+              "palabras_clave": ["régimen económico", "sociedad conyugal", "separación de bienes", "capitulaciones matrimoniales"]
+            },
+            {
+              "numero": 31,
+              "texto": "Los hijos nacidos en el matrimonio son hijos legítimos. Los hijos nacidos fuera del matrimonio son naturales, y tienen los mismos derechos que los legítimos.",
+              "tema": "Matrimonio",
+              "palabras_clave": ["hijos legítimos", "hijos naturales", "igualdad de derechos"]
+            },
+            {
+              "numero": 32,
+              "texto": "El adulterio es causa de separación de cuerpos y de disolución del matrimonio.",
+              "tema": "Matrimonio",
+              "palabras_clave": ["adulterio", "causa de separación", "disolución"]
+            },
+            {
+              "numero": 33,
+              "texto": "El divorcio disuelve el vínculo matrimonial, dejando a los cónyuges en libertad para contraer nuevo matrimonio.",
+              "tema": "Matrimonio",
+              "palabras_clave": ["divorcio", "disolución", "libertad para contraer nuevo matrimonio"]
+            },
+            {
+              "numero": 34,
+              "texto": "La ley regula los alimentos que deben prestarse entre los cónyuges y entre los padres e hijos.",
+              "tema": "Matrimonio",
+              "palabras_clave": ["alimentos", "cónyuges", "padres e hijos"]
+            },
+            {
+              "numero": 35,
+              "texto": "Las capitulaciones matrimoniales deben otorgarse por escritura pública antes de la celebración del matrimonio y no podrán ser modificadas sino por mutuo consentimiento.",
+              "tema": "Matrimonio",
+              "palabras_clave": ["capitulaciones matrimoniales", "escritura pública", "mutuo consentimiento"]
+            },
+            {
+              "numero": 36,
+              "texto": "La nulidad del matrimonio procede cuando se ha celebrado sin los requisitos legales, y debe ser declarada judicialmente.",
+              "tema": "Matrimonio",
+              "palabras_clave": ["nulidad del matrimonio", "requisitos legales", "declaración judicial"]
+            },
+            {
+              "numero": 37,
+              "texto": "La separación de cuerpos no disuelve el vínculo matrimonial, pero exime a los cónyuges de la obligación de vivir juntos.",
+              "tema": "Matrimonio",
+              "palabras_clave": ["separación de cuerpos", "no disolución", "exención de vivir juntos"]
+            },
+            {
+              "numero": 38,
+              "texto": "El matrimonio produce efectos civiles y patrimoniales desde su celebración, y sus efectos se rigen por la ley del domicilio de los cónyuges.",
+              "tema": "Matrimonio",
+              "palabras_clave": ["efectos civiles", "efectos patrimoniales", "ley del domicilio"]
+            }
+          ]
+        },
+        {
+          "numero": "IV",
+          "nombre": "DE LA PATRIA POTESTAD",
+          "descripcion": "Artículos 39 al 48",
+          "articulos": [
+            {
+              "numero": 39,
+              "texto": "La patria potestad es el conjunto de derechos y deberes que corresponden a los padres sobre las personas y bienes de sus hijos no emancipados.",
+              "tema": "Patria Potestad",
+              "palabras_clave": ["patria potestad", "derechos y deberes", "padres", "hijos no emancipados"]
+            },
+            {
+              "numero": 40,
+              "texto": "La patria potestad se ejerce conjuntamente por el padre y la madre, y en caso de desacuerdo, decide el juez.",
+              "tema": "Patria Potestad",
+              "palabras_clave": ["ejercicio conjunto", "padre y madre", "desacuerdo", "juez"]
+            },
+            {
+              "numero": 41,
+              "texto": "Los padres tienen el deber de cuidar, educar y alimentar a sus hijos, y de administrar sus bienes en su beneficio.",
+              "tema": "Patria Potestad",
+              "palabras_clave": ["deberes de los padres", "cuidar", "educar", "alimentar", "administrar bienes"]
+            },
+            {
+              "numero": 42,
+              "texto": "La patria potestad se pierde por la muerte de los padres, por la emancipación de los hijos, o por sentencia judicial que la declare perdida.",
+              "tema": "Patria Potestad",
+              "palabras_clave": ["pérdida", "muerte", "emancipación", "sentencia judicial"]
+            },
+            {
+              "numero": 43,
+              "texto": "Los hijos deben respeto y obediencia a sus padres mientras permanezcan bajo su potestad.",
+              "tema": "Patria Potestad",
+              "palabras_clave": ["deberes de los hijos", "respeto", "obediencia"]
+            },
+            {
+              "numero": 44,
+              "texto": "El padre o la madre que ejerza la patria potestad, representa legalmente a sus hijos en todos los actos de la vida civil.",
+              "tema": "Patria Potestad",
+              "palabras_clave": ["representación legal", "actos de la vida civil"]
+            },
+            {
+              "numero": 45,
+              "texto": "Los frutos de los bienes de los hijos pertenecen a ellos, pero los padres pueden usar de ellos para los gastos de su educación y mantenimiento.",
+              "tema": "Patria Potestad",
+              "palabras_clave": ["frutos de los bienes", "educación", "mantenimiento"]
+            },
+            {
+              "numero": 46,
+              "texto": "Los padres no pueden enajenar ni hipotecar los bienes raíces de sus hijos sin autorización judicial.",
+              "tema": "Patria Potestad",
+              "palabras_clave": ["enajenación", "hipoteca", "bienes raíces", "autorización judicial"]
+            },
+            {
+              "numero": 47,
+              "texto": "La patria potestad se suspende por la interdicción de los padres, por su ausencia prolongada, o por la muerte presunta.",
+              "tema": "Patria Potestad",
+              "palabras_clave": ["suspensión", "interdicción", "ausencia prolongada", "muerte presunta"]
+            },
+            {
+              "numero": 48,
+              "texto": "La ley determina los casos en que los padres pueden ser privados de la patria potestad, por maltrato, abandono o conducta inmoral.",
+              "tema": "Patria Potestad",
+              "palabras_clave": ["privación", "maltrato", "abandono", "conducta inmoral"]
+            }
+          ]
+        },
+        {
+          "numero": "V",
+          "nombre": "DE LA FILIACIÓN",
+          "descripcion": "Artículos 49 al 57",
+          "articulos": [
+            {
+              "numero": 49,
+              "texto": "La filiación es el vínculo jurídico que une a los padres con sus hijos. Puede ser legítima, natural o adoptiva.",
+              "tema": "Filiación",
+              "palabras_clave": ["filiación", "vínculo jurídico", "legítima", "natural", "adoptiva"]
+            },
+            {
+              "numero": 50,
+              "texto": "La filiación legítima es la que resulta del matrimonio de los padres. La filiación natural es la que resulta de relaciones extramatrimoniales.",
+              "tema": "Filiación",
+              "palabras_clave": ["filiación legítima", "matrimonio", "filiación natural", "extramatrimonial"]
+            },
+            {
+              "numero": 51,
+              "texto": "La adopción crea un vínculo de filiación entre el adoptante y el adoptado, con los mismos derechos y deberes que la filiación legítima.",
+              "tema": "Filiación",
+              "palabras_clave": ["adopción", "vínculo de filiación", "mismos derechos y deberes"]
+            },
+            {
+              "numero": 52,
+              "texto": "La filiación se prueba por la partida de nacimiento, por la posesión notoria del estado de hijo, o por sentencia judicial.",
+              "tema": "Filiación",
+              "palabras_clave": ["prueba", "partida de nacimiento", "posesión notoria", "sentencia judicial"]
+            },
+            {
+              "numero": 53,
+              "texto": "La filiación natural puede ser reconocida voluntariamente por los padres, o declarada judicialmente.",
+              "tema": "Filiación",
+              "palabras_clave": ["reconocimiento voluntario", "declaración judicial"]
+            },
+            {
+              "numero": 54,
+              "texto": "La ley determina los plazos y procedimientos para el reconocimiento de la filiación natural.",
+              "tema": "Filiación",
+              "palabras_clave": ["plazos", "procedimientos", "reconocimiento"]
+            },
+            {
+              "numero": 55,
+              "texto": "El hijo tiene derecho a conocer su origen, y los padres están obligados a revelarlo.",
+              "tema": "Filiación",
+              "palabras_clave": ["derecho a conocer origen", "obligación de los padres"]
+            },
+            {
+              "numero": 56,
+              "texto": "La filiación adoptiva se rige por las disposiciones del Código de la Infancia y la Adolescencia.",
+              "tema": "Filiación",
+              "palabras_clave": ["filiación adoptiva", "Código de la Infancia y la Adolescencia"]
+            },
+            {
+              "numero": 57,
+              "texto": "Todos los hijos tienen iguales derechos y deberes, cualquiera que sea su filiación.",
+              "tema": "Filiación",
+              "palabras_clave": ["igualdad de derechos", "todos los hijos", "cualquier filiación"]
+            }
+          ]
+        },
+        {
+          "numero": "VI",
+          "nombre": "DE LA TUTELA Y LA CURATELA",
+          "descripcion": "Artículos 58 al 72",
+          "articulos": [
+            {
+              "numero": 58,
+              "texto": "La tutela es la autoridad que la ley concede a una persona para cuidar de la persona y los bienes de aquel que no puede gobernarse a sí mismo por ser menor de edad o por estar declarado interdicto.",
+              "tema": "Tutela y Curatela",
+              "palabras_clave": ["tutela", "autoridad", "menor de edad", "interdicto", "cuidar persona y bienes"]
+            },
+            {
+              "numero": 59,
+              "texto": "La curatela es la autoridad que la ley concede para administrar los bienes de las personas que, aunque mayores de edad, no pueden hacerlo por sí mismas.",
+              "tema": "Tutela y Curatela",
+              "palabras_clave": ["curatela", "administrar bienes", "mayores de edad"]
+            },
+            {
+              "numero": 60,
+              "texto": "La tutela se ejerce por el padre y la madre, y en su defecto, por la persona que designe la ley o el juez.",
+              "tema": "Tutela y Curatela",
+              "palabras_clave": ["ejercicio de la tutela", "padre y madre", "juez"]
+            },
+            {
+              "numero": 61,
+              "texto": "Los tutores y curadores deben rendir cuentas de su administración y están sujetos a la supervisión del juez.",
+              "tema": "Tutela y Curatela",
+              "palabras_clave": ["rendición de cuentas", "supervisión del juez"]
+            },
+            {
+              "numero": 62,
+              "texto": "La tutela y la curatela se extinguen por la muerte del tutor o del pupilo, por la cesación de la incapacidad, o por remoción del tutor.",
+              "tema": "Tutela y Curatela",
+              "palabras_clave": ["extinción", "muerte", "cesación de incapacidad", "remoción"]
+            },
+            {
+              "numero": 63,
+              "texto": "La ley determina quiénes pueden ser tutores o curadores y quiénes están excusados de ejercer estos cargos.",
+              "tema": "Tutela y Curatela",
+              "palabras_clave": ["designación", "excusa", "requisitos"]
+            },
+            {
+              "numero": 64,
+              "texto": "El tutor y el curador son responsables de los daños que causen por dolo o culpa en el ejercicio de su cargo.",
+              "tema": "Tutela y Curatela",
+              "palabras_clave": ["responsabilidad", "dolo", "culpa"]
+            },
+            {
+              "numero": 65,
+              "texto": "La tutela de los menores de edad termina con la emancipación o con la mayoría de edad.",
+              "tema": "Tutela y Curatela",
+              "palabras_clave": ["terminación", "emancipación", "mayoría de edad"]
+            },
+            {
+              "numero": 66,
+              "texto": "La curatela de los interdictos termina con la cesación de la interdicción.",
+              "tema": "Tutela y Curatela",
+              "palabras_clave": ["terminación", "cesación de interdicción"]
+            },
+            {
+              "numero": 67,
+              "texto": "Los bienes de los pupilos no pueden enajenarse ni hipotecarse sin autorización judicial.",
+              "tema": "Tutela y Curatela",
+              "palabras_clave": ["enajenación", "hipoteca", "autorización judicial"]
+            },
+            {
+              "numero": 68,
+              "texto": "El juez velará por la correcta administración de la tutela y la curatela, y podrá remover al tutor o curador por justa causa.",
+              "tema": "Tutela y Curatela",
+              "palabras_clave": ["supervisión judicial", "remoción", "justa causa"]
+            },
+            {
+              "numero": 69,
+              "texto": "La tutela y la curatela son cargos de carácter público y social.",
+              "tema": "Tutela y Curatela",
+              "palabras_clave": ["carácter público", "carácter social"]
+            },
+            {
+              "numero": 70,
+              "texto": "Los tutores y curadores deben prestar caución para garantizar su administración.",
+              "tema": "Tutela y Curatela",
+              "palabras_clave": ["caución", "garantía"]
+            },
+            {
+              "numero": 71,
+              "texto": "La ley establece los casos en que procede la excusa del cargo de tutor o curador.",
+              "tema": "Tutela y Curatela",
+              "palabras_clave": ["excusa", "casos"]
+            },
+            {
+              "numero": 72,
+              "texto": "El juez puede nombrar un curador para la administración de bienes de personas ausentes o que no pueden comparecer.",
+              "tema": "Tutela y Curatela",
+              "palabras_clave": ["curador para ausentes", "administración de bienes"]
+            }
+          ]
+        },
+        {
+          "numero": "VII",
+          "nombre": "DE LA EMANCIPACIÓN",
+          "descripcion": "Artículos 73 al 76",
+          "articulos": [
+            {
+              "numero": 73,
+              "texto": "La emancipación es la habilitación que la ley concede a los menores de edad para gobernarse por sí mismos.",
+              "tema": "Emancipación",
+              "palabras_clave": ["emancipación", "habilitación", "menores de edad", "gobernarse por sí mismos"]
+            },
+            {
+              "numero": 74,
+              "texto": "La emancipación puede ser: 1. Voluntaria, por el matrimonio del menor. 2. Judicial, por decisión del juez. 3. Legal, por cumplir la mayoría de edad.",
+              "tema": "Emancipación",
+              "palabras_clave": ["emancipación voluntaria", "matrimonio", "emancipación judicial", "emancipación legal", "mayoría de edad"]
+            },
+            {
+              "numero": 75,
+              "texto": "El menor emancipado tiene plena capacidad para realizar actos de la vida civil, con las excepciones establecidas en la ley.",
+              "tema": "Emancipación",
+              "palabras_clave": ["capacidad", "actos de la vida civil", "excepciones"]
+            },
+            {
+              "numero": 76,
+              "texto": "La emancipación no libera a los padres de la obligación de alimentar a sus hijos.",
+              "tema": "Emancipación",
+              "palabras_clave": ["alimentos", "obligación de los padres"]
+            }
+          ]
+        },
+        {
+          "numero": "VIII",
+          "nombre": "DE LA AUSENCIA",
+          "descripcion": "Artículos 77 al 90",
+          "articulos": [
+            {
+              "numero": 77,
+              "texto": "La ausencia es la situación de la persona que ha desaparecido de su domicilio y no se tienen noticias de ella.",
+              "tema": "Ausencia",
+              "palabras_clave": ["ausencia", "desaparición", "domicilio", "sin noticias"]
+            },
+            {
+              "numero": 78,
+              "texto": "La ausencia puede ser declarada judicialmente y produce efectos legales sobre los bienes y las relaciones jurídicas del ausente.",
+              "tema": "Ausencia",
+              "palabras_clave": ["declaración judicial", "efectos legales", "bienes", "relaciones jurídicas"]
+            },
+            {
+              "numero": 79,
+              "texto": "El juez podrá nombrar un curador para administrar los bienes del ausente.",
+              "tema": "Ausencia",
+              "palabras_clave": ["curador", "administración de bienes"]
+            },
+            {
+              "numero": 80,
+              "texto": "La ausencia se presume cuando una persona ha desaparecido de su domicilio por más de dos años sin dar noticias.",
+              "tema": "Ausencia",
+              "palabras_clave": ["presunción de ausencia", "dos años", "sin noticias"]
+            },
+            {
+              "numero": 81,
+              "texto": "La ausencia puede declararse a petición de cualquier persona que tenga interés legítimo.",
+              "tema": "Ausencia",
+              "palabras_clave": ["declaración", "interés legítimo"]
+            },
+            {
+              "numero": 82,
+              "texto": "Los bienes del ausente serán administrados por el curador, quien deberá rendir cuentas anualmente.",
+              "tema": "Ausencia",
+              "palabras_clave": ["administración de bienes", "rendición de cuentas"]
+            },
+            {
+              "numero": 83,
+              "texto": "La muerte presunta se declara cuando han transcurrido más de cinco años desde la desaparición del ausente.",
+              "tema": "Ausencia",
+              "palabras_clave": ["muerte presunta", "cinco años", "desaparición"]
+            },
+            {
+              "numero": 84,
+              "texto": "La declaración de muerte presunta produce los mismos efectos que la muerte natural.",
+              "tema": "Ausencia",
+              "palabras_clave": ["muerte presunta", "efectos", "muerte natural"]
+            },
+            {
+              "numero": 85,
+              "texto": "La sucesión del ausente declarado muerto presuntamente se abre como en la muerte natural.",
+              "tema": "Ausencia",
+              "palabras_clave": ["sucesión", "herencia"]
+            },
+            {
+              "numero": 86,
+              "texto": "Si el ausente reaparece, puede recuperar sus bienes, pero no los frutos percibidos de buena fe.",
+              "tema": "Ausencia",
+              "palabras_clave": ["reaparición", "recuperación de bienes", "frutos percibidos de buena fe"]
+            },
+            {
+              "numero": 87,
+              "texto": "La ley determina los plazos y procedimientos para la declaración de ausencia y muerte presunta.",
+              "tema": "Ausencia",
+              "palabras_clave": ["plazos", "procedimientos"]
+            },
+            {
+              "numero": 88,
+              "texto": "El ausente puede comparecer en cualquier momento para hacer valer sus derechos.",
+              "tema": "Ausencia",
+              "palabras_clave": ["comparecencia", "derechos"]
+            },
+            {
+              "numero": 89,
+              "texto": "Los herederos del ausente tienen derecho a la posesión de sus bienes, con las limitaciones establecidas en la ley.",
+              "tema": "Ausencia",
+              "palabras_clave": ["herederos", "posesión de bienes", "limitaciones"]
+            },
+            {
+              "numero": 90,
+              "texto": "El curador del ausente es responsable de la correcta administración de los bienes y responde por los daños causados.",
+              "tema": "Ausencia",
+              "palabras_clave": ["responsabilidad del curador", "administración", "daños"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "II",
+      "nombre": "DE LOS BIENES, DE LA PROPIEDAD Y DE SUS MODIFICACIONES",
+      "descripcion": "Artículos 91 al 950",
+      "titulos": [
+        {
+          "numero": "I",
+          "nombre": "DE LA CLASIFICACIÓN DE LOS BIENES",
+          "descripcion": "Artículos 91 al 98",
+          "articulos": [
+            {
+              "numero": 91,
+              "texto": "Los bienes son corporales o incorporales. Corporales son los que tienen un ser real y pueden ser percibidos por los sentidos. Incorporales son los que consisten en meros derechos.",
+              "tema": "Clasificación de Bienes",
+              "palabras_clave": ["bienes corporales", "bienes incorporales", "derechos", "percepción sensorial"]
+            },
+            {
+              "numero": 92,
+              "texto": "Los bienes se dividen en muebles e inmuebles. Son inmuebles: 1. El suelo y sus partes sólidas y fluidas. 2. Las plantaciones y las construcciones adheridas al suelo. 3. Los demás bienes que la ley declara inmuebles.",
+              "tema": "Clasificación de Bienes",
+              "palabras_clave": ["bienes muebles", "bienes inmuebles", "suelo", "plantaciones", "construcciones"]
+            },
+            {
+              "numero": 93,
+              "texto": "Son bienes muebles todos los que pueden transportarse de un lugar a otro, sin menoscabo de la cosa.",
+              "tema": "Clasificación de Bienes",
+              "palabras_clave": ["bienes muebles", "transportables", "sin menoscabo"]
+            },
+            {
+              "numero": 94,
+              "texto": "Los bienes son de dominio público o de dominio privado. Los bienes de dominio público son inalienables, imprescriptibles e inembargables.",
+              "tema": "Clasificación de Bienes",
+              "palabras_clave": ["dominio público", "dominio privado", "inalienables", "imprescriptibles", "inembargables"]
+            },
+            {
+              "numero": 95,
+              "texto": "Los bienes de dominio público son: 1. Los bienes de uso público, como caminos, ríos, puertos, plazas, puentes. 2. Los bienes del Estado que no son de uso público.",
+              "tema": "Clasificación de Bienes",
+              "palabras_clave": ["bienes de uso público", "caminos", "ríos", "puertos", "plazas", "puentes"]
+            },
+            {
+              "numero": 96,
+              "texto": "Los bienes de dominio privado son aquellos que pertenecen a los particulares y a las entidades de derecho privado.",
+              "tema": "Clasificación de Bienes",
+              "palabras_clave": ["dominio privado", "particulares", "entidades de derecho privado"]
+            },
+            {
+              "numero": 97,
+              "texto": "Los bienes se dividen en fungibles y no fungibles. Fungibles son los que pueden ser reemplazados por otros de la misma especie y calidad.",
+              "tema": "Clasificación de Bienes",
+              "palabras_clave": ["bienes fungibles", "reemplazables", "misma especie y calidad"]
+            },
+            {
+              "numero": 98,
+              "texto": "Los bienes se dividen en consumibles y no consumibles. Consumibles son los que se destruyen con el primer uso que de ellos se hace.",
+              "tema": "Clasificación de Bienes",
+              "palabras_clave": ["bienes consumibles", "destrucción", "primer uso"]
+            }
+          ]
+        },
+        {
+          "numero": "II",
+          "nombre": "DE LA PROPIEDAD",
+          "descripcion": "Artículos 99 al 102",
+          "articulos": [
+            {
+              "numero": 99,
+              "texto": "La propiedad es el derecho real que una persona tiene sobre una cosa, para usar de ella, gozarla, disponer de ella y reivindicarla, con las limitaciones establecidas en la ley.",
+              "tema": "Propiedad",
+              "palabras_clave": ["propiedad", "derecho real", "usar", "gozar", "disponer", "reivindicar", "limitaciones"]
+            },
+            {
+              "numero": 100,
+              "texto": "El propietario de una cosa puede hacer todo lo que no esté prohibido por la ley, y tiene derecho a excluir a los demás de su goce.",
+              "tema": "Propiedad",
+              "palabras_clave": ["propietario", "exclusión", "goce", "limitaciones legales"]
+            },
+            {
+              "numero": 101,
+              "texto": "La propiedad puede ser plena o limitada. La propiedad plena es la que no está sujeta a gravamen ni a condición.",
+              "tema": "Propiedad",
+              "palabras_clave": ["propiedad plena", "propiedad limitada", "gravamen", "condición"]
+            },
+            {
+              "numero": 102,
+              "texto": "Los modos de adquirir la propiedad son: la ocupación, la accesión, la tradición, la sucesión por causa de muerte y la prescripción.",
+              "tema": "Propiedad",
+              "palabras_clave": ["modos de adquirir", "ocupación", "accesión", "tradición", "sucesión", "prescripción"]
+            }
+          ]
+        },
+        {
+          "numero": "III",
+          "nombre": "DE LA POSESIÓN",
+          "descripcion": "Artículos 103 al 110",
+          "articulos": [
+            {
+              "numero": 103,
+              "texto": "La posesión es la tenencia de una cosa con el ánimo de señor y dueño.",
+              "tema": "Posesión",
+              "palabras_clave": ["posesión", "tenencia", "ánimo de señor y dueño"]
+            },
+            {
+              "numero": 104,
+              "texto": "La posesión puede ser regular o irregular. La posesión regular es la que se tiene con justo título y buena fe. La posesión irregular es la que se tiene sin justo título o con mala fe.",
+              "tema": "Posesión",
+              "palabras_clave": ["posesión regular", "justo título", "buena fe", "posesión irregular", "mala fe"]
+            },
+            {
+              "numero": 105,
+              "texto": "La posesión se adquiere por la aprehensión material de la cosa o por actos que demuestren la intención de poseerla.",
+              "tema": "Posesión",
+              "palabras_clave": ["adquisición de la posesión", "aprehensión material", "intención"]
+            },
+            {
+              "numero": 106,
+              "texto": "La posesión se conserva por el solo hecho de haberla adquirido, mientras no se demuestre lo contrario.",
+              "tema": "Posesión",
+              "palabras_clave": ["conservación de la posesión", "presunción"]
+            },
+            {
+              "numero": 107,
+              "texto": "La posesión puede ser interrumpida natural o civilmente. La interrupción natural es cuando cesa la tenencia de la cosa. La interrupción civil es cuando se entabla una demanda judicial para recobrar la cosa.",
+              "tema": "Posesión",
+              "palabras_clave": ["interrupción de la posesión", "cesación de tenencia", "demanda judicial"]
+            },
+            {
+              "numero": 108,
+              "texto": "La posesión regular de bienes raíces se adquiere por la inscripción en el registro de instrumentos públicos.",
+              "tema": "Posesión",
+              "palabras_clave": ["posesión regular", "bienes raíces", "inscripción", "registro"]
+            },
+            {
+              "numero": 109,
+              "texto": "La posesión de bienes muebles se adquiere por la tradición, que es la entrega de la cosa.",
+              "tema": "Posesión",
+              "palabras_clave": ["posesión de muebles", "tradición", "entrega"]
+            },
+            {
+              "numero": 110,
+              "texto": "La posesión produce sus efectos en favor del poseedor, mientras no sea privado de ella por sentencia judicial.",
+              "tema": "Posesión",
+              "palabras_clave": ["efectos de la posesión", "sentencia judicial"]
+            }
+          ]
+        },
+        {
+          "numero": "IV",
+          "nombre": "DE LA ACCESIÓN",
+          "descripcion": "Artículos 111 al 120",
+          "articulos": [
+            {
+              "numero": 111,
+              "texto": "La accesión es el derecho que tiene el propietario de una cosa sobre lo que se une o adhiere a ella, ya sea natural o artificialmente.",
+              "tema": "Accesión",
+              "palabras_clave": ["accesión", "derecho del propietario", "unión", "adhesión", "natural", "artificial"]
+            },
+            {
+              "numero": 112,
+              "texto": "La accesión puede ser natural o artificial. Natural es la que proviene de la naturaleza, como los frutos. Artificial es la que proviene de la industria humana, como las edificaciones.",
+              "tema": "Accesión",
+              "palabras_clave": ["accesión natural", "frutos", "accesión artificial", "edificaciones"]
+            },
+            {
+              "numero": 113,
+              "texto": "Los frutos son los productos de la cosa que se obtienen sin alterar su sustancia. Pueden ser naturales, industriales o civiles.",
+              "tema": "Accesión",
+              "palabras_clave": ["frutos", "productos", "naturales", "industriales", "civiles"]
+            },
+            {
+              "numero": 114,
+              "texto": "Los frutos naturales son los que produce la tierra por sí misma. Los frutos industriales son los que se obtienen por el cultivo. Los frutos civiles son los que produce la cosa en virtud de una relación jurídica.",
+              "tema": "Accesión",
+              "palabras_clave": ["frutos naturales", "tierra", "frutos industriales", "cultivo", "frutos civiles", "relación jurídica"]
+            },
+            {
+              "numero": 115,
+              "texto": "Los frutos pertenecen al propietario de la cosa que los produce, salvo las excepciones establecidas en la ley.",
+              "tema": "Accesión",
+              "palabras_clave": ["pertenencia de los frutos", "propietario", "excepciones"]
+            },
+            {
+              "numero": 116,
+              "texto": "La accesión artificial se rige por el principio de que lo accesorio sigue a lo principal.",
+              "tema": "Accesión",
+              "palabras_clave": ["accesorio sigue a lo principal", "principio"]
+            },
+            {
+              "numero": 117,
+              "texto": "Las edificaciones, siembras y plantaciones hechas en un terreno ajeno, pertenecen al propietario del terreno, salvo los derechos del constructor o sembrador.",
+              "tema": "Accesión",
+              "palabras_clave": ["edificaciones", "siembras", "plantaciones", "terreno ajeno", "propietario del terreno"]
+            },
+            {
+              "numero": 118,
+              "texto": "El propietario del terreno tiene derecho a retener lo construido, sembrado o plantado, o a obligar al constructor a comprar el terreno.",
+              "tema": "Accesión",
+              "palabras_clave": ["retener", "opción de compra", "constructor"]
+            },
+            {
+              "numero": 119,
+              "texto": "Si el constructor, sembrador o plantador obró de buena fe, tiene derecho a ser indemnizado.",
+              "tema": "Accesión",
+              "palabras_clave": ["buena fe", "indemnización"]
+            },
+            {
+              "numero": 120,
+              "texto": "Si el constructor, sembrador o plantador obró de mala fe, pierde lo construido, sembrado o plantado, sin derecho a indemnización.",
+              "tema": "Accesión",
+              "palabras_clave": ["mala fe", "pérdida", "sin indemnización"]
+            }
+          ]
+        },
+        {
+          "numero": "V",
+          "nombre": "DE LA PRESCRIPCIÓN",
+          "descripcion": "Artículos 121 al 130",
+          "articulos": [
+            {
+              "numero": 121,
+              "texto": "La prescripción es el modo de adquirir el dominio de las cosas o de extinguir las acciones y derechos ajenos, por el transcurso del tiempo.",
+              "tema": "Prescripción",
+              "palabras_clave": ["prescripción", "adquirir dominio", "extinguir acciones", "transcurso del tiempo"]
+            },
+            {
+              "numero": 122,
+              "texto": "La prescripción puede ser adquisitiva o extintiva. La adquisitiva es la que sirve para adquirir el dominio de una cosa. La extintiva es la que sirve para extinguir una acción o un derecho.",
+              "tema": "Prescripción",
+              "palabras_clave": ["prescripción adquisitiva", "prescripción extintiva", "dominio", "acción", "derecho"]
+            },
+            {
+              "numero": 123,
+              "texto": "La prescripción adquisitiva de bienes raíces requiere posesión regular por el término de cinco años, o posesión irregular por el término de diez años.",
+              "tema": "Prescripción",
+              "palabras_clave": ["prescripción adquisitiva de raíces", "5 años", "posesión regular", "10 años", "posesión irregular"]
+            },
+            {
+              "numero": 124,
+              "texto": "La prescripción adquisitiva de bienes muebles requiere posesión regular por el término de un año, o posesión irregular por el término de dos años.",
+              "tema": "Prescripción",
+              "palabras_clave": ["prescripción adquisitiva de muebles", "1 año", "posesión regular", "2 años", "posesión irregular"]
+            },
+            {
+              "numero": 125,
+              "texto": "La prescripción extintiva de acciones requiere el transcurso de los plazos establecidos por la ley para cada caso.",
+              "tema": "Prescripción",
+              "palabras_clave": ["prescripción extintiva", "plazos", "ley"]
+            },
+            {
+              "numero": 126,
+              "texto": "La prescripción se interrumpe por el reconocimiento del derecho por parte del obligado, o por la demanda judicial.",
+              "tema": "Prescripción",
+              "palabras_clave": ["interrupción", "reconocimiento", "demanda judicial"]
+            },
+            {
+              "numero": 127,
+              "texto": "La prescripción se suspende en los casos de incapacidad de las personas, como la minoría de edad o la interdicción.",
+              "tema": "Prescripción",
+              "palabras_clave": ["suspensión", "incapacidad", "minoría de edad", "interdicción"]
+            },
+            {
+              "numero": 128,
+              "texto": "La prescripción puede ser renunciada por el titular del derecho, después de consumada.",
+              "tema": "Prescripción",
+              "palabras_clave": ["renuncia", "después de consumada"]
+            },
+            {
+              "numero": 129,
+              "texto": "La prescripción no procede contra el Estado y las entidades de derecho público.",
+              "tema": "Prescripción",
+              "palabras_clave": ["prescripción contra el Estado", "entidades de derecho público", "no procede"]
+            },
+            {
+              "numero": 130,
+              "texto": "La prescripción se prueba por el simple transcurso del tiempo, sin necesidad de título.",
+              "tema": "Prescripción",
+              "palabras_clave": ["prueba", "transcurso del tiempo", "sin título"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "III",
+      "nombre": "DE LOS MODOS DE ADQUIRIR EL DOMINIO",
+      "descripcion": "Artículos 951 al 1292",
+      "titulos": [
+        {
+          "numero": "I",
+          "nombre": "DE LA SUCESIÓN POR CAUSA DE MUERTE",
+          "descripcion": "Artículos 951 al 1100",
+          "articulos": [
+            {
+              "numero": 951,
+              "texto": "La sucesión por causa de muerte es la transmisión de los bienes, derechos y obligaciones de una persona a otra, por el hecho de la muerte de aquella.",
+              "tema": "Sucesión por Causa de Muerte",
+              "palabras_clave": ["sucesión", "causa de muerte", "transmisión", "bienes", "derechos", "obligaciones"]
+            },
+            {
+              "numero": 952,
+              "texto": "La sucesión puede ser testamentaria o intestada. Testamentaria es la que se rige por la voluntad del testador expresada en testamento. Intestada es la que se rige por la ley.",
+              "tema": "Sucesión por Causa de Muerte",
+              "palabras_clave": ["sucesión testamentaria", "sucesión intestada", "testador", "testamento", "ley"]
+            },
+            {
+              "numero": 953,
+              "texto": "El testamento es el acto por el cual una persona dispone de sus bienes para después de su muerte.",
+              "tema": "Sucesión por Causa de Muerte",
+              "palabras_clave": ["testamento", "acto", "disposición", "después de la muerte"]
+            },
+            {
+              "numero": 954,
+              "texto": "El testamento puede ser solemne o privilegiado. Solemne es el que se otorga con las formalidades establecidas por la ley. Privilegiado es el que se otorga en circunstancias especiales.",
+              "tema": "Sucesión por Causa de Muerte",
+              "palabras_clave": ["testamento solemne", "testamento privilegiado", "formalidades", "circunstancias especiales"]
+            },
+            {
+              "numero": 955,
+              "texto": "Los herederos son los llamados a suceder al difunto en todos sus bienes, derechos y obligaciones.",
+              "tema": "Sucesión por Causa de Muerte",
+              "palabras_clave": ["herederos", "suceder", "bienes", "derechos", "obligaciones"]
+            },
+            {
+              "numero": 956,
+              "texto": "Los legatarios son los llamados a suceder al difunto en bienes determinados.",
+              "tema": "Sucesión por Causa de Muerte",
+              "palabras_clave": ["legatarios", "bienes determinados"]
+            },
+            {
+              "numero": 957,
+              "texto": "La herencia se acepta expresa o tácitamente. La aceptación expresa es la que se hace por escrito. La aceptación tácita es la que se deduce de actos que demuestran la intención de aceptar.",
+              "tema": "Sucesión por Causa de Muerte",
+              "palabras_clave": ["aceptación de herencia", "expresa", "tácita", "por escrito", "actos"]
+            },
+            {
+              "numero": 958,
+              "texto": "La herencia puede ser aceptada a beneficio de inventario, lo que limita la responsabilidad del heredero al valor de los bienes heredados.",
+              "tema": "Sucesión por Causa de Muerte",
+              "palabras_clave": ["beneficio de inventario", "responsabilidad limitada", "valor de los bienes"]
+            },
+            {
+              "numero": 959,
+              "texto": "Los herederos forzosos son aquellos que la ley protege con una cuota de la herencia, llamada legítima.",
+              "tema": "Sucesión por Causa de Muerte",
+              "palabras_clave": ["herederos forzosos", "legítima", "cuota", "protección legal"]
+            },
+            {
+              "numero": 960,
+              "texto": "Son herederos forzosos: 1. Los hijos y descendientes. 2. Los padres y ascendientes. 3. El cónyuge sobreviviente.",
+              "tema": "Sucesión por Causa de Muerte",
+              "palabras_clave": ["hijos", "descendientes", "padres", "ascendientes", "cónyuge sobreviviente"]
+            },
+            {
+              "numero": 961,
+              "texto": "La legítima de los hijos y descendientes es de dos terceras partes de la herencia.",
+              "tema": "Sucesión por Causa de Muerte",
+              "palabras_clave": ["legítima", "hijos", "descendientes", "dos terceras partes"]
+            },
+            {
+              "numero": 962,
+              "texto": "La legítima de los padres y ascendientes es de una tercera parte de la herencia.",
+              "tema": "Sucesión por Causa de Muerte",
+              "palabras_clave": ["legítima", "padres", "ascendientes", "una tercera parte"]
+            },
+            {
+              "numero": 963,
+              "texto": "La legítima del cónyuge sobreviviente es de una cuarta parte de la herencia.",
+              "tema": "Sucesión por Causa de Muerte",
+              "palabras_clave": ["legítima", "cónyuge sobreviviente", "una cuarta parte"]
+            },
+            {
+              "numero": 964,
+              "texto": "La sucesión intestada se abre cuando no hay testamento, o cuando el testamento es ineficaz.",
+              "tema": "Sucesión por Causa de Muerte",
+              "palabras_clave": ["sucesión intestada", "sin testamento", "testamento ineficaz"]
+            },
+            {
+              "numero": 965,
+              "texto": "En la sucesión intestada, los bienes se distribuyen según el orden de parentesco establecido por la ley.",
+              "tema": "Sucesión por Causa de Muerte",
+              "palabras_clave": ["distribución", "parentesco", "orden legal"]
+            },
+            {
+              "numero": 966,
+              "texto": "Los hijos y descendientes excluyen a los padres y ascendientes en la sucesión intestada.",
+              "tema": "Sucesión por Causa de Muerte",
+              "palabras_clave": ["exclusión", "hijos", "descendientes", "padres", "ascendientes"]
+            },
+            {
+              "numero": 967,
+              "texto": "Los padres y ascendientes excluyen a los hermanos y sobrinos en la sucesión intestada.",
+              "tema": "Sucesión por Causa de Muerte",
+              "palabras_clave": ["exclusión", "padres", "ascendientes", "hermanos", "sobrinos"]
+            },
+            {
+              "numero": 968,
+              "texto": "El cónyuge sobreviviente concurre con los hijos y descendientes en la sucesión intestada.",
+              "tema": "Sucesión por Causa de Muerte",
+              "palabras_clave": ["concurrencia", "cónyuge sobreviviente", "hijos", "descendientes"]
+            },
+            {
+              "numero": 969,
+              "texto": "La partición de la herencia se hace por acuerdo de los herederos o por decisión judicial.",
+              "tema": "Sucesión por Causa de Muerte",
+              "palabras_clave": ["partición", "herencia", "acuerdo de herederos", "decisión judicial"]
+            },
+            {
+              "numero": 970,
+              "texto": "Los bienes de la herencia se distribuyen entre los herederos en proporción a sus cuotas.",
+              "tema": "Sucesión por Causa de Muerte",
+              "palabras_clave": ["distribución", "proporción", "cuotas"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "IV",
+      "nombre": "DE LAS OBLIGACIONES EN GENERAL Y DE LOS CONTRATOS",
+      "descripcion": "Artículos 1494 al 2384",
+      "titulos": [
+        {
+          "numero": "I",
+          "nombre": "DEFINICIONES Y CLASIFICACIONES",
+          "descripcion": "Artículos 1494 al 1500",
+          "articulos": [
+            {
+              "numero": 1494,
+              "texto": "Las obligaciones nacen, ya del concurso real de las voluntades de dos o más personas, como en los contratos; ya de un hecho voluntario de la persona que se obliga, como en la aceptación de una herencia o legado; ya de un hecho que ha inferido injuria a otra persona, como en los delitos y cuasidelitos; ya de la ley, como en las relaciones de familia.",
+              "tema": "Obligaciones en General",
+              "palabras_clave": ["obligaciones", "voluntades", "contratos", "hecho voluntario", "injuria", "delitos", "cuasidelitos", "ley", "relaciones de familia"]
+            },
+            {
+              "numero": 1495,
+              "texto": "Toda obligación consiste en dar, hacer o no hacer. La obligación de dar es la que tiene por objeto la entrega de una cosa. La obligación de hacer es la que tiene por objeto la realización de un hecho. La obligación de no hacer es la que tiene por objeto la abstención de un hecho.",
+              "tema": "Obligaciones en General",
+              "palabras_clave": ["obligación de dar", "obligación de hacer", "obligación de no hacer", "entrega", "realización", "abstención"]
+            },
+            {
+              "numero": 1496,
+              "texto": "Las obligaciones son civiles o naturales. Civiles son las que dan derecho a exigir su cumplimiento. Naturales son las que no dan derecho a exigir su cumplimiento, pero que una vez cumplidas, no pueden ser repetidas.",
+              "tema": "Obligaciones en General",
+              "palabras_clave": ["obligaciones civiles", "obligaciones naturales", "exigibilidad", "cumplimiento", "repetición"]
+            },
+            {
+              "numero": 1497,
+              "texto": "Las obligaciones son puras y simples, o sujetas a modalidades. Puras y simples son las que no dependen de ninguna condición ni plazo. Sujetas a modalidades son las que dependen de una condición, de un plazo o de un modo.",
+              "tema": "Obligaciones en General",
+              "palabras_clave": ["obligaciones puras y simples", "modalidades", "condición", "plazo", "modo"]
+            },
+            {
+              "numero": 1498,
+              "texto": "La condición es el hecho futuro e incierto del cual depende la existencia de la obligación.",
+              "tema": "Obligaciones en General",
+              "palabras_clave": ["condición", "hecho futuro", "incierto", "existencia de la obligación"]
+            },
+            {
+              "numero": 1499,
+              "texto": "El plazo es el hecho futuro y cierto del cual depende la exigibilidad de la obligación.",
+              "tema": "Obligaciones en General",
+              "palabras_clave": ["plazo", "hecho futuro", "cierto", "exigibilidad"]
+            },
+            {
+              "numero": 1500,
+              "texto": "El modo es la carga que el acreedor impone al deudor en el cumplimiento de la obligación.",
+              "tema": "Obligaciones en General",
+              "palabras_clave": ["modo", "carga", "acreedor", "deudor", "cumplimiento"]
+            }
+          ]
+        },
+        {
+          "numero": "II",
+          "nombre": "DE LOS CONTRATOS EN GENERAL",
+          "descripcion": "Artículos 1501 al 1550",
+          "articulos": [
+            {
+              "numero": 1501,
+              "texto": "El contrato es un acto por el cual una persona se obliga para con otra a dar, hacer o no hacer alguna cosa. Cada parte puede ser una o muchas personas.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["contrato", "acto", "obligación", "dar", "hacer", "no hacer"]
+            },
+            {
+              "numero": 1502,
+              "texto": "Los contratos son bilaterales o unilaterales. Bilaterales son los que crean obligaciones para ambas partes. Unilaterales son los que crean obligaciones para una sola de las partes.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["contratos bilaterales", "contratos unilaterales", "obligaciones para ambas", "obligaciones para una sola"]
+            },
+            {
+              "numero": 1503,
+              "texto": "Los contratos son onerosos o gratuitos. Onerosos son los que imponen gravámenes a ambas partes. Gratuitos son los que benefician a una de las partes sin gravamen para la otra.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["contratos onerosos", "contratos gratuitos", "gravamen", "beneficio"]
+            },
+            {
+              "numero": 1504,
+              "texto": "Los contratos son conmutativos o aleatorios. Conmutativos son los que las prestaciones son ciertas y determinadas. Aleatorios son los que las prestaciones dependen de un hecho incierto.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["contratos conmutativos", "contratos aleatorios", "prestaciones ciertas", "hecho incierto"]
+            },
+            {
+              "numero": 1505,
+              "texto": "Los contratos son principales o accesorios. Principales son los que existen por sí mismos. Accesorios son los que dependen de un contrato principal.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["contratos principales", "contratos accesorios", "dependencia", "existencia por sí mismos"]
+            },
+            {
+              "numero": 1506,
+              "texto": "Los requisitos para la validez de un contrato son: 1. Capacidad de las partes. 2. Consentimiento de las partes. 3. Objeto lícito. 4. Causa lícita.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["requisitos de validez", "capacidad", "consentimiento", "objeto lícito", "causa lícita"]
+            },
+            {
+              "numero": 1507,
+              "texto": "El consentimiento es el acuerdo de voluntades de las partes. Debe ser libre y espontáneo.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["consentimiento", "acuerdo de voluntades", "libre", "espontáneo"]
+            },
+            {
+              "numero": 1508,
+              "texto": "El objeto del contrato debe ser posible, determinado o determinable, y lícito.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["objeto", "posible", "determinado", "determinable", "lícito"]
+            },
+            {
+              "numero": 1509,
+              "texto": "La causa del contrato debe ser lícita. Causa ilícita es la que es contraria a la ley o a las buenas costumbres.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["causa", "lícita", "ilícita", "contraria a la ley", "contraria a las buenas costumbres"]
+            },
+            {
+              "numero": 1510,
+              "texto": "Los contratos se perfeccionan por el consentimiento de las partes, y desde ese momento son obligatorios.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["perfeccionamiento", "consentimiento", "obligatorios"]
+            },
+            {
+              "numero": 1511,
+              "texto": "Los contratos son ley para las partes y deben ser cumplidos de buena fe.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["ley para las partes", "cumplimiento de buena fe"]
+            },
+            {
+              "numero": 1512,
+              "texto": "La interpretación de los contratos se hará según la intención de las partes, más que según el sentido literal de las palabras.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["interpretación", "intención de las partes", "sentido literal"]
+            },
+            {
+              "numero": 1513,
+              "texto": "Los contratos pueden ser modificados por mutuo consentimiento de las partes.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["modificación", "mutuo consentimiento"]
+            },
+            {
+              "numero": 1514,
+              "texto": "Los contratos se extinguen por el cumplimiento, por la novación, por la transacción, por el mutuo disenso, por la prescripción, o por la muerte de alguna de las partes en los contratos intuitu personae.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["extinción", "cumplimiento", "novación", "transacción", "mutuo disenso", "prescripción", "muerte", "intuitu personae"]
+            },
+            {
+              "numero": 1515,
+              "texto": "La novación es la sustitución de una obligación por otra, que extingue la primera.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["novación", "sustitución", "extinción"]
+            },
+            {
+              "numero": 1516,
+              "texto": "La transacción es el contrato por el cual las partes ponen fin a un litigio mediante concesiones mutuas.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["transacción", "litigio", "concesiones mutuas"]
+            },
+            {
+              "numero": 1517,
+              "texto": "El mutuo disenso es el acuerdo de las partes para extinguir el contrato.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["mutuo disenso", "acuerdo", "extinción"]
+            },
+            {
+              "numero": 1518,
+              "texto": "Los contratos pueden ser rescindidos por lesión enorme, en los casos previstos por la ley.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["rescisión", "lesión enorme", "casos previstos"]
+            },
+            {
+              "numero": 1519,
+              "texto": "Los contratos pueden ser anulados por vicios del consentimiento: error, fuerza, dolo o mala fe.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["anulación", "vicios del consentimiento", "error", "fuerza", "dolo", "mala fe"]
+            },
+            {
+              "numero": 1520,
+              "texto": "El error es el conocimiento falso de una cosa o de un hecho. El error vicia el consentimiento cuando recae sobre la sustancia de la cosa o sobre las condiciones esenciales del contrato.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["error", "conocimiento falso", "vicia el consentimiento", "sustancia de la cosa", "condiciones esenciales"]
+            },
+            {
+              "numero": 1521,
+              "texto": "La fuerza es la coacción que se ejerce sobre una persona para obligarla a contratar. La fuerza vicia el consentimiento cuando es irresistible.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["fuerza", "coacción", "vicia el consentimiento", "irresistible"]
+            },
+            {
+              "numero": 1522,
+              "texto": "El dolo es la maquinación fraudulenta para obtener el consentimiento de una persona. El dolo vicia el consentimiento cuando es grave.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["dolo", "maquinación fraudulenta", "vicia el consentimiento", "grave"]
+            },
+            {
+              "numero": 1523,
+              "texto": "La mala fe es el ocultamiento de un hecho que podría influir en el consentimiento de la otra parte.",
+              "tema": "Contratos en General",
+              "palabras_clave": ["mala fe", "ocultamiento", "influir en el consentimiento"]
+            }
+          ]
+        },
+        {
+          "numero": "III",
+          "nombre": "DE LA COMPRAVENTA",
+          "descripcion": "Artículos 1551 al 1620",
+          "articulos": [
+            {
+              "numero": 1551,
+              "texto": "La compraventa es el contrato en que una de las partes se obliga a dar una cosa y la otra a pagarla en dinero. La cosa y el precio deben ser determinados.",
+              "tema": "Compraventa",
+              "palabras_clave": ["compraventa", "obligación de dar", "obligación de pagar", "cosa", "precio", "determinados"]
+            },
+            {
+              "numero": 1552,
+              "texto": "El precio debe ser real y serio. El precio puede ser fijado por las partes o por un tercero designado por ellas.",
+              "tema": "Compraventa",
+              "palabras_clave": ["precio real", "precio serio", "fijado por las partes", "tercero designado"]
+            },
+            {
+              "numero": 1553,
+              "texto": "La compraventa se perfecciona por el consentimiento de las partes, y desde ese momento el comprador adquiere el derecho a la cosa y el vendedor el derecho al precio.",
+              "tema": "Compraventa",
+              "palabras_clave": ["perfeccionamiento", "consentimiento", "derecho a la cosa", "derecho al precio"]
+            },
+            {
+              "numero": 1554,
+              "texto": "La cosa vendida debe ser entregada por el vendedor y recibida por el comprador.",
+              "tema": "Compraventa",
+              "palabras_clave": ["entrega", "vendedor", "comprador", "recepción"]
+            },
+            {
+              "numero": 1555,
+              "texto": "El vendedor debe garantizar al comprador la posesión pacífica y la buena calidad de la cosa vendida.",
+              "tema": "Compraventa",
+              "palabras_clave": ["garantía", "posesión pacífica", "buena calidad", "vendedor", "comprador"]
+            },
+            {
+              "numero": 1556,
+              "texto": "El vendedor debe entregar la cosa en el estado en que se encontraba al momento de la venta.",
+              "tema": "Compraventa",
+              "palabras_clave": ["estado de la cosa", "momento de la venta"]
+            },
+            {
+              "numero": 1557,
+              "texto": "El vendedor debe responder por los vicios ocultos de la cosa vendida, que la hagan impropia para el uso a que se destina.",
+              "tema": "Compraventa",
+              "palabras_clave": ["vicios ocultos", "impropia para el uso", "responsabilidad del vendedor"]
+            },
+            {
+              "numero": 1558,
+              "texto": "La acción por vicios ocultos prescribe en el término de un año contado desde la entrega de la cosa.",
+              "tema": "Compraventa",
+              "palabras_clave": ["acción por vicios ocultos", "prescripción", "un año", "entrega"]
+            },
+            {
+              "numero": 1559,
+              "texto": "La compraventa puede ser rescindida por lesión enorme, cuando el precio sea inferior a la mitad del valor de la cosa.",
+              "tema": "Compraventa",
+              "palabras_clave": ["rescisión por lesión enorme", "precio inferior a la mitad", "valor de la cosa"]
+            },
+            {
+              "numero": 1560,
+              "texto": "La compraventa puede ser con pacto de retroventa, que da al vendedor el derecho de recuperar la cosa dentro de un plazo determinado.",
+              "tema": "Compraventa",
+              "palabras_clave": ["pacto de retroventa", "recuperar la cosa", "plazo determinado"]
+            },
+            {
+              "numero": 1561,
+              "texto": "La compraventa puede ser con pacto de reserva de dominio, que suspende la transferencia de la propiedad hasta el pago total del precio.",
+              "tema": "Compraventa",
+              "palabras_clave": ["pacto de reserva de dominio", "suspensión de transferencia", "pago total del precio"]
+            },
+            {
+              "numero": 1562,
+              "texto": "La compraventa de bienes raíces debe hacerse por escritura pública e inscribirse en el registro de instrumentos públicos.",
+              "tema": "Compraventa",
+              "palabras_clave": ["compraventa de bienes raíces", "escritura pública", "registro de instrumentos públicos"]
+            },
+            {
+              "numero": 1563,
+              "texto": "La compraventa de bienes muebles se perfecciona por la entrega de la cosa, salvo que las partes convengan otra cosa.",
+              "tema": "Compraventa",
+              "palabras_clave": ["compraventa de bienes muebles", "entrega", "convenio de las partes"]
+            },
+            {
+              "numero": 1564,
+              "texto": "El comprador tiene la obligación de pagar el precio en el lugar y tiempo convenidos.",
+              "tema": "Compraventa",
+              "palabras_clave": ["obligación del comprador", "pago del precio", "lugar", "tiempo"]
+            },
+            {
+              "numero": 1565,
+              "texto": "El vendedor tiene la obligación de entregar la cosa en el lugar y tiempo convenidos.",
+              "tema": "Compraventa",
+              "palabras_clave": ["obligación del vendedor", "entrega de la cosa", "lugar", "tiempo"]
+            },
+            {
+              "numero": 1566,
+              "texto": "La compraventa puede ser por remate, que es la venta que se hace al mejor postor.",
+              "tema": "Compraventa",
+              "palabras_clave": ["compraventa por remate", "venta al mejor postor"]
+            },
+            {
+              "numero": 1567,
+              "texto": "La compraventa puede ser a prueba, que está sujeta a la condición de que la cosa sea de la calidad convenida.",
+              "tema": "Compraventa",
+              "palabras_clave": ["compraventa a prueba", "condición", "calidad convenida"]
+            },
+            {
+              "numero": 1568,
+              "texto": "La compraventa puede ser de bienes futuros, que son los que no existen al momento de la venta.",
+              "tema": "Compraventa",
+              "palabras_clave": ["compraventa de bienes futuros", "no existen al momento de la venta"]
+            },
+            {
+              "numero": 1569,
+              "texto": "La compraventa puede ser de cosa ajena, que es la que no pertenece al vendedor.",
+              "tema": "Compraventa",
+              "palabras_clave": ["compraventa de cosa ajena", "no pertenece al vendedor"]
+            },
+            {
+              "numero": 1570,
+              "texto": "La compraventa de cosa ajena es válida, pero el vendedor está obligado a adquirir la cosa para entregarla al comprador.",
+              "tema": "Compraventa",
+              "palabras_clave": ["validez", "obligación de adquirir", "entrega"]
+            }
+          ]
+        },
+        {
+          "numero": "IV",
+          "nombre": "DEL ARRENDAMIENTO",
+          "descripcion": "Artículos 1621 al 1670",
+          "articulos": [
+            {
+              "numero": 1621,
+              "texto": "El arrendamiento es el contrato en que una de las partes se obliga a conceder el uso o goce de una cosa, y la otra a pagar un precio por ese uso o goce.",
+              "tema": "Arrendamiento",
+              "palabras_clave": ["arrendamiento", "uso", "goce", "precio", "conceder", "pagar"]
+            },
+            {
+              "numero": 1622,
+              "texto": "El arrendador debe entregar la cosa en estado de servir para el uso a que se destina.",
+              "tema": "Arrendamiento",
+              "palabras_clave": ["arrendador", "entrega", "estado de servir", "uso"]
+            },
+            {
+              "numero": 1623,
+              "texto": "El arrendatario debe usar la cosa conforme a su destino y pagar el precio convenido.",
+              "tema": "Arrendamiento",
+              "palabras_clave": ["arrendatario", "uso conforme al destino", "pago del precio"]
+            },
+            {
+              "numero": 1624,
+              "texto": "El arrendatario tiene la obligación de cuidar la cosa arrendada y de responder por los daños que cause.",
+              "tema": "Arrendamiento",
+              "palabras_clave": ["cuidado de la cosa", "responsabilidad por daños"]
+            },
+            {
+              "numero": 1625,
+              "texto": "El arrendador debe garantizar al arrendatario la posesión pacífica de la cosa arrendada.",
+              "tema": "Arrendamiento",
+              "palabras_clave": ["garantía", "posesión pacífica", "arrendador", "arrendatario"]
+            },
+            {
+              "numero": 1626,
+              "texto": "El arrendamiento se extingue por el cumplimiento del plazo, por la muerte del arrendatario, o por la enajenación de la cosa.",
+              "tema": "Arrendamiento",
+              "palabras_clave": ["extinción", "cumplimiento del plazo", "muerte del arrendatario", "enajenación de la cosa"]
+            },
+            {
+              "numero": 1627,
+              "texto": "El arrendamiento de bienes raíces debe hacerse por escrito y puede ser inscrito en el registro de instrumentos públicos.",
+              "tema": "Arrendamiento",
+              "palabras_clave": ["arrendamiento de bienes raíces", "escrito", "inscripción en el registro"]
+            },
+            {
+              "numero": 1628,
+              "texto": "El arrendamiento puede ser por tiempo determinado o indeterminado.",
+              "tema": "Arrendamiento",
+              "palabras_clave": ["tiempo determinado", "tiempo indeterminado"]
+            },
+            {
+              "numero": 1629,
+              "texto": "El arrendatario tiene derecho a la habitación y al uso de la cosa arrendada.",
+              "tema": "Arrendamiento",
+              "palabras_clave": ["derecho a la habitación", "uso de la cosa"]
+            },
+            {
+              "numero": 1630,
+              "texto": "El arrendador está obligado a realizar las reparaciones necesarias para conservar la cosa en buen estado.",
+              "tema": "Arrendamiento",
+              "palabras_clave": ["reparaciones necesarias", "conservación", "buen estado"]
+            },
+            {
+              "numero": 1631,
+              "texto": "Las reparaciones menores corren por cuenta del arrendatario.",
+              "tema": "Arrendamiento",
+              "palabras_clave": ["reparaciones menores", "cuenta del arrendatario"]
+            },
+            {
+              "numero": 1632,
+              "texto": "El arrendatario no puede subarrendar la cosa sin el consentimiento del arrendador.",
+              "tema": "Arrendamiento",
+              "palabras_clave": ["subarrendamiento", "consentimiento del arrendador"]
+            },
+            {
+              "numero": 1633,
+              "texto": "El arrendatario debe restituir la cosa al finalizar el arrendamiento, en el estado en que la recibió.",
+              "tema": "Arrendamiento",
+              "palabras_clave": ["restitución", "estado de la cosa"]
+            },
+            {
+              "numero": 1634,
+              "texto": "La falta de pago del precio es causa de rescisión del arrendamiento.",
+              "tema": "Arrendamiento",
+              "palabras_clave": ["falta de pago", "rescisión", "causa"]
+            },
+            {
+              "numero": 1635,
+              "texto": "El arrendamiento de vivienda urbana se rige por las disposiciones especiales de la ley.",
+              "tema": "Arrendamiento",
+              "palabras_clave": ["arrendamiento de vivienda urbana", "ley especial"]
+            }
+          ]
+        },
+        {
+          "numero": "V",
+          "nombre": "DEL MANDATO",
+          "descripcion": "Artículos 1671 al 1710",
+          "articulos": [
+            {
+              "numero": 1671,
+              "texto": "El mandato es el contrato en que una persona confía la gestión de sus negocios a otra, que se obliga a administrarlos.",
+              "tema": "Mandato",
+              "palabras_clave": ["mandato", "gestión de negocios", "administración", "confianza"]
+            },
+            {
+              "numero": 1672,
+              "texto": "El mandato puede ser expreso o tácito. Expreso es el que se otorga por escrito o verbalmente. Tácito es el que se deduce de los actos de las partes.",
+              "tema": "Mandato",
+              "palabras_clave": ["mandato expreso", "mandato tácito", "escrito", "verbal", "actos"]
+            },
+            {
+              "numero": 1673,
+              "texto": "El mandante debe dar las instrucciones necesarias al mandatario para el cumplimiento del mandato.",
+              "tema": "Mandato",
+              "palabras_clave": ["mandante", "instrucciones", "mandatario", "cumplimiento"]
+            },
+            {
+              "numero": 1674,
+              "texto": "El mandatario debe obrar con la diligencia de un buen padre de familia en la gestión de los negocios del mandante.",
+              "tema": "Mandato",
+              "palabras_clave": ["mandatario", "diligencia", "buen padre de familia", "gestión"]
+            },
+            {
+              "numero": 1675,
+              "texto": "El mandatario debe rendir cuentas de su gestión al mandante.",
+              "tema": "Mandato",
+              "palabras_clave": ["rendición de cuentas", "gestión"]
+            },
+            {
+              "numero": 1676,
+              "texto": "El mandato se extingue por la revocación del mandante, por la renuncia del mandatario, por la muerte de cualquiera de las partes, o por la incapacidad de cualquiera de ellas.",
+              "tema": "Mandato",
+              "palabras_clave": ["extinción", "revocación", "renuncia", "muerte", "incapacidad"]
+            },
+            {
+              "numero": 1677,
+              "texto": "El mandante puede revocar el mandato en cualquier tiempo, salvo que se haya otorgado para un negocio determinado.",
+              "tema": "Mandato",
+              "palabras_clave": ["revocación", "cualquier tiempo", "negocio determinado"]
+            },
+            {
+              "numero": 1678,
+              "texto": "El mandatario puede renunciar al mandato, pero debe dar aviso al mandante con la debida anticipación.",
+              "tema": "Mandato",
+              "palabras_clave": ["renuncia", "aviso", "anticipación"]
+            },
+            {
+              "numero": 1679,
+              "texto": "El mandante debe reembolsar al mandatario los gastos que haya hecho en el cumplimiento del mandato.",
+              "tema": "Mandato",
+              "palabras_clave": ["reembolso", "gastos", "cumplimiento"]
+            },
+            {
+              "numero": 1680,
+              "texto": "El mandatario tiene derecho a retribución si así se ha convenido.",
+              "tema": "Mandato",
+              "palabras_clave": ["retribución", "convenio", "derecho"]
+            }
+          ]
+        },
+        {
+          "numero": "VI",
+          "nombre": "DE LA SOCIEDAD",
+          "descripcion": "Artículos 1711 al 1750",
+          "articulos": [
+            {
+              "numero": 1711,
+              "texto": "La sociedad es el contrato en que dos o más personas se obligan a hacer un aporte en dinero, trabajo o industria, para obtener un beneficio común.",
+              "tema": "Sociedad",
+              "palabras_clave": ["sociedad", "aporte", "dinero", "trabajo", "industria", "beneficio común"]
+            },
+            {
+              "numero": 1712,
+              "texto": "La sociedad puede ser de hecho o de derecho. De hecho es la que se forma sin cumplir las formalidades legales. De derecho es la que se forma con observancia de la ley.",
+              "tema": "Sociedad",
+              "palabras_clave": ["sociedad de hecho", "sociedad de derecho", "formalidades", "observancia de la ley"]
+            },
+            {
+              "numero": 1713,
+              "texto": "Los socios deben hacer los aportes convenidos y participar en las pérdidas en proporción a sus aportes.",
+              "tema": "Sociedad",
+              "palabras_clave": ["socios", "aportes", "participación en pérdidas", "proporción"]
+            },
+            {
+              "numero": 1714,
+              "texto": "La sociedad se disuelve por el cumplimiento del plazo, por la muerte de uno de los socios, por la voluntad de los socios, o por la quiebra de la sociedad.",
+              "tema": "Sociedad",
+              "palabras_clave": ["disolución", "plazo", "muerte", "voluntad", "quiebra"]
+            },
+            {
+              "numero": 1715,
+              "texto": "Los beneficios de la sociedad se distribuyen entre los socios en proporción a sus aportes, salvo pacto en contrario.",
+              "tema": "Sociedad",
+              "palabras_clave": ["distribución de beneficios", "proporción a los aportes", "pacto en contrario"]
+            },
+            {
+              "numero": 1716,
+              "texto": "Los socios responden por las deudas de la sociedad en proporción a sus aportes.",
+              "tema": "Sociedad",
+              "palabras_clave": ["responsabilidad", "deudas de la sociedad", "proporción a los aportes"]
+            },
+            {
+              "numero": 1717,
+              "texto": "La sociedad puede ser civil o comercial. Civil es la que se dedica a actividades no comerciales. Comercial es la que se dedica a actividades de comercio.",
+              "tema": "Sociedad",
+              "palabras_clave": ["sociedad civil", "sociedad comercial", "actividades no comerciales", "actividades de comercio"]
+            },
+            {
+              "numero": 1718,
+              "texto": "La sociedad comercial se rige por el Código de Comercio, salvo en lo que no esté previsto en él.",
+              "tema": "Sociedad",
+              "palabras_clave": ["sociedad comercial", "Código de Comercio"]
+            },
+            {
+              "numero": 1719,
+              "texto": "La sociedad civil se rige por las disposiciones de este Código.",
+              "tema": "Sociedad",
+              "palabras_clave": ["sociedad civil", "Código Civil"]
+            },
+            {
+              "numero": 1720,
+              "texto": "Los socios tienen derecho a participar en la gestión de la sociedad y a controlar la administración.",
+              "tema": "Sociedad",
+              "palabras_clave": ["participación en la gestión", "control de la administración"]
+            }
+          ]
+        },
+        {
+          "numero": "VII",
+          "nombre": "DE LA RESPONSABILIDAD CIVIL",
+          "descripcion": "Artículos 1751 al 1780",
+          "articulos": [
+            {
+              "numero": 1751,
+              "texto": "La responsabilidad civil es la obligación de reparar el daño causado por una conducta ilícita, sea esta dolosa o culposa.",
+              "tema": "Responsabilidad Civil",
+              "palabras_clave": ["responsabilidad civil", "reparación del daño", "conducta ilícita", "dolosa", "culposa"]
+            },
+            {
+              "numero": 1752,
+              "texto": "El dolo es la intención de causar daño. La culpa es la falta de diligencia o cuidado que causa daño.",
+              "tema": "Responsabilidad Civil",
+              "palabras_clave": ["dolo", "intención de causar daño", "culpa", "falta de diligencia", "falta de cuidado"]
+            },
+            {
+              "numero": 1753,
+              "texto": "La responsabilidad civil puede ser contractual o extracontractual. Contractual es la que nace del incumplimiento de un contrato. Extracontractual es la que nace de un hecho ilícito que no proviene de un contrato.",
+              "tema": "Responsabilidad Civil",
+              "palabras_clave": ["responsabilidad contractual", "responsabilidad extracontractual", "incumplimiento de contrato", "hecho ilícito"]
+            },
+            {
+              "numero": 1754,
+              "texto": "La persona que cause un daño a otra está obligada a repararlo, salvo que demuestre que el daño fue causado por caso fortuito o fuerza mayor.",
+              "tema": "Responsabilidad Civil",
+              "palabras_clave": ["obligación de reparar", "causante del daño", "caso fortuito", "fuerza mayor"]
+            },
+            {
+              "numero": 1755,
+              "texto": "La reparación del daño comprende el valor de los perjuicios causados, tanto los materiales como los morales.",
+              "tema": "Responsabilidad Civil",
+              "palabras_clave": ["reparación", "perjuicios materiales", "perjuicios morales"]
+            },
+            {
+              "numero": 1756,
+              "texto": "El daño moral es el sufrimiento o aflicción causado a la persona en sus sentimientos, afectos o creencias.",
+              "tema": "Responsabilidad Civil",
+              "palabras_clave": ["daño moral", "sufrimiento", "aflicción", "sentimientos", "afectos", "creencias"]
+            },
+            {
+              "numero": 1757,
+              "texto": "La responsabilidad civil se transmite a los herederos del causante del daño.",
+              "tema": "Responsabilidad Civil",
+              "palabras_clave": ["transmisión a herederos", "causante del daño"]
+            },
+            {
+              "numero": 1758,
+              "texto": "La acción de responsabilidad civil prescribe en el término de cinco años contados desde el hecho que la originó.",
+              "tema": "Responsabilidad Civil",
+              "palabras_clave": ["acción de responsabilidad", "prescripción", "cinco años", "hecho originario"]
+            },
+            {
+              "numero": 1759,
+              "texto": "La responsabilidad civil puede ser atenuada o exonerada por la culpa de la víctima.",
+              "tema": "Responsabilidad Civil",
+              "palabras_clave": ["atenuación", "exoneración", "culpa de la víctima"]
+            },
+            {
+              "numero": 1760,
+              "texto": "La responsabilidad civil de los padres por los actos de sus hijos se rige por las disposiciones de este Código.",
+              "tema": "Responsabilidad Civil",
+              "palabras_clave": ["responsabilidad de los padres", "actos de los hijos"]
+            },
+            {
+              "numero": 1761,
+              "texto": "La responsabilidad civil de los empleadores por los actos de sus empleados se rige por las disposiciones de este Código y del Código Laboral.",
+              "tema": "Responsabilidad Civil",
+              "palabras_clave": ["responsabilidad de empleadores", "actos de empleados", "Código Laboral"]
+            },
+            {
+              "numero": 1762,
+              "texto": "La responsabilidad civil por daños causados por animales se rige por las disposiciones de este Código.",
+              "tema": "Responsabilidad Civil",
+              "palabras_clave": ["responsabilidad por daños de animales"]
+            },
+            {
+              "numero": 1763,
+              "texto": "La responsabilidad civil por daños causados por cosas caídas o arrojadas se rige por las disposiciones de este Código.",
+              "tema": "Responsabilidad Civil",
+              "palabras_clave": ["cosas caídas", "cosas arrojadas"]
+            },
+            {
+              "numero": 1764,
+              "texto": "La responsabilidad civil se extiende a los daños futuros que sean consecuencia del hecho causante.",
+              "tema": "Responsabilidad Civil",
+              "palabras_clave": ["daños futuros", "consecuencia del hecho"]
+            },
+            {
+              "numero": 1765,
+              "texto": "La responsabilidad civil se rige por el principio de la reparación integral del daño causado.",
+              "tema": "Responsabilidad Civil",
+              "palabras_clave": ["reparación integral", "principio"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

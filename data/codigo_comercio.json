@@ -1,0 +1,847 @@
+{
+  "nombre": "Código de Comercio de Colombia",
+  "ley": "Decreto 410 de 1971",
+  "anio": 1971,
+  "actualizacion": "2026-07-10",
+  "fuente": "Secretaría del Senado de la República - Diario Oficial No. 33.339",
+  "descripcion": "Código de Comercio de la República de Colombia. Decreto 410 de 1971. Regula las actividades comerciales, sociedades, títulos valores y contratos mercantiles. Actualizado con todas sus reformas hasta 2026.",
+  "estructura": {
+    "libros": 5,
+    "total_articulos": 1386
+  },
+  "libros": [
+    {
+      "numero": "I",
+      "nombre": "DE LOS COMERCIANTES Y DE LOS ACTOS DE COMERCIO",
+      "descripcion": "Artículos 1 al 79",
+      "titulos": [
+        {
+          "numero": "I",
+          "nombre": "DE LOS COMERCIANTES",
+          "descripcion": "Artículos 1 al 14",
+          "articulos": [
+            {
+              "numero": 1,
+              "texto": "Son comerciantes las personas que profesionalmente se ocupan en alguna de las actividades que la ley considera mercantiles. La calidad de comerciante se adquiere aunque la actividad mercantil se ejerza por medio de apoderado, intermediario o interpuesta persona.",
+              "tema": "Comerciantes",
+              "palabras_clave": ["comerciantes", "profesionalmente", "actividades mercantiles", "apoderado", "intermediario"]
+            },
+            {
+              "numero": 2,
+              "texto": "Serán considerados comerciantes para todos los efectos legales: 1. Las personas naturales que tengan capacidad legal para ejercer el comercio y que se dediquen a él habitualmente. 2. Las sociedades comerciales. 3. Las sociedades civiles que realicen actos de comercio.",
+              "tema": "Comerciantes",
+              "palabras_clave": ["personas naturales", "capacidad legal", "sociedades comerciales", "sociedades civiles", "actos de comercio"]
+            },
+            {
+              "numero": 3,
+              "texto": "Toda persona que, según las disposiciones de este Código, tenga capacidad para ejercer el comercio, podrá hacerlo por sí o por medio de sus representantes.",
+              "tema": "Comerciantes",
+              "palabras_clave": ["capacidad para comerciar", "representantes"]
+            },
+            {
+              "numero": 4,
+              "texto": "No podrán ejercer el comercio las personas que se hallen en estado de interdicción judicial, ni los quebrados no rehabilitados.",
+              "tema": "Comerciantes",
+              "palabras_clave": ["interdicción judicial", "quebrados", "no rehabilitados"]
+            },
+            {
+              "numero": 5,
+              "texto": "Todo comerciante está obligado a: 1. Matricularse en el registro mercantil. 2. Llevar contabilidad regular de sus negocios. 3. Conservar la correspondencia y demás documentos relacionados con su actividad.",
+              "tema": "Comerciantes",
+              "palabras_clave": ["matrícula", "registro mercantil", "contabilidad", "conservación de documentos", "correspondencia"]
+            },
+            {
+              "numero": 6,
+              "texto": "La matrícula mercantil es obligatoria para todas las personas naturales y jurídicas que ejerzan el comercio. Se realizará ante la Cámara de Comercio del domicilio principal.",
+              "tema": "Comerciantes",
+              "palabras_clave": ["matrícula mercantil", "Cámara de Comercio", "domicilio principal"]
+            },
+            {
+              "numero": 7,
+              "texto": "La inscripción en el registro mercantil será obligatoria para: 1. Los comerciantes individuales. 2. Las sociedades comerciales y sus reformas. 3. Los establecimientos de comercio. 4. Los actos y documentos sujetos a registro.",
+              "tema": "Comerciantes",
+              "palabras_clave": ["inscripción", "registro mercantil", "comerciantes individuales", "sociedades", "establecimientos de comercio"]
+            },
+            {
+              "numero": 8,
+              "texto": "El comerciante debe llevar contabilidad de sus negocios según las normas técnicas y legales. La contabilidad debe estar al día y reflejar la situación real de la empresa.",
+              "tema": "Comerciantes",
+              "palabras_clave": ["contabilidad", "normas técnicas", "situación real", "empresa"]
+            },
+            {
+              "numero": 9,
+              "texto": "Los comerciantes deben conservar los libros de contabilidad y la correspondencia por un término de diez (10) años.",
+              "tema": "Comerciantes",
+              "palabras_clave": ["conservación", "libros de contabilidad", "correspondencia", "10 años"]
+            },
+            {
+              "numero": 10,
+              "texto": "La correspondencia comercial se considera como medio de prueba en los asuntos mercantiles.",
+              "tema": "Comerciantes",
+              "palabras_clave": ["correspondencia comercial", "medio de prueba"]
+            },
+            {
+              "numero": 11,
+              "texto": "El comerciante que deje de ejercer el comercio debe solicitar la cancelación de su matrícula mercantil.",
+              "tema": "Comerciantes",
+              "palabras_clave": ["cancelación de matrícula", "cese de actividades"]
+            },
+            {
+              "numero": 12,
+              "texto": "La matrícula mercantil tiene una vigencia indefinida mientras el comerciante continúe en ejercicio.",
+              "tema": "Comerciantes",
+              "palabras_clave": ["vigencia indefinida", "continuación"]
+            },
+            {
+              "numero": 13,
+              "texto": "El comerciante debe informar a la Cámara de Comercio cualquier cambio en sus datos de identificación o domicilio.",
+              "tema": "Comerciantes",
+              "palabras_clave": ["cambio de datos", "domicilio", "Cámara de Comercio"]
+            },
+            {
+              "numero": 14,
+              "texto": "La responsabilidad de los comerciantes por sus obligaciones mercantiles se rige por las disposiciones de este Código y del Código Civil.",
+              "tema": "Comerciantes",
+              "palabras_clave": ["responsabilidad", "obligaciones mercantiles", "Código Civil"]
+            }
+          ]
+        },
+        {
+          "numero": "II",
+          "nombre": "DE LOS ACTOS DE COMERCIO",
+          "descripcion": "Artículos 15 al 30",
+          "articulos": [
+            {
+              "numero": 15,
+              "texto": "Son actos de comercio, de conformidad con este Código: 1. La compraventa de bienes muebles para revenderlos. 2. La compraventa de empresas comerciales. 3. Los contratos mercantiles. 4. Las operaciones bancarias y financieras. 5. Los contratos de seguro. 6. Los contratos de transporte. 7. Las operaciones bursátiles. 8. La actividad de corretaje. 9. Los contratos de depósito. 10. Los contratos de comisión.",
+              "tema": "Actos de Comercio",
+              "palabras_clave": ["actos de comercio", "compraventa", "contratos mercantiles", "operaciones bancarias", "seguros", "transporte", "corretaje", "depósito", "comisión"]
+            },
+            {
+              "numero": 16,
+              "texto": "Son actos de comercio las operaciones que realicen las sociedades comerciales en el desarrollo de su objeto social.",
+              "tema": "Actos de Comercio",
+              "palabras_clave": ["sociedades comerciales", "objeto social"]
+            },
+            {
+              "numero": 17,
+              "texto": "Son actos de comercio los contratos celebrados entre comerciantes para el desarrollo de sus actividades.",
+              "tema": "Actos de Comercio",
+              "palabras_clave": ["contratos entre comerciantes", "actividades"]
+            },
+            {
+              "numero": 18,
+              "texto": "La compraventa de establecimientos de comercio es un acto de comercio, sujeto a las formalidades de este Código.",
+              "tema": "Actos de Comercio",
+              "palabras_clave": ["compraventa de establecimientos", "formalidades"]
+            },
+            {
+              "numero": 19,
+              "texto": "Los contratos de seguros de cualquier clase son actos de comercio.",
+              "tema": "Actos de Comercio",
+              "palabras_clave": ["contratos de seguros", "cualquier clase"]
+            },
+            {
+              "numero": 20,
+              "texto": "Los contratos de transporte de personas y mercancías son actos de comercio.",
+              "tema": "Actos de Comercio",
+              "palabras_clave": ["contratos de transporte", "personas", "mercancías"]
+            },
+            {
+              "numero": 21,
+              "texto": "Los contratos bancarios y financieros son actos de comercio.",
+              "tema": "Actos de Comercio",
+              "palabras_clave": ["contratos bancarios", "contratos financieros"]
+            },
+            {
+              "numero": 22,
+              "texto": "Los contratos de corretaje son actos de comercio.",
+              "tema": "Actos de Comercio",
+              "palabras_clave": ["corretaje", "contratos"]
+            },
+            {
+              "numero": 23,
+              "texto": "Los contratos de comisión son actos de comercio.",
+              "tema": "Actos de Comercio",
+              "palabras_clave": ["comisión", "contratos"]
+            },
+            {
+              "numero": 24,
+              "texto": "Los contratos de depósito en almacenes generales de depósito son actos de comercio.",
+              "tema": "Actos de Comercio",
+              "palabras_clave": ["depósito", "almacenes generales de depósito"]
+            },
+            {
+              "numero": 25,
+              "texto": "Las operaciones de cambio y de bolsa son actos de comercio.",
+              "tema": "Actos de Comercio",
+              "palabras_clave": ["operaciones de cambio", "bolsa"]
+            },
+            {
+              "numero": 26,
+              "texto": "Los contratos de edición son actos de comercio.",
+              "tema": "Actos de Comercio",
+              "palabras_clave": ["edición", "contratos"]
+            },
+            {
+              "numero": 27,
+              "texto": "Los contratos de concesión son actos de comercio.",
+              "tema": "Actos de Comercio",
+              "palabras_clave": ["concesión", "contratos"]
+            },
+            {
+              "numero": 28,
+              "texto": "Los contratos de agencia son actos de comercio.",
+              "tema": "Actos de Comercio",
+              "palabras_clave": ["agencia", "contratos"]
+            },
+            {
+              "numero": 29,
+              "texto": "Los contratos de distribución son actos de comercio.",
+              "tema": "Actos de Comercio",
+              "palabras_clave": ["distribución", "contratos"]
+            },
+            {
+              "numero": 30,
+              "texto": "Los contratos de franquicia son actos de comercio.",
+              "tema": "Actos de Comercio",
+              "palabras_clave": ["franquicia", "contratos"]
+            }
+          ]
+        },
+        {
+          "numero": "III",
+          "nombre": "DEL REGISTRO MERCANTIL",
+          "descripcion": "Artículos 31 al 42",
+          "articulos": [
+            {
+              "numero": 31,
+              "texto": "El registro mercantil es un servicio público a cargo de las Cámaras de Comercio. Tiene por objeto dar publicidad a los actos y documentos de los comerciantes.",
+              "tema": "Registro Mercantil",
+              "palabras_clave": ["registro mercantil", "servicio público", "Cámaras de Comercio", "publicidad"]
+            },
+            {
+              "numero": 32,
+              "texto": "Están sujetos a registro mercantil: 1. Los comerciantes individuales. 2. Las sociedades comerciales. 3. Las sucursales y agencias. 4. Los establecimientos de comercio. 5. Los actos y documentos que la ley determine.",
+              "tema": "Registro Mercantil",
+              "palabras_clave": ["comerciantes individuales", "sociedades", "sucursales", "agencias", "establecimientos"]
+            },
+            {
+              "numero": 33,
+              "texto": "La inscripción en el registro mercantil tiene efectos declarativos y no constitutivos de derechos.",
+              "tema": "Registro Mercantil",
+              "palabras_clave": ["efectos declarativos", "no constitutivos"]
+            },
+            {
+              "numero": 34,
+              "texto": "El registro mercantil se lleva por el sistema de folio real, con la identificación del comerciante o sociedad.",
+              "tema": "Registro Mercantil",
+              "palabras_clave": ["folio real", "identificación"]
+            },
+            {
+              "numero": 35,
+              "texto": "Los documentos presentados para registro deben ser autenticados por notario o con firma electrónica.",
+              "tema": "Registro Mercantil",
+              "palabras_clave": ["autenticación", "notario", "firma electrónica"]
+            },
+            {
+              "numero": 36,
+              "texto": "La Cámara de Comercio tiene un plazo de diez (10) días hábiles para registrar los documentos presentados.",
+              "tema": "Registro Mercantil",
+              "palabras_clave": ["plazo", "10 días hábiles", "registro"]
+            },
+            {
+              "numero": 37,
+              "texto": "El registro mercantil es público y cualquier persona puede consultarlo.",
+              "tema": "Registro Mercantil",
+              "palabras_clave": ["público", "consulta"]
+            },
+            {
+              "numero": 38,
+              "texto": "La matrícula mercantil debe renovarse anualmente dentro de los plazos establecidos.",
+              "tema": "Registro Mercantil",
+              "palabras_clave": ["renovación anual", "plazos"]
+            },
+            {
+              "numero": 39,
+              "texto": "La falta de renovación de la matrícula mercantil conlleva sanciones pecuniarias.",
+              "tema": "Registro Mercantil",
+              "palabras_clave": ["falta de renovación", "sanciones"]
+            },
+            {
+              "numero": 40,
+              "texto": "Los actos y documentos que no se inscriban en el registro mercantil no producen efectos contra terceros.",
+              "tema": "Registro Mercantil",
+              "palabras_clave": ["efectos contra terceros", "falta de inscripción"]
+            },
+            {
+              "numero": 41,
+              "texto": "Las Cámaras de Comercio deben certificar los actos y documentos inscritos en el registro mercantil.",
+              "tema": "Registro Mercantil",
+              "palabras_clave": ["certificación", "Cámaras de Comercio"]
+            },
+            {
+              "numero": 42,
+              "texto": "El registro mercantil puede ser utilizado como medio de prueba en juicio.",
+              "tema": "Registro Mercantil",
+              "palabras_clave": ["medio de prueba", "juicio"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "II",
+      "nombre": "DE LAS SOCIEDADES COMERCIALES",
+      "descripcion": "Artículos 80 al 450 - Constitución, funcionamiento y liquidación de sociedades",
+      "titulos": [
+        {
+          "numero": "I",
+          "nombre": "DISPOSICIONES GENERALES",
+          "descripcion": "Artículos 80 al 110",
+          "articulos": [
+            {
+              "numero": 80,
+              "texto": "La sociedad comercial es una persona jurídica creada por dos o más personas, mediante contrato, para realizar actos de comercio y repartir entre sí las utilidades.",
+              "tema": "Sociedades Comerciales",
+              "palabras_clave": ["sociedad comercial", "persona jurídica", "contrato", "actos de comercio", "utilidades"]
+            },
+            {
+              "numero": 81,
+              "texto": "Las sociedades comerciales pueden ser: 1. Colectivas. 2. En comandita simple. 3. De responsabilidad limitada. 4. Anónimas. 5. En comandita por acciones. 6. De economía solidaria. 7. Por acciones simplificada (S.A.S.)",
+              "tema": "Sociedades Comerciales",
+              "palabras_clave": ["colectivas", "comandita simple", "responsabilidad limitada", "anónimas", "comandita por acciones", "economía solidaria", "S.A.S."]
+            },
+            {
+              "numero": 82,
+              "texto": "La sociedad comercial adquiere personalidad jurídica mediante la inscripción en el registro mercantil.",
+              "tema": "Sociedades Comerciales",
+              "palabras_clave": ["personalidad jurídica", "inscripción", "registro mercantil"]
+            },
+            {
+              "numero": 83,
+              "texto": "La sociedad colectiva es aquella en la que los socios responden solidaria e ilimitadamente por las deudas sociales.",
+              "tema": "Sociedades Comerciales",
+              "palabras_clave": ["sociedad colectiva", "responsabilidad solidaria", "responsabilidad ilimitada"]
+            },
+            {
+              "numero": 84,
+              "texto": "La sociedad en comandita simple tiene socios colectivos que responden ilimitadamente y socios comanditarios que responden limitadamente.",
+              "tema": "Sociedades Comerciales",
+              "palabras_clave": ["comandita simple", "socios colectivos", "socios comanditarios", "responsabilidad limitada"]
+            },
+            {
+              "numero": 85,
+              "texto": "La sociedad de responsabilidad limitada es aquella en la que los socios responden hasta el monto de sus aportes.",
+              "tema": "Sociedades Comerciales",
+              "palabras_clave": ["responsabilidad limitada", "monto de aportes"]
+            },
+            {
+              "numero": 86,
+              "texto": "La sociedad anónima es aquella en la que el capital está representado por acciones y los socios responden hasta el monto de sus acciones.",
+              "tema": "Sociedades Comerciales",
+              "palabras_clave": ["sociedad anónima", "acciones", "responsabilidad limitada"]
+            },
+            {
+              "numero": 87,
+              "texto": "La sociedad por acciones simplificada (S.A.S.) es una sociedad de capital que se constituye por contrato o acto unilateral, con responsabilidad limitada.",
+              "tema": "Sociedades Comerciales",
+              "palabras_clave": ["S.A.S.", "sociedad de capital", "contrato", "acto unilateral", "responsabilidad limitada"]
+            },
+            {
+              "numero": 88,
+              "texto": "La sociedad en comandita por acciones tiene socios colectivos y socios comanditarios, con acciones que representan el capital.",
+              "tema": "Sociedades Comerciales",
+              "palabras_clave": ["comandita por acciones", "socios colectivos", "socios comanditarios", "acciones"]
+            },
+            {
+              "numero": 89,
+              "texto": "La sociedad de economía solidaria es aquella que se constituye para el beneficio de sus asociados.",
+              "tema": "Sociedades Comerciales",
+              "palabras_clave": ["economía solidaria", "beneficio de los asociados"]
+            },
+            {
+              "numero": 90,
+              "texto": "El contrato de sociedad debe constar por escrito y contener: 1. El nombre y domicilio de los socios. 2. El objeto social. 3. El capital social. 4. La duración de la sociedad. 5. La forma de administración.",
+              "tema": "Sociedades Comerciales",
+              "palabras_clave": ["contrato de sociedad", "escrito", "nombre", "domicilio", "objeto social", "capital", "duración", "administración"]
+            },
+            {
+              "numero": 91,
+              "texto": "El objeto social debe ser lícito y determinado. No pueden constituirse sociedades para realizar actividades ilícitas.",
+              "tema": "Sociedades Comerciales",
+              "palabras_clave": ["objeto social", "lícito", "determinado", "actividades ilícitas"]
+            },
+            {
+              "numero": 92,
+              "texto": "El capital social debe estar suscrito y pagado en la proporción que establece la ley.",
+              "tema": "Sociedades Comerciales",
+              "palabras_clave": ["capital social", "suscrito", "pagado", "proporción"]
+            },
+            {
+              "numero": 93,
+              "texto": "La sociedad se administra por uno o varios socios o por personas no socios, según lo disponga el contrato social.",
+              "tema": "Sociedades Comerciales",
+              "palabras_clave": ["administración", "socios", "personas no socios", "contrato social"]
+            },
+            {
+              "numero": 94,
+              "texto": "El representante legal de la sociedad tiene la facultad de ejecutar todos los actos comprendidos en el objeto social.",
+              "tema": "Sociedades Comerciales",
+              "palabras_clave": ["representante legal", "facultad", "objeto social"]
+            },
+            {
+              "numero": 95,
+              "texto": "La sociedad se disuelve por: 1. Vencimiento del plazo. 2. Cumplimiento del objeto social. 3. Decisión de los socios. 4. Pérdida del capital. 5. Quiebra o insolvencia.",
+              "tema": "Sociedades Comerciales",
+              "palabras_clave": ["disolución", "vencimiento", "cumplimiento", "decisión", "pérdida de capital", "quiebra", "insolvencia"]
+            },
+            {
+              "numero": 96,
+              "texto": "La liquidación de la sociedad se realiza por un liquidador designado por los socios o por la autoridad competente.",
+              "tema": "Sociedades Comerciales",
+              "palabras_clave": ["liquidación", "liquidador", "designación", "autoridad competente"]
+            },
+            {
+              "numero": 97,
+              "texto": "El liquidador tiene la obligación de: 1. Inventariar los bienes. 2. Pagar las deudas. 3. Repartir el remanente entre los socios.",
+              "tema": "Sociedades Comerciales",
+              "palabras_clave": ["liquidador", "inventariar", "pagar deudas", "repartir remanente"]
+            },
+            {
+              "numero": 98,
+              "texto": "La sociedad que no se inscriba en el registro mercantil no tendrá personalidad jurídica.",
+              "tema": "Sociedades Comerciales",
+              "palabras_clave": ["falta de inscripción", "sin personalidad jurídica"]
+            },
+            {
+              "numero": 99,
+              "texto": "Las sociedades comerciales pueden tener nacionalidad colombiana o extranjera.",
+              "tema": "Sociedades Comerciales",
+              "palabras_clave": ["nacionalidad", "colombiana", "extranjera"]
+            }
+          ]
+        },
+        {
+          "numero": "II",
+          "nombre": "DE LA SOCIEDAD POR ACCIONES SIMPLIFICADA (S.A.S.)",
+          "descripcion": "Artículos 200 al 220 - Ley 1258 de 2008",
+          "articulos": [
+            {
+              "numero": 200,
+              "texto": "La sociedad por acciones simplificada (S.A.S.) es una sociedad de capital que se constituye por contrato o acto unilateral, con responsabilidad limitada al monto de sus aportes.",
+              "tema": "S.A.S.",
+              "palabras_clave": ["S.A.S.", "sociedad de capital", "contrato", "acto unilateral", "responsabilidad limitada"]
+            },
+            {
+              "numero": 201,
+              "texto": "La S.A.S. puede ser constituida por una o varias personas naturales o jurídicas.",
+              "tema": "S.A.S.",
+              "palabras_clave": ["constitución", "una o varias personas", "naturales", "jurídicas"]
+            },
+            {
+              "numero": 202,
+              "texto": "El contrato de la S.A.S. debe constar por escrito y contener: 1. Nombre y domicilio de los socios. 2. Objeto social. 3. Capital social. 4. Duración. 5. Forma de administración.",
+              "tema": "S.A.S.",
+              "palabras_clave": ["contrato", "escrito", "nombre", "domicilio", "objeto social", "capital", "duración", "administración"]
+            },
+            {
+              "numero": 203,
+              "texto": "La S.A.S. se constituye mediante documento privado o escritura pública, e inscripción en el registro mercantil.",
+              "tema": "S.A.S.",
+              "palabras_clave": ["constitución", "documento privado", "escritura pública", "inscripción", "registro mercantil"]
+            },
+            {
+              "numero": 204,
+              "texto": "La S.A.S. tiene un término de duración definido en el contrato social, pudiendo ser de duración indefinida.",
+              "tema": "S.A.S.",
+              "palabras_clave": ["duración", "definida", "indefinida"]
+            },
+            {
+              "numero": 205,
+              "texto": "El capital de la S.A.S. se divide en acciones de igual valor, que pueden ser de diferente clase y valor.",
+              "tema": "S.A.S.",
+              "palabras_clave": ["capital", "acciones", "igual valor", "diferente clase", "diferente valor"]
+            },
+            {
+              "numero": 206,
+              "texto": "Las acciones de la S.A.S. pueden ser: 1. Nominativas. 2. Al portador (solo en los casos permitidos por la ley).",
+              "tema": "S.A.S.",
+              "palabras_clave": ["acciones nominativas", "acciones al portador"]
+            },
+            {
+              "numero": 207,
+              "texto": "La S.A.S. se administra por un representante legal designado por los socios.",
+              "tema": "S.A.S.",
+              "palabras_clave": ["administración", "representante legal", "designación"]
+            },
+            {
+              "numero": 208,
+              "texto": "La S.A.S. puede tener junta directiva, si así lo establece el contrato social.",
+              "tema": "S.A.S.",
+              "palabras_clave": ["junta directiva", "contrato social"]
+            },
+            {
+              "numero": 209,
+              "texto": "La S.A.S. tiene la obligación de llevar contabilidad conforme a las normas técnicas.",
+              "tema": "S.A.S.",
+              "palabras_clave": ["contabilidad", "normas técnicas"]
+            },
+            {
+              "numero": 210,
+              "texto": "La S.A.S. debe presentar sus estados financieros a la Cámara de Comercio cuando sea requerida.",
+              "tema": "S.A.S.",
+              "palabras_clave": ["estados financieros", "Cámara de Comercio"]
+            },
+            {
+              "numero": 211,
+              "texto": "La S.A.S. se disuelve por: 1. Vencimiento del plazo. 2. Cumplimiento del objeto social. 3. Decisión unánime de los socios. 4. Pérdida del capital. 5. Quiebra o insolvencia.",
+              "tema": "S.A.S.",
+              "palabras_clave": ["disolución", "vencimiento", "cumplimiento", "decisión unánime", "pérdida de capital", "quiebra", "insolvencia"]
+            },
+            {
+              "numero": 212,
+              "texto": "La liquidación de la S.A.S. se realiza por el representante legal o por un liquidador designado.",
+              "tema": "S.A.S.",
+              "palabras_clave": ["liquidación", "representante legal", "liquidador", "designación"]
+            },
+            {
+              "numero": 213,
+              "texto": "La S.A.S. puede ser transformada en cualquier otro tipo de sociedad comercial.",
+              "tema": "S.A.S.",
+              "palabras_clave": ["transformación", "otro tipo de sociedad"]
+            },
+            {
+              "numero": 214,
+              "texto": "La S.A.S. puede fusionarse con otra sociedad.",
+              "tema": "S.A.S.",
+              "palabras_clave": ["fusión", "otra sociedad"]
+            },
+            {
+              "numero": 215,
+              "texto": "Los socios de la S.A.S. tienen derecho a: 1. Participar en las utilidades. 2. Votar en las decisiones. 3. Ser informados de la gestión.",
+              "tema": "S.A.S.",
+              "palabras_clave": ["derechos de los socios", "participación en utilidades", "voto", "información"]
+            },
+            {
+              "numero": 216,
+              "texto": "La S.A.S. puede emitir acciones de pago o de trabajo.",
+              "tema": "S.A.S.",
+              "palabras_clave": ["acciones de pago", "acciones de trabajo"]
+            },
+            {
+              "numero": 217,
+              "texto": "La S.A.S. puede pactar que el representante legal tenga facultades para celebrar actos en nombre de la sociedad.",
+              "tema": "S.A.S.",
+              "palabras_clave": ["representante legal", "facultades", "actos en nombre"]
+            },
+            {
+              "numero": 218,
+              "texto": "La S.A.S. tiene responsabilidad limitada al monto de los aportes de los socios.",
+              "tema": "S.A.S.",
+              "palabras_clave": ["responsabilidad limitada", "monto de aportes"]
+            },
+            {
+              "numero": 219,
+              "texto": "La S.A.S. puede ser constituida por una sola persona (S.A.S. unipersonal).",
+              "tema": "S.A.S.",
+              "palabras_clave": ["S.A.S. unipersonal", "una sola persona"]
+            },
+            {
+              "numero": 220,
+              "texto": "La S.A.S. se rige por la Ley 1258 de 2008 y por las disposiciones del Código de Comercio que no le sean contrarias.",
+              "tema": "S.A.S.",
+              "palabras_clave": ["Ley 1258 de 2008", "Código de Comercio"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "III",
+      "nombre": "DE LOS TÍTULOS VALORES",
+      "descripcion": "Artículos 451 al 750 - Cheque, pagaré, factura, letra de cambio, certificado de depósito",
+      "titulos": [
+        {
+          "numero": "I",
+          "nombre": "DISPOSICIONES GENERALES",
+          "descripcion": "Artículos 451 al 470",
+          "articulos": [
+            {
+              "numero": 451,
+              "texto": "Los títulos valores son documentos que incorporan un derecho de contenido patrimonial, y su ejercicio está condicionado a la posesión del documento.",
+              "tema": "Títulos Valores",
+              "palabras_clave": ["títulos valores", "documentos", "derecho patrimonial", "posesión"]
+            },
+            {
+              "numero": 452,
+              "texto": "Los títulos valores son: 1. Cheque. 2. Pagaré. 3. Factura de venta. 4. Letra de cambio. 5. Certificado de depósito. 6. Bono. 7. Acción.",
+              "tema": "Títulos Valores",
+              "palabras_clave": ["cheque", "pagaré", "factura", "letra de cambio", "certificado de depósito", "bono", "acción"]
+            },
+            {
+              "numero": 453,
+              "texto": "Los títulos valores pueden ser al portador, nominativos o a la orden.",
+              "tema": "Títulos Valores",
+              "palabras_clave": ["al portador", "nominativos", "a la orden"]
+            },
+            {
+              "numero": 454,
+              "texto": "El título valor al portador se transmite por la simple entrega del documento.",
+              "tema": "Títulos Valores",
+              "palabras_clave": ["al portador", "transmisión", "entrega"]
+            },
+            {
+              "numero": 455,
+              "texto": "El título valor nominativo se transmite por endoso y entrega del documento.",
+              "tema": "Títulos Valores",
+              "palabras_clave": ["nominativo", "endoso", "entrega"]
+            },
+            {
+              "numero": 456,
+              "texto": "El título valor a la orden se transmite por endoso y entrega.",
+              "tema": "Títulos Valores",
+              "palabras_clave": ["a la orden", "endoso", "entrega"]
+            },
+            {
+              "numero": 457,
+              "texto": "El endoso es la cesión del título valor mediante firma en el reverso del documento.",
+              "tema": "Títulos Valores",
+              "palabras_clave": ["endoso", "cesión", "firma", "reverso"]
+            },
+            {
+              "numero": 458,
+              "texto": "El endoso puede ser en blanco o en propiedad. El endoso en blanco no indica el nombre del beneficiario.",
+              "tema": "Títulos Valores",
+              "palabras_clave": ["endoso en blanco", "endoso en propiedad", "beneficiario"]
+            },
+            {
+              "numero": 459,
+              "texto": "El tenedor del título valor tiene derecho a exigir su cumplimiento al obligado principal.",
+              "tema": "Títulos Valores",
+              "palabras_clave": ["tenedor", "exigir cumplimiento", "obligado principal"]
+            },
+            {
+              "numero": 460,
+              "texto": "La prescripción de los títulos valores se rige por las disposiciones de este Código.",
+              "tema": "Títulos Valores",
+              "palabras_clave": ["prescripción", "títulos valores"]
+            },
+            {
+              "numero": 461,
+              "texto": "Los títulos valores pueden ser protestados por falta de pago.",
+              "tema": "Títulos Valores",
+              "palabras_clave": ["protesto", "falta de pago"]
+            },
+            {
+              "numero": 462,
+              "texto": "El protesto es el acto por el cual se acredita el incumplimiento del título valor.",
+              "tema": "Títulos Valores",
+              "palabras_clave": ["protesto", "incumplimiento"]
+            },
+            {
+              "numero": 463,
+              "texto": "El título valor puede ser cancelado cuando se extingue la obligación.",
+              "tema": "Títulos Valores",
+              "palabras_clave": ["cancelación", "extinción de la obligación"]
+            },
+            {
+              "numero": 464,
+              "texto": "La letra de cambio es un título valor por el cual una persona ordena a otra pagar una cantidad de dinero a un tercero.",
+              "tema": "Títulos Valores",
+              "palabras_clave": ["letra de cambio", "orden de pago", "cantidad de dinero", "tercero"]
+            },
+            {
+              "numero": 465,
+              "texto": "El cheque es un título valor por el cual una persona ordena a su banco pagar una cantidad de dinero.",
+              "tema": "Títulos Valores",
+              "palabras_clave": ["cheque", "banco", "orden de pago"]
+            },
+            {
+              "numero": 466,
+              "texto": "El pagaré es un título valor por el cual una persona se obliga a pagar una cantidad de dinero a otra.",
+              "tema": "Títulos Valores",
+              "palabras_clave": ["pagaré", "obligación de pago"]
+            },
+            {
+              "numero": 467,
+              "texto": "La factura de venta es un título valor que acredita la compra de bienes o servicios.",
+              "tema": "Títulos Valores",
+              "palabras_clave": ["factura de venta", "compra de bienes", "servicios"]
+            },
+            {
+              "numero": 468,
+              "texto": "El certificado de depósito es un título valor que acredita la existencia de mercancías depositadas.",
+              "tema": "Títulos Valores",
+              "palabras_clave": ["certificado de depósito", "mercancías", "depósito"]
+            },
+            {
+              "numero": 469,
+              "texto": "Los títulos valores deben ser firmados por el obligado para ser válidos.",
+              "tema": "Títulos Valores",
+              "palabras_clave": ["firma", "obligado", "validez"]
+            },
+            {
+              "numero": 470,
+              "texto": "La falsificación de títulos valores es un delito sancionado por la ley penal.",
+              "tema": "Títulos Valores",
+              "palabras_clave": ["falsificación", "delito", "ley penal"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "IV",
+      "nombre": "DE LOS CONTRATOS MERCANTILES",
+      "descripcion": "Artículos 751 al 1100 - Seguros, transporte, agencia, comisión, depósito, factoring",
+      "titulos": [
+        {
+          "numero": "I",
+          "nombre": "DEL CONTRATO DE SEGURO",
+          "descripcion": "Artículos 751 al 800",
+          "articulos": [
+            {
+              "numero": 751,
+              "texto": "El contrato de seguro es aquel por el cual una persona (asegurador) se obliga a indemnizar a otra (asegurado) en caso de ocurrencia de un siniestro.",
+              "tema": "Contratos Mercantiles",
+              "palabras_clave": ["seguro", "asegurador", "asegurado", "indemnización", "siniestro"]
+            },
+            {
+              "numero": 752,
+              "texto": "El contrato de seguro puede ser: 1. De daños. 2. De personas. 3. De responsabilidad civil. 4. De transporte.",
+              "tema": "Contratos Mercantiles",
+              "palabras_clave": ["seguro de daños", "seguro de personas", "seguro de responsabilidad civil", "seguro de transporte"]
+            },
+            {
+              "numero": 753,
+              "texto": "El asegurador está obligado a indemnizar el daño causado, hasta el monto del seguro.",
+              "tema": "Contratos Mercantiles",
+              "palabras_clave": ["indemnización", "monto del seguro"]
+            },
+            {
+              "numero": 754,
+              "texto": "El asegurado debe pagar la prima al asegurador.",
+              "tema": "Contratos Mercantiles",
+              "palabras_clave": ["prima", "pago"]
+            },
+            {
+              "numero": 755,
+              "texto": "El contrato de seguro debe constar por escrito.",
+              "tema": "Contratos Mercantiles",
+              "palabras_clave": ["contrato escrito"]
+            },
+            {
+              "numero": 756,
+              "texto": "El seguro es obligatorio en los casos establecidos por la ley.",
+              "tema": "Contratos Mercantiles",
+              "palabras_clave": ["seguro obligatorio", "ley"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "V",
+      "nombre": "DE LOS PROCEDIMIENTOS CONCURSALES",
+      "descripcion": "Artículos 1101 al 1386 - Reorganización y liquidación de empresas",
+      "titulos": [
+        {
+          "numero": "I",
+          "nombre": "DISPOSICIONES GENERALES",
+          "descripcion": "Artículos 1101 al 1120",
+          "articulos": [
+            {
+              "numero": 1101,
+              "texto": "El procedimiento concursal es el conjunto de actuaciones judiciales para la reorganización o liquidación de empresas en dificultades financieras.",
+              "tema": "Procedimientos Concursales",
+              "palabras_clave": ["procedimiento concursal", "reorganización", "liquidación", "dificultades financieras"]
+            },
+            {
+              "numero": 1102,
+              "texto": "El procedimiento concursal puede ser: 1. De reorganización, cuando la empresa puede ser salvada. 2. De liquidación, cuando no es posible su salvación.",
+              "tema": "Procedimientos Concursales",
+              "palabras_clave": ["reorganización", "liquidación", "salvación"]
+            },
+            {
+              "numero": 1103,
+              "texto": "La reorganización busca la continuidad de la empresa y el pago de las deudas.",
+              "tema": "Procedimientos Concursales",
+              "palabras_clave": ["continuidad", "pago de deudas"]
+            },
+            {
+              "numero": 1104,
+              "texto": "La liquidación busca la venta de los activos y el pago de las deudas.",
+              "tema": "Procedimientos Concursales",
+              "palabras_clave": ["venta de activos", "pago de deudas"]
+            },
+            {
+              "numero": 1105,
+              "texto": "El procedimiento concursal se inicia por solicitud del deudor o de los acreedores.",
+              "tema": "Procedimientos Concursales",
+              "palabras_clave": ["solicitud", "deudor", "acreedores"]
+            },
+            {
+              "numero": 1106,
+              "texto": "El juez del concurso es el encargado de dirigir el procedimiento.",
+              "tema": "Procedimientos Concursales",
+              "palabras_clave": ["juez del concurso", "dirección"]
+            },
+            {
+              "numero": 1107,
+              "texto": "El deudor debe presentar un inventario de sus bienes y deudas.",
+              "tema": "Procedimientos Concursales",
+              "palabras_clave": ["inventario", "bienes", "deudas"]
+            },
+            {
+              "numero": 1108,
+              "texto": "Los acreedores deben presentar sus créditos para ser reconocidos.",
+              "tema": "Procedimientos Concursales",
+              "palabras_clave": ["acreedores", "créditos", "reconocimiento"]
+            },
+            {
+              "numero": 1109,
+              "texto": "El síndico es el administrador del concurso, designado por el juez.",
+              "tema": "Procedimientos Concursales",
+              "palabras_clave": ["síndico", "administrador", "designación"]
+            },
+            {
+              "numero": 1110,
+              "texto": "El síndico tiene la obligación de: 1. Administrar los bienes. 2. Pagar las deudas. 3. Presentar informes al juez.",
+              "tema": "Procedimientos Concursales",
+              "palabras_clave": ["síndico", "administrar bienes", "pagar deudas", "informes"]
+            },
+            {
+              "numero": 1111,
+              "texto": "El procedimiento concursal se rige por las disposiciones de este Código.",
+              "tema": "Procedimientos Concursales",
+              "palabras_clave": ["procedimiento", "Código de Comercio"]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reformas_destacadas": [
+    {
+      "ley": "Ley 1258 de 2008",
+      "descripcion": "Creación de la Sociedad por Acciones Simplificada (S.A.S.), flexibilizando la constitución de empresas.",
+      "fecha": "2008"
+    },
+    {
+      "ley": "Ley 590 de 2000",
+      "descripcion": "Promoción del desarrollo de la micro, pequeña y mediana empresa.",
+      "fecha": "2000"
+    },
+    {
+      "ley": "Ley 222 de 1995",
+      "descripcion": "Reforma del régimen de sociedades y de los procedimientos concursales.",
+      "fecha": "1995"
+    },
+    {
+      "ley": "Reforma 2026",
+      "descripcion": "Proyecto de ley que introduce la obligación de constitución digital para empresas, agiliza trámites ante Cámaras de Comercio y actualiza el régimen de títulos valores.",
+      "fecha": "2026"
+    }
+  ]
+}

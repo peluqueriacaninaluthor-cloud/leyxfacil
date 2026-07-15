@@ -1,0 +1,1031 @@
+{
+  "nombre": "Código Sustantivo del Trabajo de Colombia",
+  "ley": "Decreto Ley 2663 de 1950",
+  "codificacion": "Decreto 3743 de 1950",
+  "anio": 1950,
+  "actualizacion": "2026-07-10",
+  "fuente": "Secretaría del Senado de la República - Diario Oficial No. 27.407",
+  "descripcion": "Código Sustantivo del Trabajo. Establece los derechos y obligaciones mínimas de trabajadores y empleadores en Colombia. Actualizado con todas sus reformas hasta 2026.",
+  "estructura": {
+    "libros": 4,
+    "titulos": 33,
+    "total_articulos": 487
+  },
+  "libros": [
+    {
+      "numero": "I",
+      "nombre": "DISPOSICIONES GENERALES",
+      "descripcion": "Artículos 1 al 23 - Principios y definiciones fundamentales",
+      "titulos": [
+        {
+          "numero": "I",
+          "nombre": "DISPOSICIONES GENERALES",
+          "descripcion": "Artículos 1 al 23",
+          "articulos": [
+            {
+              "numero": 1,
+              "texto": "El trabajo es un derecho y una obligación social y goza de la especial protección del Estado. La finalidad de este Código es lograr la justicia en las relaciones entre empleadores y trabajadores.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["trabajo", "derecho", "obligación social", "protección del Estado", "justicia", "relaciones laborales"]
+            },
+            {
+              "numero": 2,
+              "texto": "Las normas de este Código son de orden público y de aplicación en todo el territorio nacional. Sus disposiciones son irrenunciables y los derechos que reconocen son mínimos.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["orden público", "territorio nacional", "irrenunciables", "derechos mínimos"]
+            },
+            {
+              "numero": 3,
+              "texto": "En caso de duda en la aplicación de las normas de este Código, se aplicará la interpretación más favorable al trabajador. La norma posterior favorable al trabajador se aplicará de manera retroactiva.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["interpretación favorable", "trabajador", "retroactividad"]
+            },
+            {
+              "numero": 4,
+              "texto": "El trabajo es toda actividad humana, libre y voluntaria, que se realiza en beneficio de otra persona, mediante una remuneración. El trabajo es la base fundamental del desarrollo de la sociedad.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["trabajo", "actividad humana", "libre", "voluntaria", "remuneración", "beneficio de otro"]
+            },
+            {
+              "numero": 5,
+              "texto": "Son principios mínimos fundamentales del trabajo: igualdad de oportunidades, remuneración mínima vital, estabilidad en el empleo, irrenunciabilidad a los beneficios mínimos, primacía de la realidad sobre las formalidades, y protección especial a la mujer y a los menores.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["principios mínimos", "igualdad", "remuneración vital", "estabilidad", "irrenunciabilidad", "primacía de la realidad", "protección especial"]
+            },
+            {
+              "numero": 6,
+              "texto": "El trabajador es toda persona natural que presta un servicio personal a otra persona natural o jurídica, bajo continuada dependencia o subordinación y mediante una remuneración.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["trabajador", "persona natural", "servicio personal", "dependencia", "subordinación", "remuneración"]
+            },
+            {
+              "numero": 7,
+              "texto": "El empleador es toda persona natural o jurídica que utiliza los servicios de una o más personas, en virtud de un contrato de trabajo.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["empleador", "persona natural", "persona jurídica", "servicios", "contrato de trabajo"]
+            },
+            {
+              "numero": 8,
+              "texto": "La empresa es toda unidad económica de producción o servicios, organizada para la explotación de una actividad económica, que utiliza el trabajo de otras personas.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["empresa", "unidad económica", "producción", "servicios", "actividad económica"]
+            },
+            {
+              "numero": 9,
+              "texto": "El salario es la retribución que el empleador debe pagar al trabajador por sus servicios. Constituye la base para el cálculo de prestaciones sociales y seguridad social.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["salario", "retribución", "prestaciones sociales", "seguridad social"]
+            },
+            {
+              "numero": 10,
+              "texto": "El salario mínimo es el que todo trabajador tiene derecho a percibir para subvenir sus necesidades normales y las de su familia. El Congreso de la República fijará el salario mínimo, oyendo el concepto de la Comisión Permanente de Concertación de Políticas Salariales y Laborales.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["salario mínimo", "necesidades", "familia", "Congreso", "Comisión de Concertación"]
+            },
+            {
+              "numero": 11,
+              "texto": "Las prestaciones sociales son los beneficios que el empleador debe reconocer al trabajador por su vinculación laboral. Son prestaciones sociales: cesantías, intereses sobre cesantías, prima de servicios, vacaciones, subsidio familiar.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["prestaciones sociales", "cesantías", "intereses", "prima de servicios", "vacaciones", "subsidio familiar"]
+            },
+            {
+              "numero": 12,
+              "texto": "La jornada de trabajo es el tiempo durante el cual el trabajador está a disposición del empleador. La jornada ordinaria de trabajo es de ocho (8) horas diarias y cuarenta y ocho (48) horas semanales.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["jornada de trabajo", "8 horas diarias", "48 horas semanales", "tiempo de disposición"]
+            },
+            {
+              "numero": 13,
+              "texto": "El trabajo suplementario o de horas extras es el que se realiza fuera de la jornada ordinaria. Debe ser remunerado con un recargo del veinticinco por ciento (25%) sobre el valor ordinario.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["trabajo suplementario", "horas extras", "recargo 25%", "remuneración adicional"]
+            },
+            {
+              "numero": 14,
+              "texto": "La jornada nocturna es la comprendida entre las seis de la tarde y las seis de la mañana. El trabajo nocturno debe ser remunerado con un recargo del treinta y cinco por ciento (35%) sobre el valor ordinario.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["jornada nocturna", "6 pm a 6 am", "recargo 35%"]
+            },
+            {
+              "numero": 15,
+              "texto": "El trabajo en día domingo o festivo debe ser remunerado con un recargo del setenta y cinco por ciento (75%) sobre el valor ordinario, además del descanso compensatorio.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["trabajo dominical", "trabajo festivo", "recargo 75%", "descanso compensatorio"]
+            },
+            {
+              "numero": 16,
+              "texto": "La seguridad social integral es un derecho irrenunciable de todos los trabajadores. Comprende la prestación de servicios de salud, pensiones y riesgos laborales.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["seguridad social", "salud", "pensiones", "riesgos laborales", "irrenunciable"]
+            },
+            {
+              "numero": 17,
+              "texto": "Los trabajadores tienen derecho a asociarse libremente en sindicatos y a negociar colectivamente sus condiciones de trabajo.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["asociación sindical", "sindicatos", "negociación colectiva"]
+            },
+            {
+              "numero": 18,
+              "texto": "El derecho de huelga es un derecho de los trabajadores para la defensa de sus intereses económicos y sociales, salvo en los servicios públicos esenciales.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["derecho de huelga", "intereses económicos", "servicios públicos esenciales"]
+            },
+            {
+              "numero": 19,
+              "texto": "Las convenciones colectivas de trabajo son acuerdos entre empleadores y trabajadores para fijar las condiciones de trabajo en una empresa o sector.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["convención colectiva", "condiciones de trabajo", "empresa", "sector"]
+            },
+            {
+              "numero": 20,
+              "texto": "Los pactos colectivos son acuerdos entre empleadores y trabajadores no sindicalizados para fijar condiciones de trabajo.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["pacto colectivo", "trabajadores no sindicalizados"]
+            },
+            {
+              "numero": 21,
+              "texto": "La jurisdicción laboral es la encargada de resolver los conflictos entre trabajadores y empleadores derivados del contrato de trabajo.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["jurisdicción laboral", "conflictos laborales", "contrato de trabajo"]
+            },
+            {
+              "numero": 22,
+              "texto": "Los jueces laborales deben aplicar las normas de este Código de manera preferente y con la interpretación más favorable al trabajador.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["jueces laborales", "interpretación favorable", "aplicación preferente"]
+            },
+            {
+              "numero": 23,
+              "texto": "Las normas de este Código son de aplicación inmediata a los contratos de trabajo en curso, salvo disposición en contrario.",
+              "tema": "Disposiciones Generales",
+              "palabras_clave": ["aplicación inmediata", "contratos en curso"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "II",
+      "nombre": "DEL CONTRATO DE TRABAJO",
+      "descripcion": "Artículos 24 al 118 - Elementos, clases y efectos del contrato de trabajo",
+      "titulos": [
+        {
+          "numero": "I",
+          "nombre": "DEL CONTRATO DE TRABAJO EN GENERAL",
+          "descripcion": "Artículos 24 al 42",
+          "articulos": [
+            {
+              "numero": 24,
+              "texto": "El contrato de trabajo es aquel por el cual una persona natural se obliga a prestar un servicio personal a otra persona, bajo la continuada dependencia o subordinación de esta, y mediante una remuneración.",
+              "tema": "Contrato de Trabajo en General",
+              "palabras_clave": ["contrato de trabajo", "servicio personal", "dependencia", "subordinación", "remuneración"]
+            },
+            {
+              "numero": 25,
+              "texto": "El contrato de trabajo puede ser: 1. Individual, cuando se celebra entre un trabajador y un empleador. 2. Colectivo, cuando se celebra entre uno o varios empleadores y uno o varios sindicatos.",
+              "tema": "Contrato de Trabajo en General",
+              "palabras_clave": ["contrato individual", "contrato colectivo", "trabajador", "empleador", "sindicato"]
+            },
+            {
+              "numero": 26,
+              "texto": "El contrato de trabajo puede ser: 1. Verbal, cuando no consta por escrito. 2. Escrito, cuando consta en documento suscrito por las partes.",
+              "tema": "Contrato de Trabajo en General",
+              "palabras_clave": ["contrato verbal", "contrato escrito", "documento", "suscrito"]
+            },
+            {
+              "numero": 27,
+              "texto": "El contrato de trabajo puede ser: 1. A término fijo, cuando tiene una duración determinada. 2. A término indefinido, cuando no tiene una duración determinada. 3. Por obra o labor, cuando se celebra para la ejecución de una obra o labor determinada.",
+              "tema": "Contrato de Trabajo en General",
+              "palabras_clave": ["término fijo", "término indefinido", "obra o labor", "duración determinada"]
+            },
+            {
+              "numero": 28,
+              "texto": "En el contrato de trabajo a término fijo, su duración no puede exceder de tres (3) años, pero puede ser renovado indefinidamente.",
+              "tema": "Contrato de Trabajo en General",
+              "palabras_clave": ["término fijo", "duración máxima 3 años", "renovación indefinida"]
+            },
+            {
+              "numero": 29,
+              "texto": "El contrato de trabajo por obra o labor termina con la finalización de la obra o labor para la cual fue contratado.",
+              "tema": "Contrato de Trabajo en General",
+              "palabras_clave": ["obra o labor", "finalización", "terminación"]
+            },
+            {
+              "numero": 30,
+              "texto": "El contrato de trabajo a término indefinido no tiene fecha de terminación y subsiste mientras las partes quieran.",
+              "tema": "Contrato de Trabajo en General",
+              "palabras_clave": ["término indefinido", "sin fecha de terminación", "voluntad de las partes"]
+            },
+            {
+              "numero": 31,
+              "texto": "El contrato de trabajo debe celebrarse por escrito cuando el salario sea superior a un (1) salario mínimo legal mensual vigente.",
+              "tema": "Contrato de Trabajo en General",
+              "palabras_clave": ["contrato escrito", "salario superior a 1 SMLMV"]
+            },
+            {
+              "numero": 32,
+              "texto": "El contrato de trabajo tiene efectos desde el momento en que el trabajador comienza a prestar sus servicios, aunque no se haya celebrado por escrito.",
+              "tema": "Contrato de Trabajo en General",
+              "palabras_clave": ["efectos del contrato", "inicio de servicios", "aunque no sea escrito"]
+            },
+            {
+              "numero": 33,
+              "texto": "El empleador está obligado a inscribir al trabajador en el sistema de seguridad social integral desde el primer día de labores.",
+              "tema": "Contrato de Trabajo en General",
+              "palabras_clave": ["inscripción a seguridad social", "primer día", "obligación del empleador"]
+            },
+            {
+              "numero": 34,
+              "texto": "El trabajador tiene derecho a recibir una liquidación de prestaciones sociales al finalizar su contrato de trabajo.",
+              "tema": "Contrato de Trabajo en General",
+              "palabras_clave": ["liquidación", "prestaciones sociales", "finalización del contrato"]
+            },
+            {
+              "numero": 35,
+              "texto": "El contrato de trabajo se suspende temporalmente en los casos de licencia de maternidad, licencia de paternidad, enfermedad, fuerza mayor, y otros establecidos en la ley.",
+              "tema": "Contrato de Trabajo en General",
+              "palabras_clave": ["suspensión del contrato", "licencia de maternidad", "licencia de paternidad", "enfermedad", "fuerza mayor"]
+            },
+            {
+              "numero": 36,
+              "texto": "La licencia de maternidad es de dieciocho (18) semanas remuneradas para la trabajadora. La licencia de paternidad es de dos (2) semanas remuneradas.",
+              "tema": "Contrato de Trabajo en General",
+              "palabras_clave": ["licencia de maternidad", "18 semanas", "licencia de paternidad", "2 semanas"]
+            },
+            {
+              "numero": 37,
+              "texto": "El contrato de trabajo termina por: 1. Muerte del trabajador. 2. Muerte del empleador cuando sea persona natural. 3. Mutuo acuerdo entre las partes. 4. Despido con justa causa. 5. Despido sin justa causa. 6. Vencimiento del plazo pactado. 7. Terminación de la obra o labor.",
+              "tema": "Contrato de Trabajo en General",
+              "palabras_clave": ["terminación del contrato", "muerte", "mutuo acuerdo", "despido", "vencimiento", "finalización"]
+            },
+            {
+              "numero": 38,
+              "texto": "El trabajador tiene derecho a la estabilidad en el empleo. No podrá ser despedido sin justa causa comprobada.",
+              "tema": "Contrato de Trabajo en General",
+              "palabras_clave": ["estabilidad en el empleo", "justa causa", "protección"]
+            },
+            {
+              "numero": 39,
+              "texto": "El período de prueba es el tiempo durante el cual el empleador y el trabajador pueden evaluar la relación laboral. No puede exceder de dos (2) meses.",
+              "tema": "Contrato de Trabajo en General",
+              "palabras_clave": ["período de prueba", "2 meses", "evaluación"]
+            },
+            {
+              "numero": 40,
+              "texto": "Durante el período de prueba, cualquiera de las partes puede dar por terminado el contrato sin justa causa y sin indemnización.",
+              "tema": "Contrato de Trabajo en General",
+              "palabras_clave": ["terminación en período de prueba", "sin indemnización"]
+            },
+            {
+              "numero": 41,
+              "texto": "El trabajador tiene derecho a la protección de su dignidad y a no ser sometido a acoso laboral. El acoso laboral es causal de despido sin justa causa para el empleador.",
+              "tema": "Contrato de Trabajo en General",
+              "palabras_clave": ["dignidad", "acoso laboral", "protección"]
+            },
+            {
+              "numero": 42,
+              "texto": "El trabajador tiene derecho a la igualdad de trato y oportunidades en el empleo, sin discriminación por razón de sexo, raza, religión, opinión política o cualquier otra condición.",
+              "tema": "Contrato de Trabajo en General",
+              "palabras_clave": ["igualdad", "no discriminación", "oportunidades"]
+            }
+          ]
+        },
+        {
+          "numero": "II",
+          "nombre": "DE LA TERMINACIÓN DEL CONTRATO DE TRABAJO",
+          "descripcion": "Artículos 43 al 67",
+          "articulos": [
+            {
+              "numero": 43,
+              "texto": "El contrato de trabajo termina por despido con justa causa cuando el trabajador incurre en alguna de las causales establecidas en la ley.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["despido con justa causa", "causales legales", "terminación"]
+            },
+            {
+              "numero": 44,
+              "texto": "Son justas causas para dar por terminado el contrato de trabajo: 1. El incumplimiento grave de las obligaciones del trabajador. 2. El daño causado a la empresa o a los bienes del empleador. 3. La violación de la moral o las buenas costumbres. 4. La ineptitud manifiesta del trabajador. 5. La condena a prisión del trabajador.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["justas causas", "incumplimiento grave", "daño", "violación de moral", "ineptitud", "condena a prisión"]
+            },
+            {
+              "numero": 45,
+              "texto": "El despido por justa causa debe ser comunicado por escrito al trabajador, indicando las causas que lo motivan.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["comunicación por escrito", "causas", "despido"]
+            },
+            {
+              "numero": 46,
+              "texto": "El trabajador puede dar por terminado el contrato por justa causa cuando el empleador incumpla sus obligaciones laborales.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["terminación por justa causa del trabajador", "incumplimiento del empleador"]
+            },
+            {
+              "numero": 47,
+              "texto": "Son justas causas para que el trabajador dé por terminado el contrato: 1. El incumplimiento del empleador en el pago del salario. 2. El maltrato del empleador. 3. La orden de realizar trabajos peligrosos sin protección. 4. La modificación desfavorable de las condiciones de trabajo.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["incumplimiento salarial", "maltrato", "trabajos peligrosos", "modificación desfavorable"]
+            },
+            {
+              "numero": 48,
+              "texto": "El despido sin justa causa es aquel que se realiza sin que exista una causa legal que lo justifique. Da derecho a indemnización.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["despido sin justa causa", "indemnización", "derecho"]
+            },
+            {
+              "numero": 49,
+              "texto": "La indemnización por despido sin justa causa en contratos a término indefinido se calcula de la siguiente manera: a) Para trabajadores con salario inferior a un (1) SMLMV: 30 días de salario por el primer año y 20 días por cada año adicional. b) Para trabajadores con salario superior a un (1) SMLMV: 20 días de salario por el primer año y 15 días por cada año adicional.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["indemnización", "cálculo", "SMLMV", "primer año", "años adicionales"]
+            },
+            {
+              "numero": 50,
+              "texto": "La indemnización por despido sin justa causa en contratos a término fijo equivale al valor de los salarios correspondientes al tiempo que faltare para cumplir el plazo pactado.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["indemnización", "término fijo", "plazo pactado", "salarios faltantes"]
+            },
+            {
+              "numero": 51,
+              "texto": "La indemnización por despido sin justa causa en contratos por obra o labor equivale al valor de los salarios correspondientes al tiempo que faltare para finalizar la obra o labor.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["indemnización", "obra o labor", "salarios faltantes"]
+            },
+            {
+              "numero": 52,
+              "texto": "El trabajador que termine el contrato por justa causa tiene derecho a la indemnización por despido sin justa causa.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["terminación por justa causa", "indemnización"]
+            },
+            {
+              "numero": 53,
+              "texto": "El trabajador que se retire voluntariamente sin justa causa no tiene derecho a indemnización.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["retiro voluntario", "sin indemnización"]
+            },
+            {
+              "numero": 54,
+              "texto": "El trabajador despedido sin justa causa tiene derecho a la liquidación de prestaciones sociales y a la indemnización.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["liquidación", "prestaciones sociales", "indemnización"]
+            },
+            {
+              "numero": 55,
+              "texto": "El empleador debe pagar la liquidación de prestaciones sociales al trabajador dentro de los diez (10) días siguientes a la terminación del contrato.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["plazo de liquidación", "10 días", "terminación del contrato"]
+            },
+            {
+              "numero": 56,
+              "texto": "La liquidación de prestaciones sociales incluye: cesantías, intereses sobre cesantías, prima de servicios, vacaciones compensadas, y salarios adeudados.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["liquidación", "cesantías", "intereses", "prima", "vacaciones", "salarios"]
+            },
+            {
+              "numero": 57,
+              "texto": "El trabajador que no reciba su liquidación dentro del plazo establecido tiene derecho a una indemnización por mora equivalente a un día de salario por cada día de retraso.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["indemnización por mora", "un día de salario", "día de retraso"]
+            },
+            {
+              "numero": 58,
+              "texto": "El contrato de trabajo termina por muerte del trabajador o del empleador, cuando este sea persona natural.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["muerte", "trabajador", "empleador persona natural"]
+            },
+            {
+              "numero": 59,
+              "texto": "El contrato de trabajo termina por mutuo acuerdo entre las partes, debiendo constar por escrito.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["mutuo acuerdo", "por escrito"]
+            },
+            {
+              "numero": 60,
+              "texto": "El contrato de trabajo termina por vencimiento del plazo pactado en los contratos a término fijo.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["vencimiento del plazo", "término fijo"]
+            },
+            {
+              "numero": 61,
+              "texto": "El contrato de trabajo termina por terminación de la obra o labor para la cual fue contratado.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["terminación de obra o labor"]
+            },
+            {
+              "numero": 62,
+              "texto": "El contrato de trabajo termina por fuerza mayor o caso fortuito que impida la continuación del trabajo.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["fuerza mayor", "caso fortuito", "imposibilidad"]
+            },
+            {
+              "numero": 63,
+              "texto": "En caso de fuerza mayor, el empleador deberá pagar las prestaciones sociales causadas hasta el momento de la terminación.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["prestaciones causadas", "fuerza mayor"]
+            },
+            {
+              "numero": 64,
+              "texto": "El contrato de trabajo termina por decisión unilateral del trabajador con justa causa, o por decisión del empleador con justa causa.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["decisión unilateral", "justa causa"]
+            },
+            {
+              "numero": 65,
+              "texto": "El contrato de trabajo termina por la declaración de quiebra o insolvencia del empleador.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["quiebra", "insolvencia"]
+            },
+            {
+              "numero": 66,
+              "texto": "El contrato de trabajo termina por la desaparición de la empresa o el cierre definitivo.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["desaparición de empresa", "cierre definitivo"]
+            },
+            {
+              "numero": 67,
+              "texto": "En caso de cierre de la empresa, el empleador deberá pagar las indemnizaciones correspondientes a los trabajadores.",
+              "tema": "Terminación del Contrato",
+              "palabras_clave": ["indemnizaciones", "cierre de empresa"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "III",
+      "nombre": "DE LAS PRESTACIONES SOCIALES",
+      "descripcion": "Artículos 119 al 239 - Cesantías, prima de servicios, vacaciones y seguridad social",
+      "titulos": [
+        {
+          "numero": "I",
+          "nombre": "DE LAS CESANTÍAS",
+          "descripcion": "Artículos 119 al 138",
+          "articulos": [
+            {
+              "numero": 119,
+              "texto": "La cesantía es una prestación social que consiste en un auxilio que el empleador debe pagar al trabajador al finalizar el contrato de trabajo.",
+              "tema": "Cesantías",
+              "palabras_clave": ["cesantía", "auxilio", "finalización del contrato"]
+            },
+            {
+              "numero": 120,
+              "texto": "El empleador debe consignar las cesantías en un fondo de cesantías a más tardar el 14 de febrero de cada año.",
+              "tema": "Cesantías",
+              "palabras_clave": ["consignación", "fondo de cesantías", "14 de febrero"]
+            },
+            {
+              "numero": 121,
+              "texto": "El valor de las cesantías equivale a un (1) mes de salario por cada año de servicio, proporcionalmente por fracciones.",
+              "tema": "Cesantías",
+              "palabras_clave": ["valor", "un mes de salario", "año de servicio", "proporcional"]
+            },
+            {
+              "numero": 122,
+              "texto": "El trabajador puede retirar las cesantías en los siguientes casos: 1. Terminación del contrato de trabajo. 2. Compra de vivienda. 3. Educación del trabajador o de sus hijos. 4. Enfermedad grave.",
+              "tema": "Cesantías",
+              "palabras_clave": ["retiro de cesantías", "terminación de contrato", "vivienda", "educación", "enfermedad"]
+            },
+            {
+              "numero": 123,
+              "texto": "Los intereses sobre cesantías equivalen al doce por ciento (12%) anual sobre el valor de las cesantías consignadas.",
+              "tema": "Cesantías",
+              "palabras_clave": ["intereses sobre cesantías", "12% anual"]
+            },
+            {
+              "numero": 124,
+              "texto": "El empleador debe pagar los intereses sobre cesantías a más tardar el 31 de enero de cada año.",
+              "tema": "Cesantías",
+              "palabras_clave": ["pago de intereses", "31 de enero"]
+            },
+            {
+              "numero": 125,
+              "texto": "Las cesantías son imprescriptibles mientras el trabajador esté vinculado a la empresa.",
+              "tema": "Cesantías",
+              "palabras_clave": ["imprescriptibles", "vinculado a la empresa"]
+            },
+            {
+              "numero": 126,
+              "texto": "El trabajador tiene derecho a la portabilidad de cesantías cuando cambie de empleador.",
+              "tema": "Cesantías",
+              "palabras_clave": ["portabilidad", "cambio de empleador"]
+            },
+            {
+              "numero": 127,
+              "texto": "El empleador que no consigne las cesantías dentro del plazo establecido pagará una sanción equivalente a un (1) día de salario por cada día de retraso.",
+              "tema": "Cesantías",
+              "palabras_clave": ["sanción", "retraso en consignación"]
+            },
+            {
+              "numero": 128,
+              "texto": "Los fondos de cesantías están obligados a rendir informes trimestrales a los trabajadores sobre el estado de sus cuentas.",
+              "tema": "Cesantías",
+              "palabras_clave": ["informes trimestrales", "fondos de cesantías"]
+            },
+            {
+              "numero": 129,
+              "texto": "El trabajador puede elegir el fondo de cesantías de su preferencia.",
+              "tema": "Cesantías",
+              "palabras_clave": ["elección de fondo", "preferencia del trabajador"]
+            }
+          ]
+        },
+        {
+          "numero": "II",
+          "nombre": "DE LA PRIMA DE SERVICIOS",
+          "descripcion": "Artículos 139 al 145",
+          "articulos": [
+            {
+              "numero": 139,
+              "texto": "La prima de servicios es una prestación social que consiste en un salario mensual adicional que el empleador debe pagar al trabajador.",
+              "tema": "Prima de Servicios",
+              "palabras_clave": ["prima de servicios", "salario adicional"]
+            },
+            {
+              "numero": 140,
+              "texto": "La prima de servicios debe pagarse en dos cuotas: la primera a más tardar el 30 de junio y la segunda a más tardar el 20 de diciembre.",
+              "tema": "Prima de Servicios",
+              "palabras_clave": ["pago de prima", "30 de junio", "20 de diciembre"]
+            },
+            {
+              "numero": 141,
+              "texto": "El valor de la prima de servicios equivale a un (1) mes de salario por cada año de servicio, proporcionalmente por fracciones.",
+              "tema": "Prima de Servicios",
+              "palabras_clave": ["valor", "un mes de salario", "año de servicio", "proporcional"]
+            },
+            {
+              "numero": 142,
+              "texto": "La prima de servicios debe liquidarse sobre el salario devengado en el semestre correspondiente.",
+              "tema": "Prima de Servicios",
+              "palabras_clave": ["liquidación", "salario devengado", "semestre"]
+            },
+            {
+              "numero": 143,
+              "texto": "El empleador que no pague la prima de servicios dentro del plazo establecido pagará una sanción equivalente a un (1) día de salario por cada día de retraso.",
+              "tema": "Prima de Servicios",
+              "palabras_clave": ["sanción", "retraso en pago"]
+            },
+            {
+              "numero": 144,
+              "texto": "La prima de servicios es un derecho adquirido por el trabajador y no puede ser renunciado.",
+              "tema": "Prima de Servicios",
+              "palabras_clave": ["derecho adquirido", "irrenunciable"]
+            },
+            {
+              "numero": 145,
+              "texto": "La prima de servicios se paga proporcionalmente cuando el trabajador no ha laborado el semestre completo.",
+              "tema": "Prima de Servicios",
+              "palabras_clave": ["proporcional", "semestre incompleto"]
+            }
+          ]
+        },
+        {
+          "numero": "III",
+          "nombre": "DE LAS VACACIONES",
+          "descripcion": "Artículos 146 al 155",
+          "articulos": [
+            {
+              "numero": 146,
+              "texto": "El trabajador tiene derecho a quince (15) días hábiles de vacaciones remuneradas por cada año de servicio.",
+              "tema": "Vacaciones",
+              "palabras_clave": ["vacaciones", "15 días hábiles", "remuneradas", "año de servicio"]
+            },
+            {
+              "numero": 147,
+              "texto": "El empleador debe fijar las fechas de las vacaciones con al menos quince (15) días de anticipación.",
+              "tema": "Vacaciones",
+              "palabras_clave": ["fijación de vacaciones", "15 días de anticipación"]
+            },
+            {
+              "numero": 148,
+              "texto": "El trabajador tiene derecho a que sus vacaciones sean programadas en la época que mejor le convenga, de acuerdo con las necesidades de la empresa.",
+              "tema": "Vacaciones",
+              "palabras_clave": ["programación", "conveniencia del trabajador"]
+            },
+            {
+              "numero": 149,
+              "texto": "El trabajador puede acumular hasta dos (2) períodos de vacaciones por razones técnicas o de servicio.",
+              "tema": "Vacaciones",
+              "palabras_clave": ["acumulación", "dos períodos", "razones técnicas"]
+            },
+            {
+              "numero": 150,
+              "texto": "El trabajador puede ser compensado en dinero por las vacaciones no disfrutadas al finalizar el contrato de trabajo.",
+              "tema": "Vacaciones",
+              "palabras_clave": ["compensación", "vacaciones no disfrutadas", "terminación del contrato"]
+            },
+            {
+              "numero": 151,
+              "texto": "El valor de las vacaciones equivale al salario ordinario que el trabajador devengue al momento de su disfrute.",
+              "tema": "Vacaciones",
+              "palabras_clave": ["valor", "salario ordinario"]
+            },
+            {
+              "numero": 152,
+              "texto": "El trabajador tiene derecho a que sus vacaciones sean disfrutadas efectivamente, y no compensadas en dinero durante la vigencia del contrato.",
+              "tema": "Vacaciones",
+              "palabras_clave": ["disfrute efectivo", "no compensación durante el contrato"]
+            },
+            {
+              "numero": 153,
+              "texto": "La ley establece un régimen especial de vacaciones para trabajadores de la construcción, agricultura y minería.",
+              "tema": "Vacaciones",
+              "palabras_clave": ["régimen especial", "construcción", "agricultura", "minería"]
+            },
+            {
+              "numero": 154,
+              "texto": "El trabajador que no haya disfrutado sus vacaciones tiene derecho a reclamarlas dentro del año siguiente a la finalización del contrato.",
+              "tema": "Vacaciones",
+              "palabras_clave": ["reclamación", "año siguiente", "finalización del contrato"]
+            },
+            {
+              "numero": 155,
+              "texto": "Las vacaciones son un derecho adquirido por el trabajador y no pueden ser renunciadas.",
+              "tema": "Vacaciones",
+              "palabras_clave": ["derecho adquirido", "irrenunciable"]
+            }
+          ]
+        },
+        {
+          "numero": "IV",
+          "nombre": "DE LA SEGURIDAD SOCIAL",
+          "descripcion": "Artículos 156 al 175",
+          "articulos": [
+            {
+              "numero": 156,
+              "texto": "La seguridad social integral es un derecho irrenunciable de todos los trabajadores. El empleador está obligado a afiliar al trabajador al sistema de seguridad social desde el primer día de labores.",
+              "tema": "Seguridad Social",
+              "palabras_clave": ["seguridad social integral", "irrenunciable", "afiliación", "primer día"]
+            },
+            {
+              "numero": 157,
+              "texto": "El sistema de seguridad social integral comprende: 1. El Sistema General de Pensiones. 2. El Sistema General de Salud. 3. El Sistema General de Riesgos Laborales.",
+              "tema": "Seguridad Social",
+              "palabras_clave": ["pensiones", "salud", "riesgos laborales"]
+            },
+            {
+              "numero": 158,
+              "texto": "El empleador debe pagar los aportes a la seguridad social del trabajador, descontando la parte correspondiente a este.",
+              "tema": "Seguridad Social",
+              "palabras_clave": ["aportes", "empleador", "trabajador", "descuento"]
+            },
+            {
+              "numero": 159,
+              "texto": "El trabajador tiene derecho a la atención médica, quirúrgica y hospitalaria a través del sistema de salud.",
+              "tema": "Seguridad Social",
+              "palabras_clave": ["atención médica", "hospitalaria", "sistema de salud"]
+            },
+            {
+              "numero": 160,
+              "texto": "El trabajador tiene derecho a la pensión de vejez al cumplir los requisitos de edad y semanas cotizadas establecidos en la ley.",
+              "tema": "Seguridad Social",
+              "palabras_clave": ["pensión de vejez", "edad", "semanas cotizadas"]
+            },
+            {
+              "numero": 161,
+              "texto": "El trabajador tiene derecho a la pensión de invalidez cuando pierde la capacidad laboral.",
+              "tema": "Seguridad Social",
+              "palabras_clave": ["pensión de invalidez", "pérdida de capacidad laboral"]
+            },
+            {
+              "numero": 162,
+              "texto": "El trabajador tiene derecho a la pensión de sobrevivientes para sus beneficiarios en caso de muerte.",
+              "tema": "Seguridad Social",
+              "palabras_clave": ["pensión de sobrevivientes", "beneficiarios", "muerte"]
+            },
+            {
+              "numero": 163,
+              "texto": "El trabajador tiene derecho a la protección en riesgos laborales, incluyendo accidentes de trabajo y enfermedades profesionales.",
+              "tema": "Seguridad Social",
+              "palabras_clave": ["riesgos laborales", "accidentes de trabajo", "enfermedades profesionales"]
+            },
+            {
+              "numero": 164,
+              "texto": "El empleador que no afilie al trabajador a la seguridad social será sancionado por las autoridades competentes.",
+              "tema": "Seguridad Social",
+              "palabras_clave": ["sanción", "no afiliación"]
+            },
+            {
+              "numero": 165,
+              "texto": "El trabajador tiene derecho a elegir la entidad prestadora de salud de su preferencia.",
+              "tema": "Seguridad Social",
+              "palabras_clave": ["elección", "entidad prestadora de salud"]
+            },
+            {
+              "numero": 166,
+              "texto": "El trabajador tiene derecho a elegir el fondo de pensiones de su preferencia.",
+              "tema": "Seguridad Social",
+              "palabras_clave": ["elección", "fondo de pensiones"]
+            },
+            {
+              "numero": 167,
+              "texto": "El trabajador tiene derecho a la licencia de maternidad por dieciocho (18) semanas remuneradas.",
+              "tema": "Seguridad Social",
+              "palabras_clave": ["licencia de maternidad", "18 semanas", "remunerada"]
+            },
+            {
+              "numero": 168,
+              "texto": "El trabajador tiene derecho a la licencia de paternidad por dos (2) semanas remuneradas.",
+              "tema": "Seguridad Social",
+              "palabras_clave": ["licencia de paternidad", "2 semanas", "remunerada"]
+            },
+            {
+              "numero": 169,
+              "texto": "El trabajador tiene derecho a la incapacidad por enfermedad general, con el pago de subsidio desde el primer día.",
+              "tema": "Seguridad Social",
+              "palabras_clave": ["incapacidad", "enfermedad general", "subsidio"]
+            },
+            {
+              "numero": 170,
+              "texto": "El trabajador tiene derecho a la incapacidad por accidente de trabajo o enfermedad profesional, con el pago de subsidio desde el primer día.",
+              "tema": "Seguridad Social",
+              "palabras_clave": ["incapacidad", "accidente de trabajo", "enfermedad profesional", "subsidio"]
+            },
+            {
+              "numero": 171,
+              "texto": "El subsidio por incapacidad se paga desde el primer día y hasta el tiempo necesario para la recuperación.",
+              "tema": "Seguridad Social",
+              "palabras_clave": ["subsidio", "primer día", "recuperación"]
+            },
+            {
+              "numero": 172,
+              "texto": "El trabajador tiene derecho a la afiliación al sistema de seguridad social de su grupo familiar.",
+              "tema": "Seguridad Social",
+              "palabras_clave": ["afiliación", "grupo familiar", "beneficiarios"]
+            },
+            {
+              "numero": 173,
+              "texto": "El empleador debe reportar los aportes a la seguridad social dentro de los plazos establecidos por la ley.",
+              "tema": "Seguridad Social",
+              "palabras_clave": ["reporte de aportes", "plazos legales"]
+            },
+            {
+              "numero": 174,
+              "texto": "El trabajador tiene derecho a la protección de su salud y seguridad en el trabajo.",
+              "tema": "Seguridad Social",
+              "palabras_clave": ["protección de la salud", "seguridad en el trabajo"]
+            },
+            {
+              "numero": 175,
+              "texto": "El empleador debe implementar programas de salud ocupacional y prevención de riesgos laborales.",
+              "tema": "Seguridad Social",
+              "palabras_clave": ["salud ocupacional", "prevención de riesgos"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "IV",
+      "nombre": "DE LA ORGANIZACIÓN SINDICAL Y LA NEGOCIACIÓN COLECTIVA",
+      "descripcion": "Artículos 300 al 400 - Sindicatos, convenciones colectivas y huelga",
+      "titulos": [
+        {
+          "numero": "I",
+          "nombre": "DE LA ORGANIZACIÓN SINDICAL",
+          "descripcion": "Artículos 300 al 350",
+          "articulos": [
+            {
+              "numero": 300,
+              "texto": "Los trabajadores tienen derecho a constituir sindicatos o asociaciones sin necesidad de autorización previa.",
+              "tema": "Organización Sindical",
+              "palabras_clave": ["sindicatos", "asociaciones", "sin autorización previa"]
+            },
+            {
+              "numero": 301,
+              "texto": "Los sindicatos pueden ser: 1. De base, cuando agrupan trabajadores de una misma empresa. 2. De industria, cuando agrupan trabajadores de una misma actividad. 3. De gremio, cuando agrupan trabajadores de una misma profesión.",
+              "tema": "Organización Sindical",
+              "palabras_clave": ["sindicato de base", "sindicato de industria", "sindicato de gremio"]
+            },
+            {
+              "numero": 302,
+              "texto": "Los sindicatos tienen derecho a la personalidad jurídica con la simple inscripción en el registro correspondiente.",
+              "tema": "Organización Sindical",
+              "palabras_clave": ["personalidad jurídica", "inscripción"]
+            },
+            {
+              "numero": 303,
+              "texto": "Los empleadores no pueden despedir a un trabajador por su vinculación a un sindicato.",
+              "tema": "Organización Sindical",
+              "palabras_clave": ["protección sindical", "no despido por afiliación"]
+            },
+            {
+              "numero": 304,
+              "texto": "Los trabajadores sindicalizados tienen derecho al fuero sindical, que los protege contra el despido sin justa causa.",
+              "tema": "Organización Sindical",
+              "palabras_clave": ["fuero sindical", "protección contra despido"]
+            },
+            {
+              "numero": 305,
+              "texto": "Los miembros de la junta directiva de un sindicato gozan de fuero sindical durante el período de su mandato.",
+              "tema": "Organización Sindical",
+              "palabras_clave": ["junta directiva", "fuero sindical", "período de mandato"]
+            },
+            {
+              "numero": 306,
+              "texto": "Los sindicatos tienen derecho a la negociación colectiva de las condiciones de trabajo.",
+              "tema": "Organización Sindical",
+              "palabras_clave": ["negociación colectiva", "condiciones de trabajo"]
+            },
+            {
+              "numero": 307,
+              "texto": "Los sindicatos tienen derecho a la información sobre la situación económica y financiera de la empresa.",
+              "tema": "Organización Sindical",
+              "palabras_clave": ["información", "situación económica", "situación financiera"]
+            },
+            {
+              "numero": 308,
+              "texto": "Los sindicatos tienen derecho a participar en la gestión de las empresas de servicios públicos.",
+              "tema": "Organización Sindical",
+              "palabras_clave": ["participación", "empresas de servicios públicos"]
+            },
+            {
+              "numero": 309,
+              "texto": "Los sindicatos pueden afiliarse a federaciones y confederaciones sindicales.",
+              "tema": "Organización Sindical",
+              "palabras_clave": ["federaciones", "confederaciones", "afiliación"]
+            },
+            {
+              "numero": 310,
+              "texto": "El empleador está obligado a permitir el funcionamiento del sindicato en la empresa.",
+              "tema": "Organización Sindical",
+              "palabras_clave": ["funcionamiento sindical", "obligación del empleador"]
+            }
+          ]
+        },
+        {
+          "numero": "II",
+          "nombre": "DE LA NEGOCIACIÓN COLECTIVA",
+          "descripcion": "Artículos 351 al 370",
+          "articulos": [
+            {
+              "numero": 351,
+              "texto": "La negociación colectiva es un derecho de los trabajadores para mejorar sus condiciones laborales.",
+              "tema": "Negociación Colectiva",
+              "palabras_clave": ["negociación colectiva", "derecho", "mejora de condiciones"]
+            },
+            {
+              "numero": 352,
+              "texto": "La negociación colectiva puede realizarse a nivel de empresa o a nivel de sector.",
+              "tema": "Negociación Colectiva",
+              "palabras_clave": ["negociación a nivel de empresa", "negociación a nivel de sector"]
+            },
+            {
+              "numero": 353,
+              "texto": "El empleador está obligado a negociar de buena fe con los representantes de los trabajadores.",
+              "tema": "Negociación Colectiva",
+              "palabras_clave": ["buena fe", "obligación del empleador", "representantes de trabajadores"]
+            },
+            {
+              "numero": 354,
+              "texto": "La negociación colectiva debe realizarse dentro del marco de la ley y las buenas costumbres.",
+              "tema": "Negociación Colectiva",
+              "palabras_clave": ["marco legal", "buenas costumbres"]
+            },
+            {
+              "numero": 355,
+              "texto": "Los acuerdos de la negociación colectiva deben constar por escrito.",
+              "tema": "Negociación Colectiva",
+              "palabras_clave": ["acuerdos por escrito"]
+            },
+            {
+              "numero": 356,
+              "texto": "La convención colectiva de trabajo es el resultado de la negociación colectiva.",
+              "tema": "Negociación Colectiva",
+              "palabras_clave": ["convención colectiva", "resultado de la negociación"]
+            },
+            {
+              "numero": 357,
+              "texto": "La convención colectiva tiene efectos generales para todos los trabajadores de la empresa.",
+              "tema": "Negociación Colectiva",
+              "palabras_clave": ["efectos generales", "todos los trabajadores"]
+            },
+            {
+              "numero": 358,
+              "texto": "La convención colectiva puede establecer condiciones más favorables para los trabajadores.",
+              "tema": "Negociación Colectiva",
+              "palabras_clave": ["condiciones más favorables", "mejora"]
+            },
+            {
+              "numero": 359,
+              "texto": "La convención colectiva puede ser revisada periódicamente por las partes.",
+              "tema": "Negociación Colectiva",
+              "palabras_clave": ["revisión periódica", "partes"]
+            },
+            {
+              "numero": 360,
+              "texto": "El empleador que incumpla la convención colectiva será sancionado.",
+              "tema": "Negociación Colectiva",
+              "palabras_clave": ["incumplimiento", "sanción"]
+            }
+          ]
+        },
+        {
+          "numero": "III",
+          "nombre": "DEL DERECHO DE HUELGA",
+          "descripcion": "Artículos 371 al 400",
+          "articulos": [
+            {
+              "numero": 371,
+              "texto": "El derecho de huelga es un derecho de los trabajadores para la defensa de sus intereses económicos y sociales.",
+              "tema": "Derecho de Huelga",
+              "palabras_clave": ["derecho de huelga", "defensa de intereses"]
+            },
+            {
+              "numero": 372,
+              "texto": "La huelga procede cuando las negociaciones colectivas han fracasado.",
+              "tema": "Derecho de Huelga",
+              "palabras_clave": ["huelga", "fracaso de negociaciones"]
+            },
+            {
+              "numero": 373,
+              "texto": "La huelga debe ser declarada por la mayoría de los trabajadores de la empresa.",
+              "tema": "Derecho de Huelga",
+              "palabras_clave": ["declaración", "mayoría de trabajadores"]
+            },
+            {
+              "numero": 374,
+              "texto": "La huelga debe ser comunicada al empleador con al menos cinco (5) días de anticipación.",
+              "tema": "Derecho de Huelga",
+              "palabras_clave": ["comunicación", "5 días de anticipación"]
+            },
+            {
+              "numero": 375,
+              "texto": "La huelga no puede realizarse en los servicios públicos esenciales.",
+              "tema": "Derecho de Huelga",
+              "palabras_clave": ["servicios públicos esenciales", "prohibición"]
+            },
+            {
+              "numero": 376,
+              "texto": "Son servicios públicos esenciales: la salud, la educación, el transporte, la energía, el agua, y las comunicaciones.",
+              "tema": "Derecho de Huelga",
+              "palabras_clave": ["salud", "educación", "transporte", "energía", "agua", "comunicaciones"]
+            },
+            {
+              "numero": 377,
+              "texto": "Durante la huelga, el empleador no puede contratar trabajadores para reemplazar a los huelguistas.",
+              "tema": "Derecho de Huelga",
+              "palabras_clave": ["no contratación de reemplazos"]
+            },
+            {
+              "numero": 378,
+              "texto": "La huelga debe ser pacífica y no puede violar los derechos de los demás.",
+              "tema": "Derecho de Huelga",
+              "palabras_clave": ["pacífica", "no violación de derechos"]
+            },
+            {
+              "numero": 379,
+              "texto": "El trabajador huelguista tiene derecho a la protección de su empleo.",
+              "tema": "Derecho de Huelga",
+              "palabras_clave": ["protección del empleo", "huelguista"]
+            },
+            {
+              "numero": 380,
+              "texto": "El empleador no puede despedir a un trabajador por participar en una huelga legal.",
+              "tema": "Derecho de Huelga",
+              "palabras_clave": ["no despido por huelga", "huelga legal"]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "disposiciones_finales": [
+    {
+      "numero": 486,
+      "texto": "Este Código rige en todo el territorio nacional y deroga todas las disposiciones que le sean contrarias.",
+      "tema": "Vigencia",
+      "palabras_clave": ["territorio nacional", "deroga"]
+    },
+    {
+      "numero": 487,
+      "texto": "El Gobierno Nacional reglamentará este Código dentro de los términos y condiciones establecidos por la ley.",
+      "tema": "Reglamentación",
+      "palabras_clave": ["reglamentación", "Gobierno Nacional"]
+    }
+  ],
+  "reformas_destacadas": [
+    {
+      "ley": "Ley 50 de 1990",
+      "descripcion": "Reforma integral del Código Sustantivo del Trabajo, introduciendo nuevas disposiciones sobre cesantías, prima de servicios y estabilidad laboral.",
+      "fecha": "1990"
+    },
+    {
+      "ley": "Ley 789 de 2002",
+      "descripcion": "Modificaciones sobre jornada laboral, horas extras y trabajo suplementario.",
+      "fecha": "2002"
+    },
+    {
+      "ley": "Ley 1429 de 2010",
+      "descripcion": "Beneficios para la generación de empleo y formalización laboral en microempresas.",
+      "fecha": "2010"
+    },
+    {
+      "ley": "Ley 2101 de 2021",
+      "descripcion": "Reducción de la jornada laboral de 48 a 42 horas semanales, con implementación progresiva hasta 2026.",
+      "fecha": "2021"
+    },
+    {
+      "ley": "Reforma Laboral 2026",
+      "descripcion": "Proyecto de ley aprobado en el Congreso que introduce cambios en estabilidad laboral, protección de trabajadores de plataformas digitales, y fortalecimiento de la negociación colectiva.",
+      "fecha": "2026"
+    }
+  ]
+}
