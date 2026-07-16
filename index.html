@@ -128,7 +128,7 @@
   <title>LEXFÁCIL ACADÉMICO · Derecho para Estudiantes · IA RAG</title>
 
   <!-- ============================================================
-       ESTILOS COMPLETOS v8.0.2
+       ESTILOS COMPLETOS v8.0.2 (CORREGIDO - AÑADIDA CLASE .hidden)
        ============================================================ -->
   <style>
     /* ============================================================
@@ -383,6 +383,11 @@
     }
     .text-primary {
       color: var(--text-primary);
+    }
+
+    /* ===== UTILIDADES ADICIONALES (CORREGIDO) ===== */
+    .hidden {
+      display: none !important;
     }
 
     .section-title {
@@ -3404,6 +3409,7 @@
    *   - Se corrigió el manifest (purpose: any).
    *   - Se cambió apple-mobile-web-app-capable por mobile-web-app-capable.
    *   - Se prioriza GitHub como fallback robusto.
+   *   - Se añadió la clase CSS .hidden para ocultar paneles del modal.
    * ============================================================
    */
 
