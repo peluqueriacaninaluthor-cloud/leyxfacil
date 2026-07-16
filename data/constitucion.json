@@ -14,66 +14,72 @@
       "numero": "I",
       "nombre": "DE LOS PRINCIPIOS FUNDAMENTALES",
       "descripcion": "Artículos 1 al 10",
-      "articulos": [
+      "capitulos": [
         {
-          "numero": 1,
-          "texto": "Colombia es un Estado social de derecho, organizado en forma de República unitaria, descentralizada, con autonomía de sus entidades territoriales, democrática, participativa y pluralista, fundada en el respeto de la dignidad humana, en el trabajo y la solidaridad de las personas que la integran y en la prevalencia del interés general.",
-          "tema": "Principios Fundamentales",
-          "palabras_clave": ["Estado social de derecho", "República unitaria", "descentralizada", "autonomía", "democrática", "participativa", "pluralista", "dignidad humana", "trabajo", "solidaridad", "interés general"]
-        },
-        {
-          "numero": 2,
-          "texto": "Son fines esenciales del Estado: servir a la comunidad, promover la prosperidad general y garantizar la efectividad de los principios, derechos y deberes consagrados en la Constitución; facilitar la participación de todos en las decisiones que los afectan y en la vida económica, política, administrativa y cultural de la Nación; defender la independencia nacional, mantener la integridad territorial y asegurar la convivencia pacífica y la vigencia de un orden justo. Las autoridades de la República están instituidas para proteger a todas las personas residentes en Colombia, en su vida, honra, bienes, creencias, y demás derechos y libertades, y para asegurar el cumplimiento de los deberes sociales del Estado y de los particulares.",
-          "tema": "Principios Fundamentales",
-          "palabras_clave": ["fines del Estado", "servir a la comunidad", "prosperidad general", "participación", "independencia nacional", "integridad territorial", "convivencia pacífica", "orden justo", "protección", "deberes sociales"]
-        },
-        {
-          "numero": 3,
-          "texto": "La soberanía reside exclusivamente en el pueblo, del cual emana el poder público. El pueblo la ejerce en forma directa o por medio de sus representantes, en los términos que la Constitución establece.",
-          "tema": "Principios Fundamentales",
-          "palabras_clave": ["soberanía", "pueblo", "poder público", "representantes", "democracia directa"]
-        },
-        {
-          "numero": 4,
-          "texto": "La Constitución es norma de normas. En todo caso de incompatibilidad entre la Constitución y la ley u otra norma jurídica, se aplicarán las disposiciones constitucionales. Es deber de los nacionales y de los extranjeros en Colombia acatar la Constitución y las leyes, y respetar y obedecer a las autoridades.",
-          "tema": "Principios Fundamentales",
-          "palabras_clave": ["norma de normas", "incompatibilidad", "aplicación preferente", "deber de acatar", "respetar autoridades"]
-        },
-        {
-          "numero": 5,
-          "texto": "El Estado reconoce, sin discriminación alguna, la primacía de los derechos inalienables de la persona y ampara a la familia como institución básica de la sociedad.",
-          "tema": "Principios Fundamentales",
-          "palabras_clave": ["derechos inalienables", "familia", "institución básica", "no discriminación"]
-        },
-        {
-          "numero": 6,
-          "texto": "Los particulares sólo son responsables ante las autoridades por infringir la Constitución y las leyes. Los servidores públicos lo son por la misma causa y por omisión o extralimitación en el ejercicio de sus funciones.",
-          "tema": "Principios Fundamentales",
-          "palabras_clave": ["responsabilidad particulares", "servidores públicos", "omisión", "extralimitación"]
-        },
-        {
-          "numero": 7,
-          "texto": "El Estado reconoce y protege la diversidad étnica y cultural de la Nación colombiana.",
-          "tema": "Principios Fundamentales",
-          "palabras_clave": ["diversidad étnica", "diversidad cultural", "reconocimiento", "protección"]
-        },
-        {
-          "numero": 8,
-          "texto": "Es obligación del Estado y de las personas proteger las riquezas culturales y naturales de la Nación.",
-          "tema": "Principios Fundamentales",
-          "palabras_clave": ["riquezas culturales", "riquezas naturales", "protección", "patrimonio"]
-        },
-        {
-          "numero": 9,
-          "texto": "Las relaciones exteriores del Estado se fundamentan en la soberanía nacional, en el respeto a la autodeterminación de los pueblos y en el reconocimiento de los principios del derecho internacional aceptados por Colombia. De igual manera, la política exterior de Colombia se orientará hacia la integración latinoamericana y del Caribe.",
-          "tema": "Principios Fundamentales",
-          "palabras_clave": ["relaciones exteriores", "soberanía nacional", "autodeterminación", "derecho internacional", "integración latinoamericana", "Caribe"]
-        },
-        {
-          "numero": 10,
-          "texto": "El castellano es el idioma oficial de Colombia. Las lenguas y dialectos de los grupos étnicos son también oficiales en sus territorios. La enseñanza que se imparta en las comunidades con tradiciones lingüísticas propias será bilingüe.",
-          "tema": "Principios Fundamentales",
-          "palabras_clave": ["castellano", "idioma oficial", "lenguas étnicas", "bilingüe"]
+          "nombre": "CAPÍTULO ÚNICO - DE LOS PRINCIPIOS FUNDAMENTALES",
+          "descripcion": "Artículos 1 al 10",
+          "articulos": [
+            {
+              "numero": 1,
+              "texto": "Colombia es un Estado social de derecho, organizado en forma de República unitaria, descentralizada, con autonomía de sus entidades territoriales, democrática, participativa y pluralista, fundada en el respeto de la dignidad humana, en el trabajo y la solidaridad de las personas que la integran y en la prevalencia del interés general.",
+              "tema": "Principios Fundamentales",
+              "palabras_clave": ["Estado social de derecho", "República unitaria", "descentralizada", "autonomía", "democrática", "participativa", "pluralista", "dignidad humana", "trabajo", "solidaridad", "interés general"]
+            },
+            {
+              "numero": 2,
+              "texto": "Son fines esenciales del Estado: servir a la comunidad, promover la prosperidad general y garantizar la efectividad de los principios, derechos y deberes consagrados en la Constitución; facilitar la participación de todos en las decisiones que los afectan y en la vida económica, política, administrativa y cultural de la Nación; defender la independencia nacional, mantener la integridad territorial y asegurar la convivencia pacífica y la vigencia de un orden justo. Las autoridades de la República están instituidas para proteger a todas las personas residentes en Colombia, en su vida, honra, bienes, creencias, y demás derechos y libertades, y para asegurar el cumplimiento de los deberes sociales del Estado y de los particulares.",
+              "tema": "Principios Fundamentales",
+              "palabras_clave": ["fines del Estado", "servir a la comunidad", "prosperidad general", "participación", "independencia nacional", "integridad territorial", "convivencia pacífica", "orden justo", "protección", "deberes sociales"]
+            },
+            {
+              "numero": 3,
+              "texto": "La soberanía reside exclusivamente en el pueblo, del cual emana el poder público. El pueblo la ejerce en forma directa o por medio de sus representantes, en los términos que la Constitución establece.",
+              "tema": "Principios Fundamentales",
+              "palabras_clave": ["soberanía", "pueblo", "poder público", "representantes", "democracia directa"]
+            },
+            {
+              "numero": 4,
+              "texto": "La Constitución es norma de normas. En todo caso de incompatibilidad entre la Constitución y la ley u otra norma jurídica, se aplicarán las disposiciones constitucionales. Es deber de los nacionales y de los extranjeros en Colombia acatar la Constitución y las leyes, y respetar y obedecer a las autoridades.",
+              "tema": "Principios Fundamentales",
+              "palabras_clave": ["norma de normas", "incompatibilidad", "aplicación preferente", "deber de acatar", "respetar autoridades"]
+            },
+            {
+              "numero": 5,
+              "texto": "El Estado reconoce, sin discriminación alguna, la primacía de los derechos inalienables de la persona y ampara a la familia como institución básica de la sociedad.",
+              "tema": "Principios Fundamentales",
+              "palabras_clave": ["derechos inalienables", "familia", "institución básica", "no discriminación"]
+            },
+            {
+              "numero": 6,
+              "texto": "Los particulares sólo son responsables ante las autoridades por infringir la Constitución y las leyes. Los servidores públicos lo son por la misma causa y por omisión o extralimitación en el ejercicio de sus funciones.",
+              "tema": "Principios Fundamentales",
+              "palabras_clave": ["responsabilidad particulares", "servidores públicos", "omisión", "extralimitación"]
+            },
+            {
+              "numero": 7,
+              "texto": "El Estado reconoce y protege la diversidad étnica y cultural de la Nación colombiana.",
+              "tema": "Principios Fundamentales",
+              "palabras_clave": ["diversidad étnica", "diversidad cultural", "reconocimiento", "protección"]
+            },
+            {
+              "numero": 8,
+              "texto": "Es obligación del Estado y de las personas proteger las riquezas culturales y naturales de la Nación.",
+              "tema": "Principios Fundamentales",
+              "palabras_clave": ["riquezas culturales", "riquezas naturales", "protección", "patrimonio"]
+            },
+            {
+              "numero": 9,
+              "texto": "Las relaciones exteriores del Estado se fundamentan en la soberanía nacional, en el respeto a la autodeterminación de los pueblos y en el reconocimiento de los principios del derecho internacional aceptados por Colombia. De igual manera, la política exterior de Colombia se orientará hacia la integración latinoamericana y del Caribe.",
+              "tema": "Principios Fundamentales",
+              "palabras_clave": ["relaciones exteriores", "soberanía nacional", "autodeterminación", "derecho internacional", "integración latinoamericana", "Caribe"]
+            },
+            {
+              "numero": 10,
+              "texto": "El castellano es el idioma oficial de Colombia. Las lenguas y dialectos de los grupos étnicos son también oficiales en sus territorios. La enseñanza que se imparta en las comunidades con tradiciones lingüísticas propias será bilingüe.",
+              "tema": "Principios Fundamentales",
+              "palabras_clave": ["castellano", "idioma oficial", "lenguas étnicas", "bilingüe"]
+            }
+          ]
         }
       ]
     },
