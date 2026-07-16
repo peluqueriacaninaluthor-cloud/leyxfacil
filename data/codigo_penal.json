@@ -917,25 +917,25 @@
           "descripcion": "Artículos 269A al 269I",
           "articulos": [
             {
-              "numero": 269A,
+              "numero": 269.1,
               "texto": "El que, sin autorización, acceda a un sistema informático protegido, incurrirá en prisión de dos (2) a cinco (5) años.",
               "tema": "Delitos Informáticos",
               "palabras_clave": ["acceso no autorizado", "sistema informático", "2 a 5 años"]
             },
             {
-              "numero": 269B,
+              "numero": 269.2,
               "texto": "El que, sin autorización, intercepte comunicaciones informáticas, incurrirá en prisión de tres (3) a seis (6) años.",
               "tema": "Delitos Informáticos",
               "palabras_clave": ["interceptación de comunicaciones", "informática", "3 a 6 años"]
             },
             {
-              "numero": 269C,
+              "numero": 269.3,
               "texto": "El que, sin autorización, dañe o destruya datos informáticos, incurrirá en prisión de tres (3) a seis (6) años.",
               "tema": "Delitos Informáticos",
               "palabras_clave": ["daño de datos", "destrucción de datos", "informática", "3 a 6 años"]
             },
             {
-              "numero": 269D,
+              "numero": 269.4,
               "texto": "El que, sin autorización, utilice datos personales para obtener provecho, incurrirá en prisión de cuatro (4) a ocho (8) años.",
               "tema": "Delitos Informáticos",
               "palabras_clave": ["uso de datos personales", "provecho", "4 a 8 años"]
