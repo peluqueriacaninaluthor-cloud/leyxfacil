@@ -7,74 +7,61 @@
       "numero": "Ley 80 de 1993",
       "nombre": "Estatuto General de Contratación de la Administración Pública",
       "fecha": "1993",
-      "actualizacion": "2026-07-10",
       "descripcion": "Regula la contratación estatal en Colombia, estableciendo los principios y procedimientos para la celebración de contratos con el Estado.",
-      "temas": [
+      "articulos": [
         {
-          "nombre": "Principios de la Contratación Estatal",
-          "descripcion": "Artículos 1 al 8",
-          "articulos": [
-            {
-              "numero": 1,
-              "texto": "El Estatuto General de Contratación de la Administración Pública tiene por objeto establecer los principios y normas generales de la contratación estatal.",
-              "tema": "Contratación Estatal",
-              "palabras_clave": ["contratación estatal", "administración pública", "principios", "normas generales"]
-            },
-            {
-              "numero": 2,
-              "texto": "La contratación estatal se regirá por los principios de transparencia, economía, responsabilidad y selección objetiva.",
-              "tema": "Contratación Estatal",
-              "palabras_clave": ["transparencia", "economía", "responsabilidad", "selección objetiva"]
-            },
-            {
-              "numero": 3,
-              "texto": "La selección objetiva es aquella en que la escogencia del contratista se hará teniendo en cuenta la oferta más favorable para la entidad.",
-              "tema": "Contratación Estatal",
-              "palabras_clave": ["selección objetiva", "oferta más favorable"]
-            },
-            {
-              "numero": 4,
-              "texto": "Los contratos estatales se celebrarán por escrito y deben ser inscritos en el registro de contratos.",
-              "tema": "Contratación Estatal",
-              "palabras_clave": ["contratos por escrito", "registro de contratos"]
-            }
-          ]
+          "numero": "1",
+          "texto": "El Estatuto General de Contratación de la Administración Pública tiene por objeto establecer los principios y normas generales de la contratación estatal.",
+          "tema": "Contratación Estatal",
+          "palabras_clave": ["contratación estatal", "administración pública", "principios", "normas generales"]
         },
         {
-          "nombre": "Procedimientos de Selección",
-          "descripcion": "Artículos 9 al 20",
-          "articulos": [
-            {
-              "numero": 9,
-              "texto": "Los procedimientos de selección son: 1. Licitación pública. 2. Selección abreviada. 3. Contratación directa. 4. Mínima cuantía.",
-              "tema": "Contratación Estatal",
-              "palabras_clave": ["licitación pública", "selección abreviada", "contratación directa", "mínima cuantía"]
-            },
-            {
-              "numero": 10,
-              "texto": "La licitación pública es el procedimiento mediante el cual la entidad estatal invita a todos los interesados a presentar ofertas.",
-              "tema": "Contratación Estatal",
-              "palabras_clave": ["licitación pública", "invitación", "ofertas"]
-            },
-            {
-              "numero": 11,
-              "texto": "La selección abreviada procede en los casos establecidos por la ley para contratos de menor cuantía.",
-              "tema": "Contratación Estatal",
-              "palabras_clave": ["selección abreviada", "menor cuantía"]
-            },
-            {
-              "numero": 12,
-              "texto": "La contratación directa procede cuando existe urgencia manifiesta o la contratación es con persona determinada.",
-              "tema": "Contratación Estatal",
-              "palabras_clave": ["contratación directa", "urgencia manifiesta"]
-            },
-            {
-              "numero": 13,
-              "texto": "La mínima cuantía es el procedimiento para contratos de bajo valor.",
-              "tema": "Contratación Estatal",
-              "palabras_clave": ["mínima cuantía", "bajo valor"]
-            }
-          ]
+          "numero": "2",
+          "texto": "La contratación estatal se regirá por los principios de transparencia, economía, responsabilidad y selección objetiva.",
+          "tema": "Contratación Estatal",
+          "palabras_clave": ["transparencia", "economía", "responsabilidad", "selección objetiva"]
+        },
+        {
+          "numero": "3",
+          "texto": "La selección objetiva es aquella en que la escogencia del contratista se hará teniendo en cuenta la oferta más favorable para la entidad.",
+          "tema": "Contratación Estatal",
+          "palabras_clave": ["selección objetiva", "oferta más favorable"]
+        },
+        {
+          "numero": "4",
+          "texto": "Los contratos estatales se celebrarán por escrito y deben ser inscritos en el registro de contratos.",
+          "tema": "Contratación Estatal",
+          "palabras_clave": ["contratos por escrito", "registro de contratos"]
+        },
+        {
+          "numero": "9",
+          "texto": "Los procedimientos de selección son: 1. Licitación pública. 2. Selección abreviada. 3. Contratación directa. 4. Mínima cuantía.",
+          "tema": "Contratación Estatal",
+          "palabras_clave": ["licitación pública", "selección abreviada", "contratación directa", "mínima cuantía"]
+        },
+        {
+          "numero": "10",
+          "texto": "La licitación pública es el procedimiento mediante el cual la entidad estatal invita a todos los interesados a presentar ofertas.",
+          "tema": "Contratación Estatal",
+          "palabras_clave": ["licitación pública", "invitación", "ofertas"]
+        },
+        {
+          "numero": "11",
+          "texto": "La selección abreviada procede en los casos establecidos por la ley para contratos de menor cuantía.",
+          "tema": "Contratación Estatal",
+          "palabras_clave": ["selección abreviada", "menor cuantía"]
+        },
+        {
+          "numero": "12",
+          "texto": "La contratación directa procede cuando existe urgencia manifiesta o la contratación es con persona determinada.",
+          "tema": "Contratación Estatal",
+          "palabras_clave": ["contratación directa", "urgencia manifiesta"]
+        },
+        {
+          "numero": "13",
+          "texto": "La mínima cuantía es el procedimiento para contratos de bajo valor.",
+          "tema": "Contratación Estatal",
+          "palabras_clave": ["mínima cuantía", "bajo valor"]
         }
       ]
     },
@@ -82,80 +69,61 @@
       "numero": "Ley 100 de 1993",
       "nombre": "Sistema de Seguridad Social Integral",
       "fecha": "1993",
-      "actualizacion": "2026-07-10",
       "descripcion": "Crea el Sistema de Seguridad Social Integral en Colombia, que comprende el Sistema General de Pensiones, el Sistema General de Salud y el Sistema General de Riesgos Laborales.",
-      "temas": [
+      "articulos": [
         {
-          "nombre": "Sistema General de Pensiones",
-          "descripcion": "Artículos 10 al 50",
-          "articulos": [
-            {
-              "numero": 10,
-              "texto": "El Sistema General de Pensiones tiene por objeto garantizar a la población el amparo contra las contingencias derivadas de la vejez, la invalidez y la muerte.",
-              "tema": "Seguridad Social",
-              "palabras_clave": ["pensiones", "vejez", "invalidez", "muerte", "amparo"]
-            },
-            {
-              "numero": 11,
-              "texto": "El régimen de prima media es el que se financia con las cotizaciones de los afiliados y el Estado.",
-              "tema": "Seguridad Social",
-              "palabras_clave": ["prima media", "cotizaciones", "Estado"]
-            },
-            {
-              "numero": 12,
-              "texto": "El régimen de ahorro individual es el que se financia con los aportes de los afiliados a cuentas individuales.",
-              "tema": "Seguridad Social",
-              "palabras_clave": ["ahorro individual", "cuentas individuales", "aportes"]
-            },
-            {
-              "numero": 13,
-              "texto": "Los requisitos para la pensión de vejez son: 1. Haber cumplido 62 años de edad para hombres y 57 para mujeres. 2. Haber cotizado 1.300 semanas.",
-              "tema": "Seguridad Social",
-              "palabras_clave": ["pensión de vejez", "edad", "semanas cotizadas", "62 años", "57 años", "1300 semanas"]
-            }
-          ]
+          "numero": "10",
+          "texto": "El Sistema General de Pensiones tiene por objeto garantizar a la población el amparo contra las contingencias derivadas de la vejez, la invalidez y la muerte.",
+          "tema": "Seguridad Social",
+          "palabras_clave": ["pensiones", "vejez", "invalidez", "muerte", "amparo"]
         },
         {
-          "nombre": "Sistema General de Salud",
-          "descripcion": "Artículos 151 al 170",
-          "articulos": [
-            {
-              "numero": 151,
-              "texto": "El Sistema General de Salud tiene por objeto regular el servicio público de salud en Colombia.",
-              "tema": "Seguridad Social",
-              "palabras_clave": ["salud", "servicio público", "regulación"]
-            },
-            {
-              "numero": 152,
-              "texto": "El Sistema General de Salud se financia con recursos del Estado y las cotizaciones de los afiliados.",
-              "tema": "Seguridad Social",
-              "palabras_clave": ["financiación", "recursos del Estado", "cotizaciones"]
-            },
-            {
-              "numero": 153,
-              "texto": "Todos los colombianos tienen derecho a la afiliación al Sistema General de Salud.",
-              "tema": "Seguridad Social",
-              "palabras_clave": ["derecho a la salud", "afiliación"]
-            }
-          ]
+          "numero": "11",
+          "texto": "El régimen de prima media es el que se financia con las cotizaciones de los afiliados y el Estado.",
+          "tema": "Seguridad Social",
+          "palabras_clave": ["prima media", "cotizaciones", "Estado"]
         },
         {
-          "nombre": "Sistema General de Riesgos Laborales",
-          "descripcion": "Artículos 200 al 220",
-          "articulos": [
-            {
-              "numero": 200,
-              "texto": "El Sistema General de Riesgos Laborales tiene por objeto prevenir y proteger a los trabajadores contra los riesgos de su trabajo.",
-              "tema": "Seguridad Social",
-              "palabras_clave": ["riesgos laborales", "prevención", "protección", "trabajadores"]
-            },
-            {
-              "numero": 201,
-              "texto": "Los empleadores están obligados a afiliar a sus trabajadores al Sistema de Riesgos Laborales.",
-              "tema": "Seguridad Social",
-              "palabras_clave": ["empleadores", "afiliación obligatoria", "trabajadores"]
-            }
-          ]
+          "numero": "12",
+          "texto": "El régimen de ahorro individual es el que se financia con los aportes de los afiliados a cuentas individuales.",
+          "tema": "Seguridad Social",
+          "palabras_clave": ["ahorro individual", "cuentas individuales", "aportes"]
+        },
+        {
+          "numero": "13",
+          "texto": "Los requisitos para la pensión de vejez son: 1. Haber cumplido 62 años de edad para hombres y 57 para mujeres. 2. Haber cotizado 1.300 semanas.",
+          "tema": "Seguridad Social",
+          "palabras_clave": ["pensión de vejez", "edad", "semanas cotizadas", "62 años", "57 años", "1300 semanas"]
+        },
+        {
+          "numero": "151",
+          "texto": "El Sistema General de Salud tiene por objeto regular el servicio público de salud en Colombia.",
+          "tema": "Seguridad Social",
+          "palabras_clave": ["salud", "servicio público", "regulación"]
+        },
+        {
+          "numero": "152",
+          "texto": "El Sistema General de Salud se financia con recursos del Estado y las cotizaciones de los afiliados.",
+          "tema": "Seguridad Social",
+          "palabras_clave": ["financiación", "recursos del Estado", "cotizaciones"]
+        },
+        {
+          "numero": "153",
+          "texto": "Todos los colombianos tienen derecho a la afiliación al Sistema General de Salud.",
+          "tema": "Seguridad Social",
+          "palabras_clave": ["derecho a la salud", "afiliación"]
+        },
+        {
+          "numero": "200",
+          "texto": "El Sistema General de Riesgos Laborales tiene por objeto prevenir y proteger a los trabajadores contra los riesgos de su trabajo.",
+          "tema": "Seguridad Social",
+          "palabras_clave": ["riesgos laborales", "prevención", "protección", "trabajadores"]
+        },
+        {
+          "numero": "201",
+          "texto": "Los empleadores están obligados a afiliar a sus trabajadores al Sistema de Riesgos Laborales.",
+          "tema": "Seguridad Social",
+          "palabras_clave": ["empleadores", "afiliación obligatoria", "trabajadores"]
         }
       ]
     },
@@ -163,86 +131,67 @@
       "numero": "Ley 1258 de 2008",
       "nombre": "Sociedad por Acciones Simplificada (S.A.S.)",
       "fecha": "2008",
-      "actualizacion": "2026-07-10",
       "descripcion": "Crea un nuevo tipo societario ágil y flexible para la constitución de empresas en Colombia.",
-      "temas": [
+      "articulos": [
         {
-          "nombre": "Constitución de la S.A.S.",
-          "descripcion": "Artículos 1 al 15",
-          "articulos": [
-            {
-              "numero": 1,
-              "texto": "La Sociedad por Acciones Simplificada (S.A.S.) es una sociedad de capital que se constituye por contrato o acto unilateral.",
-              "tema": "S.A.S.",
-              "palabras_clave": ["S.A.S.", "sociedad de capital", "contrato", "acto unilateral"]
-            },
-            {
-              "numero": 2,
-              "texto": "La S.A.S. puede ser constituida por una o varias personas naturales o jurídicas.",
-              "tema": "S.A.S.",
-              "palabras_clave": ["constitución", "una o varias personas", "naturales", "jurídicas"]
-            },
-            {
-              "numero": 3,
-              "texto": "La S.A.S. se constituye por documento privado o escritura pública, e inscripción en el registro mercantil.",
-              "tema": "S.A.S.",
-              "palabras_clave": ["documento privado", "escritura pública", "inscripción", "registro mercantil"]
-            },
-            {
-              "numero": 4,
-              "texto": "Los socios de la S.A.S. tienen responsabilidad limitada al monto de sus aportes.",
-              "tema": "S.A.S.",
-              "palabras_clave": ["responsabilidad limitada", "monto de aportes"]
-            },
-            {
-              "numero": 5,
-              "texto": "La S.A.S. puede tener duración indefinida.",
-              "tema": "S.A.S.",
-              "palabras_clave": ["duración indefinida"]
-            }
-          ]
+          "numero": "1",
+          "texto": "La Sociedad por Acciones Simplificada (S.A.S.) es una sociedad de capital que se constituye por contrato o acto unilateral.",
+          "tema": "S.A.S.",
+          "palabras_clave": ["S.A.S.", "sociedad de capital", "contrato", "acto unilateral"]
         },
         {
-          "nombre": "Administración de la S.A.S.",
-          "descripcion": "Artículos 16 al 30",
-          "articulos": [
-            {
-              "numero": 16,
-              "texto": "La S.A.S. se administra por un representante legal designado por los socios.",
-              "tema": "S.A.S.",
-              "palabras_clave": ["representante legal", "designación"]
-            },
-            {
-              "numero": 17,
-              "texto": "La S.A.S. puede tener junta directiva, si así lo establece el contrato social.",
-              "tema": "S.A.S.",
-              "palabras_clave": ["junta directiva", "contrato social"]
-            },
-            {
-              "numero": 18,
-              "texto": "Los socios pueden establecer libremente el régimen de administración.",
-              "tema": "S.A.S.",
-              "palabras_clave": ["régimen de administración", "libre establecimiento"]
-            }
-          ]
+          "numero": "2",
+          "texto": "La S.A.S. puede ser constituida por una o varias personas naturales o jurídicas.",
+          "tema": "S.A.S.",
+          "palabras_clave": ["constitución", "una o varias personas", "naturales", "jurídicas"]
         },
         {
-          "nombre": "Transformación y Fusión",
-          "descripcion": "Artículos 31 al 35",
-          "articulos": [
-            {
-              "numero": 31,
-              "texto": "La S.A.S. puede transformarse en cualquier otro tipo de sociedad comercial.",
-              "tema": "S.A.S.",
-              "palabras_clave": ["transformación", "otro tipo de sociedad"]
-            },
-            {
-              "numero": 32,
-              "texto": "La S.A.S. puede fusionarse con otra sociedad.",
-              "tema": "S.A.S.",
-              "palabras_clave": ["fusión", "otra sociedad"]
-            }
-          ]
+          "numero": "3",
+          "texto": "La S.A.S. se constituye por documento privado o escritura pública, e inscripción en el registro mercantil.",
+          "tema": "S.A.S.",
+          "palabras_clave": ["documento privado", "escritura pública", "inscripción", "registro mercantil"]
+        },
+        {
+          "numero": "4",
+          "texto": "Los socios de la S.A.S. tienen responsabilidad limitada al monto de sus aportes.",
+          "tema": "S.A.S.",
+          "palabras_clave": ["responsabilidad limitada", "monto de aportes"]
+        },
+        {
+          "numero": "5",
+          "texto": "La S.A.S. puede tener duración indefinida.",
+          "tema": "S.A.S.",
+          "palabras_clave": ["duración indefinida"]
+        },
+        {
+          "numero": "16",
+          "texto": "La S.A.S. se administra por un representante legal designado por los socios.",
+          "tema": "S.A.S.",
+          "palabras_clave": ["representante legal", "designación"]
+        },
+        {
+          "numero": "17",
+          "texto": "La S.A.S. puede tener junta directiva, si así lo establece el contrato social.",
+          "tema": "S.A.S.",
+          "palabras_clave": ["junta directiva", "contrato social"]
+        },
+        {
+          "numero": "18",
+          "texto": "Los socios pueden establecer libremente el régimen de administración.",
+          "tema": "S.A.S.",
+          "palabras_clave": ["régimen de administración", "libre establecimiento"]
+        },
+        {
+          "numero": "31",
+          "texto": "La S.A.S. puede transformarse en cualquier otro tipo de sociedad comercial.",
+          "tema": "S.A.S.",
+          "palabras_clave": ["transformación", "otro tipo de sociedad"]
+        },
+        {
+          "numero": "32",
+          "texto": "La S.A.S. puede fusionarse con otra sociedad.",
+          "tema": "S.A.S.",
+          "palabras_clave": ["fusión", "otra sociedad"]
         }
       ]
     },
@@ -250,104 +199,85 @@
       "numero": "Ley 1581 de 2012",
       "nombre": "Protección de Datos Personales (Habeas Data)",
       "fecha": "2012",
-      "actualizacion": "2026-07-10",
       "descripcion": "Regula el derecho fundamental de hábeas data y la protección de datos personales en Colombia.",
-      "temas": [
+      "articulos": [
         {
-          "nombre": "Principios de la Protección de Datos",
-          "descripcion": "Artículos 1 al 15",
-          "articulos": [
-            {
-              "numero": 1,
-              "texto": "La presente ley tiene por objeto desarrollar el derecho constitucional que tienen todas las personas a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bancos de datos.",
-              "tema": "Protección de Datos",
-              "palabras_clave": ["hábeas data", "conocer", "actualizar", "rectificar", "bancos de datos"]
-            },
-            {
-              "numero": 2,
-              "texto": "Los principios que rigen la protección de datos son: 1. Principio de finalidad. 2. Principio de libertad. 3. Principio de veracidad. 4. Principio de transparencia. 5. Principio de seguridad.",
-              "tema": "Protección de Datos",
-              "palabras_clave": ["principios", "finalidad", "libertad", "veracidad", "transparencia", "seguridad"]
-            },
-            {
-              "numero": 3,
-              "texto": "Los datos personales solo pueden ser recolectados con el consentimiento del titular.",
-              "tema": "Protección de Datos",
-              "palabras_clave": ["consentimiento", "titular", "recolección"]
-            },
-            {
-              "numero": 4,
-              "texto": "Los datos personales deben ser utilizados para la finalidad para la cual fueron recolectados.",
-              "tema": "Protección de Datos",
-              "palabras_clave": ["finalidad", "utilización"]
-            },
-            {
-              "numero": 5,
-              "texto": "Los datos personales deben ser veraces y estar actualizados.",
-              "tema": "Protección de Datos",
-              "palabras_clave": ["veracidad", "actualización"]
-            },
-            {
-              "numero": 6,
-              "texto": "El tratamiento de datos personales debe ser transparente para el titular.",
-              "tema": "Protección de Datos",
-              "palabras_clave": ["transparencia", "tratamiento"]
-            },
-            {
-              "numero": 7,
-              "texto": "Los datos personales deben ser protegidos con medidas de seguridad.",
-              "tema": "Protección de Datos",
-              "palabras_clave": ["seguridad", "medidas de protección"]
-            }
-          ]
+          "numero": "1",
+          "texto": "La presente ley tiene por objeto desarrollar el derecho constitucional que tienen todas las personas a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bancos de datos.",
+          "tema": "Protección de Datos",
+          "palabras_clave": ["hábeas data", "conocer", "actualizar", "rectificar", "bancos de datos"]
         },
         {
-          "nombre": "Derechos del Titular",
-          "descripcion": "Artículos 16 al 25",
-          "articulos": [
-            {
-              "numero": 16,
-              "texto": "El titular de los datos tiene derecho a: 1. Conocer sus datos. 2. Actualizarlos. 3. Rectificarlos. 4. Suprimirlos cuando sea procedente.",
-              "tema": "Protección de Datos",
-              "palabras_clave": ["titular", "conocer", "actualizar", "rectificar", "suprimir"]
-            },
-            {
-              "numero": 17,
-              "texto": "El titular tiene derecho a solicitar la prueba de la autorización para el tratamiento de sus datos.",
-              "tema": "Protección de Datos",
-              "palabras_clave": ["autorización", "prueba", "tratamiento"]
-            },
-            {
-              "numero": 18,
-              "texto": "El titular tiene derecho a ser informado sobre el uso de sus datos.",
-              "tema": "Protección de Datos",
-              "palabras_clave": ["información", "uso de datos"]
-            }
-          ]
+          "numero": "2",
+          "texto": "Los principios que rigen la protección de datos son: 1. Principio de finalidad. 2. Principio de libertad. 3. Principio de veracidad. 4. Principio de transparencia. 5. Principio de seguridad.",
+          "tema": "Protección de Datos",
+          "palabras_clave": ["principios", "finalidad", "libertad", "veracidad", "transparencia", "seguridad"]
         },
         {
-          "nombre": "Sanciones",
-          "descripcion": "Artículos 26 al 35",
-          "articulos": [
-            {
-              "numero": 26,
-              "texto": "El incumplimiento de la ley da lugar a sanciones pecuniarias y administrativas.",
-              "tema": "Protección de Datos",
-              "palabras_clave": ["sanciones", "incumplimiento", "pecuniarias", "administrativas"]
-            },
-            {
-              "numero": 27,
-              "texto": "La Superintendencia de Industria y Comercio es la autoridad encargada de la vigilancia y control.",
-              "tema": "Protección de Datos",
-              "palabras_clave": ["Superintendencia de Industria y Comercio", "vigilancia", "control"]
-            },
-            {
-              "numero": 28,
-              "texto": "Las sanciones pueden ser multas hasta de 2.000 salarios mínimos mensuales.",
-              "tema": "Protección de Datos",
-              "palabras_clave": ["multas", "2.000 salarios mínimos"]
-            }
-          ]
+          "numero": "3",
+          "texto": "Los datos personales solo pueden ser recolectados con el consentimiento del titular.",
+          "tema": "Protección de Datos",
+          "palabras_clave": ["consentimiento", "titular", "recolección"]
+        },
+        {
+          "numero": "4",
+          "texto": "Los datos personales deben ser utilizados para la finalidad para la cual fueron recolectados.",
+          "tema": "Protección de Datos",
+          "palabras_clave": ["finalidad", "utilización"]
+        },
+        {
+          "numero": "5",
+          "texto": "Los datos personales deben ser veraces y estar actualizados.",
+          "tema": "Protección de Datos",
+          "palabras_clave": ["veracidad", "actualización"]
+        },
+        {
+          "numero": "6",
+          "texto": "El tratamiento de datos personales debe ser transparente para el titular.",
+          "tema": "Protección de Datos",
+          "palabras_clave": ["transparencia", "tratamiento"]
+        },
+        {
+          "numero": "7",
+          "texto": "Los datos personales deben ser protegidos con medidas de seguridad.",
+          "tema": "Protección de Datos",
+          "palabras_clave": ["seguridad", "medidas de protección"]
+        },
+        {
+          "numero": "16",
+          "texto": "El titular de los datos tiene derecho a: 1. Conocer sus datos. 2. Actualizarlos. 3. Rectificarlos. 4. Suprimirlos cuando sea procedente.",
+          "tema": "Protección de Datos",
+          "palabras_clave": ["titular", "conocer", "actualizar", "rectificar", "suprimir"]
+        },
+        {
+          "numero": "17",
+          "texto": "El titular tiene derecho a solicitar la prueba de la autorización para el tratamiento de sus datos.",
+          "tema": "Protección de Datos",
+          "palabras_clave": ["autorización", "prueba", "tratamiento"]
+        },
+        {
+          "numero": "18",
+          "texto": "El titular tiene derecho a ser informado sobre el uso de sus datos.",
+          "tema": "Protección de Datos",
+          "palabras_clave": ["información", "uso de datos"]
+        },
+        {
+          "numero": "26",
+          "texto": "El incumplimiento de la ley da lugar a sanciones pecuniarias y administrativas.",
+          "tema": "Protección de Datos",
+          "palabras_clave": ["sanciones", "incumplimiento", "pecuniarias", "administrativas"]
+        },
+        {
+          "numero": "27",
+          "texto": "La Superintendencia de Industria y Comercio es la autoridad encargada de la vigilancia y control.",
+          "tema": "Protección de Datos",
+          "palabras_clave": ["Superintendencia de Industria y Comercio", "vigilancia", "control"]
+        },
+        {
+          "numero": "28",
+          "texto": "Las sanciones pueden ser multas hasta de 2.000 salarios mínimos mensuales.",
+          "tema": "Protección de Datos",
+          "palabras_clave": ["multas", "2.000 salarios mínimos"]
         }
       ]
     },
@@ -355,80 +285,67 @@
       "numero": "Ley 134 de 1994",
       "nombre": "Mecanismos de Participación Ciudadana",
       "fecha": "1994",
-      "actualizacion": "2026-07-10",
       "descripcion": "Regula los mecanismos de participación ciudadana en Colombia: plebiscito, referendo, consulta popular, revocatoria del mandato, iniciativa popular y cabildo abierto.",
-      "temas": [
+      "articulos": [
         {
-          "nombre": "Mecanismos de Participación",
-          "descripcion": "Artículos 1 al 20",
-          "articulos": [
-            {
-              "numero": 1,
-              "texto": "Los mecanismos de participación ciudadana son: 1. Plebiscito. 2. Referendo. 3. Consulta popular. 4. Revocatoria del mandato. 5. Iniciativa popular. 6. Cabildo abierto.",
-              "tema": "Participación Ciudadana",
-              "palabras_clave": ["plebiscito", "referendo", "consulta popular", "revocatoria", "iniciativa popular", "cabildo abierto"]
-            },
-            {
-              "numero": 2,
-              "texto": "El plebiscito es la convocatoria que hace el Presidente de la República al pueblo para que decida sobre un asunto de importancia nacional.",
-              "tema": "Participación Ciudadana",
-              "palabras_clave": ["plebiscito", "Presidente", "decisión del pueblo"]
-            },
-            {
-              "numero": 3,
-              "texto": "El referendo es la convocatoria al pueblo para que apruebe o rechace un proyecto de ley o acto legislativo.",
-              "tema": "Participación Ciudadana",
-              "palabras_clave": ["referendo", "aprobación", "rechazo", "ley", "acto legislativo"]
-            },
-            {
-              "numero": 4,
-              "texto": "La consulta popular es la convocatoria al pueblo para que decida sobre un asunto de interés local o nacional.",
-              "tema": "Participación Ciudadana",
-              "palabras_clave": ["consulta popular", "interés local", "interés nacional"]
-            },
-            {
-              "numero": 5,
-              "texto": "La revocatoria del mandato es el derecho de los ciudadanos a revocar el mandato de un funcionario elegido popularmente.",
-              "tema": "Participación Ciudadana",
-              "palabras_clave": ["revocatoria del mandato", "funcionario elegido"]
-            },
-            {
-              "numero": 6,
-              "texto": "La iniciativa popular es el derecho de los ciudadanos a presentar proyectos de ley.",
-              "tema": "Participación Ciudadana",
-              "palabras_clave": ["iniciativa popular", "proyectos de ley"]
-            },
-            {
-              "numero": 7,
-              "texto": "El cabildo abierto es la reunión de los ciudadanos con el alcalde para tratar asuntos de interés local.",
-              "tema": "Participación Ciudadana",
-              "palabras_clave": ["cabildo abierto", "alcalde", "interés local"]
-            }
-          ]
+          "numero": "1",
+          "texto": "Los mecanismos de participación ciudadana son: 1. Plebiscito. 2. Referendo. 3. Consulta popular. 4. Revocatoria del mandato. 5. Iniciativa popular. 6. Cabildo abierto.",
+          "tema": "Participación Ciudadana",
+          "palabras_clave": ["plebiscito", "referendo", "consulta popular", "revocatoria", "iniciativa popular", "cabildo abierto"]
         },
         {
-          "nombre": "Iniciativa Popular",
-          "descripcion": "Artículos 21 al 30",
-          "articulos": [
-            {
-              "numero": 21,
-              "texto": "La iniciativa popular requiere un número de firmas equivalente al 5% del censo electoral.",
-              "tema": "Participación Ciudadana",
-              "palabras_clave": ["iniciativa popular", "firmas", "5% del censo electoral"]
-            },
-            {
-              "numero": 22,
-              "texto": "Los proyectos de iniciativa popular deben ser presentados ante el Congreso.",
-              "tema": "Participación Ciudadana",
-              "palabras_clave": ["proyectos", "Congreso"]
-            },
-            {
-              "numero": 23,
-              "texto": "El Congreso debe tramitar los proyectos de iniciativa popular conforme a los procedimientos establecidos.",
-              "tema": "Participación Ciudadana",
-              "palabras_clave": ["tramitación", "Congreso", "procedimientos"]
-            }
-          ]
+          "numero": "2",
+          "texto": "El plebiscito es la convocatoria que hace el Presidente de la República al pueblo para que decida sobre un asunto de importancia nacional.",
+          "tema": "Participación Ciudadana",
+          "palabras_clave": ["plebiscito", "Presidente", "decisión del pueblo"]
+        },
+        {
+          "numero": "3",
+          "texto": "El referendo es la convocatoria al pueblo para que apruebe o rechace un proyecto de ley o acto legislativo.",
+          "tema": "Participación Ciudadana",
+          "palabras_clave": ["referendo", "aprobación", "rechazo", "ley", "acto legislativo"]
+        },
+        {
+          "numero": "4",
+          "texto": "La consulta popular es la convocatoria al pueblo para que decida sobre un asunto de interés local o nacional.",
+          "tema": "Participación Ciudadana",
+          "palabras_clave": ["consulta popular", "interés local", "interés nacional"]
+        },
+        {
+          "numero": "5",
+          "texto": "La revocatoria del mandato es el derecho de los ciudadanos a revocar el mandato de un funcionario elegido popularmente.",
+          "tema": "Participación Ciudadana",
+          "palabras_clave": ["revocatoria del mandato", "funcionario elegido"]
+        },
+        {
+          "numero": "6",
+          "texto": "La iniciativa popular es el derecho de los ciudadanos a presentar proyectos de ley.",
+          "tema": "Participación Ciudadana",
+          "palabras_clave": ["iniciativa popular", "proyectos de ley"]
+        },
+        {
+          "numero": "7",
+          "texto": "El cabildo abierto es la reunión de los ciudadanos con el alcalde para tratar asuntos de interés local.",
+          "tema": "Participación Ciudadana",
+          "palabras_clave": ["cabildo abierto", "alcalde", "interés local"]
+        },
+        {
+          "numero": "21",
+          "texto": "La iniciativa popular requiere un número de firmas equivalente al 5% del censo electoral.",
+          "tema": "Participación Ciudadana",
+          "palabras_clave": ["iniciativa popular", "firmas", "5% del censo electoral"]
+        },
+        {
+          "numero": "22",
+          "texto": "Los proyectos de iniciativa popular deben ser presentados ante el Congreso.",
+          "tema": "Participación Ciudadana",
+          "palabras_clave": ["proyectos", "Congreso"]
+        },
+        {
+          "numero": "23",
+          "texto": "El Congreso debe tramitar los proyectos de iniciativa popular conforme a los procedimientos establecidos.",
+          "tema": "Participación Ciudadana",
+          "palabras_clave": ["tramitación", "Congreso", "procedimientos"]
         }
       ]
     },
@@ -436,74 +353,61 @@
       "numero": "Ley 142 de 1994",
       "nombre": "Régimen de Servicios Públicos Domiciliarios",
       "fecha": "1994",
-      "actualizacion": "2026-07-10",
       "descripcion": "Regula los servicios públicos domiciliarios en Colombia: acueducto, alcantarillado, aseo, energía eléctrica, gas combustible, telefonía y televisión.",
-      "temas": [
+      "articulos": [
         {
-          "nombre": "Servicios Públicos Domiciliarios",
-          "descripcion": "Artículos 1 al 30",
-          "articulos": [
-            {
-              "numero": 1,
-              "texto": "La presente ley regula los servicios públicos domiciliarios en Colombia.",
-              "tema": "Servicios Públicos",
-              "palabras_clave": ["servicios públicos", "domiciliarios"]
-            },
-            {
-              "numero": 2,
-              "texto": "Son servicios públicos domiciliarios: 1. Acueducto. 2. Alcantarillado. 3. Aseo. 4. Energía eléctrica. 5. Gas combustible. 6. Telefonía. 7. Televisión.",
-              "tema": "Servicios Públicos",
-              "palabras_clave": ["acueducto", "alcantarillado", "aseo", "energía", "gas", "telefonía", "televisión"]
-            },
-            {
-              "numero": 3,
-              "texto": "Los servicios públicos son prestados por el Estado o por particulares autorizados.",
-              "tema": "Servicios Públicos",
-              "palabras_clave": ["prestación", "Estado", "particulares"]
-            },
-            {
-              "numero": 4,
-              "texto": "Los usuarios tienen derecho a la prestación eficiente y continua de los servicios.",
-              "tema": "Servicios Públicos",
-              "palabras_clave": ["usuarios", "prestación eficiente", "continuidad"]
-            },
-            {
-              "numero": 5,
-              "texto": "Las tarifas de los servicios públicos se fijan de acuerdo con criterios de eficiencia y calidad.",
-              "tema": "Servicios Públicos",
-              "palabras_clave": ["tarifas", "eficiencia", "calidad"]
-            }
-          ]
+          "numero": "1",
+          "texto": "La presente ley regula los servicios públicos domiciliarios en Colombia.",
+          "tema": "Servicios Públicos",
+          "palabras_clave": ["servicios públicos", "domiciliarios"]
         },
         {
-          "nombre": "Derechos y Deberes de los Usuarios",
-          "descripcion": "Artículos 31 al 50",
-          "articulos": [
-            {
-              "numero": 31,
-              "texto": "Los usuarios tienen derecho a recibir información clara y veraz sobre los servicios.",
-              "tema": "Servicios Públicos",
-              "palabras_clave": ["usuarios", "información clara", "veraz"]
-            },
-            {
-              "numero": 32,
-              "texto": "Los usuarios tienen derecho a presentar peticiones y reclamaciones.",
-              "tema": "Servicios Públicos",
-              "palabras_clave": ["peticiones", "reclamaciones"]
-            },
-            {
-              "numero": 33,
-              "texto": "Los usuarios deben pagar oportunamente las tarifas de los servicios.",
-              "tema": "Servicios Públicos",
-              "palabras_clave": ["pago oportuno", "tarifas"]
-            },
-            {
-              "numero": 34,
-              "texto": "Los usuarios tienen derecho a la suspensión del servicio por falta de pago, con las garantías legales.",
-              "tema": "Servicios Públicos",
-              "palabras_clave": ["suspensión", "falta de pago", "garantías"]
-            }
-          ]
+          "numero": "2",
+          "texto": "Son servicios públicos domiciliarios: 1. Acueducto. 2. Alcantarillado. 3. Aseo. 4. Energía eléctrica. 5. Gas combustible. 6. Telefonía. 7. Televisión.",
+          "tema": "Servicios Públicos",
+          "palabras_clave": ["acueducto", "alcantarillado", "aseo", "energía", "gas", "telefonía", "televisión"]
+        },
+        {
+          "numero": "3",
+          "texto": "Los servicios públicos son prestados por el Estado o por particulares autorizados.",
+          "tema": "Servicios Públicos",
+          "palabras_clave": ["prestación", "Estado", "particulares"]
+        },
+        {
+          "numero": "4",
+          "texto": "Los usuarios tienen derecho a la prestación eficiente y continua de los servicios.",
+          "tema": "Servicios Públicos",
+          "palabras_clave": ["usuarios", "prestación eficiente", "continuidad"]
+        },
+        {
+          "numero": "5",
+          "texto": "Las tarifas de los servicios públicos se fijan de acuerdo con criterios de eficiencia y calidad.",
+          "tema": "Servicios Públicos",
+          "palabras_clave": ["tarifas", "eficiencia", "calidad"]
+        },
+        {
+          "numero": "31",
+          "texto": "Los usuarios tienen derecho a recibir información clara y veraz sobre los servicios.",
+          "tema": "Servicios Públicos",
+          "palabras_clave": ["usuarios", "información clara", "veraz"]
+        },
+        {
+          "numero": "32",
+          "texto": "Los usuarios tienen derecho a presentar peticiones y reclamaciones.",
+          "tema": "Servicios Públicos",
+          "palabras_clave": ["peticiones", "reclamaciones"]
+        },
+        {
+          "numero": "33",
+          "texto": "Los usuarios deben pagar oportunamente las tarifas de los servicios.",
+          "tema": "Servicios Públicos",
+          "palabras_clave": ["pago oportuno", "tarifas"]
+        },
+        {
+          "numero": "34",
+          "texto": "Los usuarios tienen derecho a la suspensión del servicio por falta de pago, con las garantías legales.",
+          "tema": "Servicios Públicos",
+          "palabras_clave": ["suspensión", "falta de pago", "garantías"]
         }
       ]
     },
@@ -511,26 +415,19 @@
       "numero": "Ley 599 de 2000 (Código Penal)",
       "nombre": "Código Penal de Colombia",
       "fecha": "2000",
-      "actualizacion": "2026-07-10",
       "descripcion": "Contiene los delitos especiales no incluidos en la parte general del Código Penal.",
-      "temas": [
+      "articulos": [
         {
-          "nombre": "Delitos Especiales",
-          "descripcion": "Artículos complementarios",
-          "articulos": [
-            {
-              "numero": 323,
-              "texto": "El que adquiera, transforme, oculte o administre bienes provenientes de actividades ilegales, incurrirá en prisión de seis (6) a quince (15) años.",
-              "tema": "Lavado de Activos",
-              "palabras_clave": ["lavado de activos", "bienes ilegales", "6 a 15 años"]
-            },
-            {
-              "numero": 345,
-              "texto": "El que promueva, organice o financie actos de terrorismo, incurrirá en prisión de diez (10) a veinte (20) años.",
-              "tema": "Terrorismo",
-              "palabras_clave": ["terrorismo", "promover", "organizar", "financiar", "10 a 20 años"]
-            }
-          ]
+          "numero": "323",
+          "texto": "El que adquiera, transforme, oculte o administre bienes provenientes de actividades ilegales, incurrirá en prisión de seis (6) a quince (15) años.",
+          "tema": "Lavado de Activos",
+          "palabras_clave": ["lavado de activos", "bienes ilegales", "6 a 15 años"]
+        },
+        {
+          "numero": "345",
+          "texto": "El que promueva, organice o financie actos de terrorismo, incurrirá en prisión de diez (10) a veinte (20) años.",
+          "tema": "Terrorismo",
+          "palabras_clave": ["terrorismo", "promover", "organizar", "financiar", "10 a 20 años"]
         }
       ]
     },
@@ -538,32 +435,25 @@
       "numero": "Ley 1121 de 2006",
       "nombre": "Normas contra el Terrorismo y la Financiación del Terrorismo",
       "fecha": "2006",
-      "actualizacion": "2026-07-10",
       "descripcion": "Modifica el Código Penal y el Código de Procedimiento Penal para tipificar y sancionar el terrorismo, la financiación del terrorismo y la administración de recursos relacionados con actividades terroristas.",
-      "temas": [
+      "articulos": [
         {
-          "nombre": "Financiación del Terrorismo",
-          "descripcion": "Artículos 1 al 10",
-          "articulos": [
-            {
-              "numero": 1,
-              "texto": "El que directa o indirectamente financie, administre o utilice recursos para la comisión de actos de terrorismo, incurrirá en prisión de diez (10) a veinte (20) años.",
-              "tema": "Terrorismo",
-              "palabras_clave": ["financiación del terrorismo", "recursos", "10 a 20 años"]
-            },
-            {
-              "numero": 2,
-              "texto": "La administración de recursos relacionados con actividades terroristas será sancionada con prisión de ocho (8) a quince (15) años.",
-              "tema": "Terrorismo",
-              "palabras_clave": ["administración de recursos", "terrorismo", "8 a 15 años"]
-            },
-            {
-              "numero": 3,
-              "texto": "Las personas jurídicas que financien el terrorismo serán sancionadas con multas y disolución.",
-              "tema": "Terrorismo",
-              "palabras_clave": ["personas jurídicas", "multas", "disolución"]
-            }
-          ]
+          "numero": "1",
+          "texto": "El que directa o indirectamente financie, administre o utilice recursos para la comisión de actos de terrorismo, incurrirá en prisión de diez (10) a veinte (20) años.",
+          "tema": "Terrorismo",
+          "palabras_clave": ["financiación del terrorismo", "recursos", "10 a 20 años"]
+        },
+        {
+          "numero": "2",
+          "texto": "La administración de recursos relacionados con actividades terroristas será sancionada con prisión de ocho (8) a quince (15) años.",
+          "tema": "Terrorismo",
+          "palabras_clave": ["administración de recursos", "terrorismo", "8 a 15 años"]
+        },
+        {
+          "numero": "3",
+          "texto": "Las personas jurídicas que financien el terrorismo serán sancionadas con multas y disolución.",
+          "tema": "Terrorismo",
+          "palabras_clave": ["personas jurídicas", "multas", "disolución"]
         }
       ]
     },
@@ -571,62 +461,55 @@
       "numero": "Ley 820 de 2003",
       "nombre": "Régimen de Arrendamiento de Vivienda Urbana",
       "fecha": "2003",
-      "actualizacion": "2026-07-10",
       "descripcion": "Regula los contratos de arrendamiento de vivienda urbana en Colombia, estableciendo derechos y deberes de arrendadores y arrendatarios.",
-      "temas": [
+      "articulos": [
         {
-          "nombre": "Contrato de Arrendamiento de Vivienda",
-          "descripcion": "Artículos 1 al 30",
-          "articulos": [
-            {
-              "numero": 1,
-              "texto": "La presente ley regula los contratos de arrendamiento de vivienda urbana en Colombia.",
-              "tema": "Arrendamiento",
-              "palabras_clave": ["arrendamiento", "vivienda urbana", "regulación"]
-            },
-            {
-              "numero": 2,
-              "texto": "El contrato de arrendamiento de vivienda debe constar por escrito.",
-              "tema": "Arrendamiento",
-              "palabras_clave": ["contrato", "escrito"]
-            },
-            {
-              "numero": 3,
-              "texto": "El plazo mínimo del contrato de arrendamiento de vivienda es de un (1) año.",
-              "tema": "Arrendamiento",
-              "palabras_clave": ["plazo mínimo", "1 año"]
-            },
-            {
-              "numero": 4,
-              "texto": "El arrendador debe entregar la vivienda en buen estado para la habitación.",
-              "tema": "Arrendamiento",
-              "palabras_clave": ["arrendador", "entrega", "buen estado"]
-            },
-            {
-              "numero": 5,
-              "texto": "El arrendatario debe pagar el cánon de arrendamiento oportunamente.",
-              "tema": "Arrendamiento",
-              "palabras_clave": ["arrendatario", "cánon", "pago oportuno"]
-            },
-            {
-              "numero": 6,
-              "texto": "El arrendatario tiene derecho a la renovación del contrato al vencimiento del plazo.",
-              "tema": "Arrendamiento",
-              "palabras_clave": ["renovación", "vencimiento"]
-            },
-            {
-              "numero": 7,
-              "texto": "El arrendador puede dar por terminado el contrato en los casos establecidos en la ley.",
-              "tema": "Arrendamiento",
-              "palabras_clave": ["terminación", "causales"]
-            },
-            {
-              "numero": 8,
-              "texto": "El arrendatario puede dar por terminado el contrato con aviso previo de tres (3) meses.",
-              "tema": "Arrendamiento",
-              "palabras_clave": ["aviso previo", "3 meses"]
-            }
-          ]
+          "numero": "1",
+          "texto": "La presente ley regula los contratos de arrendamiento de vivienda urbana en Colombia.",
+          "tema": "Arrendamiento",
+          "palabras_clave": ["arrendamiento", "vivienda urbana", "regulación"]
+        },
+        {
+          "numero": "2",
+          "texto": "El contrato de arrendamiento de vivienda debe constar por escrito.",
+          "tema": "Arrendamiento",
+          "palabras_clave": ["contrato", "escrito"]
+        },
+        {
+          "numero": "3",
+          "texto": "El plazo mínimo del contrato de arrendamiento de vivienda es de un (1) año.",
+          "tema": "Arrendamiento",
+          "palabras_clave": ["plazo mínimo", "1 año"]
+        },
+        {
+          "numero": "4",
+          "texto": "El arrendador debe entregar la vivienda en buen estado para la habitación.",
+          "tema": "Arrendamiento",
+          "palabras_clave": ["arrendador", "entrega", "buen estado"]
+        },
+        {
+          "numero": "5",
+          "texto": "El arrendatario debe pagar el cánon de arrendamiento oportunamente.",
+          "tema": "Arrendamiento",
+          "palabras_clave": ["arrendatario", "cánon", "pago oportuno"]
+        },
+        {
+          "numero": "6",
+          "texto": "El arrendatario tiene derecho a la renovación del contrato al vencimiento del plazo.",
+          "tema": "Arrendamiento",
+          "palabras_clave": ["renovación", "vencimiento"]
+        },
+        {
+          "numero": "7",
+          "texto": "El arrendador puede dar por terminado el contrato en los casos establecidos en la ley.",
+          "tema": "Arrendamiento",
+          "palabras_clave": ["terminación", "causales"]
+        },
+        {
+          "numero": "8",
+          "texto": "El arrendatario puede dar por terminado el contrato con aviso previo de tres (3) meses.",
+          "tema": "Arrendamiento",
+          "palabras_clave": ["aviso previo", "3 meses"]
         }
       ]
     },
@@ -634,44 +517,37 @@
       "numero": "Ley 1266 de 2008",
       "nombre": "Protección de Datos Financieros",
       "fecha": "2008",
-      "actualizacion": "2026-07-10",
       "descripcion": "Regula el manejo de datos financieros, crediticios y comerciales en Colombia.",
-      "temas": [
+      "articulos": [
         {
-          "nombre": "Protección de Datos Financieros",
-          "descripcion": "Artículos 1 al 20",
-          "articulos": [
-            {
-              "numero": 1,
-              "texto": "La presente ley regula el manejo de datos financieros, crediticios y comerciales.",
-              "tema": "Datos Financieros",
-              "palabras_clave": ["datos financieros", "datos crediticios", "datos comerciales"]
-            },
-            {
-              "numero": 2,
-              "texto": "Los datos financieros solo pueden ser utilizados para la finalidad para la cual fueron recolectados.",
-              "tema": "Datos Financieros",
-              "palabras_clave": ["finalidad", "recolección"]
-            },
-            {
-              "numero": 3,
-              "texto": "Los datos financieros deben ser veraces y estar actualizados.",
-              "tema": "Datos Financieros",
-              "palabras_clave": ["veracidad", "actualización"]
-            },
-            {
-              "numero": 4,
-              "texto": "Los datos financieros negativos pueden ser reportados por un plazo máximo de cinco (5) años.",
-              "tema": "Datos Financieros",
-              "palabras_clave": ["datos negativos", "plazo máximo", "5 años"]
-            },
-            {
-              "numero": 5,
-              "texto": "El titular tiene derecho a conocer y rectificar sus datos financieros.",
-              "tema": "Datos Financieros",
-              "palabras_clave": ["titular", "conocer", "rectificar"]
-            }
-          ]
+          "numero": "1",
+          "texto": "La presente ley regula el manejo de datos financieros, crediticios y comerciales.",
+          "tema": "Datos Financieros",
+          "palabras_clave": ["datos financieros", "datos crediticios", "datos comerciales"]
+        },
+        {
+          "numero": "2",
+          "texto": "Los datos financieros solo pueden ser utilizados para la finalidad para la cual fueron recolectados.",
+          "tema": "Datos Financieros",
+          "palabras_clave": ["finalidad", "recolección"]
+        },
+        {
+          "numero": "3",
+          "texto": "Los datos financieros deben ser veraces y estar actualizados.",
+          "tema": "Datos Financieros",
+          "palabras_clave": ["veracidad", "actualización"]
+        },
+        {
+          "numero": "4",
+          "texto": "Los datos financieros negativos pueden ser reportados por un plazo máximo de cinco (5) años.",
+          "tema": "Datos Financieros",
+          "palabras_clave": ["datos negativos", "plazo máximo", "5 años"]
+        },
+        {
+          "numero": "5",
+          "texto": "El titular tiene derecho a conocer y rectificar sus datos financieros.",
+          "tema": "Datos Financieros",
+          "palabras_clave": ["titular", "conocer", "rectificar"]
         }
       ]
     },
@@ -679,80 +555,61 @@
       "numero": "Ley 1480 de 2011",
       "nombre": "Estatuto del Consumidor",
       "fecha": "2011",
-      "actualizacion": "2026-07-10",
       "descripcion": "Regula los derechos de los consumidores en Colombia, estableciendo mecanismos de protección y sanciones por violación.",
-      "temas": [
+      "articulos": [
         {
-          "nombre": "Derechos del Consumidor",
-          "descripcion": "Artículos 1 al 20",
-          "articulos": [
-            {
-              "numero": 1,
-              "texto": "La presente ley tiene por objeto proteger los derechos de los consumidores en Colombia.",
-              "tema": "Consumidor",
-              "palabras_clave": ["consumidores", "protección", "derechos"]
-            },
-            {
-              "numero": 2,
-              "texto": "Son derechos de los consumidores: 1. Recibir información veraz y clara. 2. Ser protegidos contra la publicidad engañosa. 3. Exigir calidad en los productos y servicios. 4. Ser indemnizados por daños causados.",
-              "tema": "Consumidor",
-              "palabras_clave": ["información veraz", "publicidad engañosa", "calidad", "indemnización"]
-            },
-            {
-              "numero": 3,
-              "texto": "Los consumidores tienen derecho a la garantía de los productos que adquieren.",
-              "tema": "Consumidor",
-              "palabras_clave": ["garantía", "productos"]
-            },
-            {
-              "numero": 4,
-              "texto": "Los consumidores tienen derecho a la protección contra la discriminación.",
-              "tema": "Consumidor",
-              "palabras_clave": ["protección", "discriminación"]
-            }
-          ]
+          "numero": "1",
+          "texto": "La presente ley tiene por objeto proteger los derechos de los consumidores en Colombia.",
+          "tema": "Consumidor",
+          "palabras_clave": ["consumidores", "protección", "derechos"]
         },
         {
-          "nombre": "Publicidad y Prácticas Comerciales",
-          "descripcion": "Artículos 21 al 40",
-          "articulos": [
-            {
-              "numero": 21,
-              "texto": "La publicidad debe ser veraz y no engañosa.",
-              "tema": "Consumidor",
-              "palabras_clave": ["publicidad veraz", "no engañosa"]
-            },
-            {
-              "numero": 22,
-              "texto": "Las prácticas comerciales abusivas son sancionadas por la ley.",
-              "tema": "Consumidor",
-              "palabras_clave": ["prácticas abusivas", "sanciones"]
-            },
-            {
-              "numero": 23,
-              "texto": "La Superintendencia de Industria y Comercio es la autoridad encargada de la vigilancia.",
-              "tema": "Consumidor",
-              "palabras_clave": ["Superintendencia de Industria y Comercio", "vigilancia"]
-            }
-          ]
+          "numero": "2",
+          "texto": "Son derechos de los consumidores: 1. Recibir información veraz y clara. 2. Ser protegidos contra la publicidad engañosa. 3. Exigir calidad en los productos y servicios. 4. Ser indemnizados por daños causados.",
+          "tema": "Consumidor",
+          "palabras_clave": ["información veraz", "publicidad engañosa", "calidad", "indemnización"]
         },
         {
-          "nombre": "Sanciones",
-          "descripcion": "Artículos 41 al 50",
-          "articulos": [
-            {
-              "numero": 41,
-              "texto": "El incumplimiento de la ley da lugar a sanciones pecuniarias.",
-              "tema": "Consumidor",
-              "palabras_clave": ["sanciones", "incumplimiento"]
-            },
-            {
-              "numero": 42,
-              "texto": "Las sanciones pueden ser multas hasta de 2.000 salarios mínimos.",
-              "tema": "Consumidor",
-              "palabras_clave": ["multas", "2.000 salarios mínimos"]
-            }
-          ]
+          "numero": "3",
+          "texto": "Los consumidores tienen derecho a la garantía de los productos que adquieren.",
+          "tema": "Consumidor",
+          "palabras_clave": ["garantía", "productos"]
+        },
+        {
+          "numero": "4",
+          "texto": "Los consumidores tienen derecho a la protección contra la discriminación.",
+          "tema": "Consumidor",
+          "palabras_clave": ["protección", "discriminación"]
+        },
+        {
+          "numero": "21",
+          "texto": "La publicidad debe ser veraz y no engañosa.",
+          "tema": "Consumidor",
+          "palabras_clave": ["publicidad veraz", "no engañosa"]
+        },
+        {
+          "numero": "22",
+          "texto": "Las prácticas comerciales abusivas son sancionadas por la ley.",
+          "tema": "Consumidor",
+          "palabras_clave": ["prácticas abusivas", "sanciones"]
+        },
+        {
+          "numero": "23",
+          "texto": "La Superintendencia de Industria y Comercio es la autoridad encargada de la vigilancia.",
+          "tema": "Consumidor",
+          "palabras_clave": ["Superintendencia de Industria y Comercio", "vigilancia"]
+        },
+        {
+          "numero": "41",
+          "texto": "El incumplimiento de la ley da lugar a sanciones pecuniarias.",
+          "tema": "Consumidor",
+          "palabras_clave": ["sanciones", "incumplimiento"]
+        },
+        {
+          "numero": "42",
+          "texto": "Las sanciones pueden ser multas hasta de 2.000 salarios mínimos.",
+          "tema": "Consumidor",
+          "palabras_clave": ["multas", "2.000 salarios mínimos"]
         }
       ]
     },
@@ -760,26 +617,19 @@
       "numero": "Ley 1757 de 2015",
       "nombre": "Mecanismos de Participación Ciudadana",
       "fecha": "2015",
-      "actualizacion": "2026-07-10",
       "descripcion": "Modifica y adiciona normas sobre mecanismos de participación ciudadana.",
-      "temas": [
+      "articulos": [
         {
-          "nombre": "Participación Ciudadana",
-          "descripcion": "Artículos 1 al 10",
-          "articulos": [
-            {
-              "numero": 1,
-              "texto": "La presente ley modifica los mecanismos de participación ciudadana establecidos en la Ley 134 de 1994.",
-              "tema": "Participación Ciudadana",
-              "palabras_clave": ["participación ciudadana", "modificación"]
-            },
-            {
-              "numero": 2,
-              "texto": "Se fortalecen los mecanismos de participación en los niveles local y regional.",
-              "tema": "Participación Ciudadana",
-              "palabras_clave": ["nivel local", "nivel regional"]
-            }
-          ]
+          "numero": "1",
+          "texto": "La presente ley modifica los mecanismos de participación ciudadana establecidos en la Ley 134 de 1994.",
+          "tema": "Participación Ciudadana",
+          "palabras_clave": ["participación ciudadana", "modificación"]
+        },
+        {
+          "numero": "2",
+          "texto": "Se fortalecen los mecanismos de participación en los niveles local y regional.",
+          "tema": "Participación Ciudadana",
+          "palabras_clave": ["nivel local", "nivel regional"]
         }
       ]
     },
@@ -787,44 +637,37 @@
       "numero": "Ley 1952 de 2019",
       "nombre": "Código General Disciplinario",
       "fecha": "2019",
-      "actualizacion": "2026-07-10",
       "descripcion": "Establece el régimen disciplinario aplicable a los servidores públicos en Colombia.",
-      "temas": [
+      "articulos": [
         {
-          "nombre": "Faltas Disciplinarias",
-          "descripcion": "Artículos 1 al 30",
-          "articulos": [
-            {
-              "numero": 1,
-              "texto": "El Código General Disciplinario establece el régimen disciplinario para los servidores públicos.",
-              "tema": "Derecho Disciplinario",
-              "palabras_clave": ["régimen disciplinario", "servidores públicos"]
-            },
-            {
-              "numero": 2,
-              "texto": "Son faltas disciplinarias las conductas que violan los deberes funcionales de los servidores públicos.",
-              "tema": "Derecho Disciplinario",
-              "palabras_clave": ["faltas disciplinarias", "deberes funcionales"]
-            },
-            {
-              "numero": 3,
-              "texto": "Las faltas disciplinarias pueden ser: 1. Leves. 2. Graves. 3. Gravísimas.",
-              "tema": "Derecho Disciplinario",
-              "palabras_clave": ["faltas leves", "faltas graves", "faltas gravísimas"]
-            },
-            {
-              "numero": 4,
-              "texto": "Las sanciones disciplinarias incluyen: 1. Amonestación. 2. Multa. 3. Suspensión. 4. Destitución.",
-              "tema": "Derecho Disciplinario",
-              "palabras_clave": ["sanciones", "amonestación", "multa", "suspensión", "destitución"]
-            },
-            {
-              "numero": 5,
-              "texto": "La Procuraduría General de la Nación es la autoridad disciplinaria.",
-              "tema": "Derecho Disciplinario",
-              "palabras_clave": ["Procuraduría", "autoridad disciplinaria"]
-            }
-          ]
+          "numero": "1",
+          "texto": "El Código General Disciplinario establece el régimen disciplinario para los servidores públicos.",
+          "tema": "Derecho Disciplinario",
+          "palabras_clave": ["régimen disciplinario", "servidores públicos"]
+        },
+        {
+          "numero": "2",
+          "texto": "Son faltas disciplinarias las conductas que violan los deberes funcionales de los servidores públicos.",
+          "tema": "Derecho Disciplinario",
+          "palabras_clave": ["faltas disciplinarias", "deberes funcionales"]
+        },
+        {
+          "numero": "3",
+          "texto": "Las faltas disciplinarias pueden ser: 1. Leves. 2. Graves. 3. Gravísimas.",
+          "tema": "Derecho Disciplinario",
+          "palabras_clave": ["faltas leves", "faltas graves", "faltas gravísimas"]
+        },
+        {
+          "numero": "4",
+          "texto": "Las sanciones disciplinarias incluyen: 1. Amonestación. 2. Multa. 3. Suspensión. 4. Destitución.",
+          "tema": "Derecho Disciplinario",
+          "palabras_clave": ["sanciones", "amonestación", "multa", "suspensión", "destitución"]
+        },
+        {
+          "numero": "5",
+          "texto": "La Procuraduría General de la Nación es la autoridad disciplinaria.",
+          "tema": "Derecho Disciplinario",
+          "palabras_clave": ["Procuraduría", "autoridad disciplinaria"]
         }
       ]
     },
@@ -832,20 +675,13 @@
       "numero": "Ley 1955 de 2019",
       "nombre": "Plan Nacional de Desarrollo 2018-2022",
       "fecha": "2019",
-      "actualizacion": "2026-07-10",
       "descripcion": "Establece las políticas y programas de desarrollo económico y social para el período 2018-2022.",
-      "temas": [
+      "articulos": [
         {
-          "nombre": "Políticas de Desarrollo",
-          "descripcion": "Artículos 1 al 15",
-          "articulos": [
-            {
-              "numero": 1,
-              "texto": "El Plan Nacional de Desarrollo establece las políticas de desarrollo económico y social.",
-              "tema": "Desarrollo Económico",
-              "palabras_clave": ["plan nacional de desarrollo", "políticas", "desarrollo económico", "desarrollo social"]
-            }
-          ]
+          "numero": "1",
+          "texto": "El Plan Nacional de Desarrollo establece las políticas de desarrollo económico y social.",
+          "tema": "Desarrollo Económico",
+          "palabras_clave": ["plan nacional de desarrollo", "políticas", "desarrollo económico", "desarrollo social"]
         }
       ]
     },
@@ -853,32 +689,25 @@
       "numero": "Ley 2101 de 2021",
       "nombre": "Reducción de la Jornada Laboral",
       "fecha": "2021",
-      "actualizacion": "2026-07-10",
       "descripcion": "Reducción de la jornada laboral máxima de 48 a 42 horas semanales, con implementación progresiva hasta 2026.",
-      "temas": [
+      "articulos": [
         {
-          "nombre": "Jornada Laboral",
-          "descripcion": "Artículos 1 al 5",
-          "articulos": [
-            {
-              "numero": 1,
-              "texto": "La jornada laboral máxima en Colombia es de cuarenta y dos (42) horas semanales.",
-              "tema": "Jornada Laboral",
-              "palabras_clave": ["jornada laboral", "42 horas", "reducción"]
-            },
-            {
-              "numero": 2,
-              "texto": "La reducción de la jornada se implementa de manera progresiva, conforme a los plazos establecidos en la ley.",
-              "tema": "Jornada Laboral",
-              "palabras_clave": ["implementación progresiva", "plazos"]
-            },
-            {
-              "numero": 3,
-              "texto": "La ley respeta los derechos adquiridos de los trabajadores con jornadas inferiores.",
-              "tema": "Jornada Laboral",
-              "palabras_clave": ["derechos adquiridos", "trabajadores"]
-            }
-          ]
+          "numero": "1",
+          "texto": "La jornada laboral máxima en Colombia es de cuarenta y dos (42) horas semanales.",
+          "tema": "Jornada Laboral",
+          "palabras_clave": ["jornada laboral", "42 horas", "reducción"]
+        },
+        {
+          "numero": "2",
+          "texto": "La reducción de la jornada se implementa de manera progresiva, conforme a los plazos establecidos en la ley.",
+          "tema": "Jornada Laboral",
+          "palabras_clave": ["implementación progresiva", "plazos"]
+        },
+        {
+          "numero": "3",
+          "texto": "La ley respeta los derechos adquiridos de los trabajadores con jornadas inferiores.",
+          "tema": "Jornada Laboral",
+          "palabras_clave": ["derechos adquiridos", "trabajadores"]
         }
       ]
     },
@@ -886,74 +715,55 @@
       "numero": "Reforma Laboral 2026",
       "nombre": "Reforma Laboral Integral",
       "fecha": "2026",
-      "actualizacion": "2026-07-10",
       "descripcion": "Proyecto de ley aprobado que introduce cambios en estabilidad laboral, protección de trabajadores de plataformas digitales, y fortalecimiento de la negociación colectiva.",
-      "temas": [
+      "articulos": [
         {
-          "nombre": "Estabilidad Laboral",
-          "descripcion": "Artículos 1 al 10",
-          "articulos": [
-            {
-              "numero": 1,
-              "texto": "Se fortalece la estabilidad laboral y la protección contra el despido sin justa causa.",
-              "tema": "Estabilidad Laboral",
-              "palabras_clave": ["estabilidad laboral", "protección contra despido"]
-            },
-            {
-              "numero": 2,
-              "texto": "Se establecen nuevas causales de justa causa para la terminación del contrato.",
-              "tema": "Estabilidad Laboral",
-              "palabras_clave": ["justa causa", "terminación del contrato"]
-            },
-            {
-              "numero": 3,
-              "texto": "Las indemnizaciones por despido sin justa causa se incrementan progresivamente.",
-              "tema": "Estabilidad Laboral",
-              "palabras_clave": ["indemnizaciones", "despido sin justa causa"]
-            }
-          ]
+          "numero": "1",
+          "texto": "Se fortalece la estabilidad laboral y la protección contra el despido sin justa causa.",
+          "tema": "Estabilidad Laboral",
+          "palabras_clave": ["estabilidad laboral", "protección contra despido"]
         },
         {
-          "nombre": "Trabajadores de Plataformas Digitales",
-          "descripcion": "Artículos 11 al 20",
-          "articulos": [
-            {
-              "numero": 11,
-              "texto": "Los trabajadores de plataformas digitales tienen derecho a la seguridad social integral.",
-              "tema": "Trabajo Digital",
-              "palabras_clave": ["plataformas digitales", "seguridad social"]
-            },
-            {
-              "numero": 12,
-              "texto": "Las plataformas digitales deben garantizar condiciones de trabajo dignas.",
-              "tema": "Trabajo Digital",
-              "palabras_clave": ["plataformas", "condiciones de trabajo"]
-            },
-            {
-              "numero": 13,
-              "texto": "Se establece la presunción de relación laboral para los trabajadores de plataformas.",
-              "tema": "Trabajo Digital",
-              "palabras_clave": ["presunción de laboralidad", "plataformas"]
-            }
-          ]
+          "numero": "2",
+          "texto": "Se establecen nuevas causales de justa causa para la terminación del contrato.",
+          "tema": "Estabilidad Laboral",
+          "palabras_clave": ["justa causa", "terminación del contrato"]
         },
         {
-          "nombre": "Negociación Colectiva",
-          "descripcion": "Artículos 21 al 30",
-          "articulos": [
-            {
-              "numero": 21,
-              "texto": "Se fortalecen los mecanismos de negociación colectiva.",
-              "tema": "Negociación Colectiva",
-              "palabras_clave": ["negociación colectiva", "fortalecimiento"]
-            },
-            {
-              "numero": 22,
-              "texto": "Se establecen nuevos procedimientos para la solución de conflictos laborales.",
-              "tema": "Negociación Colectiva",
-              "palabras_clave": ["solución de conflictos", "procedimientos"]
-            }
-          ]
+          "numero": "3",
+          "texto": "Las indemnizaciones por despido sin justa causa se incrementan progresivamente.",
+          "tema": "Estabilidad Laboral",
+          "palabras_clave": ["indemnizaciones", "despido sin justa causa"]
+        },
+        {
+          "numero": "11",
+          "texto": "Los trabajadores de plataformas digitales tienen derecho a la seguridad social integral.",
+          "tema": "Trabajo Digital",
+          "palabras_clave": ["plataformas digitales", "seguridad social"]
+        },
+        {
+          "numero": "12",
+          "texto": "Las plataformas digitales deben garantizar condiciones de trabajo dignas.",
+          "tema": "Trabajo Digital",
+          "palabras_clave": ["plataformas", "condiciones de trabajo"]
+        },
+        {
+          "numero": "13",
+          "texto": "Se establece la presunción de relación laboral para los trabajadores de plataformas.",
+          "tema": "Trabajo Digital",
+          "palabras_clave": ["presunción de laboralidad", "plataformas"]
+        },
+        {
+          "numero": "21",
+          "texto": "Se fortalecen los mecanismos de negociación colectiva.",
+          "tema": "Negociación Colectiva",
+          "palabras_clave": ["negociación colectiva", "fortalecimiento"]
+        },
+        {
+          "numero": "22",
+          "texto": "Se establecen nuevos procedimientos para la solución de conflictos laborales.",
+          "tema": "Negociación Colectiva",
+          "palabras_clave": ["solución de conflictos", "procedimientos"]
         }
       ]
     }
