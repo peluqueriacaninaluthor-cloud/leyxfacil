@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <!-- ============================================================
-       LEXFÁCIL ACADÉMICO v8.0.0 - PLATAFORMA EDUCATIVA PARA ESTUDIANTES DE DERECHO
+       LEXFÁCIL ACADÉMICO v8.0.1 - PLATAFORMA EDUCATIVA PARA ESTUDIANTES DE DERECHO
        ============================================================ -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
@@ -12,7 +12,7 @@
   <meta name="theme-color" content="#F5F6FA" media="(prefers-color-scheme: light)" />
 
   <!-- PWA / Apple -->
-  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="LexFácil Académico" />
   <meta name="application-name" content="LexFácil Académico" />
@@ -101,9 +101,9 @@
   </script>
 
   <!-- ============================================================
-       WEB APP MANIFEST (Inline Base64)
+       WEB APP MANIFEST (Inline Base64) - CORREGIDO (purpose)
        ============================================================ -->
-  <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIkxleEZhw6dpbCBBY2Fkw6ltaWNvIiwKICAic2hvcnRfbmFtZSI6ICJMZXhGw6FjaWwiLAogICJkZXNjcmlwdGlvbiI6ICJQbGF0YWZvcm1hIGVkdWNhdGl2YSBkZSByZWNoaG8gY29uIElBIEZBRyIsCiAgInN0YXJ0X3VybCI6ICIvIiwKICAiZGlzcGxheSI6ICJzdGFuZGFsb25lIiwKICAiYmFja2dyb3VuZF9jb2xvciI6ICIjMEExNjI4IiwKICAidGhlbWVfY29sb3IiOiAiIzBBMTYyOCIsCiAgImljb25zIjogWwogICAgeyAic3JjIjogImRhdGE6aW1hZ2Uvc3ZnK3htbCw8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zycgdmlld0JveD0nMCAwIDQwIDQwJz48cmVjdCB3aWR0aD0nNDAnIGhlaWdodD0nNDAnIHJ4PScxMicgZmlsbD0nJTIzMEExNjI4Jy8+PHBhdGggZD0nTTIwIDEwQzE0LjQ3NyAxMCAxMCAxNC40NzcgMTAgMjBDMTAgMjUuNTIzIDE0LjQ3NyAzMCAyMCAzMEMyNS41MjMgMzAgMzAgMjUuNTIzIDMwIDIwQzMwIDE0LjQ3NyAyNS41MjMgMTAgMjAgMTBaJyBmaWxsPSd3aGl0ZScgb3BhY2l0eT0nMC4xNScvPjxwYXRoIGQ9J00yMCAxNEMxNi42ODYgMTQgMTQgMTYuNjg2IDE0IDIwQzE0IDIzLjMxNCAxNi42ODYgMjYgMjAgMjZDMjMuMzE0IDI2IDI2IDIzLjMxNCAyNiAyMEMyNiAxNi42ODYgMjMuMzE0IDE0IDIwIDE0WicgZmlsbD0nJTIzRDRBODUzJyBvcGFjaXR5PScwLjgnLz48cGF0aCBkPSdNMjAgMTdDMTguMzQzIDE3IDE3IDE4LjM0MyAxNyAyMEMxNyAyMS42NTcgMTguMzQzIDIzIDIwIDIzQzIxLjY1NyAyMyAyMyAyMS42NTcgMjMgMjBDMjMgMTguMzQzIDIxLjY1NyAxNyAyMCAxN1onIGZpbGw9J3doaXRlJy8+PC9zdmc+IiwgInNpemVzIjogIjE5MngxOTIiLCAidHlwZSI6ICJpbWFnZS9zdmcreG1sIiwgInB1cnBvc2UiOiAiYW55IG1hc2sgYW55bGFuZyIgfQogIF0KfQ==" />
+  <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIkxleEZhw6dpbCBBY2Fkw6ltaWNvIiwKICAic2hvcnRfbmFtZSI6ICJMZXhGw6FjaWwiLAogICJkZXNjcmlwdGlvbiI6ICJQbGF0YWZvcm1hIGVkdWNhdGl2YSBkZSByZWNoaG8gY29uIElBIEZBRyIsCiAgInN0YXJ0X3VybCI6ICIvIiwKICAiZGlzcGxheSI6ICJzdGFuZGFsb25lIiwKICAiYmFja2dyb3VuZF9jb2xvciI6ICIjMEExNjI4IiwKICAidGhlbWVfY29sb3IiOiAiIzBBMTYyOCIsCiAgImljb25zIjogWwogICAgeyAic3JjIjogImRhdGE6aW1hZ2Uvc3ZnK3htbCw8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zycgdmlld0JveD0nMCAwIDQwIDQwJz48cmVjdCB3aWR0aD0nNDAnIGhlaWdodD0nNDAnIHJ4PScxMicgZmlsbD0nJTIzMEExNjI4Jy8+PHBhdGggZD0nTTIwIDEwQzE0LjQ3NyAxMCAxMCAxNC40NzcgMTAgMjBDMTAgMjUuNTIzIDE0LjQ3NyAzMCAyMCAzMEMyNS41MjMgMzAgMzAgMjUuNTIzIDMwIDIwQzMwIDE0LjQ3NyAyNS41MjMgMTAgMjAgMTBaJyBmaWxsPSd3aGl0ZScgb3BhY2l0eT0nMC4xNScvPjxwYXRoIGQ9J00yMCAxNEMxNi42ODYgMTQgMTQgMTYuNjg2IDE0IDIwQzE0IDIzLjMxNCAxNi42ODYgMjYgMjAgMjZDMjMuMzE0IDI2IDI2IDIzLjMxNCAyNiAyMEMyNiAxNi42ODYgMjMuMzE0IDE0IDIwIDE0WicgZmlsbD0nJTIzRDRBODUzJyBvcGFjaXR5PScwLjgnLz48cGF0aCBkPSdNMjAgMTdDMTguMzQzIDE3IDE3IDE4LjM0MyAxNyAyMEMxNyAyMS42NTcgMTguMzQzIDIzIDIwIDIzQzIxLjY1NyAyMyAyMyAyMS42NTcgMjMgMjBDMjMgMTguMzQzIDIxLjY1NyAxNyAyMCAxN1onIGZpbGw9J3doaXRlJy8+PC9zdmc+IiwgInNpemVzIjogIjE5MngxOTIiLCAidHlwZSI6ICJpbWFnZS9zdmcreG1sIiwgInB1cnBvc2UiOiAiYW55IiB9CiAgXQp9" />
 
   <!-- ============================================================
        CSP (Content Security Policy)
@@ -121,13 +121,14 @@
     form-action 'self';
     upgrade-insecure-requests;
   " />
+
   <!-- ============================================================
        TÍTULO
        ============================================================ -->
   <title>LEXFÁCIL ACADÉMICO · Derecho para Estudiantes · IA RAG</title>
 
   <!-- ============================================================
-       ESTILOS COMPLETOS v8.0.0
+       ESTILOS COMPLETOS v8.0.1 (sin cambios)
        ============================================================ -->
   <style>
     /* ============================================================
@@ -3265,7 +3266,7 @@
     </div>
     <div class="footer-bottom">
       &copy; <span id="year"></span> LEXFÁCIL. Todos los derechos reservados.
-      <span class="footer-version">v8.0.0 · Académico</span>
+      <span class="footer-version">v8.0.1 · Académico</span>
     </div>
   </div>
 </footer>
@@ -3378,12 +3379,12 @@
 </div>
 
 <!-- ============================================================
-     JAVASCRIPT COMPLETO v8.0.0
+     JAVASCRIPT COMPLETO v8.0.1 - CORREGIDO (DataLoader mejorado)
      ============================================================ -->
 <script>
   /**
    * ============================================================
-   * LEXFÁCIL ACADÉMICO v8.0.0
+   * LEXFÁCIL ACADÉMICO v8.0.1
    * ============================================================
    * 
    * 🎓 Características:
@@ -3396,6 +3397,12 @@
    *   - Soporte para 10,000+ usuarios/mes
    * 
    * 🛡️ Seguridad: API Key de DeepSeek en Edge Function (proxy)
+   * 
+   * 🔧 Correcciones en esta versión:
+   *   - Se añadió carga local (./data/) primero si existe.
+   *   - Logs detallados en consola para cada archivo.
+   *   - Se corrigió el manifest (purpose: any).
+   *   - Se cambió apple-mobile-web-app-capable por mobile-web-app-capable.
    * ============================================================
    */
 
@@ -3407,7 +3414,7 @@
     // ============================================================
 
     const CONFIG = Object.freeze({
-      VERSION: '8.0.0',
+      VERSION: '8.0.1',
       APP_NAME: 'LexFácil Académico',
       AI_PROVIDER: 'DeepSeek + RAG',
       WHATSAPP_NUMBER: '573142245598',
@@ -3431,11 +3438,12 @@
       },
       // ===== DEEPSEEK PROXY (Edge Function) =====
       DEEPSEEK_PROXY: 'https://lesclimvzhzjxpzindlw.supabase.co/functions/v1/deepseek-proxy',
-      // ===== FUENTES DE DATOS =====
+      // ===== FUENTES DE DATOS - AHORA CON LOCAL PRIMERO =====
       DATA_SOURCES: {
-  GITHUB: 'https://raw.githubusercontent.com/peluqueriacaninaluthor-cloud/leyxfacil/main/data/',
-  SUPABASE: 'https://lesclimvzhzjxpzindlw.supabase.co/storage/v1/object/public/lexfacil/'
-},
+        LOCAL: './data/',  // <--- Intenta local primero
+        GITHUB: 'https://raw.githubusercontent.com/peluqueriacaninaluthor-cloud/leyxfacil/main/data/',
+        SUPABASE: 'https://lesclimvzhzjxpzindlw.supabase.co/storage/v1/object/public/lexfacil/'
+      },
       DOCUMENTS: ['constitucion.json', 'penal.json', 'privado.json', 'publico.json', 'jurisprudencia.json'],
       // ===== KEYWORDS PARA CLASIFICACIÓN =====
       KEYWORDS: {
@@ -3544,7 +3552,7 @@
     const supabase = window.supabase.createClient(CONFIG.SUPABASE.url, CONFIG.SUPABASE.anonKey);
 
     // ============================================================
-    // 5. DATA LOADER (JSONs)
+    // 5. DATA LOADER (CORREGIDO - AHORA CON LOCAL Y LOGS)
     // ============================================================
 
     const DataLoader = {
@@ -3558,31 +3566,63 @@
         if (cached && !force) {
           try {
             const parsed = JSON.parse(cached);
-            if (parsed.timestamp && Date.now() - parsed.timestamp < 3600000) {
+            if (parsed.timestamp && Date.now() - parsed.timestamp < CONFIG.CACHE_TTL) {
               this._documents = parsed.data;
               this._loaded = true;
+              console.log('📦 Documentos cargados desde caché:', Object.keys(this._documents).length);
               return this._documents;
             }
           } catch (e) {}
         }
+
         Helpers.showToast('📚 Cargando base de datos legal...', 'info');
+        console.log('🔍 Iniciando carga de documentos legales...');
+
+        // Definir el orden de fuentes: local primero, luego GitHub, luego Supabase
+        const sources = [
+          { name: 'local', url: CONFIG.DATA_SOURCES.LOCAL },
+          { name: 'GitHub', url: CONFIG.DATA_SOURCES.GITHUB },
+          { name: 'Supabase', url: CONFIG.DATA_SOURCES.SUPABASE }
+        ];
+
+        let loadedCount = 0;
+
         for (const doc of CONFIG.DOCUMENTS) {
-          try {
-            let url = CONFIG.DATA_SOURCES.GITHUB + doc;
-            let resp = await fetch(url);
-            if (!resp.ok) {
-              url = CONFIG.DATA_SOURCES.SUPABASE + doc;
-              resp = await fetch(url);
+          let success = false;
+          for (const source of sources) {
+            try {
+              const url = source.url + doc;
+              console.log(`🔄 Intentando cargar: ${url}`);
+              const resp = await fetch(url);
+              if (resp.ok) {
+                const data = await resp.json();
+                this._documents[doc.replace('.json', '')] = data;
+                loadedCount++;
+                console.log(`✅ Cargado: ${doc} desde ${source.name}`);
+                success = true;
+                break; // salimos del bucle de fuentes
+              } else {
+                console.warn(`❌ Falló ${source.name} para ${doc} (${resp.status})`);
+              }
+            } catch (e) {
+              console.warn(`⚠️ Error en ${source.name} para ${doc}:`, e.message);
             }
-            if (resp.ok) {
-              const data = await resp.json();
-              this._documents[doc.replace('.json', '')] = data;
-            }
-          } catch (e) { console.warn('Fallback para', doc); }
+          }
+          if (!success) {
+            console.error(`🚨 No se pudo cargar ${doc} desde ninguna fuente.`);
+            Helpers.showToast(`⚠️ No se pudo cargar ${doc}`, 'warning', 3000);
+          }
         }
-        localStorage.setItem(this._cacheKey, JSON.stringify({ timestamp: Date.now(), data: this._documents }));
+
+        // Guardar en caché
+        localStorage.setItem(this._cacheKey, JSON.stringify({
+          timestamp: Date.now(),
+          data: this._documents
+        }));
+
         this._loaded = true;
-        Helpers.showToast('✅ Base legal cargada', 'success');
+        console.log(`📊 Documentos cargados: ${loadedCount} de ${CONFIG.DOCUMENTS.length}`);
+        Helpers.showToast(`✅ Base legal cargada (${loadedCount} documentos)`, 'success');
         return this._documents;
       },
 
@@ -3719,7 +3759,7 @@
         this.renderServices();
         this.renderTestimonials();
 
-        // Cargar JSONs
+        // Cargar JSONs (con logs)
         await DataLoader.loadAll();
 
         // Estadísticas globales simuladas
@@ -3845,7 +3885,7 @@
           userInfo.style.display = 'none';
           mobileUserInfo.style.display = 'none';
           document.querySelectorAll('#mobileAuthBtn, #heroAuthBtn').forEach(b => b.style.display = 'inline-flex');
-          document.getElementById('authNavDesktopGuest').style.display = 'list-item';
+          document.getElementById('navAuthDesktopGuest').style.display = 'list-item';
           document.getElementById('authNavDesktop').style.display = 'none';
         }
       },
@@ -4318,7 +4358,20 @@
       // Inicializar temas
       ThemeManager.init();
 
-      // Inicializar autenticación
+      // Verificar conexión a Supabase
+      try {
+        const { data, error } = await supabase.from('usuarios').select('count', { count: 'exact', head: true });
+        if (error) {
+          console.warn('⚠️ Supabase conectado pero con advertencia:', error.message);
+        } else {
+          console.log('✅ Conexión a Supabase exitosa');
+        }
+      } catch (e) {
+        console.error('❌ Error al conectar con Supabase:', e);
+        Helpers.showToast('Error de conexión con Supabase', 'error');
+      }
+
+      // Inicializar autenticación (carga los JSONs internamente)
       await AuthUI.init();
 
       // Chat suggestions
