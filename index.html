@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <!-- ============================================================
-       LEXFÁCIL ACADÉMICO v8.0.2 - PLATAFORMA EDUCATIVA PARA ESTUDIANTES DE DERECHO
+       LEXFÁCIL ACADÉMICO v8.1.0 - CON SISTEMA DE CRÉDITOS Y PAGOS
        ============================================================ -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
@@ -84,6 +84,11 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 
   <!-- ============================================================
+       STRIPE JS (para pagos)
+       ============================================================ -->
+  <script src="https://js.stripe.com/v3/"></script>
+
+  <!-- ============================================================
        JSON-LD - DATOS ESTRUCTURADOS (SEO)
        ============================================================ -->
   <script type="application/ld+json">
@@ -101,22 +106,22 @@
   </script>
 
   <!-- ============================================================
-       WEB APP MANIFEST (Inline Base64) - CORREGIDO
+       WEB APP MANIFEST (Inline Base64)
        ============================================================ -->
   <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIkxleEZhw6dpbCBBY2Fkw6ltaWNvIiwKICAic2hvcnRfbmFtZSI6ICJMZXhGw6FjaWwiLAogICJkZXNjcmlwdGlvbiI6ICJQbGF0YWZvcm1hIGVkdWNhdGl2YSBkZSByZWNoaG8gY29uIElBIEZBRyIsCiAgInN0YXJ0X3VybCI6ICIvIiwKICAiZGlzcGxheSI6ICJzdGFuZGFsb25lIiwKICAiYmFja2dyb3VuZF9jb2xvciI6ICIjMEExNjI4IiwKICAidGhlbWVfY29sb3IiOiAiIzBBMTYyOCIsCiAgImljb25zIjogWwogICAgeyAic3JjIjogImRhdGE6aW1hZ2Uvc3ZnK3htbCw8c3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zycgdmlld0JveD0nMCAwIDQwIDQwJz48cmVjdCB3aWR0aD0nNDAnIGhlaWdodD0nNDAnIHJ4PScxMicgZmlsbD0nJTIzMEExNjI4Jy8+PHBhdGggZD0nTTIwIDEwQzE0LjQ3NyAxMCAxMCAxNC40NzcgMTAgMjBDMTAgMjUuNTIzIDE0LjQ3NyAzMCAyMCAzMEMyNS41MjMgMzAgMzAgMjUuNTIzIDMwIDIwQzMwIDE0LjQ3NyAyNS41MjMgMTAgMjAgMTBaJyBmaWxsPSd3aGl0ZScgb3BhY2l0eT0nMC4xNScvPjxwYXRoIGQ9J00yMCAxNEMxNi42ODYgMTQgMTQgMTYuNjg2IDE0IDIwQzE0IDIzLjMxNCAxNi42ODYgMjYgMjAgMjZDMjMuMzE0IDI2IDI2IDIzLjMxNCAyNiAyMEMyNiAxNi42ODYgMjMuMzE0IDE0IDIwIDE0WicgZmlsbD0nJTIzRDRBODUzJyBvcGFjaXR5PScwLjgnLz48cGF0aCBkPSdNMjAgMTdDMTguMzQzIDE3IDE3IDE4LjM0MyAxNyAyMEMxNyAyMS42NTcgMTguMzQzIDIzIDIwIDIzQzIxLjY1NyAyMyAyMyAyMS42NTcgMjMgMjBDMjMgMTguMzQzIDIxLjY1NyAxNyAyMCAxN1onIGZpbGw9J3doaXRlJy8+PC9zdmc+IiwgInNpemVzIjogIjE5MngxOTIiLCAidHlwZSI6ICJpbWFnZS9zdmcreG1sIiwgInB1cnBvc2UiOiAiYW55IiB9CiAgXQp9" />
 
   <!-- ============================================================
-       CSP (Content Security Policy)
+       CSP (Content Security Policy) - ACTUALIZADA PARA STRIPE
        ============================================================ -->
   <meta http-equiv="Content-Security-Policy" content="
     default-src 'self' data: blob:;
     manifest-src 'self' data: blob:;
-    script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://api.deepseek.com https://*.supabase.co https://www.googletagmanager.com https://www.google-analytics.com;
+    script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://api.deepseek.com https://*.supabase.co https://www.googletagmanager.com https://www.google-analytics.com https://js.stripe.com;
     style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com;
     font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com;
-    img-src 'self' data: https: blob:;
-    connect-src 'self' https://api.deepseek.com https://*.supabase.co https://cdn.jsdelivr.net https://raw.githubusercontent.com https://www.google-analytics.com https://accounts.google.com https://www.googleapis.com;
-    frame-src 'self' https://www.google.com https://accounts.google.com;
+    img-src 'self' data: https: blob: https://*.stripe.com;
+    connect-src 'self' https://api.deepseek.com https://*.supabase.co https://cdn.jsdelivr.net https://raw.githubusercontent.com https://www.google-analytics.com https://accounts.google.com https://www.googleapis.com https://api.stripe.com;
+    frame-src 'self' https://www.google.com https://accounts.google.com https://js.stripe.com https://hooks.stripe.com;
     base-uri 'self';
     form-action 'self';
     upgrade-insecure-requests;
@@ -128,7 +133,7 @@
   <title>LEXFÁCIL ACADÉMICO · Derecho para Estudiantes · IA RAG</title>
 
   <!-- ============================================================
-       ESTILOS COMPLETOS v8.0.2 (CORREGIDO - AÑADIDA CLASE .hidden)
+       ESTILOS COMPLETOS v8.1.0 - CON CRÉDITOS Y PAGOS
        ============================================================ -->
   <style>
     /* ============================================================
@@ -385,7 +390,7 @@
       color: var(--text-primary);
     }
 
-    /* ===== UTILIDADES ADICIONALES (CORREGIDO) ===== */
+    /* ===== UTILIDADES ADICIONALES ===== */
     .hidden {
       display: none !important;
     }
@@ -517,6 +522,16 @@
       background: var(--color-academic-dark);
       transform: translateY(-2px);
       box-shadow: 0 8px 30px rgba(212, 168, 83, 0.3);
+    }
+
+    .btn-stripe {
+      background: #635BFF;
+      color: white;
+    }
+    .btn-stripe:hover:not(:disabled) {
+      background: #4A42D9;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(99, 91, 255, 0.3);
     }
 
     .btn-sm {
@@ -1599,7 +1614,7 @@
     }
 
     /* ============================================================
-       DASHBOARD - SECCIÓN ACADÉMICA COMPLETA
+       DASHBOARD - SECCIÓN ACADÉMICA COMPLETA CON CRÉDITOS
        ============================================================ */
 
     .dashboard-section {
@@ -1623,6 +1638,156 @@
 
     .dashboard-grid-full {
       grid-template-columns: 1fr;
+    }
+
+    /* ===== BANNER DE CRÉDITOS ===== */
+    .credits-banner {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: var(--space-4) var(--space-6);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: var(--space-3);
+      margin-bottom: var(--space-6);
+    }
+
+    .credits-banner .credits-info {
+      display: flex;
+      align-items: center;
+      gap: var(--space-4);
+    }
+
+    .credits-banner .credits-icon {
+      font-size: 2rem;
+      color: var(--color-academic);
+    }
+
+    .credits-banner .credits-number {
+      font-size: 2rem;
+      font-weight: 700;
+      font-family: var(--font-primary);
+      color: var(--color-academic);
+    }
+
+    .credits-banner .credits-label {
+      color: var(--text-tertiary);
+      font-size: 0.85rem;
+    }
+
+    .credits-banner .credits-actions {
+      display: flex;
+      gap: var(--space-3);
+      flex-wrap: wrap;
+    }
+
+    .credits-banner .subscription-badge {
+      display: inline-block;
+      padding: 2px 12px;
+      border-radius: var(--radius-full);
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      background: var(--color-academic);
+      color: var(--text-inverse);
+    }
+
+    /* ===== PAQUETES DE CRÉDITOS ===== */
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: var(--space-4);
+      margin-top: var(--space-6);
+    }
+
+    .pricing-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5);
+      text-align: center;
+      transition: var(--transition-base);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .pricing-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--border-color-hover);
+      box-shadow: var(--shadow-md);
+    }
+
+    .pricing-card.popular {
+      border-color: var(--color-academic);
+      box-shadow: var(--shadow-glow);
+    }
+
+    .pricing-card.popular::before {
+      content: '🌟 Más popular';
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: var(--color-academic);
+      color: var(--text-inverse);
+      font-size: 0.6rem;
+      font-weight: 700;
+      padding: 2px 12px;
+      border-radius: 0 var(--radius-lg) 0 var(--radius-md);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .pricing-card .pricing-name {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: var(--space-2);
+    }
+
+    .pricing-card .pricing-price {
+      font-size: 2rem;
+      font-weight: 700;
+      font-family: var(--font-primary);
+      color: var(--color-academic);
+      margin-bottom: var(--space-1);
+    }
+
+    .pricing-card .pricing-price span {
+      font-size: 1rem;
+      font-weight: 400;
+      color: var(--text-tertiary);
+    }
+
+    .pricing-card .pricing-credits {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      margin-bottom: var(--space-4);
+    }
+
+    .pricing-card .pricing-features {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 var(--space-4);
+      text-align: left;
+    }
+
+    .pricing-card .pricing-features li {
+      padding: var(--space-1) 0;
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+    }
+
+    .pricing-card .pricing-features li i {
+      color: var(--color-success);
+      font-size: 0.8rem;
+    }
+
+    .pricing-card .btn {
+      width: 100%;
     }
 
     /* ===== MÉTRICAS DEL DASHBOARD ===== */
@@ -2377,6 +2542,9 @@
       .dashboard-charts {
         grid-template-columns: 1fr;
       }
+      .pricing-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
     }
 
     @media (max-width: 768px) {
@@ -2523,6 +2691,9 @@
         grid-template-columns: 1fr;
         gap: var(--space-4);
       }
+      .pricing-grid {
+        grid-template-columns: 1fr 1fr;
+      }
     }
 
     @media (max-width: 480px) {
@@ -2625,6 +2796,9 @@
       }
       .dashboard-table table {
         font-size: 0.8rem;
+      }
+      .pricing-grid {
+        grid-template-columns: 1fr;
       }
     }
 
@@ -2790,52 +2964,52 @@
 </div>
 
 <!-- ============================================================
-     MODAL DE AUTENTICACIÓN (Registro + Login)
+     MODAL DE AUTENTICACIÓN (Registro + Login) - CON TEXTO NEGRO
      ============================================================ -->
 <div class="modal-overlay" id="authModal" role="dialog" aria-modal="true" aria-labelledby="auth-title">
-  <div class="modal-box">
-    <div class="modal-title" id="auth-title">
-      <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+  <div class="modal-box" style="background: #F8F6F0; color: #0A1628;">
+    <div class="modal-title" id="auth-title" style="color: #0A1628;">
+      <i class="fas fa-graduation-cap" aria-hidden="true" style="color: #0A1628;"></i>
       LexFácil Académico
     </div>
-    <div style="display:flex; gap:8px; background:rgba(255,255,255,0.05); border-radius:50px; padding:4px; margin-bottom:24px;">
-      <button class="auth-tab active" data-tab="login" style="flex:1; padding:10px; border:none; border-radius:50px; background:var(--color-deepseek); color:white; font-weight:600; cursor:pointer;">Iniciar sesión</button>
-      <button class="auth-tab" data-tab="register" style="flex:1; padding:10px; border:none; border-radius:50px; background:none; color:var(--text-muted); font-weight:600; cursor:pointer;">Registrarse</button>
+    <div style="display:flex; gap:8px; background:#E8E4DC; border-radius:50px; padding:4px; margin-bottom:24px;">
+      <button class="auth-tab active" data-tab="login" style="flex:1; padding:10px; border:none; border-radius:50px; background:#0A1628; color:white; font-weight:600; cursor:pointer;">Iniciar sesión</button>
+      <button class="auth-tab" data-tab="register" style="flex:1; padding:10px; border:none; border-radius:50px; background:none; color:#4A4A5E; font-weight:600; cursor:pointer;">Registrarse</button>
     </div>
 
     <!-- Login Panel -->
     <div id="loginPanel">
       <div class="form-group" style="margin-bottom:16px;">
-        <label style="display:block; font-size:0.8rem; font-weight:600; color:var(--text-muted); margin-bottom:4px; text-transform:uppercase;">Correo electrónico</label>
-        <input type="email" id="loginEmail" placeholder="estudiante@universidad.edu.co" style="width:100%; padding:12px 16px; border-radius:8px; border:1px solid var(--border-color); background:rgba(255,255,255,0.05); color:white; font-size:1rem;" />
+        <label style="display:block; font-size:0.8rem; font-weight:600; color:#4A4A5E; margin-bottom:4px; text-transform:uppercase;">Correo electrónico</label>
+        <input type="email" id="loginEmail" placeholder="estudiante@universidad.edu.co" style="width:100%; padding:12px 16px; border-radius:8px; border:1px solid #D0C8BC; background:#FFFFFF; color:#0A1628; font-size:1rem;" />
       </div>
       <div class="form-group" style="margin-bottom:16px;">
-        <label style="display:block; font-size:0.8rem; font-weight:600; color:var(--text-muted); margin-bottom:4px; text-transform:uppercase;">Contraseña</label>
-        <input type="password" id="loginPassword" placeholder="••••••••" style="width:100%; padding:12px 16px; border-radius:8px; border:1px solid var(--border-color); background:rgba(255,255,255,0.05); color:white; font-size:1rem;" />
+        <label style="display:block; font-size:0.8rem; font-weight:600; color:#4A4A5E; margin-bottom:4px; text-transform:uppercase;">Contraseña</label>
+        <input type="password" id="loginPassword" placeholder="••••••••" style="width:100%; padding:12px 16px; border-radius:8px; border:1px solid #D0C8BC; background:#FFFFFF; color:#0A1628; font-size:1rem;" />
       </div>
       <button class="btn btn-deepseek" style="width:100%; justify-content:center;" id="loginBtn">Ingresar</button>
-      <p style="text-align:center;margin-top:12px;color:var(--text-muted);font-size:0.85rem;">
-        ¿No tienes cuenta? <span style="color:var(--color-deepseek);cursor:pointer;" id="switchToRegister">Regístrate aquí</span>
+      <p style="text-align:center;margin-top:12px;color:#4A4A5E;font-size:0.85rem;">
+        ¿No tienes cuenta? <span style="color:#0A1628;font-weight:600;cursor:pointer;" id="switchToRegister">Regístrate aquí</span>
       </p>
     </div>
 
     <!-- Register Panel -->
     <div id="registerPanel" class="hidden">
       <div class="form-group" style="margin-bottom:16px;">
-        <label style="display:block; font-size:0.8rem; font-weight:600; color:var(--text-muted); margin-bottom:4px; text-transform:uppercase;">Nombre completo</label>
-        <input type="text" id="regName" placeholder="Juan Pérez" style="width:100%; padding:12px 16px; border-radius:8px; border:1px solid var(--border-color); background:rgba(255,255,255,0.05); color:white; font-size:1rem;" />
+        <label style="display:block; font-size:0.8rem; font-weight:600; color:#4A4A5E; margin-bottom:4px; text-transform:uppercase;">Nombre completo</label>
+        <input type="text" id="regName" placeholder="Juan Pérez" style="width:100%; padding:12px 16px; border-radius:8px; border:1px solid #D0C8BC; background:#FFFFFF; color:#0A1628; font-size:1rem;" />
       </div>
       <div class="form-group" style="margin-bottom:16px;">
-        <label style="display:block; font-size:0.8rem; font-weight:600; color:var(--text-muted); margin-bottom:4px; text-transform:uppercase;">Correo electrónico</label>
-        <input type="email" id="regEmail" placeholder="estudiante@universidad.edu.co" style="width:100%; padding:12px 16px; border-radius:8px; border:1px solid var(--border-color); background:rgba(255,255,255,0.05); color:white; font-size:1rem;" />
+        <label style="display:block; font-size:0.8rem; font-weight:600; color:#4A4A5E; margin-bottom:4px; text-transform:uppercase;">Correo electrónico</label>
+        <input type="email" id="regEmail" placeholder="estudiante@universidad.edu.co" style="width:100%; padding:12px 16px; border-radius:8px; border:1px solid #D0C8BC; background:#FFFFFF; color:#0A1628; font-size:1rem;" />
       </div>
       <div class="form-group" style="margin-bottom:16px;">
-        <label style="display:block; font-size:0.8rem; font-weight:600; color:var(--text-muted); margin-bottom:4px; text-transform:uppercase;">Contraseña (mín. 6 caracteres)</label>
-        <input type="password" id="regPassword" placeholder="••••••••" style="width:100%; padding:12px 16px; border-radius:8px; border:1px solid var(--border-color); background:rgba(255,255,255,0.05); color:white; font-size:1rem;" />
+        <label style="display:block; font-size:0.8rem; font-weight:600; color:#4A4A5E; margin-bottom:4px; text-transform:uppercase;">Contraseña (mín. 6 caracteres)</label>
+        <input type="password" id="regPassword" placeholder="••••••••" style="width:100%; padding:12px 16px; border-radius:8px; border:1px solid #D0C8BC; background:#FFFFFF; color:#0A1628; font-size:1rem;" />
       </div>
       <div class="form-group" style="margin-bottom:16px;">
-        <label style="display:block; font-size:0.8rem; font-weight:600; color:var(--text-muted); margin-bottom:4px; text-transform:uppercase;">Universidad</label>
-        <input type="text" id="regUniversity" placeholder="Ej: Universidad Nacional" list="universidadesList" style="width:100%; padding:12px 16px; border-radius:8px; border:1px solid var(--border-color); background:rgba(255,255,255,0.05); color:white; font-size:1rem;" />
+        <label style="display:block; font-size:0.8rem; font-weight:600; color:#4A4A5E; margin-bottom:4px; text-transform:uppercase;">Universidad</label>
+        <input type="text" id="regUniversity" placeholder="Ej: Universidad Nacional" list="universidadesList" style="width:100%; padding:12px 16px; border-radius:8px; border:1px solid #D0C8BC; background:#FFFFFF; color:#0A1628; font-size:1rem;" />
         <datalist id="universidadesList">
           <option value="Universidad Nacional de Colombia">
           <option value="Universidad de los Andes">
@@ -2850,12 +3024,12 @@
       </div>
       <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:16px;">
         <div>
-          <label style="display:block; font-size:0.8rem; font-weight:600; color:var(--text-muted); margin-bottom:4px; text-transform:uppercase;">Edad</label>
-          <input type="number" id="regAge" placeholder="22" min="16" max="99" style="width:100%; padding:12px 16px; border-radius:8px; border:1px solid var(--border-color); background:rgba(255,255,255,0.05); color:white; font-size:1rem;" />
+          <label style="display:block; font-size:0.8rem; font-weight:600; color:#4A4A5E; margin-bottom:4px; text-transform:uppercase;">Edad</label>
+          <input type="number" id="regAge" placeholder="22" min="16" max="99" style="width:100%; padding:12px 16px; border-radius:8px; border:1px solid #D0C8BC; background:#FFFFFF; color:#0A1628; font-size:1rem;" />
         </div>
         <div>
-          <label style="display:block; font-size:0.8rem; font-weight:600; color:var(--text-muted); margin-bottom:4px; text-transform:uppercase;">Semestre</label>
-          <select id="regSemester" style="width:100%; padding:12px 16px; border-radius:8px; border:1px solid var(--border-color); background:rgba(255,255,255,0.05); color:white; font-size:1rem;">
+          <label style="display:block; font-size:0.8rem; font-weight:600; color:#4A4A5E; margin-bottom:4px; text-transform:uppercase;">Semestre</label>
+          <select id="regSemester" style="width:100%; padding:12px 16px; border-radius:8px; border:1px solid #D0C8BC; background:#FFFFFF; color:#0A1628; font-size:1rem;">
             <option value="1">1° Semestre</option>
             <option value="2">2° Semestre</option>
             <option value="3">3° Semestre</option>
@@ -2870,8 +3044,8 @@
         </div>
       </div>
       <button class="btn btn-academic" style="width:100%; justify-content:center;" id="registerBtn">Crear cuenta académica</button>
-      <p style="text-align:center;margin-top:12px;color:var(--text-muted);font-size:0.85rem;">
-        ¿Ya tienes cuenta? <span style="color:var(--color-deepseek);cursor:pointer;" id="switchToLogin">Inicia sesión</span>
+      <p style="text-align:center;margin-top:12px;color:#4A4A5E;font-size:0.85rem;">
+        ¿Ya tienes cuenta? <span style="color:#0A1628;font-weight:600;cursor:pointer;" id="switchToLogin">Inicia sesión</span>
       </p>
     </div>
   </div>
@@ -3011,7 +3185,7 @@
   </section>
 
   <!-- ============================================================
-       DASHBOARD ACADÉMICO
+       DASHBOARD ACADÉMICO CON CRÉDITOS
        ============================================================ -->
   <section class="dashboard-section" id="dashboard" aria-labelledby="dashboard-title">
     <div class="container">
@@ -3059,6 +3233,24 @@
             <span class="metric-value" id="myRank">-</span>
           </div>
           <span class="metric-change neutral" id="myRankChange">🏆 Posición</span>
+        </div>
+      </div>
+
+      <!-- ===== BANNER DE CRÉDITOS ===== -->
+      <div class="credits-banner" id="creditsBanner" style="display:none;">
+        <div class="credits-info">
+          <div class="credits-icon"><i class="fas fa-coins"></i></div>
+          <div>
+            <div style="display:flex; align-items:baseline; gap:8px;">
+              <span class="credits-number" id="creditsCount">3</span>
+              <span class="credits-label">créditos disponibles</span>
+              <span id="subscriptionBadge" class="subscription-badge" style="display:none;">PRO</span>
+            </div>
+            <div style="font-size:0.8rem; color:var(--text-muted);">Cada consulta gasta 1 crédito. <span id="freeCreditsMsg">Tienes 3 consultas gratis.</span></div>
+          </div>
+        </div>
+        <div class="credits-actions">
+          <button class="btn btn-stripe btn-sm" id="buyCreditsBtn"><i class="fas fa-cart-plus"></i> Comprar créditos</button>
         </div>
       </div>
 
@@ -3214,6 +3406,18 @@
         </div>
       </div>
 
+      <!-- ===== PAQUETES DE CRÉDITOS (Modal de compra) ===== -->
+      <div style="margin-top:var(--space-10); display:none;" id="pricingSection">
+        <div style="text-align:center;margin-bottom:var(--space-6);">
+          <span class="section-badge" style="background:var(--color-academic);color:var(--text-inverse);">💰 Créditos</span>
+          <h2 style="font-family:var(--font-primary);font-size:clamp(1.6rem,3vw,2.4rem);">Elige tu <span class="text-secondary">paquete</span></h2>
+          <p style="color:var(--text-muted);">Compra créditos para seguir consultando o suscríbete al plan Pro.</p>
+        </div>
+        <div class="pricing-grid" id="pricingGrid">
+          <!-- Renderizado por JavaScript -->
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -3271,7 +3475,7 @@
     </div>
     <div class="footer-bottom">
       &copy; <span id="year"></span> LEXFÁCIL. Todos los derechos reservados.
-      <span class="footer-version">v8.0.2 · Académico</span>
+      <span class="footer-version">v8.1.0 · Académico</span>
     </div>
   </div>
 </footer>
@@ -3318,6 +3522,27 @@
       </ul>
     </div>
     <div class="modal-actions"><button class="btn btn-deepseek modal-close-btn" data-modal="terminos">Entendido</button></div>
+  </div>
+</div>
+
+<!-- ============================================================
+     MODAL DE COMPRA DE CRÉDITOS
+     ============================================================ -->
+<div class="modal-overlay" id="buyCreditsModal" role="dialog" aria-modal="true" aria-labelledby="buyCreditsTitle">
+  <div class="modal-box" style="background: #F8F6F0; color: #0A1628;">
+    <div class="modal-title" id="buyCreditsTitle" style="color: #0A1628;">
+      <i class="fas fa-coins" aria-hidden="true" style="color: var(--color-academic);"></i>
+      Comprar créditos
+    </div>
+    <div class="modal-body" style="color: #0A1628;">
+      <p>Selecciona un paquete para continuar.</p>
+      <div class="pricing-grid" id="modalPricingGrid" style="grid-template-columns: repeat(2, 1fr); margin-top: var(--space-4);">
+        <!-- Renderizado por JavaScript -->
+      </div>
+    </div>
+    <div class="modal-actions">
+      <button class="btn btn-secondary modal-close-btn" data-modal="buyCreditsModal" style="background: #E8E4DC; color: #0A1628; border: 1px solid #D0C8BC;">Cancelar</button>
+    </div>
   </div>
 </div>
 
@@ -3384,14 +3609,14 @@
 </div>
 
 <!-- ============================================================
-     JAVASCRIPT COMPLETO v8.0.2 - CORREGIDO (DataLoader mejorado y sin recortes)
+     JAVASCRIPT COMPLETO v8.1.0 - CON CRÉDITOS Y PAGOS
      ============================================================ -->
 <script>
   /**
    * ============================================================
-   * LEXFÁCIL ACADÉMICO v8.0.2
+   * LEXFÁCIL ACADÉMICO v8.1.0
    * ============================================================
-   * 
+   *
    * 🎓 Características:
    *   - Registro con Universidad, Edad y Semestre
    *   - Dashboard personalizado con gráficas
@@ -3400,16 +3625,10 @@
    *   - Chat IA + RAG adaptado al semestre
    *   - Tema oscuro/claro persistente
    *   - Soporte para 10,000+ usuarios/mes
-   * 
+   *   - 💰 Sistema de créditos (3 gratis, paquetes desde $5)
+   *   - 💳 Integración con Stripe Checkout
+   *
    * 🛡️ Seguridad: API Key de DeepSeek en Edge Function (proxy)
-   * 
-   * 🔧 Correcciones en esta versión:
-   *   - Se añadió carga local (./data/) primero si existe.
-   *   - Logs detallados en consola para cada archivo.
-   *   - Se corrigió el manifest (purpose: any).
-   *   - Se cambió apple-mobile-web-app-capable por mobile-web-app-capable.
-   *   - Se prioriza GitHub como fallback robusto.
-   *   - Se añadió la clase CSS .hidden para ocultar paneles del modal.
    * ============================================================
    */
 
@@ -3421,7 +3640,7 @@
     // ============================================================
 
     const CONFIG = Object.freeze({
-      VERSION: '8.0.2',
+      VERSION: '8.1.0',
       APP_NAME: 'LexFácil Académico',
       AI_PROVIDER: 'DeepSeek + RAG',
       WHATSAPP_NUMBER: '573142245598',
@@ -3437,6 +3656,16 @@
       ENVIRONMENT: 'production',
       GA_MEASUREMENT_ID: 'G-XXXXXXXXXX',
       RATE_LIMIT: { maxRequests: 10, windowMs: 60000 },
+      // ===== PRICING =====
+      PRICING: {
+        packages: [
+          { id: 'basic', name: 'Básico', price: 5, credits: 10, stripe_link: 'https://buy.stripe.com/your-basic-link' },
+          { id: 'standard', name: 'Estándar', price: 10, credits: 30, stripe_link: 'https://buy.stripe.com/your-standard-link' },
+          { id: 'premium', name: 'Premium', price: 20, credits: 100, stripe_link: 'https://buy.stripe.com/your-premium-link' },
+          { id: 'pro', name: 'Pro', price: 25, credits: -1, subscription: true, stripe_link: 'https://buy.stripe.com/your-pro-link' }
+        ],
+        freeCredits: 3
+      },
       // ===== SUPABASE =====
       SUPABASE: {
         url: 'https://lesclimvzhzjxpzindlw.supabase.co',
@@ -3446,19 +3675,19 @@
       DEEPSEEK_PROXY: 'https://lesclimvzhzjxpzindlw.supabase.co/functions/v1/deepseek-proxy',
       // ===== FUENTES DE DATOS =====
       DATA_SOURCES: {
-        LOCAL: './data/',  // Intenta local primero
+        LOCAL: './data/',
         GITHUB: 'https://raw.githubusercontent.com/peluqueriacaninaluthor-cloud/leyxfacil/main/data/',
         SUPABASE: 'https://lesclimvzhzjxpzindlw.supabase.co/storage/v1/object/public/lexfacil/'
       },
       DOCUMENTS: [
-  'constitucion.json',
-  'codigo_civil.json',
-  'codigo_comercio.json',
-  'codigo_laboral.json',
-  'codigo_penal.json',
-  'jurisprudencia.json',
-  'leyes_especiales.json'
-],
+        'constitucion.json',
+        'codigo_civil.json',
+        'codigo_comercio.json',
+        'codigo_laboral.json',
+        'codigo_penal.json',
+        'jurisprudencia.json',
+        'leyes_especiales.json'
+      ],
       // ===== KEYWORDS PARA CLASIFICACIÓN =====
       KEYWORDS: {
         laboral: ['despido', 'contrato', 'salario', 'indemnización', 'seguridad social', 'prestaciones', 'cesantías',
@@ -3507,7 +3736,9 @@
         globalConversions: 0,
         globalUniversities: 0,
         ranking: []
-      }
+      },
+      credits: 0,
+      subscription: null
     };
 
     // ============================================================
@@ -3566,7 +3797,7 @@
     const supabase = window.supabase.createClient(CONFIG.SUPABASE.url, CONFIG.SUPABASE.anonKey);
 
     // ============================================================
-    // 5. DATA LOADER (CORREGIDO - CON LOGS Y PRIORIDAD)
+    // 5. DATA LOADER (JSONs)
     // ============================================================
 
     const DataLoader = {
@@ -3575,13 +3806,11 @@
       _cacheKey: 'lexfacil_docs_edu',
 
       async loadAll(force = false) {
-        // Si ya está cargado y no se fuerza, devolver lo cargado
         if (this._loaded && !force) {
           console.log('📦 Documentos ya cargados en memoria.');
           return this._documents;
         }
 
-        // Intentar leer caché
         const cached = localStorage.getItem(this._cacheKey);
         if (cached && !force) {
           try {
@@ -3597,11 +3826,9 @@
           }
         }
 
-        // Si no hay caché o es inválido, cargar desde las fuentes
         Helpers.showToast('📚 Cargando base de datos legal...', 'info');
         console.log('🔍 Iniciando carga de documentos legales...');
 
-        // Orden de fuentes: primero local (para desarrollo), luego GitHub, luego Supabase
         const sources = [
           { name: 'local', url: CONFIG.DATA_SOURCES.LOCAL },
           { name: 'GitHub', url: CONFIG.DATA_SOURCES.GITHUB },
@@ -3637,7 +3864,6 @@
           }
         }
 
-        // Guardar en caché si al menos un documento se cargó
         if (loadedCount > 0) {
           localStorage.setItem(this._cacheKey, JSON.stringify({
             timestamp: Date.now(),
@@ -3734,7 +3960,119 @@
     };
 
     // ============================================================
-    // 7. AUTENTICACIÓN Y DASHBOARD (COMPLETO - SIN RECORTES)
+    // 7. CRÉDITOS Y PAGOS
+    // ============================================================
+
+    const CreditsModule = {
+      async getUserCredits(userId) {
+        const { data, error } = await supabase
+          .from('usuarios')
+          .select('credits, subscription_type, subscription_expires')
+          .eq('id', userId)
+          .single();
+        if (error) {
+          console.error('Error obteniendo créditos:', error);
+          return { credits: 0, subscription: null };
+        }
+        return { credits: data?.credits || 0, subscription: data?.subscription_type || null, expires: data?.subscription_expires };
+      },
+
+      async deductCredit(userId) {
+        // Verificar si tiene créditos o suscripción pro
+        const { credits, subscription, expires } = await this.getUserCredits(userId);
+        if (subscription === 'pro' && (!expires || new Date(expires) > new Date())) {
+          return true; // Pro ilimitado
+        }
+        if (credits > 0) {
+          const { error } = await supabase.rpc('deduct_credit', { user_id: userId });
+          if (error) {
+            console.error('Error descontando crédito:', error);
+            return false;
+          }
+          return true;
+        }
+        return false;
+      },
+
+      async addCredits(userId, amount) {
+        const { data, error } = await supabase
+          .from('usuarios')
+          .select('credits')
+          .eq('id', userId)
+          .single();
+        if (error) throw error;
+        const current = data?.credits || 0;
+        const { error: updateError } = await supabase
+          .from('usuarios')
+          .update({ credits: current + amount })
+          .eq('id', userId);
+        if (updateError) throw updateError;
+        return current + amount;
+      },
+
+      async setSubscription(userId, type, expires = null) {
+        const { error } = await supabase
+          .from('usuarios')
+          .update({ subscription_type: type, subscription_expires: expires })
+          .eq('id', userId);
+        if (error) throw error;
+      },
+
+      renderPricing(containerId, modal = false) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        const packages = CONFIG.PRICING.packages;
+        container.innerHTML = packages.map(pkg => {
+          const isPopular = pkg.id === 'standard' || pkg.id === 'premium';
+          const creditsText = pkg.credits === -1 ? '♾️ Ilimitadas' : `${pkg.credits} consultas`;
+          const priceText = pkg.credits === -1 ? `$${pkg.price}/mes` : `$${pkg.price}`;
+          return `
+            <div class="pricing-card ${isPopular ? 'popular' : ''}" data-id="${pkg.id}">
+              <div class="pricing-name">${pkg.name}</div>
+              <div class="pricing-price">${priceText} <span>USD</span></div>
+              <div class="pricing-credits">${creditsText}</div>
+              <ul class="pricing-features">
+                <li><i class="fas fa-check"></i> ${pkg.credits === -1 ? 'Consultas ilimitadas' : `${pkg.credits} consultas`}</li>
+                <li><i class="fas fa-check"></i> Acceso a todas las ramas</li>
+                <li><i class="fas fa-check"></i> Respuestas con RAG</li>
+                ${pkg.credits === -1 ? '<li><i class="fas fa-check"></i> Suscripción mensual</li>' : ''}
+              </ul>
+              <button class="btn btn-stripe buy-btn" data-id="${pkg.id}" data-link="${pkg.stripe_link}">
+                <i class="fas fa-shopping-cart"></i> Comprar
+              </button>
+            </div>
+          `;
+        }).join('');
+
+        // Event listeners para los botones de compra
+        container.querySelectorAll('.buy-btn').forEach(btn => {
+          btn.addEventListener('click', function() {
+            const link = this.dataset.link;
+            if (link) {
+              // Redirigir a Stripe Checkout
+              window.open(link, '_blank');
+              Helpers.showToast('🔗 Redirigiendo a Stripe para completar el pago...', 'info', 4000);
+            } else {
+              Helpers.showToast('⚠️ Enlace de pago no configurado. Contacta al administrador.', 'error');
+            }
+            if (modal) {
+              document.getElementById('buyCreditsModal').classList.remove('open');
+            }
+          });
+        });
+      },
+
+      showBuyModal() {
+        const modal = document.getElementById('buyCreditsModal');
+        if (modal) {
+          this.renderPricing('modalPricingGrid', true);
+          modal.classList.add('open');
+        }
+      }
+    };
+
+    // ============================================================
+    // 8. AUTENTICACIÓN Y DASHBOARD
     // ============================================================
 
     const AuthUI = {
@@ -3784,11 +4122,14 @@
         // Theme
         document.getElementById('themeToggle').addEventListener('click', () => ThemeManager.toggle());
 
+        // Comprar créditos
+        document.getElementById('buyCreditsBtn').addEventListener('click', () => CreditsModule.showBuyModal());
+
         // Render
         this.renderServices();
         this.renderTestimonials();
 
-        // Cargar JSONs (con logs)
+        // Cargar JSONs
         await DataLoader.loadAll();
 
         // Estadísticas globales simuladas
@@ -3800,13 +4141,16 @@
 
         // Cargar ranking simulado
         this.loadGlobalRanking();
+
+        // Renderizar pricing en dashboard
+        CreditsModule.renderPricing('pricingGrid');
       },
 
       switchTab(tab) {
         document.querySelectorAll('.auth-tab').forEach(t => {
           t.classList.toggle('active', t.dataset.tab === tab);
-          t.style.background = t.dataset.tab === tab ? 'var(--color-deepseek)' : 'none';
-          t.style.color = t.dataset.tab === tab ? 'white' : 'var(--text-muted)';
+          t.style.background = t.dataset.tab === tab ? '#0A1628' : 'none';
+          t.style.color = t.dataset.tab === tab ? 'white' : '#4A4A5E';
         });
         document.getElementById('loginPanel').classList.toggle('hidden', tab === 'register');
         document.getElementById('registerPanel').classList.toggle('hidden', tab === 'login');
@@ -3818,8 +4162,8 @@
         document.getElementById('registerPanel').classList.add('hidden');
         document.querySelectorAll('.auth-tab').forEach(t => {
           t.classList.toggle('active', t.dataset.tab === 'login');
-          t.style.background = t.dataset.tab === 'login' ? 'var(--color-deepseek)' : 'none';
-          t.style.color = t.dataset.tab === 'login' ? 'white' : 'var(--text-muted)';
+          t.style.background = t.dataset.tab === 'login' ? '#0A1628' : 'none';
+          t.style.color = t.dataset.tab === 'login' ? 'white' : '#4A4A5E';
         });
       },
 
@@ -3865,16 +4209,18 @@
 
         if (error) return Helpers.showToast(error.message, 'error');
 
+        // Insertar usuario con créditos iniciales
         await supabase.from('usuarios').insert([{
           id: data.user.id,
           email: email,
           nombre: nombre,
           universidad: universidad,
           edad: edad,
-          semestre: semestre
+          semestre: semestre,
+          credits: CONFIG.PRICING.freeCredits
         }]);
 
-        Helpers.showToast('Cuenta creada exitosamente. Inicia sesión.', 'success');
+        Helpers.showToast(`Cuenta creada exitosamente. Tienes ${CONFIG.PRICING.freeCredits} créditos gratis.`, 'success');
         this.switchTab('login');
         document.getElementById('loginEmail').value = email;
       },
@@ -3883,6 +4229,8 @@
         const { data, error } = await supabase.from('usuarios').select('*').eq('id', userId).single();
         if (!error && data) {
           State.profile = data;
+          State.credits = data.credits || 0;
+          State.subscription = data.subscription_type || null;
           const { data: prog } = await supabase.from('progreso').select('*').eq('usuario_id', userId);
           State.progress = prog || [];
           await this.updateDashboard();
@@ -3893,6 +4241,8 @@
         document.getElementById('dashboard').scrollIntoView({ behavior: 'smooth' });
         document.querySelectorAll('.nav-links a[href="#dashboard"]').forEach(el => el.style.display = '');
         document.querySelectorAll('.mobile-link[href="#dashboard"]').forEach(el => el.style.display = '');
+        document.getElementById('creditsBanner').style.display = 'flex';
+        document.getElementById('pricingSection').style.display = 'block';
       },
 
       updateUI(isLoggedIn) {
@@ -3926,6 +4276,8 @@
         State.profile = null;
         State.isAuthenticated = false;
         this.updateUI(false);
+        document.getElementById('creditsBanner').style.display = 'none';
+        document.getElementById('pricingSection').style.display = 'none';
         Helpers.showToast('Sesión cerrada', 'info');
       },
 
@@ -4006,6 +4358,19 @@
         const rank = Math.floor(Math.random() * 100) + 1;
         document.getElementById('myRank').textContent = `#${rank}`;
 
+        // Créditos
+        const creditsData = await CreditsModule.getUserCredits(p.id);
+        State.credits = creditsData.credits;
+        State.subscription = creditsData.subscription;
+        document.getElementById('creditsCount').textContent = creditsData.credits;
+        if (creditsData.subscription === 'pro') {
+          document.getElementById('subscriptionBadge').style.display = 'inline-block';
+          document.getElementById('freeCreditsMsg').textContent = 'Plan Pro activo · Consultas ilimitadas.';
+        } else {
+          document.getElementById('subscriptionBadge').style.display = 'none';
+          document.getElementById('freeCreditsMsg').textContent = `Tienes ${creditsData.credits} créditos disponibles.`;
+        }
+
         // Tabla de resultados individuales
         const materias = ['Teoría del Delito', 'Derecho Civil', 'Derecho Penal', 'Derecho Laboral', 'Derecho Comercial'];
         const tableBody = document.getElementById('myResultsTable');
@@ -4046,7 +4411,6 @@
       initPersonalCharts(consultas) {
         if (typeof Chart === 'undefined') return;
 
-        // Gráfica de consultas por rama
         const ramaCounts = { laboral: 0, penal: 0, civil: 0, administrativo: 0, comercial: 0, familia: 0, general: 0 };
         if (consultas) {
           consultas.forEach(c => {
@@ -4079,7 +4443,6 @@
           });
         }
 
-        // Tendencia de consultas (simulada)
         const ctx2 = document.getElementById('myTrendChart');
         if (ctx2 && ctx2._chart) ctx2._chart.destroy();
         if (ctx2) {
@@ -4110,7 +4473,6 @@
       initGlobalCharts() {
         if (typeof Chart === 'undefined') return;
 
-        // Distribución por semestre
         const ctx1 = document.getElementById('globalSemesterChart');
         if (ctx1 && ctx1._chart) ctx1._chart.destroy();
         if (ctx1) {
@@ -4132,7 +4494,6 @@
           });
         }
 
-        // Materias más consultadas
         const ctx2 = document.getElementById('globalMateriasChart');
         if (ctx2 && ctx2._chart) ctx2._chart.destroy();
         if (ctx2) {
@@ -4159,7 +4520,6 @@
           });
         }
 
-        // Actualizar métricas globales
         document.getElementById('globalUsers').textContent = '10,234';
         document.getElementById('globalQueries').textContent = '45,678';
         document.getElementById('globalConversions').textContent = '2,345';
@@ -4248,7 +4608,7 @@
     };
 
     // ============================================================
-    // 10. CHAT UI
+    // 10. CHAT UI CON VERIFICACIÓN DE CRÉDITOS
     // ============================================================
 
     const ChatUI = {
@@ -4268,6 +4628,20 @@
         const text = input.value.trim();
         if (!text) return;
         input.value = '';
+
+        // Verificar créditos antes de enviar
+        if (State.user) {
+          const hasCredit = await CreditsModule.deductCredit(State.user.id);
+          if (!hasCredit) {
+            Helpers.showToast('⚠️ No tienes créditos suficientes. Compra un paquete para continuar.', 'warning', 5000);
+            CreditsModule.showBuyModal();
+            return;
+          }
+          // Actualizar contador de créditos
+          const creditsData = await CreditsModule.getUserCredits(State.user.id);
+          State.credits = creditsData.credits;
+          document.getElementById('creditsCount').textContent = creditsData.credits;
+        }
 
         const messagesContainer = document.getElementById('chatMessages');
         const userDiv = document.createElement('div');
@@ -4314,7 +4688,6 @@
             semestre: State.profile?.semestre || null
           }]);
           await supabase.rpc('incrementar_consultas', { user_id: State.user.id });
-          // Actualizar dashboard
           AuthUI.updateDashboard();
         }
       }
@@ -4426,6 +4799,7 @@
       DeepSeekRAG,
       ThemeManager,
       Helpers,
+      CreditsModule,
       supabase
     };
 
@@ -4433,6 +4807,7 @@
     console.log('%c🎓 Modo: Educativo (1° a 10° semestre)', 'font-size:14px;color:#4D6BFE;');
     console.log('%c📊 Tablas: Resultados individuales + Estadísticas globales', 'font-size:14px;color:#2ECC71;');
     console.log('%c🔐 Backend: Supabase + Edge Functions (DeepSeek Proxy)', 'font-size:14px;color:#8A8FA0;');
+    console.log('%c💰 Sistema de créditos activado', 'font-size:14px;color:#F39C12;');
     console.log('%c📦 API expuesta: window.LEXFACIL_ACADEMICO', 'font-size:12px;color:#8A8FA0;');
 
   })();
