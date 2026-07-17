@@ -3609,7 +3609,7 @@
 </div>
 
 <!-- ============================================================
-     JAVASCRIPT COMPLETO v8.1.0 - CON CRÉDITOS Y PAGOS
+     JAVASCRIPT COMPLETO v8.1.0 - CON CRÉDITOS Y PAGOS (CORREGIDO)
      ============================================================ -->
 <script>
   /**
@@ -3978,10 +3978,9 @@
       },
 
       async deductCredit(userId) {
-        // Verificar si tiene créditos o suscripción pro
         const { credits, subscription, expires } = await this.getUserCredits(userId);
         if (subscription === 'pro' && (!expires || new Date(expires) > new Date())) {
-          return true; // Pro ilimitado
+          return true;
         }
         if (credits > 0) {
           const { error } = await supabase.rpc('deduct_credit', { user_id: userId });
@@ -4044,12 +4043,10 @@
           `;
         }).join('');
 
-        // Event listeners para los botones de compra
         container.querySelectorAll('.buy-btn').forEach(btn => {
           btn.addEventListener('click', function() {
             const link = this.dataset.link;
             if (link) {
-              // Redirigir a Stripe Checkout
               window.open(link, '_blank');
               Helpers.showToast('🔗 Redirigiendo a Stripe para completar el pago...', 'info', 4000);
             } else {
@@ -4072,7 +4069,7 @@
     };
 
     // ============================================================
-    // 8. AUTENTICACIÓN Y DASHBOARD
+    // 8. AUTENTICACIÓN Y DASHBOARD (CORREGIDO)
     // ============================================================
 
     const AuthUI = {
@@ -4107,16 +4104,16 @@
         document.getElementById('registerBtn').addEventListener('click', () => this.register());
 
         document.querySelectorAll('#navAuthBtn, #mobileAuthBtn, #heroAuthBtn').forEach(btn => {
-          btn.addEventListener('click', () => this.openModal());
+          if (btn) btn.addEventListener('click', () => this.openModal());
         });
 
         document.querySelectorAll('#logoutBtn, #logoutBtnMobile').forEach(btn => {
-          btn.addEventListener('click', () => this.logout());
+          if (btn) btn.addEventListener('click', () => this.logout());
         });
 
         document.querySelectorAll('#navConsultarBtn, #mobileConsultarBtn, #heroConsultarBtn, #ctaConsultarBtn')
         .forEach(btn => {
-          btn.addEventListener('click', () => ChatUI.open());
+          if (btn) btn.addEventListener('click', () => ChatUI.open());
         });
 
         // Theme
@@ -4209,7 +4206,6 @@
 
         if (error) return Helpers.showToast(error.message, 'error');
 
-        // Insertar usuario con créditos iniciales
         await supabase.from('usuarios').insert([{
           id: data.user.id,
           email: email,
@@ -4245,27 +4241,39 @@
         document.getElementById('pricingSection').style.display = 'block';
       },
 
+      // ============================================================
+      // updateUI CORREGIDA - CON VERIFICACIÓN DE NULL
+      // ============================================================
       updateUI(isLoggedIn) {
-        const navAuth = document.getElementById('navAuthBtn');
+        const navGuest = document.getElementById('authNavDesktopGuest');
+        const navAuthDesktop = document.getElementById('authNavDesktop');
         const userInfo = document.getElementById('userInfoNav');
         const mobileUserInfo = document.getElementById('userInfoMobile');
+        const userNameNav = document.getElementById('userNameNav');
+        const userNameMobile = document.getElementById('userNameMobile');
+        const userAvatarNav = document.getElementById('userAvatar');
+        const userAvatarMobile = document.getElementById('userAvatarMobile');
+        const mobileAuthBtn = document.getElementById('mobileAuthBtn');
+        const heroAuthBtn = document.getElementById('heroAuthBtn');
 
         if (isLoggedIn && State.profile) {
-          navAuth.style.display = 'none';
-          userInfo.style.display = 'flex';
-          document.getElementById('userNameNav').textContent = State.profile.nombre;
-          document.getElementById('userNameMobile').textContent = State.profile.nombre;
-          mobileUserInfo.style.display = 'flex';
-          document.querySelectorAll('#mobileAuthBtn, #heroAuthBtn').forEach(b => b.style.display = 'none');
-          document.getElementById('navAuthDesktopGuest').style.display = 'none';
-          document.getElementById('authNavDesktop').style.display = 'list-item';
+          if (navGuest) navGuest.style.display = 'none';
+          if (navAuthDesktop) navAuthDesktop.style.display = 'list-item';
+          if (userInfo) userInfo.style.display = 'flex';
+          if (mobileUserInfo) mobileUserInfo.style.display = 'flex';
+          if (userNameNav) userNameNav.textContent = State.profile.nombre;
+          if (userNameMobile) userNameMobile.textContent = State.profile.nombre;
+          if (userAvatarNav) userAvatarNav.textContent = State.profile.nombre.charAt(0);
+          if (userAvatarMobile) userAvatarMobile.textContent = State.profile.nombre.charAt(0);
+          if (mobileAuthBtn) mobileAuthBtn.style.display = 'none';
+          if (heroAuthBtn) heroAuthBtn.style.display = 'none';
         } else {
-          navAuth.style.display = 'inline-flex';
-          userInfo.style.display = 'none';
-          mobileUserInfo.style.display = 'none';
-          document.querySelectorAll('#mobileAuthBtn, #heroAuthBtn').forEach(b => b.style.display = 'inline-flex');
-          document.getElementById('navAuthDesktopGuest').style.display = 'list-item';
-          document.getElementById('authNavDesktop').style.display = 'none';
+          if (navGuest) navGuest.style.display = 'list-item';
+          if (navAuthDesktop) navAuthDesktop.style.display = 'none';
+          if (userInfo) userInfo.style.display = 'none';
+          if (mobileUserInfo) mobileUserInfo.style.display = 'none';
+          if (mobileAuthBtn) mobileAuthBtn.style.display = 'inline-flex';
+          if (heroAuthBtn) heroAuthBtn.style.display = 'inline-flex';
         }
       },
 
@@ -4629,7 +4637,6 @@
         if (!text) return;
         input.value = '';
 
-        // Verificar créditos antes de enviar
         if (State.user) {
           const hasCredit = await CreditsModule.deductCredit(State.user.id);
           if (!hasCredit) {
@@ -4637,7 +4644,6 @@
             CreditsModule.showBuyModal();
             return;
           }
-          // Actualizar contador de créditos
           const creditsData = await CreditsModule.getUserCredits(State.user.id);
           State.credits = creditsData.credits;
           document.getElementById('creditsCount').textContent = creditsData.credits;
